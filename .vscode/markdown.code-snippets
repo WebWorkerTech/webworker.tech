@@ -1,0 +1,23 @@
+{
+  "base": {
+    "prefix": ["base", "/base"],
+    "body": [
+      "---",
+      "layout: Post",
+      "date: 2017-06-09",
+      "# title: 高中生活回忆录",
+      "subtitle: My High School Life",
+      "useHeaderImage: true",
+      "headerImage: /img/index.jpg",
+      "headerMask: rgb(14, 21, 5, .2)",
+      "tags:",
+      "\t- FM",
+      "---",
+      "",
+      "xxx",
+      "",
+      "<!-- more -->"
+    ],
+    "description": "base md"
+  }
+}
