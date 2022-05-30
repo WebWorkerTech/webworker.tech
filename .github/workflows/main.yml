@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - dev
 jobs:
   build-deploy:
     if: ${{ github.event.commits[0].message != 'Initial commit' }}
