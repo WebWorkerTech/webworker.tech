@@ -75,7 +75,7 @@ module.exports = {
     homeHeaderImages: [
       {
         path: "/img/index.jpg",
-        mask: "rgba(40, 57, 101, .4)",
+        mask: "rgba(40, 57, 101, .5)",
       },
     ],
     pages: {
@@ -100,7 +100,8 @@ module.exports = {
       },
     },
     footer: `
-      &copy; <a href="https://github.com/WebWorkerFM/fm" target="_blank">Web Worker Repo</a> 2021-2022
+      &copy; <a href="https://github.com/WebWorkerFM/fm" target="_blank">Web Worker</a> 2021-2022
+      <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备17060663号-3</a>
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
