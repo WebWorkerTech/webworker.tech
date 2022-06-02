@@ -28,17 +28,14 @@ module.exports = {
         text: "home",
         link: "/",
       },
-      {
-        text: "FM",
-        link: "/posts/",
-      },
+
       {
         text: "Tags",
         link: "/tags/",
       },
       {
         text: "Web Worker 的朋友们",
-        link: "/links/",
+        link: "/friends/",
       },
 
       {
@@ -64,7 +61,7 @@ module.exports = {
       sns: {
         github: "WebWorkerFM",
 
-        email: "fa@ijust.cc",
+        email: "Otto@webworker.tech",
         // 小宇宙: {
         //   icon: "",
         //   link: "",
@@ -88,9 +85,10 @@ module.exports = {
           mask: "rgba(211, 136, 37, .5)",
         },
       },
-      links: {
+      friends: {
         // 可选：链接页副标题
-        subtitle: "吼哇朋友们，这是链接页",
+        title: "Friends",
+        subtitle: "Web Worker 的朋友们",
 
         // 可选：链接页封面图路径和蒙版
         bgImage: {
