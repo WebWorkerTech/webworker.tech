@@ -10,7 +10,8 @@
   "repository": "/WebWorkerSite",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "deploy": "tcb hosting deploy blog/.vuepress/dist"
   },
   "license": "MIT",
   "devDependencies": {
