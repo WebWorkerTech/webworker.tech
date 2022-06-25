@@ -1,5 +1,4 @@
 const { gungnirTheme: selfTheme } = require("vuepress-theme-gungnir");
-// const { defaultTheme } = require("@vuepress/theme-default");
 const { viteBundler } = require("@vuepress/bundler-vite");
 
 module.exports = {
@@ -66,7 +65,7 @@ module.exports = {
     navbarTitle: "Web Worker",
     personalInfo: {
       name: "Web Worker 播客",
-      avatar: "/img/logo-200.jpg",
+      avatar: "/img/logo-200.png",
       description: "几个前端程序员闲聊的音频播客节目",
       sns: {
         github: "WebWorkerFM",

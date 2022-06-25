@@ -26,7 +26,6 @@
     "vuepress-theme-gungnir": "^2.0.0-alpha.24"
   },
   "dependencies": {
-    "@renovamen/vuepress-plugin-baidu-tongji": "2.0.0-alpha.24",
     "vue": "^3.2.36"
   }
 }
