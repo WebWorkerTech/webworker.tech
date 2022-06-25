@@ -2,6 +2,9 @@
 const { gungnirTheme: selfTheme } = require("vuepress-theme-gungnir");
 // const { defaultTheme } = require("@vuepress/theme-default");
 const { viteBundler } = require("@vuepress/bundler-vite");
+const {
+  baiduTongjiPlugin,
+} = require("@renovamen/vuepress-plugin-baidu-tongji");
 
 module.exports = {
   // theme: defaultTheme({}),
@@ -13,8 +16,24 @@ module.exports = {
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
+    [
+      "script",
+      {},
+      `var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?730d98883d647e81275c612f00bc58e2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`,
+    ],
   ],
   bundler: viteBundler(),
+  plugins: [
+    // baiduTongjiPlugin({
+    //   id: "730d98883d647e81275c612f00bc58e2",
+    // }),
+  ],
 
   theme: selfTheme({
     home: "/",

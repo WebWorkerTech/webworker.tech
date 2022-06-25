@@ -15,17 +15,18 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.46",
-    "vuepress-theme-gungnir": "^2.0.0-alpha.24",
     "@vuepress/bundler-vite": "2.0.0-beta.46",
     "@vuepress/cli": "2.0.0-beta.46",
     "@vuepress/client": "2.0.0-beta.46",
     "oh-vue-icons": "^1.0.0-rc3",
+    "rimraf": "^3.0.2",
     "sass-loader": "^13.0.0",
     "serve": "^13.0.2",
-    "rimraf": "^3.0.2"
+    "vuepress": "^2.0.0-beta.46",
+    "vuepress-theme-gungnir": "^2.0.0-alpha.24"
   },
   "dependencies": {
+    "@renovamen/vuepress-plugin-baidu-tongji": "2.0.0-alpha.24",
     "vue": "^3.2.36"
   }
 }
