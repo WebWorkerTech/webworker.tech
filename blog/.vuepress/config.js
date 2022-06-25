@@ -1,15 +1,10 @@
-// const { description } = require("../../package");
 const { gungnirTheme: selfTheme } = require("vuepress-theme-gungnir");
 // const { defaultTheme } = require("@vuepress/theme-default");
 const { viteBundler } = require("@vuepress/bundler-vite");
-const {
-  baiduTongjiPlugin,
-} = require("@renovamen/vuepress-plugin-baidu-tongji");
 
 module.exports = {
-  // theme: defaultTheme({}),
   title: "Web Worker 播客",
-  description: "Web Worker 播客是一档几个前端程序员闲聊的音频播客节目",
+  description: "几个前端程序员闲聊的音频播客节目",
 
   head: [
     [
@@ -29,11 +24,7 @@ module.exports = {
     ],
   ],
   bundler: viteBundler(),
-  plugins: [
-    // baiduTongjiPlugin({
-    //   id: "730d98883d647e81275c612f00bc58e2",
-    // }),
-  ],
+  plugins: [],
 
   theme: selfTheme({
     home: "/",
@@ -44,12 +35,12 @@ module.exports = {
     repo: "WebWorkerFM/fm/",
     navbar: [
       {
-        text: "home",
+        text: "首页",
         link: "/",
       },
 
       {
-        text: "Tags",
+        text: "标签",
         link: "/tags/",
       },
       {
