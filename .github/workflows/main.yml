@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
           cache: "pnpm"
-      - run: pnpm i --frozen-lockfile --prefer-online
+      - run: pnpm i --frozen-lockfile --prefer-offline
 
       - name: Build
         run: yarn build
