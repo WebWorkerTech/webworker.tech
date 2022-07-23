@@ -22,7 +22,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.20.2
+          version: 7.1.7
       - run: pnpm install --prefer-offline
 
       - name: Build
