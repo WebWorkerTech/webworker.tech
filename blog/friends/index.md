@@ -47,4 +47,12 @@ links:
         url: https://itab.link/
         img: /avatar/pic-xd.jpg
         desc: iTab 作者
+      - sitename: 光毅
+        url: https://www.v2think.com/
+        img: /avatar/pic-guangyi.png
+        desc: 公众号“技术圆桌”
+      - sitename: 刘冉
+        url: https://liuranthinking.com/
+        img: /avatar/pic-liuran.png
+        desc: 公众号“刘冉的思辨悟”
 ---
