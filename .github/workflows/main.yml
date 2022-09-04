@@ -10,10 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.9.3
+          version: 7.9.0
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -22,16 +22,14 @@ jobs:
 
       - name: Build
         run: pnpm build
-      - run: "pwd"
-      - run: "ls ${{ github.workspace}}/blog"
-      - run: "ls ${{ github.workspace}}/blog/dist"
+
       # - run: "ls ${{ github.workspace}}/blog/.vitepress/dist"
 
-      # - name: Deploy Github Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.TOKEN }}
-      #     publish_dir: blog/.vitepress/dist
+      - name: Deploy Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: blog/.vitepress/dist
 
       - name: Deploy Serve
         uses: easingthemes/ssh-deploy@main
