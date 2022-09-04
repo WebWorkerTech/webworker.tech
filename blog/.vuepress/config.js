@@ -115,5 +115,6 @@ module.exports = {
     `,
   }),
 
+  dest: "blog/dist",
   // plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
 };
