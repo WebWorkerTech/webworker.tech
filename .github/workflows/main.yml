@@ -43,6 +43,4 @@ jobs:
       #     EXCLUDE: "/node_modules/"
 
       - name: 部署到 CloudBase
-        run: "npx tcb login --apiKeyId ${{github.CLOUDBASE_KEY}} --apiKey ${{github.CLOUDBASE_SECRET}}"
-        # run: "pnpm add -g @cloudbase/cli && tcb -v && tcb login --apiKeyId ${{github.CLOUDBASE_KEY}} --apiKey ${{github.CLOUDBASE_SECRET}}"
-        run: "npm run deploy"
+        run: "npx tcb login --apiKeyId ${{github.CLOUDBASE_KEY}} --apiKey ${{github.CLOUDBASE_SECRET}} && npm run deploy"
