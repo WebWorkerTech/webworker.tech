@@ -4,15 +4,16 @@ on:
   push:
     branches:
       - dev
+      - test-ci
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.6.0
+          version: 7.9.0
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -21,6 +22,8 @@ jobs:
 
       - name: Build
         run: pnpm build
+
+      # - run: "ls ${{ github.workspace}}/blog/.vitepress/dist"
 
       - name: Deploy Github Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -33,7 +36,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO"
-          SOURCE: "blog/.vitepress/dist"
+          SOURCE: "blog/dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
