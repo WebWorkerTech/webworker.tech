@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2
         with:
-          version: 7.6.0
+          version: 7.9.3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -22,7 +22,8 @@ jobs:
 
       - name: Build
         run: pnpm build
-      # - sh: "pwd"
+      - run: "pwd"
+      - run: "ls ${{ github.workspace}}"
 
       # - name: Deploy Github Pages
       #   uses: peaceiris/actions-gh-pages@v3
