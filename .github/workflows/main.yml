@@ -23,7 +23,8 @@ jobs:
       - name: Build
         run: pnpm build
       - run: "pwd"
-      - run: "ls ${{ github.workspace}}"
+      - run: "ls ${{ github.workspace}}/blog/.vitepress"
+      - run: "ls ${{ github.workspace}}/blog/.vitepress/dist"
 
       # - name: Deploy Github Pages
       #   uses: peaceiris/actions-gh-pages@v3
@@ -36,7 +37,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO"
-          SOURCE: "blog/.vitepress/dist/"
+          SOURCE: "${{ github.workspace}}/blog/.vitepress/dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
