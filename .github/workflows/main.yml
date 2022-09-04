@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dev
+      - test-ci
 
 jobs:
   build:
@@ -21,19 +22,20 @@ jobs:
 
       - name: Build
         run: pnpm build
+        sh: "pwd"
 
-      - name: Deploy Github Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: blog/.vitepress/dist
+      # - name: Deploy Github Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     publish_dir: blog/.vitepress/dist
 
       - name: Deploy Serve
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
           ARGS: "-rltgoDzvO"
-          SOURCE: "blog/.vitepress/dist"
+          SOURCE: "blog/.vitepress/dist/"
           REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
