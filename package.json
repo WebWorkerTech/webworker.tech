@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog",
-    "deploy": "tcb hosting deploy blog/.vuepress/dist"
+    "deploy": "tcb hosting deploy blog/dist"
   },
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +26,7 @@
     "vuepress-theme-gungnir": "2.0.0-alpha.26"
   },
   "dependencies": {
+    "@cloudbase/cli": "^2.1.4",
     "vue": "^3.2.36"
   }
 }

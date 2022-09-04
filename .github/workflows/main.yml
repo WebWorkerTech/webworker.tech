@@ -25,19 +25,24 @@ jobs:
 
       # - run: "ls ${{ github.workspace}}/blog/.vitepress/dist"
 
-      - name: Deploy Github Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: blog/.vitepress/dist
+      # - name: Deploy Github Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     publish_dir: blog/dist
 
-      - name: Deploy Serve
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO"
-          SOURCE: "blog/dist/"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
-          EXCLUDE: "/node_modules/"
+      # - name: Deploy Serve
+      #   uses: easingthemes/ssh-deploy@main
+      #   env:
+      #     SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+      #     ARGS: "-rltgoDzvO"
+      #     SOURCE: "blog/dist/"
+      #     REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+      #     REMOTE_USER: ${{ secrets.REMOTE_USER }}
+      #     TARGET: ${{ secrets.REMOTE_TARGET }}
+      #     EXCLUDE: "/node_modules/"
+
+      - name: 部署到 CloudBase
+        run: "npx tcb login --apiKeyId ${{github.CLOUDBASE_KEY}} --apiKey ${{github.CLOUDBASE_SECRET}}"
+        # run: "pnpm add -g @cloudbase/cli && tcb -v && tcb login --apiKeyId ${{github.CLOUDBASE_KEY}} --apiKey ${{github.CLOUDBASE_SECRET}}"
+        run: "npm run deploy"
