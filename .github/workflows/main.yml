@@ -22,7 +22,7 @@ jobs:
 
       - name: Build
         run: pnpm build
-        sh: "pwd"
+      # - sh: "pwd"
 
       # - name: Deploy Github Pages
       #   uses: peaceiris/actions-gh-pages@v3
