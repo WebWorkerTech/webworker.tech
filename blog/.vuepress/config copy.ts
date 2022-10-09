@@ -1,7 +1,9 @@
-const { gungnirTheme: selfTheme } = require("vuepress-theme-gungnir");
-const { viteBundler } = require("@vuepress/bundler-vite");
+import { viteBundler } from "@vuepress/bundler-vite";
+import { Theme } from "vuepress";
+import { defineUserConfig } from "vuepress";
+import { gungnirTheme } from "vuepress-theme-gungnir";
 
-module.exports = {
+export default defineUserConfig({
   title: "Web Worker 播客",
   description: "几个前端程序员闲聊的音频播客节目",
 
@@ -22,10 +24,12 @@ module.exports = {
 })();`,
     ],
   ],
-  bundler: viteBundler(),
+  bundler: viteBundler({
+    viteOptions: {},
+  }),
   plugins: [],
 
-  theme: selfTheme({
+  theme: gungnirTheme({
     home: "/",
 
     docsDir: "blog",
@@ -113,8 +117,7 @@ module.exports = {
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
     `,
-  }),
+  }) as Theme,
 
-  dest: "blog/dist",
   // plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
-};
+});

@@ -13,7 +13,7 @@ links:
         img: /avatar/pic-franky.jpg
         desc: 声音磁性
       - sitename: 小白菜 Cabbage
-        url: https://webworker.tech
+        url: https://blog-emjio.vercel.app
         img: /avatar/pic-xbc.jpg
         desc: 小白菜 Cabbage
 
@@ -55,4 +55,8 @@ links:
         url: https://liuranthinking.com/
         img: /avatar/pic-liuran.png
         desc: 公众号“刘冉的思辨悟”
+      - sitename: 山鬼
+        url: https://webworker.tech
+        img: /avatar/pic-shangui.jpg
+        desc: 公众号“山鬼iodto”
 ---
