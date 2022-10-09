@@ -13,7 +13,7 @@ links:
         img: /avatar/pic-franky.jpg
         desc: 声音磁性
       - sitename: 小白菜 Cabbage
-        url: https://webworker.tech
+        url: https://blog-emjio.vercel.app
         img: /avatar/pic-xbc.jpg
         desc: 小白菜 Cabbage
 
