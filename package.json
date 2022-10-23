@@ -11,18 +11,18 @@
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog",
-    "deploy": "tcb hosting deploy blog/dist"
+    "deploy": "tcb hosting deploy blog/dist",
+    "preinstall": "npx only-allow pnpm"
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-beta.49",
-    "@vuepress/cli": "2.0.0-beta.49",
-    "@vuepress/client": "2.0.0-beta.49",
-    "oh-vue-icons": "^1.0.0-rc3",
+    "@vuepress/bundler-vite": "2.0.0-beta.51",
+    "@vuepress/cli": "2.0.0-beta.52",
+    "@vuepress/client": "2.0.0-beta.52",
     "rimraf": "^3.0.2",
     "sass-loader": "^13.0.0",
     "serve": "^13.0.2",
-    "vuepress": "2.0.0-beta.49",
+    "vuepress": "2.0.0-beta.51",
     "vuepress-theme-gungnir": "2.0.0-alpha.26"
   },
   "dependencies": {
