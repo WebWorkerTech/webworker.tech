@@ -59,4 +59,8 @@ links:
         url: https://webworker.tech
         img: /avatar/pic-shangui.jpg
         desc: 公众号“山鬼iodto”
+      - sitename: 白宦成bestony
+        url: https://www.ixiqin.com/aboutme/
+        img: /avatar/pic-baihuancheng.png
+        desc: 公众号“白宦成”
 ---
