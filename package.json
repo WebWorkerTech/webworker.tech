@@ -16,13 +16,13 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-beta.51",
-    "@vuepress/cli": "2.0.0-beta.52",
-    "@vuepress/client": "2.0.0-beta.52",
+    "@vuepress/bundler-vite": "2.0.0-beta.49",
+    "@vuepress/cli": "2.0.0-beta.49",
+    "@vuepress/client": "2.0.0-beta.49",
     "rimraf": "^3.0.2",
     "sass-loader": "^13.0.0",
     "serve": "^13.0.2",
-    "vuepress": "2.0.0-beta.51",
+    "vuepress": "2.0.0-beta.49",
     "vuepress-theme-gungnir": "2.0.0-alpha.26"
   },
   "dependencies": {
