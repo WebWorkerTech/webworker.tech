@@ -50,17 +50,21 @@ links:
       - sitename: 光毅
         url: https://www.v2think.com/
         img: /avatar/pic-guangyi.png
-        desc: 公众号“技术圆桌”
+        desc: 公众号@技术圆桌
       - sitename: 刘冉
         url: https://liuranthinking.com/
         img: /avatar/pic-liuran.png
-        desc: 公众号“刘冉的思辨悟”
+        desc: 公众号@刘冉的思辨悟
       - sitename: 山鬼
         url: https://webworker.tech
         img: /avatar/pic-shangui.jpg
-        desc: 公众号“山鬼iodto”
+        desc: 公众号@山鬼iodto
       - sitename: 白宦成bestony
         url: https://www.ixiqin.com/aboutme/
         img: /avatar/pic-baihuancheng.png
-        desc: 公众号“白宦成”
+        desc: 公众号@白宦成
+      - sitename: 宇琪
+        url: https://www.zhihu.com/people/617f3792f9e14f674a894bd83b7112e1
+        img: /avatar/pic-yuqi.png
+        desc: 知乎@潘与其
 ---
