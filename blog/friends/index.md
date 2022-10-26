@@ -30,19 +30,19 @@ links:
       - sitename: 山月
         url: http://shanyue.tech/
         img: /avatar/pic-shanyue.jpg
-        desc: 自由职业
-      - sitename: 大圣
-        url: https://webworker.tech
+        desc: B站@程序员山月
+      - sitename: 花果山-大圣
+        url: https://space.bilibili.com/26995758
         img: /avatar/pic-dasheng.jpg
-        desc: 自由职业
-      - sitename: Annie
+        desc: B站@花果山-大圣
+      - sitename: Anne阿伦
         url: https://webworker.tech
         img: /avatar/pic-annie.jpg
-        desc: Vue Bejing 社区
+        desc: 公众号@Anne阿伦
       - sitename: 霍春阳 HcySunYang
         url: https://www.zhihu.com/people/hcysunyang
         img: /avatar/pic-hcy.jpg
-        desc: Vue.js 核心开发
+        desc: Github HcySunYang
       - sitename: XD
         url: https://itab.link/
         img: /avatar/pic-xd.jpg
