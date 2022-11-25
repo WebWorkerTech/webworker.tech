@@ -58,7 +58,7 @@ links:
       - sitename: 山鬼
         url: https://webworker.tech
         img: /avatar/pic-shangui.jpg
-        desc: 公众号@山鬼iodto
+        desc: 数媒，公众号@山鬼iodto
       - sitename: 白宦成bestony
         url: https://www.ixiqin.com/aboutme/
         img: /avatar/pic-baihuancheng.png
@@ -66,5 +66,9 @@ links:
       - sitename: 宇琪
         url: https://www.zhihu.com/people/617f3792f9e14f674a894bd83b7112e1
         img: /avatar/pic-yuqi.png
-        desc: 知乎@潘与其
+        desc: AntV 核心开发，知乎@潘与其
+      - sitename: 正楷
+        url: https://www.zhihu.com/people/fantasticsoul
+        img: /avatar/pic-zhengkai.jpg
+        desc: hel-micro 作者。知乎@幻魂
 ---
