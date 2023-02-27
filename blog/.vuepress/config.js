@@ -51,6 +51,10 @@ module.exports = {
         text: "小宇宙",
         link: "https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35",
       },
+      {
+        text: "RSS",
+        link: "https://feed.xyzfm.space/rv449dl9kqka",
+      },
     ],
     sidebar: {
       "/guide/": [
