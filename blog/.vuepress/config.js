@@ -2,7 +2,7 @@ const { gungnirTheme: selfTheme } = require("vuepress-theme-gungnir");
 const { viteBundler } = require("@vuepress/bundler-vite");
 
 module.exports = {
-  title: "Web Worker 播客",
+  title: "Web Worker 播客 | 程序员学习笔记",
   description: "几个前端程序员闲聊的音频播客节目",
 
   head: [
@@ -112,7 +112,7 @@ module.exports = {
     },
     footer: `
       &copy; <a href="https://github.com/WebWorkerFM/fm" target="_blank">Web Worker</a> 2021-2022
-      <a href="http://www.beian.miit.gov.cn" target="_blank">京ICP备17060663号-3</a>
+      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17060663号-3</a>
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
