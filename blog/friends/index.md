@@ -9,7 +9,7 @@ links:
         img: /avatar/pic-otto.jpg
         desc: 儿化音比较牛逼
       - sitename: 刘威Franky
-        url: https://webworker.tech
+        url: https://lv777-9871.xlog.app
         img: /avatar/pic-franky.jpg
         desc: 声音磁性
       - sitename: 小白菜 Cabbage
