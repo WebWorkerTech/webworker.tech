@@ -86,5 +86,5 @@ links:
       - sitename: 黑洞Black-Hole️
         url: https://github.com/BlackHole1
         img: /avatar/pic-heidong.jpg
-        desc: Electron/pnpm 核心贡献者
+        desc: Electron/pnpm 核心贡献者，github@BlackHole1
 ---
