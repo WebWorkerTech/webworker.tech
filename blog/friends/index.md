@@ -73,7 +73,7 @@ links:
         desc: hel-micro 作者。知乎@幻魂
       - sitename: 神光
         url: https://juejin.cn/user/2788017216685118
-        img: /avatar/pic-zhengkai.jpg
+        img: /avatar/pic-shenguang.jpg
         desc: 掘金@zxg_神说要有光
       - sitename: 云游君
         url: https://github.com/YunYouJun
@@ -86,5 +86,5 @@ links:
       - sitename: 黑洞Black-Hole️
         url: https://github.com/BlackHole1
         img: /avatar/pic-heidong.jpg
-        desc: Electron/pnpm 核心贡献者
+        desc: Electron/pnpm 核心贡献者，github@BlackHole1
 ---
