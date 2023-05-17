@@ -13,7 +13,7 @@ links:
         img: /avatar/pic-franky.jpg
         desc: 声音磁性
       - sitename: 小白菜 Cabbage
-        url: https://blog-emjio.vercel.app
+        url: https://cabbage.xlog.app/
         img: /avatar/pic-xbc.jpg
         desc: 小白菜 Cabbage
 
@@ -71,4 +71,20 @@ links:
         url: https://www.zhihu.com/people/fantasticsoul
         img: /avatar/pic-zhengkai.jpg
         desc: hel-micro 作者。知乎@幻魂
+      - sitename: 神光
+        url: https://juejin.cn/user/2788017216685118
+        img: /avatar/pic-zhengkai.jpg
+        desc: 掘金@zxg_神说要有光
+      - sitename: 云游君
+        url: https://github.com/YunYouJun
+        img: /avatar/pic-yunyoujun.jpg
+        desc:  element-plus核心贡献者，夏日空调、隔离食用手册、B 站填报志愿锦囊等开源项目作者。github@YunYouJun
+      - sitename: 崔红保
+        url: https://www.zhihu.com/people/hbcui1984
+        img: /avatar/pic-cuihongbao.jpg
+        desc: 在UniApp 背后的公司 DCloud 担任 CTO,知乎@崔红保
+      - sitename: 黑洞Black-Hole️
+        url: https://github.com/BlackHole1
+        img: /avatar/pic-heidong.jpg
+        desc: Electron/pnpm 核心贡献者
 ---
