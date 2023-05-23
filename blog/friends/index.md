@@ -42,7 +42,7 @@ links:
       - sitename: 霍春阳 HcySunYang
         url: https://www.zhihu.com/people/hcysunyang
         img: /avatar/pic-hcy.jpg
-        desc: Github HcySunYang
+        desc: GitHub HcySunYang
       - sitename: XD
         url: https://itab.link/
         img: /avatar/pic-xd.jpg
