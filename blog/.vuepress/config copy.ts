@@ -34,7 +34,7 @@ export default defineUserConfig({
 
     docsDir: "blog",
     docsBranch: "master",
-    logo: "/img/logo-200.png",
+    logo: "/img/logo-650.png",
     repo: "WebWorkerFM/fm/",
     navbar: [
       {
@@ -69,7 +69,7 @@ export default defineUserConfig({
     navbarTitle: "Web Worker",
     personalInfo: {
       name: "Web Worker 播客",
-      avatar: "/img/logo-200.png",
+      avatar: "/img/logo-650.png",
       description: "几个前端程序员闲聊的音频播客节目",
       sns: {
         github: "WebWorkerFM",
