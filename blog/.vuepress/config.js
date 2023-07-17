@@ -43,7 +43,7 @@ module.exports = {
         link: "/tags/",
       },
       {
-        text: "Web Worker 的朋友们",
+        text: "Web Worker 的朋友们 222",
         link: "/friends/",
       },
 
