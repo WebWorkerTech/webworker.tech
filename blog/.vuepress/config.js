@@ -21,6 +21,8 @@ module.exports = {
   s.parentNode.insertBefore(hm, s);
 })();`,
     ],
+    // style css .link-item .content a .desc height 2em
+    ["style", {}, ".link-item .content a .desc{height:2em}"],
   ],
   bundler: viteBundler(),
   plugins: [],
