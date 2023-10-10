@@ -1,0 +1,66 @@
+backend:
+  # name branch 是固定写法
+  name: git-gateway # adds users without giving them direct write access to your GitHub or GitLab repository.
+  branch: dev # default: master
+  cms_label_prefix: webworker-cms # default: netlify-cms/
+  # Options:
+  # name: github/gitlab/bitbucket # all users added must have push access to your content repository.
+  # repo: owner-name/repo-name # Path to your GitHub repository
+
+# 发布相关
+publish_mode: editorial_workflow # 添加一个 pr
+
+display_url: https://vuedn.netlify.app/
+
+# 上传的图片媒体到哪里
+media_folder: "docs/.vuepress/public/media"
+
+# 设定上传后的 url 前缀，就可以自动拼完整的 url，主要是区分 public_folder
+public_folder: "/media"
+
+editor:
+  preview: false # disabled markdown preview in CMS
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/songs
+    label: "Post" # Used in the UI
+    # label_singular: Song
+    folder: "blog/posts" # The path to the folder where the documents are stored
+    #     nested: # adding a nested object will show the collection folder structure
+    #       depth: 2 # max depth to show in the collection tree
+    #     create: true # Allow users to create new documents in this collection
+    slug: "{{date}}/index" # Filename template # Outputs sun-apr-02-2023-01-13-17-gmt-0300-east-africa-time (not ideal but is dynamic to date - only at creation not at editing)
+    summary: "{{dirname}} . Last updated at {{commit_date}}"
+    #     preview_path: songs/{{date}}
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "lastUpdated",
+          name: "lastUpdated",
+          widget: "hidden",
+          default: true,
+        }
+      - { label: "Title", name: "title", widget: "string" }
+#       - {
+#           label: "contributors",
+#           hint: "Show contributors at the footer",
+#           name: "contributors",
+#           widget: "boolean",
+#           default: true,
+#         }
+#       - {
+#           label: "Show icon for external links",
+#           name: "externalLinkIcon",
+#           widget: "boolean",
+#           default: false,
+#         }
+#       - label: "Entry Date"
+#         name: "date"
+#         widget: "datetime"
+#         format: "YYYY-MM-DD"
+#         time_format: false
+#         required: true
+#       - {
+#           label: "Body",
+#           name: "body",
+#           widget: "markdown",
+#           default: "# Song title (Composer/ Artist)",
+#         }

@@ -23,6 +23,25 @@ module.exports = {
     ],
     // style css .link-item .content a .desc height 2em
     ["style", {}, ".link-item .content a .desc{height:2em}"],
+    [
+      "script",
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+      },
+    ],
+    [
+      "scirpt",
+      {},
+      `if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }`,
+    ],
   ],
   bundler: viteBundler(),
   plugins: [],
