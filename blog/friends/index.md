@@ -114,4 +114,24 @@ links:
         url: https://github.com/HerringtonDarkholme
         img: http://cdn2.webworker.tech/img/avatar/pic-hai.jpeg
         desc: Vue核心成员，ast-grep作者
+      - sitename: 科比哥
+        url: https://github.com/webfansplz
+        img: https://cdn.ijust.cc/img/202312052257535.png
+        desc: Vue核心成员，Vue Devtools
+      - sitename: Anthony Fu
+        url: https://github.com/antfu
+        img: https://cdn.ijust.cc/img/202312052259861.png
+        desc: Vue/Vite/Nuxt/VueUse等
+      - sitename: Li Hau
+        url: https://github.com/tanhauhau
+        img: https://cdn.ijust.cc/img/202312052301721.png
+        desc: Svelte 核心成员
+      - sitename: 归归
+        url: https://hardhacker.com/
+        img: https://cdn.ijust.cc/img/202312052304024.png
+        desc: 硬地骇客
+      - sitename: 尤雨溪
+        url: https://github.com/yyx990803
+        img: https://cdn.ijust.cc/img/202312052305345.png
+        desc: Vue.js/Vite 作者
 ---
