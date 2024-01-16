@@ -20,6 +20,11 @@ links:
         url: https://github.com/Kaiyiwing
         img: http://cdn2.webworker.tech/img/avatar/pic-kaiyi.png
         desc: 独立开发者  Qwerty Learner 作者
+      - sitename: 沈青川
+        url: https://github.com/shenQingchuan/
+        img: http://cdn2.webworker.tech/img/avatar/pic-shenqingchuan.png
+        desc: vue-vine作者。vue/vite中文文档
+
   - title: 播客嘉宾
     items:
       - sitename: 林鑫
@@ -134,4 +139,14 @@ links:
         url: https://github.com/yyx990803
         img: https://cdn.ijust.cc/img/202312052305345.png
         desc: Vue.js/Vite 作者
+        # 42
+      - sitename: AnnatarHe
+        url: https://annatarhe.com
+        img: https://cdn.ijust.cc/img/202401162345433.png
+        desc: Async Talk 播客主播
+        # 43
+      - sitename: SimonHe
+        url: https://twitter.com/simon_he1995
+        img: https://cdn.ijust.cc/img/202401162346308.png
+        desc: VsCode 插件爱好者
 ---
