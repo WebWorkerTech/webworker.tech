@@ -33,7 +33,7 @@ module.exports = {
     docsDir: "blog",
     docsBranch: "master",
     logo: "/img/logo-650.png",
-    repo: "WebWorkerFM/fm/",
+    repo: "WebWorkerTech/webworker.tech",
     navbar: [
       {
         text: "首页",
@@ -74,7 +74,7 @@ module.exports = {
       avatar: "/img/logo-650.png",
       description: "几个前端程序员闲聊的音频播客节目",
       sns: {
-        github: "WebWorkerFM",
+        github: "WebWorkerTech",
 
         email: "Otto@webworker.tech",
         // 小宇宙: {
@@ -113,7 +113,7 @@ module.exports = {
       },
     },
     footer: `
-      &copy; <a href="https://github.com/WebWorkerFM/fm" target="_blank">Web Worker</a> 2021-2022
+      &copy; <a href="https://github.com/WebWorkerTech/webworker.tech" target="_blank">Web Worker</a> 2021-2022
       <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备17060663号-3</a>
       <br>
       Powered by <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
