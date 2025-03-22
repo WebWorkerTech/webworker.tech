@@ -28,7 +28,7 @@
   "dependencies": {
     "@cloudbase/cli": "^2.1.6",
     "@vueuse/core": "^10.2.1",
-    "@web.worker/s3-upload-folder": "^0.1.0",
+    "@web.worker/s3-upload-folder": "^0.2.0",
     "vue": "^3.2.41"
   }
 }
