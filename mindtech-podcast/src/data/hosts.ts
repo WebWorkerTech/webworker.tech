@@ -1,4 +1,4 @@
-import type { Host } from '@/types/podcast';
+import type { Host } from '@/types/podcast'
 
 export const mockHosts: Host[] = [
   {
@@ -10,10 +10,10 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/xinbao965',
       github: 'https://github.com/Otto-J',
-      linkedin: 'https://linkedin.com/in/xinbao'
+      linkedin: 'https://linkedin.com/in/xinbao',
     },
     episodesHosted: 47,
-    topicsHosted: 12
+    topicsHosted: 12,
   },
   {
     id: 'smart',
@@ -24,10 +24,10 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/smart_dev',
       github: 'https://github.com/smart',
-      linkedin: 'https://linkedin.com/in/smart'
+      linkedin: 'https://linkedin.com/in/smart',
     },
     episodesHosted: 32,
-    topicsHosted: 8
+    topicsHosted: 8,
   },
   {
     id: 'kaiyi',
@@ -38,10 +38,10 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/kaiyi_dev',
       github: 'https://github.com/kaiyi',
-      linkedin: 'https://linkedin.com/in/kaiyi'
+      linkedin: 'https://linkedin.com/in/kaiyi',
     },
     episodesHosted: 25,
-    topicsHosted: 6
+    topicsHosted: 6,
   },
   {
     id: 'eva',
@@ -52,10 +52,10 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/eva_fullstack',
       github: 'https://github.com/eva',
-      linkedin: 'https://linkedin.com/in/eva'
+      linkedin: 'https://linkedin.com/in/eva',
     },
     episodesHosted: 5,
-    topicsHosted: 3
+    topicsHosted: 3,
   },
   {
     id: 'xiaobaicai',
@@ -66,10 +66,10 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/xiaobaicai_dev',
       github: 'https://github.com/xiaobaicai',
-      linkedin: 'https://linkedin.com/in/xiaobaicai'
+      linkedin: 'https://linkedin.com/in/xiaobaicai',
     },
     episodesHosted: 18,
-    topicsHosted: 4
+    topicsHosted: 4,
   },
   {
     id: 'liuwei',
@@ -80,9 +80,9 @@ export const mockHosts: Host[] = [
     social: {
       twitter: 'https://twitter.com/liuwei_arch',
       github: 'https://github.com/liuwei',
-      linkedin: 'https://linkedin.com/in/liuwei'
+      linkedin: 'https://linkedin.com/in/liuwei',
     },
     episodesHosted: 12,
-    topicsHosted: 5
-  }
-];
+    topicsHosted: 5,
+  },
+]

@@ -1,30 +1,30 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import Header from '@/components/layout/Header.vue';
-import Footer from '@/components/layout/Footer.vue';
-import HeroSection from '@/components/sections/HeroSection.vue';
-import CategoriesSection from '@/components/sections/CategoriesSection.vue';
-import EpisodesSection from '@/components/sections/EpisodesSection.vue';
-import HostsSection from '@/components/sections/HostsSection.vue';
-import SubscribeSection from '@/components/sections/SubscribeSection.vue';
-import StatsSection from '@/components/sections/StatsSection.vue';
-import TestimonialsSection from '@/components/sections/TestimonialsSection.vue';
+import Layout from '@/layouts/Layout.astro'
+import Header from '@/components/layout/Header.vue'
+import Footer from '@/components/layout/Footer.vue'
+import HeroSection from '@/components/sections/HeroSection.vue'
+import CategoriesSection from '@/components/sections/CategoriesSection.vue'
+import EpisodesSection from '@/components/sections/EpisodesSection.vue'
+import HostsSection from '@/components/sections/HostsSection.vue'
+import SubscribeSection from '@/components/sections/SubscribeSection.vue'
+import StatsSection from '@/components/sections/StatsSection.vue'
+import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 
-import { getPodcastData, getLatestEpisodes } from '@/utils/podcast';
-import { hosts } from '@/data/hosts';
-import type { PodcastStats, Testimonial } from '@/types/podcast';
+import { getPodcastData, getLatestEpisodes } from '@/utils/podcast'
+import { mockHosts as hosts } from '@/data/hosts'
+import type { PodcastStats, Testimonial } from '@/types/podcast'
 
 // Get podcast data
-const podcastData = getPodcastData();
-const latestEpisodes = getLatestEpisodes(6);
+const podcastData = getPodcastData()
+const latestEpisodes = getLatestEpisodes(6)
 
 // Mock stats data
 const stats: PodcastStats = {
   totalEpisodes: podcastData.episodes.length,
   totalHosts: hosts.length,
   monthlyListeners: 15200,
-  averageRating: 4.8
-};
+  averageRating: 4.8,
+}
 
 // Mock testimonials data
 const testimonials: Testimonial[] = [
@@ -33,8 +33,9 @@ const testimonials: Testimonial[] = [
     name: '李明',
     role: '前端工程师',
     avatar: 'https://picsum.photos/100/100?random=1',
-    content: '这个播客让我深度了解了前端技术背后的思考逻辑，每期都有很多干货分享。',
-    rating: 5
+    content:
+      '这个播客让我深度了解了前端技术背后的思考逻辑，每期都有很多干货分享。',
+    rating: 5,
   },
   {
     id: '2',
@@ -42,7 +43,7 @@ const testimonials: Testimonial[] = [
     role: '产品经理',
     avatar: 'https://picsum.photos/100/100?random=2',
     content: 'MindTech播客不仅聊技术，更从文化和人文角度探讨技术，视角独特。',
-    rating: 5
+    rating: 5,
   },
   {
     id: '3',
@@ -50,9 +51,9 @@ const testimonials: Testimonial[] = [
     role: '全栈开发者',
     avatar: 'https://picsum.photos/100/100?random=3',
     content: '主播们的讨论很深入，经常能听到一些新的观点和思考方式。',
-    rating: 4
-  }
-];
+    rating: 4,
+  },
+]
 
 // Categories for the sections
 const categories = [
@@ -61,74 +62,70 @@ const categories = [
   { id: '3', name: '产品思维', count: 6, color: 'purple' },
   { id: '4', name: '人工智能', count: 15, color: 'pink' },
   { id: '5', name: '开源项目', count: 10, color: 'orange' },
-  { id: '6', name: '技术管理', count: 7, color: 'teal' }
-];
+  { id: '6', name: '技术管理', count: 7, color: 'teal' },
+]
 ---
 
 <Layout title="MindTech - 连接技术与人文的播客平台">
   <Header client:load />
-  
-  <main class="flex-1">
+
+  <main class="container mx-auto px-4 py-8 md:py-12 pb-24">
     <!-- Hero Section -->
-    <HeroSection 
-      client:load 
-      featuredEpisode={latestEpisodes[0]}
-    />
-    
+    <HeroSection client:load featuredEpisode={latestEpisodes[0]} />
+
     <!-- Container for main content -->
     <div class="container mx-auto px-4 py-8">
       <!-- Categories Section -->
-      <CategoriesSection 
-        client:load 
-        categories={categories}
-      />
-      
+      <CategoriesSection client:load categories={categories} />
+
       <!-- Latest Episodes Section -->
-      <EpisodesSection 
-        client:load 
+      <EpisodesSection
+        client:load
         episodes={latestEpisodes}
         title="最新播客"
         showViewAll={true}
       />
-      
+
       <!-- Stats Section -->
-      <StatsSection 
-        client:load 
-        stats={stats}
-        showChart={false}
-      />
-      
+      <StatsSection client:load stats={stats} showChart={false} />
+
       <!-- Hosts Section -->
-      <HostsSection 
-        client:load 
-        hosts={hosts}
-      />
-      
+      <HostsSection client:load hosts={hosts} />
+
       <!-- Testimonials Section -->
-      <TestimonialsSection 
-        client:load 
-        testimonials={testimonials}
-      />
-      
+      <TestimonialsSection client:load testimonials={testimonials} />
+
       <!-- Subscribe Section -->
       <SubscribeSection client:load />
     </div>
   </main>
-  
+
   <Footer client:load />
 </Layout>
 
 <style>
   /* Add smooth scroll behavior and fade-in animations */
   main > div > section {
-    @apply fade-in;
+    animation: fadeIn 0.6s ease-out;
   }
-  
+
   /* Stagger animation delays */
-  main > div > section:nth-child(1) { animation-delay: 0.1s; }
-  main > div > section:nth-child(2) { animation-delay: 0.2s; }
-  main > div > section:nth-child(3) { animation-delay: 0.3s; }
-  main > div > section:nth-child(4) { animation-delay: 0.4s; }
-  main > div > section:nth-child(5) { animation-delay: 0.5s; }
-  main > div > section:nth-child(6) { animation-delay: 0.6s; }
+  main > div > section:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  main > div > section:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  main > div > section:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  main > div > section:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  main > div > section:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  main > div > section:nth-child(6) {
+    animation-delay: 0.6s;
+  }
 </style>

@@ -2,96 +2,132 @@
   <section class="mb-16">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
       <div class="order-2 lg:order-1">
-        <span class="inline-block px-3 py-1 bg-mint-100 text-mint-500 rounded-full text-sm font-medium mb-4">
+        <span
+          class="inline-block px-3 py-1 bg-mint-100 text-mint-500 rounded-full text-sm font-medium mb-4"
+        >
           最新专题
         </span>
-        <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight text-balance mb-6">
-          当<span class="bg-gradient-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent">技术</span>遇见<span class="bg-gradient-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent">人文</span>
+        <h1
+          class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight text-balance mb-6"
+        >
+          当<span
+            class="bg-gradient-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent"
+            >技术</span
+          >遇见<span
+            class="bg-gradient-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent"
+            >人文</span
+          >
         </h1>
         <p class="text-lg text-slate-600 mb-8 max-w-xl">
           探索代码背后的思考方式、开发者的人文素养，以及技术如何塑造我们的文化与社会。每周邀请行业领袖、学者与创作者，分享他们的技术洞见与人文关怀。
         </p>
         <div class="flex flex-wrap gap-4">
-          <button 
+          <button
             @click="playLatestEpisode"
             class="flex items-center gap-2 bg-mint-400 text-white px-6 py-3 rounded-full hover:bg-mint-500 transition-all shadow-lg shadow-mint-400/20"
           >
             <Play class="w-5 h-5" />
             <span>收听最新一期</span>
           </button>
-          <a 
-            href="/episodes" 
+          <a
+            href="/episodes"
             class="flex items-center gap-2 bg-white text-slate-800 px-6 py-3 rounded-full border border-cream-200 hover:border-mint-400 transition-all"
           >
             <List class="w-5 h-5" />
             <span>浏览全部内容</span>
           </a>
         </div>
-        
+
         <div class="mt-8 flex items-center gap-4">
           <div class="flex -space-x-2">
-            <img v-for="i in 3" :key="i" :src="`https://picsum.photos/100/100?random=${i+1}`" :alt="`听众头像${i}`" class="w-10 h-10 rounded-full border-2 border-cream-50">
-            <div class="w-10 h-10 rounded-full bg-cream-200 border-2 border-cream-50 flex items-center justify-center text-xs font-medium text-slate-600">
+            <img
+              v-for="i in 3"
+              :key="i"
+              :src="`https://picsum.photos/100/100?random=${i + 1}`"
+              :alt="`听众头像${i}`"
+              class="w-10 h-10 rounded-full border-2 border-cream-50"
+            />
+            <div
+              class="w-10 h-10 rounded-full bg-cream-200 border-2 border-cream-50 flex items-center justify-center text-xs font-medium text-slate-600"
+            >
               +5k
             </div>
           </div>
-          <p class="text-sm text-slate-500">每月有超过5,000位技术爱好者收听我们的播客</p>
+          <p class="text-sm text-slate-500">
+            每月有超过5,000位技术爱好者收听我们的播客
+          </p>
         </div>
       </div>
-      
+
       <div class="order-1 lg:order-2 relative">
-        <div v-if="featuredEpisode" class="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
-          <img 
-            :src="featuredEpisode.imageUrl || 'https://picsum.photos/800/600?random=5'" 
-            :alt="featuredEpisode.title" 
+        <div
+          v-if="featuredEpisode"
+          class="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500"
+        >
+          <img
+            :src="
+              featuredEpisode.imageUrl ||
+              'https://picsum.photos/800/600?random=5'
+            "
+            :alt="featuredEpisode.title"
             class="w-full h-auto"
-          >
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+          />
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"
+          ></div>
           <div class="absolute bottom-0 left-0 p-6 text-white">
             <span class="text-mint-300 text-sm font-medium">
               最新一期 · {{ formatDuration(featuredEpisode.duration) }}
             </span>
-            <h3 class="text-2xl font-bold mt-2 line-clamp-2">{{ featuredEpisode.title }}</h3>
-            <p class="mt-2 text-white/80 line-clamp-2">{{ getPlainDescription(featuredEpisode.description) }}</p>
+            <h3 class="text-2xl font-bold mt-2 line-clamp-2">
+              {{ featuredEpisode.title }}
+            </h3>
+            <p class="mt-2 text-white/80 line-clamp-2">
+              {{ getPlainDescription(featuredEpisode.description) }}
+            </p>
           </div>
         </div>
-        
-        <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-mint-400/20 rounded-full blur-2xl"></div>
-        <div class="absolute -top-6 -right-6 w-32 h-32 bg-cream-300/30 rounded-full blur-2xl"></div>
+
+        <div
+          class="absolute -bottom-6 -left-6 w-32 h-32 bg-mint-400/20 rounded-full blur-2xl"
+        ></div>
+        <div
+          class="absolute -top-6 -right-6 w-32 h-32 bg-cream-300/30 rounded-full blur-2xl"
+        ></div>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { Play, List } from 'lucide-vue-next';
-import type { PodcastEpisode } from '@/types/podcast';
+import { Play, List } from 'lucide-vue-next'
+import type { PodcastEpisode } from '@/types/podcast'
 
 interface Props {
-  featuredEpisode?: PodcastEpisode | null;
+  featuredEpisode?: PodcastEpisode | null
 }
 
-const props = defineProps<Props>();
+const props = defineProps<Props>()
 const emit = defineEmits<{
-  play: [episode: PodcastEpisode];
-}>();
+  play: [episode: PodcastEpisode]
+}>()
 
 const formatDuration = (duration: string | number): string => {
   if (typeof duration === 'string') {
-    return duration;
+    return duration
   }
-  const minutes = Math.floor(duration / 60);
-  return `约${minutes}分钟`;
-};
+  const minutes = Math.floor(duration / 60)
+  return `约${minutes}分钟`
+}
 
 const getPlainDescription = (description: string): string => {
-  const plainText = description.replace(/<[^>]*>/g, '');
-  return plainText.length > 80 ? plainText.substring(0, 80) + '...' : plainText;
-};
+  const plainText = description.replace(/<[^>]*>/g, '')
+  return plainText.length > 80 ? plainText.substring(0, 80) + '...' : plainText
+}
 
 const playLatestEpisode = () => {
   if (props.featuredEpisode) {
-    emit('play', props.featuredEpisode);
+    emit('play', props.featuredEpisode)
   }
-};
+}
 </script>
