@@ -12,7 +12,8 @@
       "Bash(pnpm approve-builds:*)",
       "Bash(pnpm dev:*)",
       "Bash(pnpm add:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(npm run fetch-rss:*)"
     ],
     "deny": []
   }

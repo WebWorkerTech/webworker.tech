@@ -3,12 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "dev": "node scripts/fetch-rss.js && astro dev",
+    "start": "node scripts/fetch-rss.js && astro dev",
+    "build": "node scripts/fetch-rss.js && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "fetch-rss": "node scripts/fetch-rss.js"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
