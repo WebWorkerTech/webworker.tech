@@ -1,6 +1,7 @@
 <template>
   <article
-    class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+    class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+    @click="goToDetail"
   >
     <div class="relative">
       <img
@@ -19,7 +20,7 @@
         class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity"
       >
         <button
-          @click="playEpisode"
+          @click.stop="playEpisode"
           class="w-12 h-12 bg-mint-400 rounded-full flex items-center justify-center text-white shadow-lg hover:bg-mint-500 transition-colors"
         >
           <Play class="w-5 h-5 ml-0.5" />
@@ -66,7 +67,7 @@
           }}</span>
         </div>
         <button
-          @click="toggleBookmark"
+          @click.stop="toggleBookmark"
           class="text-slate-400 hover:text-mint-400 transition-colors"
           :class="{ 'text-mint-400': isBookmarked }"
         >
@@ -120,10 +121,20 @@ const getPlainDescription = (description: string): string => {
 }
 
 const playEpisode = () => {
-  emit('play', props.episode)
+  // 优先跳转到小宇宙播放页面
+  if (props.episode.link) {
+    window.open(props.episode.link, '_blank')
+  } else {
+    // 如果没有小宇宙链接，触发本地播放事件
+    emit('play', props.episode)
+  }
 }
 
 const toggleBookmark = () => {
   isBookmarked.value = !isBookmarked.value
+}
+
+const goToDetail = () => {
+  window.location.href = `/episode/${props.episode.id || props.episode.guid}`
 }
 </script>

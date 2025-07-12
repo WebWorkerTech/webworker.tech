@@ -1,14 +1,14 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import { getEpisodeById } from '@/utils/podcast';
-import { ChevronLeft, Mic, Heart, Share, Download, ExternalLink } from 'lucide-astro';
+import { ChevronLeft, Mic, Play, Share, Download, ExternalLink, Heart } from 'lucide-astro';
 
 export async function getStaticPaths() {
   const { getPodcastData } = await import('@/utils/podcast');
   const podcastData = getPodcastData();
   
   return podcastData.episodes.map((episode) => ({
-    params: { id: episode.id },
+    params: { id: episode.id || episode.guid },
     props: { episode },
   }));
 }
@@ -55,9 +55,11 @@ if (!episode) {
           </div>
           
           <div class="text-sm text-slate-500">
-            时长: {typeof episode.duration === 'number' ? 
-              `${Math.floor(episode.duration / 60)}:${(episode.duration % 60).toString().padStart(2, '0')}` : 
-              episode.duration}
+            时长: {episode.enclosure?.duration ? 
+              `${Math.floor(episode.enclosure.duration / 60)}:${(episode.enclosure.duration % 60).toString().padStart(2, '0')}` : 
+              (typeof episode.duration === 'number' ? 
+                `${Math.floor(episode.duration / 60)}:${(episode.duration % 60).toString().padStart(2, '0')}` : 
+                episode.duration || '未知')}
           </div>
         </div>
       </div>
@@ -66,7 +68,7 @@ if (!episode) {
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         <div class="relative">
           <img 
-            src={episode.imageUrl || episode.thumbnail || 'https://picsum.photos/600/400?random=1'} 
+            src={episode.thumbnail || episode.enclosure?.image || episode.imageUrl || 'https://picsum.photos/600/400?random=1'} 
             alt={episode.title}
             class="w-full rounded-xl shadow-lg"
           >
@@ -77,16 +79,39 @@ if (!episode) {
             <h3 class="text-lg font-bold mb-4">播放控制</h3>
             
             <!-- Audio Element -->
-            <audio controls class="w-full mb-4" preload="metadata">
-              <source src={episode.audioUrl} type="audio/mpeg">
-              您的浏览器不支持音频播放。
-            </audio>
+            {episode.enclosure?.link ? (
+              <audio controls class="w-full mb-4" preload="metadata">
+                <source src={episode.enclosure.link} type={episode.enclosure.type || "audio/mpeg"}>
+                您的浏览器不支持音频播放。
+              </audio>
+            ) : episode.audioUrl ? (
+              <audio controls class="w-full mb-4" preload="metadata">
+                <source src={episode.audioUrl} type="audio/mpeg">
+                您的浏览器不支持音频播放。
+              </audio>
+            ) : (
+              <div class="bg-cream-100 text-slate-600 p-4 rounded-lg mb-4">
+                音频文件暂不可用
+              </div>
+            )}
             
             <div class="flex flex-wrap gap-2">
-              <button class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors">
-                <Heart class="w-4 h-4" />
-                收藏
-              </button>
+              {episode.link ? (
+                <a 
+                  href={episode.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors"
+                >
+                  <Play class="w-4 h-4" />
+                  在小宇宙播放
+                </a>
+              ) : (
+                <button class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors">
+                  <Heart class="w-4 h-4" />
+                  收藏
+                </button>
+              )}
               
               <button class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors">
                 <Share class="w-4 h-4" />
@@ -94,7 +119,7 @@ if (!episode) {
               </button>
               
               <a 
-                href={episode.audioUrl} 
+                href={episode.enclosure?.link || episode.audioUrl} 
                 download
                 class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors"
               >
@@ -111,7 +136,7 @@ if (!episode) {
         <h2 class="text-2xl font-bold mb-6">节目内容</h2>
         
         <div class="prose prose-slate max-w-none">
-          <div set:html={episode.showNotes || episode.description} />
+          <div set:html={episode.content || episode.description} />
         </div>
         
         <!-- Episode Links -->

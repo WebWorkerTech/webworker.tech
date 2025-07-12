@@ -1,7 +1,7 @@
 <template>
   <section class="mb-16">
     <div class="flex items-center justify-between mb-8">
-      <h2 class="text-2xl md:text-3xl font-bold">最新播客</h2>
+      <h2 class="text-2xl md:text-3xl font-bold">{{ title }}</h2>
       <div class="flex items-center gap-2">
         <button
           @click="previousPage"
@@ -29,7 +29,7 @@
       />
     </div>
 
-    <div class="mt-8 text-center">
+    <div v-if="showViewAll" class="mt-8 text-center">
       <a
         href="/episodes"
         class="inline-flex items-center gap-2 px-6 py-3 bg-white border border-cream-200 rounded-full hover:border-mint-400 hover:text-mint-400 transition-colors"
@@ -50,10 +50,14 @@ import type { PodcastEpisode } from '@/types/podcast'
 interface Props {
   episodes: PodcastEpisode[]
   episodesPerPage?: number
+  showViewAll?: boolean
+  title?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
   episodesPerPage: 6,
+  showViewAll: false,
+  title: '最新播客'
 })
 
 const emit = defineEmits<{
