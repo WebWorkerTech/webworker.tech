@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindTech | 技术与人文的对话</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: {
+                            50: '#FFFDF6',
+                            100: '#F9F5E7',
+                            200: '#F5F0E1',
+                            300: '#EFE6D3',
+                            400: '#E6D5B8',
+                            500: '#D9C19E',
+                        },
+                        mint: {
+                            50: '#F0FFFA',
+                            100: '#CCF5E7',
+                            200: '#99EBCF',
+                            300: '#66E1B7',
+                            400: '#34CC85', // 主题色
+                            500: '#2AA269',
+                        },
+                        slate: {
+                            800: '#1E293B',
+                            900: '#0F172A',
+                        }
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    backgroundImage: {
+                        'wave-pattern': "url(\"data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.09-.396C30.827 15.36 41.33 13 50 13c8.67 0 19.173 2.36 27.726 6.604 1.308.384 2.33 1.17 3.674 1.406 1.08.18 2.21.18 3.29 0 1.344-.236 2.366-1.022 3.674-1.406C95.85 15.077 100 13.12 100 10c0-2.209-4.03-4.077-9.326-5.604-1.344-.384-2.366-1.17-3.674-1.406-1.08-.18-2.21-.18-3.29 0-1.344.236-2.366 1.022-3.674 1.406C75.54 5.923 66.77 7 50 7 33.23 7 24.46 5.923 16.274 3.396 14.966 3.012 13.944 2.226 12.636 1.84 11.556 1.56 10.426 1.56 9.346 1.84C8.038 2.226 7.016 3.012 5.708 3.396 1.79 5.323 0 7.622 0 10c0 2.209 1.79 4.677 5.708 6.604 1.308.384 2.33 1.17 3.674 1.406 1.08.18 2.21.18 3.29 0 1.344-.236 2.366-1.022 3.674-1.406C17.818 19.736 19.49 20 21.184 20z' fill='%2334CC85' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E\")"
+                    }
+                },
+            }
+        }
+    </script>
+    
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-balance {
+                text-wrap: balance;
+            }
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
+            .audio-wave {
+                height: 40px;
+                display: flex;
+                align-items: center;
+                gap: 3px;
+            }
+            .audio-wave span {
+                width: 3px;
+                height: 100%;
+                background-color: #34CC85;
+                border-radius: 3px;
+                animation: wave 1s ease infinite;
+            }
+            @keyframes wave {
+                0%, 100% {
+                    transform: scaleY(0.3);
+                }
+                50% {
+                    transform: scaleY(1);
+                }
+            }
+            .audio-wave span:nth-child(2) { animation-delay: 0.1s; }
+            .audio-wave span:nth-child(3) { animation-delay: 0.2s; }
+            .audio-wave span:nth-child(4) { animation-delay: 0.3s; }
+            .audio-wave span:nth-child(5) { animation-delay: 0.4s; }
+            .audio-wave span:nth-child(6) { animation-delay: 0.5s; }
+            .audio-wave span:nth-child(7) { animation-delay: 0.6s; }
+            .audio-wave span:nth-child(8) { animation-delay: 0.7s; }
+            .audio-wave span:nth-child(9) { animation-delay: 0.8s; }
+            .audio-wave span:nth-child(10) { animation-delay: 0.9s; }
+        }
+    </style>
+</head>
+<body class="font-inter bg-cream-50 text-slate-800 antialiased">
+    <!-- 音频控制器（固定底部） -->
+    <div id="audio-player" class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-md shadow-lg z-50 transition-all duration-300 transform translate-y-0">
+        <div class="container mx-auto px-4 py-3 flex items-center gap-4">
+            <div class="hidden md:flex items-center gap-3">
+                <div class="w-12 h-12 rounded-lg overflow-hidden">
+                    <img src="https://picsum.photos/200/200?random=1" alt="当前播客封面" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="text-sm font-medium">开源的人文精神</h4>
+                    <p class="text-xs text-slate-500">第37期 · 开发者社区</p>
+                </div>
+            </div>
+            
+            <div class="flex-1 flex flex-col md:flex-row items-center gap-3">
+                <div class="audio-wave">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                
+                <div class="flex items-center gap-3">
+                    <button class="text-slate-500 hover:text-mint-400 transition-colors">
+                        <i class="fa fa-step-backward"></i>
+                    </button>
+                    <button class="w-10 h-10 bg-mint-400 rounded-full flex items-center justify-center text-white shadow-md hover:bg-mint-500 transition-colors">
+                        <i class="fa fa-pause"></i>
+                    </button>
+                    <button class="text-slate-500 hover:text-mint-400 transition-colors">
+                        <i class="fa fa-step-forward"></i>
+                    </button>
+                </div>
+                
+                <div class="hidden md:flex-1">
+                    <div class="relative w-full">
+                        <input type="range" class="w-full h-1 bg-cream-200 rounded-full appearance-none cursor-pointer" value="45">
+                        <div class="absolute -top-6 left-1/4 text-xs text-slate-500">17:32</div>
+                        <div class="absolute -top-6 right-1/4 text-xs text-slate-500">38:45</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex items-center gap-3">
+                <button class="text-slate-500 hover:text-mint-400 transition-colors">
+                    <i class="fa fa-volume-up"></i>
+                </button>
+                <button class="text-slate-500 hover:text-mint-400 transition-colors">
+                    <i class="fa fa-ellipsis-h"></i>
+                </button>
+            </div>
+            
+            <button id="toggle-player" class="md:hidden text-slate-500 hover:text-mint-400 transition-colors">
+                <i class="fa fa-chevron-down"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <header class="sticky top-0 z-40 bg-cream-50/90 backdrop-blur-md border-b border-cream-200 transition-all duration-300">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center gap-2">
+                        <div class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg">MT</div>
+                        <span class="text-xl font-bold bg-gradient-to-r from-mint-500 to-slate-800 bg-clip-text text-transparent">MindTech</span>
+                    </a>
+                    
+                    <nav class="hidden md:flex ml-10 space-x-8">
+                        <a href="#" class="text-slate-800 font-medium hover:text-mint-400 transition-colors">首页</a>
+                        <a href="#" class="text-slate-500 hover:text-mint-400 transition-colors">全部播客</a>
+                        <a href="#" class="text-slate-500 hover:text-mint-400 transition-colors">主题合集</a>
+                        <a href="#" class="text-slate-500 hover:text-mint-400 transition-colors">主播专栏</a>
+                        <a href="#" class="text-slate-500 hover:text-mint-400 transition-colors">关于我们</a>
+                    </nav>
+                </div>
+                
+                <div class="flex items-center gap-4">
+                    <div class="relative hidden md:block">
+                        <input type="text" placeholder="搜索播客、嘉宾或主题..." class="w-64 pl-10 pr-4 py-2 rounded-full bg-cream-100 border border-cream-200 focus:outline-none focus:ring-2 focus:ring-mint-400/50 transition-all">
+                        <i class="fa fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                    </div>
+                    
+                    <button class="md:hidden text-slate-800 hover:text-mint-400 transition-colors">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    
+                    <button class="md:hidden text-slate-800 hover:text-mint-400 transition-colors">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    
+                    <a href="#" class="hidden md:flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors">
+                        <i class="fa fa-podcast"></i>
+                        <span>订阅播客</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 md:py-12 pb-24">
+        <!-- 英雄区 -->
+        <section class="mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                <div class="order-2 lg:order-1">
+                    <span class="inline-block px-3 py-1 bg-mint-100 text-mint-500 rounded-full text-sm font-medium mb-4">最新专题</span>
+                    <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight text-balance mb-6">
+                        当<span class="bg-gradient-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent">技术</span>遇见<span class="bg-gradient-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent">人文</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8 max-w-xl">
+                        探索代码背后的思考方式、开发者的人文素养，以及技术如何塑造我们的文化与社会。每周邀请行业领袖、学者与创作者，分享他们的技术洞见与人文关怀。
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#" class="flex items-center gap-2 bg-mint-400 text-white px-6 py-3 rounded-full hover:bg-mint-500 transition-all shadow-lg shadow-mint-400/20">
+                            <i class="fa fa-play-circle"></i>
+                            <span>收听最新一期</span>
+                        </a>
+                        <a href="#" class="flex items-center gap-2 bg-white text-slate-800 px-6 py-3 rounded-full border border-cream-200 hover:border-mint-400 transition-all">
+                            <i class="fa fa-list-ul"></i>
+                            <span>浏览全部内容</span>
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex items-center gap-4">
+                        <div class="flex -space-x-2">
+                            <img src="https://picsum.photos/100/100?random=2" alt="听众头像" class="w-10 h-10 rounded-full border-2 border-cream-50">
+                            <img src="https://picsum.photos/100/100?random=3" alt="听众头像" class="w-10 h-10 rounded-full border-2 border-cream-50">
+                            <img src="https://picsum.photos/100/100?random=4" alt="听众头像" class="w-10 h-10 rounded-full border-2 border-cream-50">
+                            <div class="w-10 h-10 rounded-full bg-cream-200 border-2 border-cream-50 flex items-center justify-center text-xs font-medium text-slate-600">+5k</div>
+                        </div>
+                        <p class="text-sm text-slate-500">每月有超过5,000位技术爱好者收听我们的播客</p>
+                    </div>
+                </div>
+                
+                <div class="order-1 lg:order-2 relative">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="https://picsum.photos/800/600?random=5" alt="MindTech播客封面" class="w-full h-auto">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-6 text-white">
+                            <span class="text-mint-300 text-sm font-medium">第37期 · 约42分钟</span>
+                            <h3 class="text-2xl font-bold mt-2">开源的人文精神：从Linux到Web3</h3>
+                            <p class="mt-2 text-white/80">与三位开源社区核心贡献者探讨代码作为一种协作文化的演变</p>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-mint-400/20 rounded-full blur-2xl"></div>
+                    <div class="absolute -top-6 -right-6 w-32 h-32 bg-cream-300/30 rounded-full blur-2xl"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 播客分类 -->
+        <section class="mb-16">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold">探索主题分类</h2>
+                <a href="#" class="text-mint-400 hover:text-mint-500 flex items-center gap-1 font-medium">
+                    <span>查看全部分类</span>
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-code text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">编程范式</h3>
+                    <p class="text-sm text-slate-500 mt-1">24期内容</p>
+                </a>
+                
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-users text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">开发者社区</h3>
+                    <p class="text-sm text-slate-500 mt-1">18期内容</p>
+                </a>
+                
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-lightbulb-o text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">产品思维</h3>
+                    <p class="text-sm text-slate-500 mt-1">15期内容</p>
+                </a>
+                
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-book text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">技术史话</h3>
+                    <p class="text-sm text-slate-500 mt-1">12期内容</p>
+                </a>
+                
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-rocket text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">前沿科技</h3>
+                    <p class="text-sm text-slate-500 mt-1">21期内容</p>
+                </a>
+                
+                <a href="#" class="group bg-cream-100 rounded-xl p-6 text-center hover:bg-mint-100 transition-colors">
+                    <div class="w-16 h-16 mx-auto bg-mint-100 group-hover:bg-mint-200 rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <i class="fa fa-university text-2xl text-mint-400"></i>
+                    </div>
+                    <h3 class="font-medium">学术研究</h3>
+                    <p class="text-sm text-slate-500 mt-1">9期内容</p>
+                </a>
+            </div>
+        </section>
+        
+        <!-- 最新播客 -->
+        <section class="mb-16">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold">最新播客</h2>
+                <div class="flex items-center gap-2">
+                    <button class="w-10 h-10 rounded-full border border-cream-200 flex items-center justify-center text-slate-500 hover:text-mint-400 hover:border-mint-400 transition-colors">
+                        <i class="fa fa-chevron-left"></i>
+                    </button>
+                    <button class="w-10 h-10 rounded-full border border-cream-200 flex items-center justify-center text-slate-500 hover:text-mint-400 hover:border-mint-400 transition-colors">
+                        <i class="fa fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 播客卡片 1 -->
+                <article class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <img src="https://picsum.photos/600/400?random=6" alt="开源的人文精神" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <div class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <button class="w-12 h-12 bg-mint-400 rounded-full flex items-center justify-center text-white shadow-lg">
+                                <i class="fa fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-slate-900/80 text-white text-xs px-2 py-1 rounded">42:15</div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full">开发者社区</span>
+                            <span class="text-xs text-slate-400">2025-06-15</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-mint-400 transition-colors">开源的人文精神：从Linux到Web3</h3>
+                        <p class="text-slate-600 mb-4 line-clamp-2">与三位开源社区核心贡献者探讨代码作为一种协作文化的演变，以及开源如何塑造了现代技术生态。</p>
+                        
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://picsum.photos/100/100?random=7" alt="嘉宾头像" class="w-8 h-8 rounded-full">
+                                <span class="text-sm font-medium">张明、李华、王强</span>
+                            </div>
+                            <button class="text-slate-400 hover:text-mint-400 transition-colors">
+                                <i class="fa fa-bookmark-o"></i>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- 播客卡片 2 -->
+                <article class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <img src="https://picsum.photos/600/400?random=8" alt="代码与诗歌" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <div class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <button class="w-12 h-12 bg-mint-400 rounded-full flex items-center justify-center text-white shadow-lg">
+                                <i class="fa fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-slate-900/80 text-white text-xs px-2 py-1 rounded">37:42</div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full">编程范式</span>
+                            <span class="text-xs text-slate-400">2025-06-08</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-mint-400 transition-colors">代码与诗歌：编程中的美学与表达</h3>
+                        <p class="text-slate-600 mb-4 line-clamp-2">程序员兼诗人刘畅探讨代码作为一种表达媒介的艺术性，以及如何在技术实现中融入人文思考。</p>
+                        
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://picsum.photos/100/100?random=9" alt="嘉宾头像" class="w-8 h-8 rounded-full">
+                                <span class="text-sm font-medium">刘畅</span>
+                            </div>
+                            <button class="text-slate-400 hover:text-mint-400 transition-colors">
+                                <i class="fa fa-bookmark-o"></i>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- 播客卡片 3 -->
+                <article class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <img src="https://picsum.photos/600/400?random=10" alt="AI伦理困境" class="w-full h-48 object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <div class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <button class="w-12 h-12 bg-mint-400 rounded-full flex items-center justify-center text-white shadow-lg">
+                                <i class="fa fa-play"></i>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-slate-900/80 text-white text-xs px-2 py-1 rounded">53:28</div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full">前沿科技</span>
+                            <span class="text-xs text-slate-400">2025-06-01</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold mb-2 group-hover:text-mint-400 transition-colors">AI伦理困境：技术创新与社会责任</h3>
+                        <p class="text-slate-600 mb-4 line-clamp-2">计算机科学家与伦理学家对话，探讨人工智能发展中的道德难题，以及如何构建负责任的技术生态。</p>
+                        
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://picsum.photos/100/100?random=11" alt="嘉宾头像" class="w-8 h-8 rounded-full">
+                                <img src="https://picsum.photos/100/100?random=12" alt="嘉宾头像" class="w-8 h-8 rounded-full">
+                                <span class="text-sm font-medium">陈博士、林教授</span>
+                            </div>
+                            <button class="text-slate-400 hover:text-mint-400 transition-colors">
+                                <i class="fa fa-bookmark-o"></i>
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <a href="#" class="inline-flex items-center gap-2 px-6 py-3 bg-white border border-cream-200 rounded-full hover:border-mint-400 hover:text-mint-400 transition-colors">
+                    <span>查看更多播客</span>
+                    <i class="fa fa-long-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+        
+        <!-- 专题合集 -->
+        <section class="mb-16 bg-wave-pattern">
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold">精选专题</h2>
+                <a href="#" class="text-mint-400 hover:text-mint-500 flex items-center gap-1 font-medium">
+                    <span>查看全部专题</span>
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- 专题卡片 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg group">
+                    <div class="relative h-64">
+                        <img src="https://picsum.photos/800/400?random=13" alt="技术与人文的边界" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-6 text-white">
+                            
