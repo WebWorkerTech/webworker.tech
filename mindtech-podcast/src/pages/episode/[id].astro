@@ -1,22 +1,30 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import { getEpisodeById } from '@/utils/podcast';
-import { ChevronLeft, Mic, Play, Share, Download, ExternalLink, Heart } from 'lucide-astro';
+import Layout from '@/layouts/Layout.astro'
+import { getEpisodeById } from '@/utils/podcast'
+import {
+  ChevronLeft,
+  Mic,
+  Play,
+  Share,
+  Download,
+  ExternalLink,
+  Heart,
+} from 'lucide-astro'
 
 export async function getStaticPaths() {
-  const { getPodcastData } = await import('@/utils/podcast');
-  const podcastData = getPodcastData();
-  
+  const { getPodcastData } = await import('@/utils/podcast')
+  const podcastData = getPodcastData()
+
   return podcastData.episodes.map((episode) => ({
     params: { id: episode.id || episode.guid },
     props: { episode },
-  }));
+  }))
 }
 
-const { episode } = Astro.props;
+const { episode } = Astro.props
 
 if (!episode) {
-  return Astro.redirect('/404');
+  return Astro.redirect('/404')
 }
 ---
 
@@ -25,101 +33,116 @@ if (!episode) {
     <!-- Episode Header -->
     <div class="max-w-4xl mx-auto">
       <div class="mb-6">
-        <a href="/" class="inline-flex items-center text-mint-400 hover:text-mint-500 mb-4">
+        <a
+          href="/"
+          class="inline-flex items-center text-mint-400 hover:text-mint-500 mb-4"
+        >
           <ChevronLeft class="w-4 h-4 mr-2" />
           返回首页
         </a>
-        
+
         <div class="flex items-center gap-2 mb-4">
-          <span class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full">
+          <span
+            class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full"
+          >
             {episode.category || '技术播客'}
           </span>
           <span class="text-xs text-slate-400">
             {new Date(episode.pubDate).toLocaleDateString('zh-CN')}
           </span>
         </div>
-        
+
         <h1 class="text-3xl md:text-4xl font-bold mb-4 leading-tight">
           {episode.title}
         </h1>
-        
+
         <div class="flex items-center gap-4 mb-6">
           <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-full bg-mint-100 flex items-center justify-center">
+            <div
+              class="w-10 h-10 rounded-full bg-mint-100 flex items-center justify-center"
+            >
               <Mic class="w-5 h-5 text-mint-400" />
             </div>
             <div>
-              <p class="font-medium">{episode.author || 'Web Worker'}</p>
+              <p class="font-medium">{'Web Worker'}</p>
               <p class="text-sm text-slate-500">主播</p>
             </div>
           </div>
-          
+
           <div class="text-sm text-slate-500">
-            时长: {episode.enclosure?.duration ? 
-              `${Math.floor(episode.enclosure.duration / 60)}:${(episode.enclosure.duration % 60).toString().padStart(2, '0')}` : 
-              (typeof episode.duration === 'number' ? 
-                `${Math.floor(episode.duration / 60)}:${(episode.duration % 60).toString().padStart(2, '0')}` : 
-                episode.duration || '未知')}
+            时长: {
+              episode?.duration
+                ? `${Math.floor(Number(episode.duration) / 60)}:${(Number(episode.duration) % 60).toString().padStart(2, '0')}`
+                : typeof episode.duration === 'number'
+                  ? `${Math.floor(Number(episode.duration) / 60)}:${(Number(episode.duration) % 60).toString().padStart(2, '0')}`
+                  : episode.duration || '未知'
+            }
           </div>
         </div>
       </div>
-      
+
       <!-- Episode Image and Audio Player -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
         <div class="relative">
-          <img 
-            src={episode.thumbnail || episode.enclosure?.image || episode.imageUrl || 'https://picsum.photos/600/400?random=1'} 
+          <img
+            src={episode.imageUrl || 'https://picsum.photos/600/400?random=1'}
             alt={episode.title}
             class="w-full rounded-xl shadow-lg"
-          >
+          />
         </div>
-        
+
         <div class="flex flex-col justify-center">
           <div class="bg-white rounded-xl p-6 shadow-lg">
             <h3 class="text-lg font-bold mb-4">播放控制</h3>
-            
+
             <!-- Audio Element -->
-            {episode.enclosure?.link ? (
-              <audio controls class="w-full mb-4" preload="metadata">
-                <source src={episode.enclosure.link} type={episode.enclosure.type || "audio/mpeg"}>
-                您的浏览器不支持音频播放。
-              </audio>
-            ) : episode.audioUrl ? (
-              <audio controls class="w-full mb-4" preload="metadata">
-                <source src={episode.audioUrl} type="audio/mpeg">
-                您的浏览器不支持音频播放。
-              </audio>
-            ) : (
-              <div class="bg-cream-100 text-slate-600 p-4 rounded-lg mb-4">
-                音频文件暂不可用
-              </div>
-            )}
-            
-            <div class="flex flex-wrap gap-2">
-              {episode.link ? (
-                <a 
-                  href={episode.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors"
-                >
-                  <Play class="w-4 h-4" />
-                  在小宇宙播放
-                </a>
+            {
+              episode.audioUrl ? (
+                <audio controls class="w-full mb-4" preload="metadata">
+                  <source src={episode.audioUrl} type="audio/mpeg" />
+                  您的浏览器不支持音频播放。
+                </audio>
+              ) : episode.audioUrl ? (
+                <audio controls class="w-full mb-4" preload="metadata">
+                  <source src={episode.audioUrl} type="audio/mpeg" />
+                  您的浏览器不支持音频播放。
+                </audio>
               ) : (
-                <button class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors">
-                  <Heart class="w-4 h-4" />
-                  收藏
-                </button>
-              )}
-              
-              <button class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors">
+                <div class="bg-cream-100 text-slate-600 p-4 rounded-lg mb-4">
+                  音频文件暂不可用
+                </div>
+              )
+            }
+
+            <div class="flex flex-wrap gap-2">
+              {
+                episode.link ? (
+                  <a
+                    href={episode.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors"
+                  >
+                    <Play class="w-4 h-4" />
+                    在小宇宙播放
+                  </a>
+                ) : (
+                  <button class="flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors">
+                    <Heart class="w-4 h-4" />
+                    收藏
+                  </button>
+                )
+              }
+
+              <button
+                class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors"
+              >
                 <Share class="w-4 h-4" />
                 分享
               </button>
-              
-              <a 
-                href={episode.enclosure?.link || episode.audioUrl} 
+
+              <a
+                href={episode.audioUrl}
                 download
                 class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors"
               >
@@ -130,41 +153,43 @@ if (!episode) {
           </div>
         </div>
       </div>
-      
+
       <!-- Episode Content -->
       <div class="bg-white rounded-xl p-8 shadow-lg">
         <h2 class="text-2xl font-bold mb-6">节目内容</h2>
-        
+
         <div class="prose prose-slate max-w-none">
-          <div set:html={episode.content || episode.description} />
+          <div set:html={episode.description} />
         </div>
-        
+
         <!-- Episode Links -->
-        {episode.link && (
-          <div class="mt-8 pt-6 border-t border-cream-200">
-            <h3 class="text-lg font-bold mb-4">相关链接</h3>
-            <a 
-              href={episode.link} 
-              target="_blank"
-              class="inline-flex items-center gap-2 text-mint-400 hover:text-mint-500"
-            >
-              <ExternalLink class="w-4 h-4" />
-              在小宇宙中查看
-            </a>
-          </div>
-        )}
+        {
+          episode.link && (
+            <div class="mt-8 pt-6 border-t border-cream-200">
+              <h3 class="text-lg font-bold mb-4">相关链接</h3>
+              <a
+                href={episode.link}
+                target="_blank"
+                class="inline-flex items-center gap-2 text-mint-400 hover:text-mint-500"
+              >
+                <ExternalLink class="w-4 h-4" />
+                在小宇宙中查看
+              </a>
+            </div>
+          )
+        }
       </div>
-      
+
       <!-- Navigation -->
       <div class="mt-12 flex justify-between items-center">
-        <a 
+        <a
           href="/episodes"
           class="flex items-center gap-2 text-mint-400 hover:text-mint-500"
         >
           <ChevronLeft class="w-4 h-4" />
           查看更多播客
         </a>
-        
+
         <div class="flex gap-4">
           <!-- TODO: Add previous/next episode navigation -->
         </div>
@@ -174,39 +199,39 @@ if (!episode) {
 </Layout>
 
 <style>
-.prose h2 {
-  @apply text-xl font-bold mt-8 mb-4;
-}
+  .prose h2 {
+    @apply text-xl font-bold mt-8 mb-4;
+  }
 
-.prose h3 {
-  @apply text-lg font-bold mt-6 mb-3;
-}
+  .prose h3 {
+    @apply text-lg font-bold mt-6 mb-3;
+  }
 
-.prose p {
-  @apply mb-4 leading-relaxed;
-}
+  .prose p {
+    @apply mb-4 leading-relaxed;
+  }
 
-.prose ul {
-  @apply list-disc list-inside mb-4 space-y-2;
-}
+  .prose ul {
+    @apply list-disc list-inside mb-4 space-y-2;
+  }
 
-.prose ol {
-  @apply list-decimal list-inside mb-4 space-y-2;
-}
+  .prose ol {
+    @apply list-decimal list-inside mb-4 space-y-2;
+  }
 
-.prose a {
-  @apply text-mint-400 hover:text-mint-500 underline;
-}
+  .prose a {
+    @apply text-mint-400 hover:text-mint-500 underline;
+  }
 
-.prose img {
-  @apply rounded-lg shadow-md my-6;
-}
+  .prose img {
+    @apply rounded-lg shadow-md my-6;
+  }
 
-.prose figure {
-  @apply my-6;
-}
+  .prose figure {
+    @apply my-6;
+  }
 
-.prose figure img {
-  @apply w-full;
-}
+  .prose figure img {
+    @apply w-full;
+  }
 </style>

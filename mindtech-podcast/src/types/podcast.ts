@@ -48,10 +48,11 @@ export interface Category {
 export interface Testimonial {
   id: string
   name: string
-  title: string
+  // title: string
   avatar: string
   rating: number
   content: string
+  role: string
 }
 
 export interface PodcastStats {

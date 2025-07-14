@@ -54,15 +54,40 @@ const testimonials: Testimonial[] = [
     rating: 4,
   },
 ]
+import type { Category } from '@/types/podcast'
 
 // Categories for the sections
-const categories = [
-  { id: '1', name: '编程范式', count: 12, color: 'mint' },
-  { id: '2', name: '开发者社区', count: 8, color: 'blue' },
-  { id: '3', name: '产品思维', count: 6, color: 'purple' },
-  { id: '4', name: '人工智能', count: 15, color: 'pink' },
-  { id: '5', name: '开源项目', count: 10, color: 'orange' },
-  { id: '6', name: '技术管理', count: 7, color: 'teal' },
+const categories: Category[] = [
+  { id: '1', name: '编程范式', icon: 'code', episodeCount: 12, color: 'mint' },
+  {
+    id: '2',
+    name: '开发者社区',
+    icon: 'users',
+    episodeCount: 8,
+    color: 'blue',
+  },
+  {
+    id: '3',
+    name: '产品思维',
+    icon: 'product',
+    episodeCount: 6,
+    color: 'purple',
+  },
+  { id: '4', name: '人工智能', icon: 'ai', episodeCount: 15, color: 'pink' },
+  {
+    id: '5',
+    name: '开源项目',
+    icon: 'open-source',
+    episodeCount: 10,
+    color: 'orange',
+  },
+  {
+    id: '6',
+    name: '技术管理',
+    icon: 'management',
+    episodeCount: 7,
+    color: 'teal',
+  },
 ]
 ---
 
