@@ -7,13 +7,13 @@
             <div
               class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg"
             >
-              MT
+              WW
             </div>
-            <span class="text-xl font-bold">MindTech</span>
+            <span class="text-xl font-bold">Web Worker</span>
           </div>
 
           <p class="text-slate-400 mb-6">
-            连接技术与人文的播客平台，探索代码背后的思考方式与文化意义。
+            前端程序员闲聊的中文音频播客平台，围绕 web 开发相关话题展开讨论。
           </p>
 
           <div class="flex gap-4">
@@ -63,7 +63,7 @@
           <ul class="space-y-3">
             <li class="flex items-start gap-3">
               <Mail class="text-mint-400 mt-1 w-4 h-4" />
-              <span class="text-slate-400">contact@mindtech.example</span>
+              <span class="text-slate-400">contact@webworker.example</span>
             </li>
             <li class="flex items-start gap-3">
               <MapPin class="text-mint-400 mt-1 w-4 h-4" />
@@ -71,7 +71,7 @@
             </li>
             <li class="flex items-start gap-3">
               <MessageCircle class="text-mint-400 mt-1 w-4 h-4" />
-              <span class="text-slate-400">MindTech播客</span>
+              <span class="text-slate-400">Web Worker播客</span>
             </li>
           </ul>
 
@@ -98,7 +98,7 @@
       <div class="border-t border-slate-800 pt-8">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <p class="text-slate-500 text-sm mb-4 md:mb-0">
-            © 2025 MindTech. 保留所有权利。
+            © 2025 Web Worker. 保留所有权利。
           </p>
 
           <div class="flex gap-6">

@@ -10,16 +10,16 @@
         <h1
           class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight text-balance mb-6"
         >
-          当<span
+          <span
             class="bg-gradient-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent"
-            >技术</span
-          >遇见<span
+            >前端程序员</span
+          >都爱听的<span
             class="bg-gradient-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent"
-            >人文</span
+            >播客</span
           >
         </h1>
         <p class="text-lg text-slate-600 mb-8 max-w-xl">
-          探索代码背后的思考方式、开发者的人文素养，以及技术如何塑造我们的文化与社会。每周邀请行业领袖、学者与创作者，分享他们的技术洞见与人文关怀。
+          Web Worker 播客是几个前端程序员闲聊的前端中文音频播客节目。节目将围绕程序员领域来瞎聊，聊资讯、聊职场、聊技术选型...... 只要是和 web 开发有关的都可以聊。
         </p>
         <div class="flex flex-wrap gap-4">
           <button
@@ -54,7 +54,7 @@
             </div>
           </div>
           <p class="text-sm text-slate-500">
-            每月有超过5,000位技术爱好者收听我们的播客
+            每月有超过5,000位前端开发者收听我们的播客
           </p>
         </div>
       </div>

@@ -9,12 +9,12 @@
             <div
               class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg"
             >
-              MT
+              WW
             </div>
             <span
               class="text-xl font-bold bg-gradient-to-r from-mint-500 to-slate-800 bg-clip-text text-transparent"
             >
-              MindTech
+              Web Worker
             </span>
           </a>
 
