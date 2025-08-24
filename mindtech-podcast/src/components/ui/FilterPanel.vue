@@ -4,7 +4,7 @@
       <Filter class="w-5 h-5 text-mint-400" />
       筛选条件
     </h3>
-    
+
     <!-- Category Filter -->
     <div class="mb-6">
       <label class="block text-sm font-medium text-slate-700 mb-3">分类</label>
@@ -17,7 +17,7 @@
             'px-3 py-2 text-sm rounded-lg transition-colors text-left',
             selectedCategory === category.id
               ? 'bg-mint-400 text-white'
-              : 'bg-cream-100 text-slate-600 hover:bg-cream-200'
+              : 'bg-cream-100 text-slate-600 hover:bg-cream-200',
           ]"
         >
           <div class="flex items-center justify-between">
@@ -30,7 +30,9 @@
 
     <!-- Date Range Filter -->
     <div class="mb-6">
-      <label class="block text-sm font-medium text-slate-700 mb-3">发布时间</label>
+      <label class="block text-sm font-medium text-slate-700 mb-3"
+        >发布时间</label
+      >
       <div class="grid grid-cols-2 gap-2">
         <button
           v-for="range in dateRanges"
@@ -40,7 +42,7 @@
             'px-3 py-2 text-sm rounded-lg transition-colors',
             selectedDateRange === range.id
               ? 'bg-mint-400 text-white'
-              : 'bg-cream-100 text-slate-600 hover:bg-cream-200'
+              : 'bg-cream-100 text-slate-600 hover:bg-cream-200',
           ]"
         >
           {{ range.label }}
@@ -50,7 +52,9 @@
 
     <!-- Duration Filter -->
     <div class="mb-6">
-      <label class="block text-sm font-medium text-slate-700 mb-3">节目时长</label>
+      <label class="block text-sm font-medium text-slate-700 mb-3"
+        >节目时长</label
+      >
       <div class="grid grid-cols-2 gap-2">
         <button
           v-for="duration in durations"
@@ -60,7 +64,7 @@
             'px-3 py-2 text-sm rounded-lg transition-colors',
             selectedDuration === duration.id
               ? 'bg-mint-400 text-white'
-              : 'bg-cream-100 text-slate-600 hover:bg-cream-200'
+              : 'bg-cream-100 text-slate-600 hover:bg-cream-200',
           ]"
         >
           {{ duration.label }}
@@ -70,7 +74,9 @@
 
     <!-- Sort Options -->
     <div class="mb-6">
-      <label class="block text-sm font-medium text-slate-700 mb-3">排序方式</label>
+      <label class="block text-sm font-medium text-slate-700 mb-3"
+        >排序方式</label
+      >
       <select
         v-model="selectedSort"
         @change="handleSortChange"
@@ -118,12 +124,14 @@ interface Props {
 const props = defineProps<Props>()
 
 const emit = defineEmits<{
-  filter: [filters: {
-    category: string
-    dateRange: string
-    duration: string
-    sort: string
-  }]
+  filter: [
+    filters: {
+      category: string
+      dateRange: string
+      duration: string
+      sort: string
+    },
+  ]
 }>()
 
 const selectedCategory = ref('all')

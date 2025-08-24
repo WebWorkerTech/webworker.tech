@@ -15,7 +15,7 @@
           'flex items-center gap-2 px-3 py-2 rounded-lg transition-colors',
           currentPage === 1
             ? 'bg-cream-100 text-slate-400 cursor-not-allowed'
-            : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200'
+            : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200',
         ]"
       >
         <ChevronLeft class="w-4 h-4" />
@@ -32,10 +32,10 @@
         >
           1
         </button>
-        
+
         <!-- First ellipsis -->
         <span v-if="showFirstEllipsis" class="px-2 text-slate-400">...</span>
-        
+
         <!-- Visible page range -->
         <button
           v-for="page in visiblePages"
@@ -45,10 +45,10 @@
         >
           {{ page }}
         </button>
-        
+
         <!-- Last ellipsis -->
         <span v-if="showLastEllipsis" class="px-2 text-slate-400">...</span>
-        
+
         <!-- Last page -->
         <button
           v-if="showLastPage"
@@ -67,7 +67,7 @@
           'flex items-center gap-2 px-3 py-2 rounded-lg transition-colors',
           currentPage === totalPages
             ? 'bg-cream-100 text-slate-400 cursor-not-allowed'
-            : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200'
+            : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200',
         ]"
       >
         <span class="hidden sm:inline">下一页</span>
@@ -105,7 +105,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   maxVisiblePages: 5,
-  pageSizeOptions: () => [12, 24, 48]
+  pageSizeOptions: () => [12, 24, 48],
 })
 
 const emit = defineEmits<{
@@ -130,16 +130,16 @@ const visiblePages = computed(() => {
   const half = Math.floor(props.maxVisiblePages / 2)
   let start = Math.max(1, props.currentPage - half)
   let end = Math.min(totalPages.value, start + props.maxVisiblePages - 1)
-  
+
   // Adjust start if we're near the end
   if (end - start + 1 < props.maxVisiblePages) {
     start = Math.max(1, end - props.maxVisiblePages + 1)
   }
-  
+
   // Don't show pages that would be shown by first/last page buttons
   if (start <= 2) start = 2
   if (end >= totalPages.value - 1) end = totalPages.value - 1
-  
+
   const pages = []
   for (let i = start; i <= end; i++) {
     if (i > 1 && i < totalPages.value) {
@@ -150,11 +150,17 @@ const visiblePages = computed(() => {
 })
 
 const showFirstPage = computed(() => totalPages.value > 1)
-const showLastPage = computed(() => totalPages.value > 1 && totalPages.value !== 1)
-const showFirstEllipsis = computed(() => visiblePages.value.length > 0 && visiblePages.value[0] > 2)
+const showLastPage = computed(
+  () => totalPages.value > 1 && totalPages.value !== 1,
+)
+const showFirstEllipsis = computed(
+  () => visiblePages.value.length > 0 && visiblePages.value[0] > 2,
+)
 const showLastEllipsis = computed(() => {
-  return visiblePages.value.length > 0 && 
-         visiblePages.value[visiblePages.value.length - 1] < totalPages.value - 1
+  return (
+    visiblePages.value.length > 0 &&
+    visiblePages.value[visiblePages.value.length - 1] < totalPages.value - 1
+  )
 })
 
 const pageButtonClass = (page: number) => {
@@ -163,7 +169,7 @@ const pageButtonClass = (page: number) => {
     'w-8 h-8 flex items-center justify-center rounded-lg text-sm font-medium transition-colors',
     isActive
       ? 'bg-mint-400 text-white'
-      : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200'
+      : 'bg-white text-slate-600 hover:bg-mint-50 hover:text-mint-600 border border-cream-200',
   ]
 }
 

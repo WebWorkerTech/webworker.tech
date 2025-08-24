@@ -19,7 +19,9 @@
           >
         </h1>
         <p class="text-lg text-slate-600 mb-8 max-w-xl">
-          Web Worker 播客是几个前端程序员闲聊的前端中文音频播客节目。节目将围绕程序员领域来瞎聊，聊资讯、聊职场、聊技术选型...... 只要是和 web 开发有关的都可以聊。
+          Web Worker
+          播客是几个前端程序员闲聊的前端中文音频播客节目。节目将围绕程序员领域来瞎聊，聊资讯、聊职场、聊技术选型......
+          只要是和 web 开发有关的都可以聊。
         </p>
         <div class="flex flex-wrap gap-4">
           <button

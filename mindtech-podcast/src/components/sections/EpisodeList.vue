@@ -1,7 +1,10 @@
 <template>
   <div class="space-y-8">
     <!-- Search and Filter Section -->
-    <div v-if="showSearch || showFilters" class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <div
+      v-if="showSearch || showFilters"
+      class="grid grid-cols-1 lg:grid-cols-4 gap-6"
+    >
       <!-- Search Box -->
       <div v-if="showSearch" class="lg:col-span-3">
         <SearchBox
@@ -10,7 +13,7 @@
           @search="handleSearch"
         />
       </div>
-      
+
       <!-- Filter Toggle (Mobile) -->
       <div class="lg:hidden">
         <button
@@ -19,8 +22,11 @@
         >
           <Filter class="w-5 h-5 text-mint-400" />
           <span>筛选条件</span>
-          <ChevronDown 
-            :class="['w-4 h-4 transition-transform', showMobileFilters ? 'rotate-180' : '']" 
+          <ChevronDown
+            :class="[
+              'w-4 h-4 transition-transform',
+              showMobileFilters ? 'rotate-180' : '',
+            ]"
           />
         </button>
       </div>
@@ -29,13 +35,15 @@
     <!-- Desktop Filters & Mobile Filter Panel -->
     <div v-if="showFilters" class="grid grid-cols-1 lg:grid-cols-4 gap-6">
       <!-- Filter Panel -->
-      <div :class="['lg:col-span-1', showMobileFilters ? 'block' : 'hidden lg:block']">
-        <FilterPanel
-          :categories="categories"
-          @filter="handleFilter"
-        />
+      <div
+        :class="[
+          'lg:col-span-1',
+          showMobileFilters ? 'block' : 'hidden lg:block',
+        ]"
+      >
+        <FilterPanel :categories="categories" @filter="handleFilter" />
       </div>
-      
+
       <!-- Results Section -->
       <div class="lg:col-span-3">
         <!-- Results Header -->
@@ -48,16 +56,16 @@
               {{ filteredEpisodes.length }} 个结果
             </span>
           </div>
-          
+
           <!-- View Toggle -->
           <div class="flex items-center gap-2 bg-cream-100 rounded-lg p-1">
             <button
               @click="viewMode = 'grid'"
               :class="[
                 'px-3 py-1 rounded-md text-sm transition-colors',
-                viewMode === 'grid' 
-                  ? 'bg-white text-mint-600 shadow-sm' 
-                  : 'text-slate-600'
+                viewMode === 'grid'
+                  ? 'bg-white text-mint-600 shadow-sm'
+                  : 'text-slate-600',
               ]"
             >
               <Grid3X3 class="w-4 h-4" />
@@ -66,9 +74,9 @@
               @click="viewMode = 'list'"
               :class="[
                 'px-3 py-1 rounded-md text-sm transition-colors',
-                viewMode === 'list' 
-                  ? 'bg-white text-mint-600 shadow-sm' 
-                  : 'text-slate-600'
+                viewMode === 'list'
+                  ? 'bg-white text-mint-600 shadow-sm'
+                  : 'text-slate-600',
               ]"
             >
               <List class="w-4 h-4" />
@@ -87,7 +95,10 @@
                 class="inline-flex items-center gap-1 px-3 py-1 bg-mint-100 text-mint-700 rounded-full text-sm"
               >
                 {{ filter.label }}
-                <button @click="removeFilter(filter.key)" class="hover:text-mint-900">
+                <button
+                  @click="removeFilter(filter.key)"
+                  class="hover:text-mint-900"
+                >
                   <X class="w-3 h-3" />
                 </button>
               </span>
@@ -103,11 +114,13 @@
 
         <!-- Episodes Grid/List -->
         <div v-if="paginatedEpisodes.length > 0">
-          <div :class="[
-            viewMode === 'grid' 
-              ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'
-              : 'space-y-4'
-          ]">
+          <div
+            :class="[
+              viewMode === 'grid'
+                ? 'grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'
+                : 'space-y-4',
+            ]"
+          >
             <PodcastCard
               v-for="episode in paginatedEpisodes"
               :key="episode.id || episode.guid"
@@ -131,12 +144,20 @@
 
         <!-- Empty State -->
         <div v-else class="text-center py-16">
-          <div class="w-24 h-24 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <div
+            class="w-24 h-24 bg-cream-100 rounded-full flex items-center justify-center mx-auto mb-4"
+          >
             <Search class="w-12 h-12 text-cream-300" />
           </div>
-          <h3 class="text-xl font-bold text-slate-800 mb-2">没有找到相关播客</h3>
+          <h3 class="text-xl font-bold text-slate-800 mb-2">
+            没有找到相关播客
+          </h3>
           <p class="text-slate-600 mb-6">
-            {{ searchQuery ? '尝试使用其他关键词搜索' : '暂时没有符合条件的播客节目' }}
+            {{
+              searchQuery
+                ? '尝试使用其他关键词搜索'
+                : '暂时没有符合条件的播客节目'
+            }}
           </p>
           <button
             @click="clearAllFilters"
@@ -158,7 +179,7 @@
           @play="handlePlayEpisode"
         />
       </div>
-      
+
       <!-- Simple Pagination -->
       <div v-if="showPagination && totalPages > 1" class="mt-8">
         <Pagination
@@ -202,7 +223,7 @@ const props = withDefaults(defineProps<Props>(), {
   showSearch: true,
   showFilters: true,
   showPagination: true,
-  initialPageSize: 12
+  initialPageSize: 12,
 })
 
 const emit = defineEmits<{
@@ -221,12 +242,18 @@ const currentFilters = ref({
   category: 'all',
   dateRange: 'all',
   duration: 'all',
-  sort: 'newest'
+  sort: 'newest',
 })
 
 // Search suggestions
 const searchSuggestions = computed(() => [
-  '前端开发', '人工智能', '开源项目', '技术管理', 'JavaScript', 'Vue', 'React'
+  '前端开发',
+  '人工智能',
+  '开源项目',
+  '技术管理',
+  'JavaScript',
+  'Vue',
+  'React',
 ])
 
 // Filter episodes based on search and filters
@@ -236,18 +263,19 @@ const filteredEpisodes = computed(() => {
   // Search filter
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase()
-    result = result.filter(episode => 
-      episode.title.toLowerCase().includes(query) ||
-      episode.description?.toLowerCase().includes(query) ||
-      episode.content?.toLowerCase().includes(query) ||
-      episode.author?.toLowerCase().includes(query)
+    result = result.filter(
+      (episode) =>
+        episode.title.toLowerCase().includes(query) ||
+        episode.description?.toLowerCase().includes(query) ||
+        episode.content?.toLowerCase().includes(query) ||
+        episode.author?.toLowerCase().includes(query),
     )
   }
 
   // Category filter
   if (currentFilters.value.category !== 'all') {
-    result = result.filter(episode => 
-      episode.category === currentFilters.value.category
+    result = result.filter(
+      (episode) => episode.category === currentFilters.value.category,
     )
   }
 
@@ -255,7 +283,7 @@ const filteredEpisodes = computed(() => {
   if (currentFilters.value.dateRange !== 'all') {
     const now = new Date()
     const filterDate = new Date()
-    
+
     switch (currentFilters.value.dateRange) {
       case 'week':
         filterDate.setDate(now.getDate() - 7)
@@ -270,8 +298,8 @@ const filteredEpisodes = computed(() => {
         filterDate.setFullYear(now.getFullYear() - 1)
         break
     }
-    
-    result = result.filter(episode => {
+
+    result = result.filter((episode) => {
       const episodeDate = new Date(episode.pubDate)
       return episodeDate >= filterDate
     })
@@ -279,10 +307,10 @@ const filteredEpisodes = computed(() => {
 
   // Duration filter
   if (currentFilters.value.duration !== 'all') {
-    result = result.filter(episode => {
+    result = result.filter((episode) => {
       const duration = episode.enclosure?.duration || episode.duration
       if (typeof duration !== 'number') return true
-      
+
       switch (currentFilters.value.duration) {
         case 'short':
           return duration <= 1800 // 30 minutes
@@ -308,7 +336,10 @@ const filteredEpisodes = computed(() => {
       case 'duration':
         const aDuration = a.enclosure?.duration || a.duration || 0
         const bDuration = b.enclosure?.duration || b.duration || 0
-        return (typeof bDuration === 'number' ? bDuration : 0) - (typeof aDuration === 'number' ? aDuration : 0)
+        return (
+          (typeof bDuration === 'number' ? bDuration : 0) -
+          (typeof aDuration === 'number' ? aDuration : 0)
+        )
       default:
         return 0
     }
@@ -318,7 +349,9 @@ const filteredEpisodes = computed(() => {
 })
 
 // Pagination
-const totalPages = computed(() => Math.ceil(filteredEpisodes.value.length / pageSize.value))
+const totalPages = computed(() =>
+  Math.ceil(filteredEpisodes.value.length / pageSize.value),
+)
 
 const paginatedEpisodes = computed(() => {
   const start = (currentPage.value - 1) * pageSize.value
@@ -329,47 +362,54 @@ const paginatedEpisodes = computed(() => {
 // Active filters for display
 const activeFilters = computed(() => {
   const filters = []
-  
+
   if (currentFilters.value.category !== 'all') {
-    const category = props.categories.find(c => c.id === currentFilters.value.category)
+    const category = props.categories.find(
+      (c) => c.id === currentFilters.value.category,
+    )
     if (category) {
       filters.push({ key: 'category', label: category.name })
     }
   }
-  
+
   if (currentFilters.value.dateRange !== 'all') {
     const dateLabels = {
       week: '最近一周',
       month: '最近一月',
       quarter: '最近三月',
-      year: '最近一年'
+      year: '最近一年',
     }
-    filters.push({ 
-      key: 'dateRange', 
-      label: dateLabels[currentFilters.value.dateRange as keyof typeof dateLabels] 
+    filters.push({
+      key: 'dateRange',
+      label:
+        dateLabels[currentFilters.value.dateRange as keyof typeof dateLabels],
     })
   }
-  
+
   if (currentFilters.value.duration !== 'all') {
     const durationLabels = {
       short: '30分钟内',
       medium: '30-60分钟',
-      long: '60分钟以上'
+      long: '60分钟以上',
     }
-    filters.push({ 
-      key: 'duration', 
-      label: durationLabels[currentFilters.value.duration as keyof typeof durationLabels] 
+    filters.push({
+      key: 'duration',
+      label:
+        durationLabels[
+          currentFilters.value.duration as keyof typeof durationLabels
+        ],
     })
   }
-  
+
   return filters
 })
 
-const hasActiveFilters = computed(() => 
-  currentFilters.value.category !== 'all' ||
-  currentFilters.value.dateRange !== 'all' ||
-  currentFilters.value.duration !== 'all' ||
-  searchQuery.value !== ''
+const hasActiveFilters = computed(
+  () =>
+    currentFilters.value.category !== 'all' ||
+    currentFilters.value.dateRange !== 'all' ||
+    currentFilters.value.duration !== 'all' ||
+    searchQuery.value !== '',
 )
 
 // Event handlers
@@ -411,13 +451,17 @@ const clearAllFilters = () => {
     category: 'all',
     dateRange: 'all',
     duration: 'all',
-    sort: 'newest'
+    sort: 'newest',
   }
   currentPage.value = 1
 }
 
 // Reset page when filters change
-watch([searchQuery, currentFilters], () => {
-  currentPage.value = 1
-}, { deep: true })
+watch(
+  [searchQuery, currentFilters],
+  () => {
+    currentPage.value = 1
+  },
+  { deep: true },
+)
 </script>

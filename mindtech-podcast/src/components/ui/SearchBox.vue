@@ -8,7 +8,9 @@
         class="w-full pl-10 pr-4 py-3 border border-cream-200 rounded-lg focus:ring-2 focus:ring-mint-400 focus:border-transparent transition-all"
         @input="handleSearch"
       />
-      <Search class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
+      <Search
+        class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400"
+      />
       <button
         v-if="searchQuery"
         @click="clearSearch"
@@ -17,9 +19,12 @@
         <X class="w-5 h-5" />
       </button>
     </div>
-    
+
     <!-- Search suggestions or recent searches -->
-    <div v-if="showSuggestions && suggestions.length > 0" class="mt-3 border-t border-cream-200 pt-3">
+    <div
+      v-if="showSuggestions && suggestions.length > 0"
+      class="mt-3 border-t border-cream-200 pt-3"
+    >
       <p class="text-xs text-slate-500 mb-2">建议搜索</p>
       <div class="flex flex-wrap gap-2">
         <button
@@ -46,7 +51,14 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   placeholder: '搜索播客节目...',
-  suggestions: () => ['前端开发', '人工智能', '开源项目', '技术管理', 'JavaScript', 'Vue']
+  suggestions: () => [
+    '前端开发',
+    '人工智能',
+    '开源项目',
+    '技术管理',
+    'JavaScript',
+    'Vue',
+  ],
 })
 
 const emit = defineEmits<{
@@ -58,7 +70,8 @@ const showSuggestions = ref(false)
 
 const handleSearch = () => {
   emit('search', searchQuery.value)
-  showSuggestions.value = searchQuery.value.length > 0 && searchQuery.value.length < 3
+  showSuggestions.value =
+    searchQuery.value.length > 0 && searchQuery.value.length < 3
 }
 
 const clearSearch = () => {

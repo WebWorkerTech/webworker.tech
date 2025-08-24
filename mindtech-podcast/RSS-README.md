@@ -41,6 +41,7 @@ npm run dev
 ```
 
 这会：
+
 1. 首先运行RSS转换脚本，获取最新数据
 2. 启动Astro开发服务器
 
@@ -51,6 +52,7 @@ npm run build
 ```
 
 这会：
+
 1. 首先运行RSS转换脚本，获取最新数据
 2. 运行Astro类型检查
 3. 构建生产版本
@@ -92,7 +94,7 @@ npm run fetch-rss
         "length": "文件大小",
         "duration": "时长",
         "image": "封面图",
-        "rating": {"scheme": "urn:itunes", "value": "no"}
+        "rating": { "scheme": "urn:itunes", "value": "no" }
       },
       "categories": ["分类"]
     }

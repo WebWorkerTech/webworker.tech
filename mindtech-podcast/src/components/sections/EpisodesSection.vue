@@ -57,7 +57,7 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   episodesPerPage: 6,
   showViewAll: false,
-  title: '最新播客'
+  title: '最新播客',
 })
 
 const emit = defineEmits<{

@@ -1,7 +1,13 @@
 <template>
-  <section class="mb-16 bg-linear-to-br from-mint-100 to-cream-200 rounded-3xl p-8 md:p-12 relative overflow-hidden">
-    <div class="absolute -top-20 -right-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"></div>
+  <section
+    class="mb-16 bg-linear-to-br from-mint-100 to-cream-200 rounded-3xl p-8 md:p-12 relative overflow-hidden"
+  >
+    <div
+      class="absolute -top-20 -right-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"
+    ></div>
+    <div
+      class="absolute -bottom-20 -left-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"
+    ></div>
 
     <div class="relative max-w-2xl mx-auto text-center">
       <h2 class="text-2xl md:text-3xl font-bold mb-4">订阅我们的播客</h2>
@@ -10,8 +16,13 @@
       </p>
 
       <div class="flex flex-wrap justify-center gap-4 mb-8">
-        <a v-for="platform in platforms" :key="platform.label" :href="platform.href" target="_blank"
-          class="flex items-center gap-2 bg-white px-4 py-3 rounded-full shadow-md hover:shadow-lg transition-shadow">
+        <a
+          v-for="platform in platforms"
+          :key="platform.label"
+          :href="platform.href"
+          target="_blank"
+          class="flex items-center gap-2 bg-white px-4 py-3 rounded-full shadow-md hover:shadow-lg transition-shadow"
+        >
           <Component :is="platform.icon" class="w-5 h-5" />
           <span>{{ platform.label }}</span>
         </a>
