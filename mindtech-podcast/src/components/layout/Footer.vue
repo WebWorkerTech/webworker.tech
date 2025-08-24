@@ -5,8 +5,7 @@
         <div>
           <div class="flex items-center gap-2 mb-6">
             <div
-              class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg"
-            >
+              class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg">
               WW
             </div>
             <span class="text-xl font-bold">Web Worker</span>
@@ -17,13 +16,8 @@
           </p>
 
           <div class="flex gap-4">
-            <a
-              v-for="social in socialLinks"
-              :key="social.name"
-              :href="social.url"
-              target="_blank"
-              class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-mint-400 hover:text-white transition-colors"
-            >
+            <a v-for="social in socialLinks" :key="social.name" :href="social.url" target="_blank"
+              class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-mint-400 hover:text-white transition-colors">
               <component :is="social.icon" class="w-5 h-5" />
             </a>
           </div>
@@ -33,10 +27,7 @@
           <h3 class="text-lg font-bold mb-6">快速链接</h3>
           <ul class="space-y-3">
             <li v-for="link in quickLinks" :key="link.label">
-              <a
-                :href="link.href"
-                class="text-slate-400 hover:text-mint-400 transition-colors"
-              >
+              <a :href="link.href" class="text-slate-400 hover:text-mint-400 transition-colors">
                 {{ link.label }}
               </a>
             </li>
@@ -47,11 +38,7 @@
           <h3 class="text-lg font-bold mb-6">播客平台</h3>
           <ul class="space-y-3">
             <li v-for="platform in platforms" :key="platform.label">
-              <a
-                :href="platform.href"
-                target="_blank"
-                class="text-slate-400 hover:text-mint-400 transition-colors"
-              >
+              <a :href="platform.href" target="_blank" class="text-slate-400 hover:text-mint-400 transition-colors">
                 {{ platform.label }}
               </a>
             </li>
@@ -78,16 +65,10 @@
           <div class="mt-6">
             <h4 class="text-sm font-medium mb-3">订阅我们的邮件</h4>
             <form @submit.prevent="subscribeNewsletter" class="flex">
-              <input
-                v-model="newsletterEmail"
-                type="email"
-                placeholder="your@email.com"
-                class="flex-1 px-4 py-2 rounded-l-lg bg-slate-800 border-none focus:outline-none focus:ring-1 focus:ring-mint-400 text-white placeholder-slate-400"
-              />
-              <button
-                type="submit"
-                class="bg-mint-400 text-white px-4 py-2 rounded-r-lg hover:bg-mint-500 transition-colors"
-              >
+              <input v-model="newsletterEmail" type="email" placeholder="your@email.com"
+                class="flex-1 px-4 py-2 rounded-l-lg bg-slate-800 border-none focus:outline-none focus:ring-1 focus:ring-mint-400 text-white placeholder-slate-400" />
+              <button type="submit"
+                class="bg-mint-400 text-white px-4 py-2 rounded-r-lg hover:bg-mint-500 transition-colors">
                 <Send class="w-4 h-4" />
               </button>
             </form>
@@ -102,12 +83,8 @@
           </p>
 
           <div class="flex gap-6">
-            <a
-              v-for="legal in legalLinks"
-              :key="legal.label"
-              :href="legal.href"
-              class="text-slate-500 hover:text-mint-400 text-sm transition-colors"
-            >
+            <a v-for="legal in legalLinks" :key="legal.label" :href="legal.href"
+              class="text-slate-500 hover:text-mint-400 text-sm transition-colors">
               {{ legal.label }}
             </a>
           </div>
@@ -129,6 +106,7 @@ import {
   MessageCircle,
   Send,
 } from 'lucide-vue-next'
+import { podcastInfo } from '@/data/podcastInfo'
 
 const newsletterEmail = ref('')
 
@@ -148,14 +126,7 @@ const quickLinks = [
   { label: '联系我们', href: '/contact' },
 ]
 
-const platforms = [
-  { label: 'Apple Podcasts', href: '#' },
-  { label: 'Spotify', href: '#' },
-  { label: 'Google Podcasts', href: '#' },
-  { label: 'Stitcher', href: '#' },
-  { label: '喜马拉雅', href: '#' },
-  { label: '小宇宙', href: '#' },
-]
+const platforms = podcastInfo.platforms
 
 const legalLinks = [
   { label: '隐私政策', href: '/privacy' },

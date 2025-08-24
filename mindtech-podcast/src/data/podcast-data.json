@@ -10,6 +10,94 @@
   },
   "items": [
     {
+      "title": "No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型",
+      "pubDate": "Thu, 21 Aug 2025 23:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68a71a3a293471fed4ca4472?utm_source=rss",
+      "guid": "68a71a3a293471fed4ca4472",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/Fm0hdquBYdtmDUVo9osNccIpw1Fj.png",
+      "description": "<h2><strong>介绍</strong></h2><p>新播客来啦，这次我们邀请到了 OpenBuild 社区的创始人许银，与主持人辛宝、Smart 一起深入探讨了 Web3 技术生态、开发者转型路径、智能合约开发、Rust 语言在 Web3 中的重要性，以及 AI 与 Web3 的结合等内容。许银分享了从 Web2 到 Web3 的实战经验、OpenBuild 社区的运营理念，以及如何通过开源项目和黑客松快速进入 Web3 领域。</p><figure><img src=\"https://image.xyzcdn.net/Fj-XwUGTI_15JIfTiqXyZoz462cr.png\"/></figure><h2><strong>嘉宾信息</strong></h2><ul>  <li>许银    <ul>      <li><a href=\"https://openbuild.xyz/\">OpenBuild </a>联合创始人</li>      <li>Rust 社区核心组织者</li>      <li>开源社理事</li>    </ul>  </li></ul><h2><strong>时间轴</strong></h2><p>00:00 &nbsp;&nbsp;&nbsp;开场介绍：播客主题与嘉宾许银</p><p>01:04 &nbsp;&nbsp;&nbsp;许银自我介绍：开源社区背景与 OpenBuild</p><p>02:04 &nbsp;&nbsp;&nbsp;什么是 Web3？与 Web2 的区别</p><p>07:04 &nbsp;&nbsp;&nbsp;智能合约开发入门与前端转型优势</p><p>14:06 &nbsp;&nbsp;&nbsp;Web3 登录与数据交互流程详解</p><p>20:05 &nbsp;&nbsp;&nbsp;开发者转型 Web3 的心理与路径建议</p><p>24:16 &nbsp;&nbsp;&nbsp;许银的个人转型经历与 OpenBuild 起源</p><p>28:51 &nbsp;&nbsp;&nbsp;Web3 如何解决开源社区激励透明化问题</p><p>34:43 &nbsp;&nbsp;&nbsp;OpenBuild 的发展历程与社区运营心得</p><p>38:27 &nbsp;&nbsp;&nbsp;OpenBuild 的免费课程与学习路径</p><p>40:00 &nbsp;&nbsp;&nbsp;Java、Python、Rust 在 Web3 中的定位</p><p>42:35 &nbsp;&nbsp;&nbsp;为什么推荐老程序员学 Rust？</p><p>46:42 &nbsp;&nbsp;&nbsp;OpenBuild 如何支持开源项目与开发者</p><p>50:07 &nbsp;&nbsp;&nbsp;成功案例：开发者通过开源项目获得资助</p><p>54:20 &nbsp;&nbsp;&nbsp;RustConf 2025 预告与 Web3 赞助</p><p>58:12 &nbsp;&nbsp;&nbsp;国内大厂与银行在 Web3 的布局</p><p>01:01:33 &nbsp;&nbsp;&nbsp;Web3 中的 Grants 与黑客松奖金机会</p><p>01:05:06 &nbsp;&nbsp;&nbsp;Web3 工作的薪资、远程与文化体验</p><p>01:08:05 &nbsp;&nbsp;&nbsp;AI 如何影响 Web3 开发与项目叙事</p><p>01:12:10 &nbsp;&nbsp;&nbsp;OpenBuild 在AI方面的应用与工具</p><p>01:17:16 &nbsp;&nbsp;&nbsp;Web3 作为技术工具的价值与心态建议</p><h2><br></h2>",
+      "content": "<h2><strong>介绍</strong></h2><p>新播客来啦，这次我们邀请到了 OpenBuild 社区的创始人许银，与主持人辛宝、Smart 一起深入探讨了 Web3 技术生态、开发者转型路径、智能合约开发、Rust 语言在 Web3 中的重要性，以及 AI 与 Web3 的结合等内容。许银分享了从 Web2 到 Web3 的实战经验、OpenBuild 社区的运营理念，以及如何通过开源项目和黑客松快速进入 Web3 领域。</p><figure><img src=\"https://image.xyzcdn.net/Fj-XwUGTI_15JIfTiqXyZoz462cr.png\"/></figure><h2><strong>嘉宾信息</strong></h2><ul>  <li>许银    <ul>      <li><a href=\"https://openbuild.xyz/\">OpenBuild </a>联合创始人</li>      <li>Rust 社区核心组织者</li>      <li>开源社理事</li>    </ul>  </li></ul><h2><strong>时间轴</strong></h2><p>00:00 &nbsp;&nbsp;&nbsp;开场介绍：播客主题与嘉宾许银</p><p>01:04 &nbsp;&nbsp;&nbsp;许银自我介绍：开源社区背景与 OpenBuild</p><p>02:04 &nbsp;&nbsp;&nbsp;什么是 Web3？与 Web2 的区别</p><p>07:04 &nbsp;&nbsp;&nbsp;智能合约开发入门与前端转型优势</p><p>14:06 &nbsp;&nbsp;&nbsp;Web3 登录与数据交互流程详解</p><p>20:05 &nbsp;&nbsp;&nbsp;开发者转型 Web3 的心理与路径建议</p><p>24:16 &nbsp;&nbsp;&nbsp;许银的个人转型经历与 OpenBuild 起源</p><p>28:51 &nbsp;&nbsp;&nbsp;Web3 如何解决开源社区激励透明化问题</p><p>34:43 &nbsp;&nbsp;&nbsp;OpenBuild 的发展历程与社区运营心得</p><p>38:27 &nbsp;&nbsp;&nbsp;OpenBuild 的免费课程与学习路径</p><p>40:00 &nbsp;&nbsp;&nbsp;Java、Python、Rust 在 Web3 中的定位</p><p>42:35 &nbsp;&nbsp;&nbsp;为什么推荐老程序员学 Rust？</p><p>46:42 &nbsp;&nbsp;&nbsp;OpenBuild 如何支持开源项目与开发者</p><p>50:07 &nbsp;&nbsp;&nbsp;成功案例：开发者通过开源项目获得资助</p><p>54:20 &nbsp;&nbsp;&nbsp;RustConf 2025 预告与 Web3 赞助</p><p>58:12 &nbsp;&nbsp;&nbsp;国内大厂与银行在 Web3 的布局</p><p>01:01:33 &nbsp;&nbsp;&nbsp;Web3 中的 Grants 与黑客松奖金机会</p><p>01:05:06 &nbsp;&nbsp;&nbsp;Web3 工作的薪资、远程与文化体验</p><p>01:08:05 &nbsp;&nbsp;&nbsp;AI 如何影响 Web3 开发与项目叙事</p><p>01:12:10 &nbsp;&nbsp;&nbsp;OpenBuild 在AI方面的应用与工具</p><p>01:17:16 &nbsp;&nbsp;&nbsp;Web3 作为技术工具的价值与心态建议</p><h2><br></h2>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/68a71a3a293471fed4ca4472/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lqqRzXUr13A4kriVLOq5xMuFFQ-z.m4a",
+        "type": "audio/mp4",
+        "length": 162093853,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践",
+      "pubDate": "Thu, 07 Aug 2025 00:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/689380bc46542d8c41d9b4e2?utm_source=rss",
+      "guid": "689380bc46542d8c41d9b4e2",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/FpVn5RVO8LJ801rd91Oe1sb5MH0h.png",
+      "description": "<p>新一期播客来了。最近的 VueConf 上有很多优秀的大佬分享了参与前端、开源、Vue 的感受，Web Worker 邀请到了 Vue 的核心成员绚香音加入闲聊，来聊聊她眼中的 Vapor Mode。</p><figure><img src=\"https://image.xyzcdn.net/Fi14pxgaeB3x_1Fioos97XiLca0h.png\"/></figure><p>在技术之外我们聊 3D 打印，如何愉快自信地在众人面前做演讲，如何像打魂系游戏一样面对技术的挑战。</p><p>欢迎评论和互动</p><h2>嘉宾介绍</h2><figure><img src=\"https://image.xyzcdn.net/Fjy8wQVrNkj2fkjTcJ6plwp5Nioy.jpg\"/></figure><ul>  <li>绚香音 <a href=\"https://x.com/OikawaRizumu\">X@OikawaRizumu</a> 知乎首页 <a href=\"https://github.com/LittleSound\">Github</a></li>  <li>小音<a href=\"https://x.com/oikawarizumu/status/1949650813632020946\">打印了 Web Worker 的小饼干</a></li></ul><figure><img src=\"https://image.xyzcdn.net/FomLW2nX4hX97uTQSEhnhs4pRQa2.jpg\"/></figure><h2>时间轴</h2><p>00:00 最近有个 VueConf 2025 在深圳举办。核心的 Vue3.6 我们之前节目里讲过 Johnson 和 Doctor Wu 参与的响应式。除此之外 <a href=\"https://www.vuemastery.com/blog/the-future-of-vue-vapor-mode/#why-vapor-mode\">Vapor Mode 介绍</a> 也是大头，我们邀请了绚香音来聊聊 - <a href=\"https://github.com/LittleSound/talks/tree/main/2025-07-12\">VueConf 2025 Shenzhen 小音的分享</a></p><p>02:27 先来聊聊 3D 打印吧。小音<a href=\"https://x.com/search?q=from:OikawaRizumu%20%E5%B0%8F%E9%A5%BC%E5%B9%B2&amp;src=typed_query&amp;f=live\">打印的小饼干合集</a></p><p>17:24 聊聊参与开源的经历，和 Vapor Mode 的缘分、和智子奇妙的缘分</p><p>36:06 参与VaporMode，早期的难度比较大，就像魂系游戏打怪升级。也有点像 i+1</p><p>42:46 VueNotion 上的全英文演讲，和 AntFu 奇妙的缘分</p><p>48:28 在 VueConf 线下分享的感受，找裕波报名。以及内向外向人格的讨论。</p><p>55:05 当初参与开源的经历。和 VueUse 奇妙的缘分。</p><p>01:01:20 参与 AdventureX2024，参加比赛的 CodeAgent - <a href=\"https://guii.ai/\">Guii.AI</a> 一口气拿了 <a href=\"https://x.com/OikawaRizumu/status/1814225750230528109\">四个第一</a></p><p>01:09:18 时光荏苒，这一年来 CodeAgent 已经深入人心了，从 Copilot 到 Agent</p><p>01:10:30 AI 辅助下的人生记事本，第二大脑。我们聊笔记+RAG 的想法</p><p>01:22:12 给前端初学者一些踩坑经验，经验思考。也聊 DeadLine 驱动</p><figure><img src=\"https://image.xyzcdn.net/ls9qQk0DMq5aU4q8Fbi7_9ZNlA2B.jpg\"/></figure><p>程序员晒桌面</p><p>键盘是 minila-r</p><figure><img src=\"https://image.xyzcdn.net/Fslai1pP0ws4vx8EHPPyT3yvz_qe.png\"/></figure>",
+      "content": "<p>新一期播客来了。最近的 VueConf 上有很多优秀的大佬分享了参与前端、开源、Vue 的感受，Web Worker 邀请到了 Vue 的核心成员绚香音加入闲聊，来聊聊她眼中的 Vapor Mode。</p><figure><img src=\"https://image.xyzcdn.net/Fi14pxgaeB3x_1Fioos97XiLca0h.png\"/></figure><p>在技术之外我们聊 3D 打印，如何愉快自信地在众人面前做演讲，如何像打魂系游戏一样面对技术的挑战。</p><p>欢迎评论和互动</p><h2>嘉宾介绍</h2><figure><img src=\"https://image.xyzcdn.net/Fjy8wQVrNkj2fkjTcJ6plwp5Nioy.jpg\"/></figure><ul>  <li>绚香音 <a href=\"https://x.com/OikawaRizumu\">X@OikawaRizumu</a> 知乎首页 <a href=\"https://github.com/LittleSound\">Github</a></li>  <li>小音<a href=\"https://x.com/oikawarizumu/status/1949650813632020946\">打印了 Web Worker 的小饼干</a></li></ul><figure><img src=\"https://image.xyzcdn.net/FomLW2nX4hX97uTQSEhnhs4pRQa2.jpg\"/></figure><h2>时间轴</h2><p>00:00 最近有个 VueConf 2025 在深圳举办。核心的 Vue3.6 我们之前节目里讲过 Johnson 和 Doctor Wu 参与的响应式。除此之外 <a href=\"https://www.vuemastery.com/blog/the-future-of-vue-vapor-mode/#why-vapor-mode\">Vapor Mode 介绍</a> 也是大头，我们邀请了绚香音来聊聊 - <a href=\"https://github.com/LittleSound/talks/tree/main/2025-07-12\">VueConf 2025 Shenzhen 小音的分享</a></p><p>02:27 先来聊聊 3D 打印吧。小音<a href=\"https://x.com/search?q=from:OikawaRizumu%20%E5%B0%8F%E9%A5%BC%E5%B9%B2&amp;src=typed_query&amp;f=live\">打印的小饼干合集</a></p><p>17:24 聊聊参与开源的经历，和 Vapor Mode 的缘分、和智子奇妙的缘分</p><p>36:06 参与VaporMode，早期的难度比较大，就像魂系游戏打怪升级。也有点像 i+1</p><p>42:46 VueNotion 上的全英文演讲，和 AntFu 奇妙的缘分</p><p>48:28 在 VueConf 线下分享的感受，找裕波报名。以及内向外向人格的讨论。</p><p>55:05 当初参与开源的经历。和 VueUse 奇妙的缘分。</p><p>01:01:20 参与 AdventureX2024，参加比赛的 CodeAgent - <a href=\"https://guii.ai/\">Guii.AI</a> 一口气拿了 <a href=\"https://x.com/OikawaRizumu/status/1814225750230528109\">四个第一</a></p><p>01:09:18 时光荏苒，这一年来 CodeAgent 已经深入人心了，从 Copilot 到 Agent</p><p>01:10:30 AI 辅助下的人生记事本，第二大脑。我们聊笔记+RAG 的想法</p><p>01:22:12 给前端初学者一些踩坑经验，经验思考。也聊 DeadLine 驱动</p><figure><img src=\"https://image.xyzcdn.net/ls9qQk0DMq5aU4q8Fbi7_9ZNlA2B.jpg\"/></figure><p>程序员晒桌面</p><p>键盘是 minila-r</p><figure><img src=\"https://image.xyzcdn.net/Fslai1pP0ws4vx8EHPPyT3yvz_qe.png\"/></figure>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/689380bc46542d8c41d9b4e2/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lotZRbmTiUCd32PzXOCakUaoMjpK.m4a",
+        "type": "audio/mp4",
+        "length": 87347967,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.80 2025 年，鸿蒙开发可以搞了吗？",
+      "pubDate": "Wed, 23 Jul 2025 23:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6880d985a9dec92500cd6da9?utm_source=rss",
+      "guid": "6880d985a9dec92500cd6da9",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/FtrH7SJSUmO8KkcWMcZv_YgqZwpf.png",
+      "description": "<h2>介绍</h2><p>Hi，大家好啊。这期节目中我们邀请到了鸿蒙布道师坚果来和大家聊聊鸿蒙到底是什么？不同人的鸿蒙是不是一个鸿蒙。在节目中我们谈到了鸿蒙的生态、鸿蒙的开发、鸿蒙的未来，当然也不要有心理负担。都是最基础的科普，甚至还有“手把手”入门教程。相信你听完节目会有自己的判断，鸿蒙开发要不要即刻打开教程开始学习！</p><ul>  <li>主播：辛宝Otto、Smart</li>  <li>嘉宾：坚果</li>  <li>监制：辛宝</li>  <li>后期：辛宝</li>  <li>发布：Smart</li></ul><h2>时间轴</h2><p>00:58 什么是鸿蒙：HarmonyOS 与 OpenHarmony</p><p>08:58 开源共建：超50家企业协同开发</p><p>10:18 如何低成本的体验鸿蒙？OpenHarmony开发板</p><p>25:44 解析ArkTS声明式UI开发范式</p><p>30:58 前人轮子后人用：NPM库在OHPM的复用规则</p><p>39:27 惊喜！OHPM三方库数量（4300+）</p><p>49:52 Flutter/RN对鸿蒙的适配</p><p>54:59 揭示ArkTS应用体积优势</p><p>59:44 开源贡献带来的职业机遇</p><p>01:26:17 鸿蒙开发三阶段路径</p><h2>嘉宾介绍</h2><h2><a href=\"https://www.nutpi.net/\">坚果派</a></h2><p><a href=\"https://zhuanlan.zhihu.com/p/1931116390552674944\">问答精选</a></p><h2>联系我们</h2><h2>希望大家在听友群和评论区多多和我们互动，这对我们来说十分重要。</h2>",
+      "content": "<h2>介绍</h2><p>Hi，大家好啊。这期节目中我们邀请到了鸿蒙布道师坚果来和大家聊聊鸿蒙到底是什么？不同人的鸿蒙是不是一个鸿蒙。在节目中我们谈到了鸿蒙的生态、鸿蒙的开发、鸿蒙的未来，当然也不要有心理负担。都是最基础的科普，甚至还有“手把手”入门教程。相信你听完节目会有自己的判断，鸿蒙开发要不要即刻打开教程开始学习！</p><ul>  <li>主播：辛宝Otto、Smart</li>  <li>嘉宾：坚果</li>  <li>监制：辛宝</li>  <li>后期：辛宝</li>  <li>发布：Smart</li></ul><h2>时间轴</h2><p>00:58 什么是鸿蒙：HarmonyOS 与 OpenHarmony</p><p>08:58 开源共建：超50家企业协同开发</p><p>10:18 如何低成本的体验鸿蒙？OpenHarmony开发板</p><p>25:44 解析ArkTS声明式UI开发范式</p><p>30:58 前人轮子后人用：NPM库在OHPM的复用规则</p><p>39:27 惊喜！OHPM三方库数量（4300+）</p><p>49:52 Flutter/RN对鸿蒙的适配</p><p>54:59 揭示ArkTS应用体积优势</p><p>59:44 开源贡献带来的职业机遇</p><p>01:26:17 鸿蒙开发三阶段路径</p><h2>嘉宾介绍</h2><h2><a href=\"https://www.nutpi.net/\">坚果派</a></h2><p><a href=\"https://zhuanlan.zhihu.com/p/1931116390552674944\">问答精选</a></p><h2>联系我们</h2><h2>希望大家在听友群和评论区多多和我们互动，这对我们来说十分重要。</h2>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6880d985a9dec92500cd6da9/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lpFBaOP-jGk06X4s8kdlGU7Y23tl.m4a",
+        "type": "audio/mp4",
+        "length": 84226790,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变",
+      "pubDate": "Wed, 16 Jul 2025 23:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6870ab0460f8f77d40f84b4c?utm_source=rss",
+      "guid": "6870ab0460f8f77d40f84b4c",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/FpVn5RVO8LJ801rd91Oe1sb5MH0h.png",
+      "description": "<h2>介绍</h2><p>哈喽啊，各位久等了。本期播客我们邀请到了字节跳动Web Infra团队的heal一起聊聊模块联邦2.0的那些事儿。作为这项技术的核心开发者，heal用通俗易懂的方式给我们讲解了模块联邦从1.0到2.0的蜕变历程，包括如何摆脱Webpack的限制，实现更灵活的架构设计。</p><p>在节目中，heal分享了不少实战经验：在字节跳动内部，模块联邦是如何支撑起复杂的前端架构的；它和微前端方案Garfish如何各司其职又相互配合；还有那些正在研发中的新特性，比如SSR优化、跨端支持等。这期内容既有技术深度又不失趣味性，无论你是想了解前沿技术趋势，还是正在寻找工程化解决方案，相信都能从中获得启发。对了，文末我们还准备了相关开源项目的获取方式，感兴趣的朋友可以继续深入探索。</p><h2>时间轴</h2><p>00:02 - 开场介绍，嘉宾heal（模块联邦2.0开发者）加入。</p><p>00:42 - 模块联邦（Module Federation）技术名词解析。</p><p>01:25 - 模块联邦1.0的痛点：绑定Webpack、调试复杂、缺乏最佳实践。</p><p>02:39 &nbsp;模块联邦2.0的改进：独立于构建工具，支持Webpack/Vite/Rspack。</p><p>04:20 &nbsp;模块联邦在字节跳动的应用：跨团队协作与微前端实践。</p><p>06:34 &nbsp;模块联邦典型场景：技术中台、动态加载组件/页面/应用。</p><p>10:30 &nbsp;模块联邦2.0的核心协议：`manifest` 标准化与版本控制。</p><p>12:48 &nbsp;迁移到2.0的实践：新手友好文档、脚手架工具、社区插件支持。</p><p>18:20 &nbsp;社区生态：Nx插件周下载量370万+，适配Vite/Rollup等。</p><p>24:27 &nbsp;开源故事：从内部Fork到与原作者合作，最终开源。</p><p>28:09 &nbsp;未来规划：SSR优化、RSC支持、AI结合（如Copilot）。</p><p>36:00 &nbsp;前端基建的扩展：跨端（Lynx）、共享依赖Tree Shaking。</p><p>52:34 &nbsp;嘉宾分享：工作经历、生活平衡、给新人的建议。</p><h2>历史节目</h2><p><a href=\"https://www.xiaoyuzhoufm.com/episodes/667d7e4dc37399840c90e64f\">No.56 和拳头了解Rspack和基建开源的故事，祝大家成为更好的Web Worker</a></p><h2>嘉宾</h2><ul>  <li><a href=\"https://webpack.js.org/concepts/module-federation/\">模块联邦（Module Federation）</a></li>  <li><a href=\"https://github.com/module-federation\">Module Federation</a></li>  <li><a href=\"https://garfishjs.org/\">Garfish微前端框架</a></li>  <li><a href=\"https://modernjs.dev/\">Modern.js</a></li>  <li><a href=\"https://www.rspack.dev/\">Rspack</a></li>  <li><a href=\"https://github.com/2heal1\">heal的github</a></li></ul>",
+      "content": "<h2>介绍</h2><p>哈喽啊，各位久等了。本期播客我们邀请到了字节跳动Web Infra团队的heal一起聊聊模块联邦2.0的那些事儿。作为这项技术的核心开发者，heal用通俗易懂的方式给我们讲解了模块联邦从1.0到2.0的蜕变历程，包括如何摆脱Webpack的限制，实现更灵活的架构设计。</p><p>在节目中，heal分享了不少实战经验：在字节跳动内部，模块联邦是如何支撑起复杂的前端架构的；它和微前端方案Garfish如何各司其职又相互配合；还有那些正在研发中的新特性，比如SSR优化、跨端支持等。这期内容既有技术深度又不失趣味性，无论你是想了解前沿技术趋势，还是正在寻找工程化解决方案，相信都能从中获得启发。对了，文末我们还准备了相关开源项目的获取方式，感兴趣的朋友可以继续深入探索。</p><h2>时间轴</h2><p>00:02 - 开场介绍，嘉宾heal（模块联邦2.0开发者）加入。</p><p>00:42 - 模块联邦（Module Federation）技术名词解析。</p><p>01:25 - 模块联邦1.0的痛点：绑定Webpack、调试复杂、缺乏最佳实践。</p><p>02:39 &nbsp;模块联邦2.0的改进：独立于构建工具，支持Webpack/Vite/Rspack。</p><p>04:20 &nbsp;模块联邦在字节跳动的应用：跨团队协作与微前端实践。</p><p>06:34 &nbsp;模块联邦典型场景：技术中台、动态加载组件/页面/应用。</p><p>10:30 &nbsp;模块联邦2.0的核心协议：`manifest` 标准化与版本控制。</p><p>12:48 &nbsp;迁移到2.0的实践：新手友好文档、脚手架工具、社区插件支持。</p><p>18:20 &nbsp;社区生态：Nx插件周下载量370万+，适配Vite/Rollup等。</p><p>24:27 &nbsp;开源故事：从内部Fork到与原作者合作，最终开源。</p><p>28:09 &nbsp;未来规划：SSR优化、RSC支持、AI结合（如Copilot）。</p><p>36:00 &nbsp;前端基建的扩展：跨端（Lynx）、共享依赖Tree Shaking。</p><p>52:34 &nbsp;嘉宾分享：工作经历、生活平衡、给新人的建议。</p><h2>历史节目</h2><p><a href=\"https://www.xiaoyuzhoufm.com/episodes/667d7e4dc37399840c90e64f\">No.56 和拳头了解Rspack和基建开源的故事，祝大家成为更好的Web Worker</a></p><h2>嘉宾</h2><ul>  <li><a href=\"https://webpack.js.org/concepts/module-federation/\">模块联邦（Module Federation）</a></li>  <li><a href=\"https://github.com/module-federation\">Module Federation</a></li>  <li><a href=\"https://garfishjs.org/\">Garfish微前端框架</a></li>  <li><a href=\"https://modernjs.dev/\">Modern.js</a></li>  <li><a href=\"https://www.rspack.dev/\">Rspack</a></li>  <li><a href=\"https://github.com/2heal1\">heal的github</a></li></ul>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6870ab0460f8f77d40f84b4c/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/llQwRoUk2Mtgw1sG6okB3AYd9pZo.m4a",
+        "type": "audio/mp4",
+        "length": 60903731,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
       "title": "No.78 AI 时代前端还有多少时间？一起看 OpenSource Award 榜单",
       "pubDate": "Thu, 03 Jul 2025 15:40:05 GMT",
       "link": "https://www.xiaoyuzhoufm.com/episode/6866a38d60f8f77d40b7cd43?utm_source=rss",
@@ -186,7 +274,7 @@
       "categories": []
     },
     {
-      "title": "No.70 2E1I的串台：Devmore x 持续集成 x Web Worker",
+      "title": "No.70 你们都是技术网红！串台Devmore x 持续集成",
       "pubDate": "Tue, 21 Jan 2025 00:00:00 GMT",
       "link": "https://www.xiaoyuzhoufm.com/episode/678e5fb5c3617f02a4139b5e?utm_source=rss",
       "guid": "678e5fb5c3617f02a4139b5e",
@@ -208,14 +296,14 @@
       "categories": []
     },
     {
-      "title": "No.69 和几位主播总结播客和自己的 2024",
+      "title": "No.69 联欢：去年录了这些节目，有了一些成长",
       "pubDate": "Sun, 05 Jan 2025 15:39:20 GMT",
       "link": "https://www.xiaoyuzhoufm.com/episode/677aa52a15a5fd520e3b23c3?utm_source=rss",
       "guid": "677aa52a15a5fd520e3b23c3",
       "author": "",
       "thumbnail": "https://image.xyzcdn.net/FpVn5RVO8LJ801rd91Oe1sb5MH0h.png",
-      "description": "<h2>## 介绍</h2><p>2024 年终总结来了，本次主播 辛宝、刘威、小白菜、kaiyi、Smart 组织闲聊，给听友汇报播客的节目、感受和展望。希望过去的一年能帮助、陪伴到各位。</p><p>希望大家能陪伴、见证彼此的成长。</p><h2>## 时间轴</h2><p>00:00 开始年度节目回顾</p><p>﻿01:04:43回顾结束，整体感受、2025 播客展望</p><p>﻿01:15:32主播们自己的生活变化、未来展望</p>",
-      "content": "<h2>## 介绍</h2><p>2024 年终总结来了，本次主播 辛宝、刘威、小白菜、kaiyi、Smart 组织闲聊，给听友汇报播客的节目、感受和展望。希望过去的一年能帮助、陪伴到各位。</p><p>希望大家能陪伴、见证彼此的成长。</p><h2>## 时间轴</h2><p>00:00 开始年度节目回顾</p><p>﻿01:04:43回顾结束，整体感受、2025 播客展望</p><p>﻿01:15:32主播们自己的生活变化、未来展望</p>",
+      "description": "<h2>## 介绍</h2><p>2024 年终总结来了，本次主播 辛宝、刘威、小白菜、kaiyi、Smart 组织闲聊，给听友汇报播客的节目、感受和展望。希望过去的一年能帮助、陪伴到各位。</p><p>希望大家能陪伴、见证彼此的成长。</p><h2>## 时间轴</h2><p>00:00 开始年度节目回顾</p><p>01:04:43回顾结束，整体感受、2025 播客展望</p><p>01:15:32主播们自己的生活变化、未来展望</p>",
+      "content": "<h2>## 介绍</h2><p>2024 年终总结来了，本次主播 辛宝、刘威、小白菜、kaiyi、Smart 组织闲聊，给听友汇报播客的节目、感受和展望。希望过去的一年能帮助、陪伴到各位。</p><p>希望大家能陪伴、见证彼此的成长。</p><h2>## 时间轴</h2><p>00:00 开始年度节目回顾</p><p>01:04:43回顾结束，整体感受、2025 播客展望</p><p>01:15:32主播们自己的生活变化、未来展望</p>",
       "enclosure": {
         "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/677aa52a15a5fd520e3b23c3/media.xyzcdn.net/lpRoCSuQ37HVNvxDb0puqgNeiLR3.m4a",
         "type": "audio/mp4",
@@ -252,7 +340,7 @@
       "categories": []
     },
     {
-      "title": "No.67 和 Bug-Duck 团队聊青少年前端开源之路",
+      "title": "No.67 和Bug Duck 团队聊青少年前端开源启航",
       "pubDate": "Fri, 13 Dec 2024 00:00:00 GMT",
       "link": "https://www.xiaoyuzhoufm.com/episode/675afad884447b1bd06ca58c?utm_source=rss",
       "guid": "675afad884447b1bd06ca58c",
