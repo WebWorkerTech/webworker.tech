@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-16">
+  <section id="episodesSection" class="mb-16">
     <div class="flex items-center justify-between mb-8">
       <h2 class="text-2xl md:text-3xl font-bold">{{ title }}</h2>
     </div>

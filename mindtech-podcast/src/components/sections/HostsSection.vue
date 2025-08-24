@@ -1,6 +1,6 @@
 <template>
   <section class="mb-16">
-    <div class="flex items-center justify-between mb-8">
+    <!-- <div class="flex items-center justify-between mb-8">
       <h2 class="text-2xl md:text-3xl font-bold">热门主播</h2>
       <a
         href="/hosts"
@@ -13,7 +13,7 @@
 
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
       <HostCard v-for="host in hosts" :key="host.id" :host="host" />
-    </div>
+    </div> -->
   </section>
 </template>
 

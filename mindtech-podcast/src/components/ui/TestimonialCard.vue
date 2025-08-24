@@ -1,5 +1,6 @@
 <template>
   <div
+    id="testimonial-card"
     class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
   >
     <div class="flex items-center gap-1 text-yellow-400 mb-4">
@@ -11,7 +12,7 @@
       />
     </div>
 
-    <p class="text-slate-600 mb-6">{{ testimonial.content }}</p>
+    <p class="mb-6 min-h-[2.5em] line-clamp-2">{{ testimonial.content }}</p>
 
     <div class="flex items-center gap-3">
       <img
@@ -21,7 +22,7 @@
       />
       <div>
         <h4 class="font-medium">{{ testimonial.name }}</h4>
-        <p class="text-xs text-slate-500">{{ testimonial.title }}</p>
+        <p class="text-xs text-slate-500">{{ testimonial.role }}</p>
       </div>
     </div>
   </div>

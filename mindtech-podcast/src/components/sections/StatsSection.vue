@@ -49,12 +49,12 @@ const stats = computed(() => [
     label: '特邀嘉宾',
   },
   {
-    value: formatNumber(props.stats.monthlyListeners),
-    label: '月活跃听众',
+    value: props.stats.monthlyListeners,
+    label: '累计播放',
   },
   {
-    value: props.stats.averageRating.toFixed(1),
-    label: '平均评分',
+    value: props.stats.duration + '天',
+    label: '开播至今',
   },
 ])
 

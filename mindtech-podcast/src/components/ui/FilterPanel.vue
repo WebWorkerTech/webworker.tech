@@ -6,7 +6,7 @@
     </h3>
 
     <!-- Category Filter -->
-    <div class="mb-6">
+    <!-- <div class="mb-6">
       <label class="block text-sm font-medium text-slate-700 mb-3">分类</label>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
         <button
@@ -26,10 +26,10 @@
           </div>
         </button>
       </div>
-    </div>
+    </div> -->
 
     <!-- Date Range Filter -->
-    <div class="mb-6">
+    <!-- <div class="mb-6">
       <label class="block text-sm font-medium text-slate-700 mb-3"
         >发布时间</label
       >
@@ -48,10 +48,10 @@
           {{ range.label }}
         </button>
       </div>
-    </div>
+    </div> -->
 
     <!-- Duration Filter -->
-    <div class="mb-6">
+    <!-- <div class="mb-6">
       <label class="block text-sm font-medium text-slate-700 mb-3"
         >节目时长</label
       >
@@ -70,7 +70,7 @@
           {{ duration.label }}
         </button>
       </div>
-    </div>
+    </div> -->
 
     <!-- Sort Options -->
     <div class="mb-6">

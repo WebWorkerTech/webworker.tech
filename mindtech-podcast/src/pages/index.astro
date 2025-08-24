@@ -21,37 +21,34 @@ const latestEpisodes = getLatestEpisodes(6)
 // Mock stats data
 const stats: PodcastStats = {
   totalEpisodes: podcastData.episodes.length,
-  totalHosts: hosts.length,
-  monthlyListeners: 15200,
-  averageRating: 4.8,
+  totalHosts: '50+',
+  monthlyListeners: '30w+',
+  // duration 计算 2021-09-22 至今的天数
+  duration: Math.floor(
+    (+new Date() - +new Date('2021-09-22')) / (1000 * 60 * 60 * 24)
+  ),
 }
 
 // Mock testimonials data
 const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: '李明',
+    name: '小伐童鞋',
     role: '前端工程师',
-    avatar: 'https://picsum.photos/100/100?random=1',
-    content:
-      '这个播客让我深度了解了前端技术背后的思考逻辑，每期都有很多干货分享。',
+    avatar:
+      'data:image/png;base64,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',
+    content: '好评，围绕前端程序员来聊的播客，比较少见',
     rating: 5,
   },
   {
     id: '2',
-    name: '张涵',
-    role: '产品经理',
-    avatar: 'https://picsum.photos/100/100?random=2',
-    content: 'Web Worker播客不仅聊技术，更从前端开发的角度探讨技术，视角独特。',
+    name: 'Lixinz',
+    role: '前端工程师',
+    avatar:
+      'data:image/png;base64,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',
+    content:
+      '对于前端野路子过来，可以听听前端相关大佬闲聊，扩充见识，了解前端趣闻',
     rating: 5,
-  },
-  {
-    id: '3',
-    name: '王策',
-    role: '全栈开发者',
-    avatar: 'https://picsum.photos/100/100?random=3',
-    content: '主播们的讨论很深入，经常能听到一些新的观点和思考方式。',
-    rating: 4,
   },
 ]
 import type { Category } from '@/types/podcast'
@@ -94,7 +91,7 @@ const categories: Category[] = [
 <Layout title="Web Worker - 前端程序员都爱听的播客平台">
   <Header client:load />
 
-  <main class="container mx-auto px-4 py-8 md:py-12 pb-24">
+  <main class="container mx-auto px-4 py-4 md:py-12">
     <!-- Hero Section -->
     <HeroSection client:load featuredEpisode={latestEpisodes[0]} />
 

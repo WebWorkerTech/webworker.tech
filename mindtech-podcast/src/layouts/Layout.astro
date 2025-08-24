@@ -9,8 +9,8 @@ export interface Props {
 
 const {
   title,
-  description = '前端程序员闲聊的中文音频播客节目，围绕程序员领域聊资讯、聊职场、聊技术选型，只要是和 web 开发有关的都可以聊。',
-  image = '/og-image.jpg',
+  description = '前端程序员闲聊的中文播客节目',
+  image = '/logo500.webp',
 } = Astro.props
 ---
 
@@ -22,6 +22,13 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/webp" href="/logo500.webp" />
     <meta name="generator" content={Astro.generator} />
+
+    <link
+      href="https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35"
+      rel="alternate"
+      title="Web Worker 播客 小宇宙"
+      type="application/rss+xml"
+    />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
@@ -35,14 +42,6 @@ const {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
 
-    <!-- Preload fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    /> -->
-
     <title>{title}</title>
   </head>
   <body class="min-h-screen bg-cream-50 font-sans">
@@ -50,7 +49,6 @@ const {
       <slot />
     </div>
 
-    <!-- Background decoration -->
     <div class="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
       <div
         class="absolute -top-40 -right-32 w-96 h-96 bg-mint-100/30 rounded-full blur-3xl"
@@ -66,7 +64,6 @@ const {
 
 <style is:global>
   html {
-    /* font-family: 'Inter', system-ui, sans-serif; */
     font-family: var(--font-family);
   }
 

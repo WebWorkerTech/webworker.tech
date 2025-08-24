@@ -266,9 +266,9 @@ const filteredEpisodes = computed(() => {
     result = result.filter(
       (episode) =>
         episode.title.toLowerCase().includes(query) ||
-        episode.description?.toLowerCase().includes(query) ||
-        episode.content?.toLowerCase().includes(query) ||
-        episode.author?.toLowerCase().includes(query),
+        episode.description?.toLowerCase().includes(query),
+      // || episode.content?.toLowerCase().includes(query) ||
+      // episode.author?.toLowerCase().includes(query),
     )
   }
 
@@ -308,7 +308,7 @@ const filteredEpisodes = computed(() => {
   // Duration filter
   if (currentFilters.value.duration !== 'all') {
     result = result.filter((episode) => {
-      const duration = episode.enclosure?.duration || episode.duration
+      const duration = (episode as any).enclosure?.duration || episode.duration
       if (typeof duration !== 'number') return true
 
       switch (currentFilters.value.duration) {

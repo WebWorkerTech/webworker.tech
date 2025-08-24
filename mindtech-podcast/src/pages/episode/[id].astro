@@ -1,5 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro'
+import Header from '@/components/layout/Header.vue'
+import Footer from '@/components/layout/Footer.vue'
 import { getEpisodeById } from '@/utils/podcast'
 import {
   ChevronLeft,
@@ -29,6 +31,8 @@ if (!episode) {
 ---
 
 <Layout title={episode.title}>
+  <Header client:load />
+
   <main class="container mx-auto px-4 py-8 pb-24">
     <!-- Episode Header -->
     <div class="max-w-4xl mx-auto">
@@ -134,7 +138,7 @@ if (!episode) {
                 )
               }
 
-              <button
+              <!-- <button
                 class="flex items-center gap-2 bg-cream-100 text-slate-700 px-4 py-2 rounded-full hover:bg-cream-200 transition-colors"
               >
                 <Share class="w-4 h-4" />
@@ -148,7 +152,7 @@ if (!episode) {
               >
                 <Download class="w-4 h-4" />
                 下载
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -196,42 +200,5 @@ if (!episode) {
       </div>
     </div>
   </main>
+  <Footer client:load />
 </Layout>
-
-<style>
-  .prose h2 {
-    @apply text-xl font-bold mt-8 mb-4;
-  }
-
-  .prose h3 {
-    @apply text-lg font-bold mt-6 mb-3;
-  }
-
-  .prose p {
-    @apply mb-4 leading-relaxed;
-  }
-
-  .prose ul {
-    @apply list-disc list-inside mb-4 space-y-2;
-  }
-
-  .prose ol {
-    @apply list-decimal list-inside mb-4 space-y-2;
-  }
-
-  .prose a {
-    @apply text-mint-400 hover:text-mint-500 underline;
-  }
-
-  .prose img {
-    @apply rounded-lg shadow-md my-6;
-  }
-
-  .prose figure {
-    @apply my-6;
-  }
-
-  .prose figure img {
-    @apply w-full;
-  }
-</style>

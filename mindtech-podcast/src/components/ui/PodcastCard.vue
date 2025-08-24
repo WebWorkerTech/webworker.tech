@@ -1,17 +1,13 @@
 <template>
   <article
-    class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+    class="podcast-card-article group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
     @click="goToDetail"
   >
     <div class="relative">
       <img
-        :src="
-          episode.thumbnail ||
-          episode.imageUrl ||
-          'https://picsum.photos/600/400?random=6'
-        "
+        :src="episode.imageUrl"
         :alt="episode.title"
-        class="w-full h-48 object-cover"
+        class="w-full h-30 object-cover"
       />
       <div
         class="absolute inset-0 bg-linear-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
@@ -26,11 +22,6 @@
           <Play class="w-5 h-5 ml-0.5" />
         </button>
       </div>
-      <div
-        class="absolute top-4 right-4 bg-slate-900/80 text-white text-xs px-2 py-1 rounded"
-      >
-        {{ formatDuration(episode.duration) }}
-      </div>
     </div>
 
     <div class="p-6">
@@ -38,7 +29,7 @@
         <span
           class="text-xs px-2 py-1 bg-cream-100 text-slate-600 rounded-full"
         >
-          {{ episode.category || '技术播客' }}
+          {{ '技术播客' }}
         </span>
         <span class="text-xs text-slate-400">{{
           formatDate(episode.pubDate)
@@ -62,9 +53,7 @@
           >
             <Mic class="w-4 h-4 text-mint-400" />
           </div>
-          <span class="text-sm font-medium">{{
-            episode.author || 'Web Worker'
-          }}</span>
+          <span class="text-sm font-medium">{{ 'Web Worker' }}</span>
         </div>
         <button
           @click.stop="toggleBookmark"

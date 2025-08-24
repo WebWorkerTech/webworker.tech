@@ -13,22 +13,24 @@ const allEpisodes = podcastData.episodes
 // Get categories for filtering
 const categories = [
   { id: 'all', name: '全部', count: allEpisodes.length },
-  { id: '1', name: '编程范式', count: 12 },
-  { id: '2', name: '开发者社区', count: 8 },
-  { id: '3', name: '产品思维', count: 6 },
-  { id: '4', name: '人工智能', count: 15 },
-  { id: '5', name: '开源项目', count: 10 },
-  { id: '6', name: '技术管理', count: 7 },
+  // { id: '1', name: '编程范式', count: 12 },
+  // { id: '2', name: '开发者社区', count: 8 },
+  // { id: '3', name: '产品思维', count: 6 },
+  // { id: '4', name: '人工智能', count: 15 },
+  // { id: '5', name: '开源项目', count: 10 },
+  // { id: '6', name: '技术管理', count: 7 },
 ]
 ---
 
 <Layout title="全部播客 - MindTech">
   <Header client:load />
 
-  <main class="container mx-auto px-4 py-8 md:py-12 pb-24">
+  <main class="container mx-auto px-4 py-8 md:py-12 pb-24 md:pb-0">
     <!-- Page Header -->
     <div class="text-center mb-12">
-      <h1 class="text-4xl md:text-5xl font-bold mb-4 bg-linear-to-r from-mint-400 to-teal-500 bg-clip-text text-transparent">
+      <h1
+        class="text-4xl md:text-5xl font-bold mb-4 bg-linear-to-r from-mint-400 to-teal-500 bg-clip-text text-transparent"
+      >
         全部播客
       </h1>
       <p class="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -40,7 +42,7 @@ const categories = [
     </div>
 
     <!-- Episodes List Section -->
-    <EpisodeList 
+    <EpisodeList
       client:load
       episodes={allEpisodes}
       categories={categories}

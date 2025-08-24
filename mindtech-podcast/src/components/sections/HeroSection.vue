@@ -24,13 +24,13 @@
           只要是和 web 开发有关的都可以聊。
         </p>
         <div class="flex flex-wrap gap-4">
-          <button
-            @click="playLatestEpisode"
+          <a
+            href="#episodesSection"
             class="flex items-center gap-2 bg-mint-400 text-white px-6 py-3 rounded-full hover:bg-mint-500 transition-all shadow-lg shadow-mint-400/20"
           >
             <Play class="w-5 h-5" />
             <span>收听最新一期</span>
-          </button>
+          </a>
           <a
             href="/episodes"
             class="flex items-center gap-2 bg-white text-slate-800 px-6 py-3 rounded-full border border-cream-200 hover:border-mint-400 transition-all"
@@ -76,9 +76,7 @@
             class="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent"
           ></div>
           <div class="absolute bottom-0 left-0 p-6 text-white">
-            <span class="text-mint-300 text-sm font-medium">
-              最新一期 · {{ formatDuration(featuredEpisode.duration) }}
-            </span>
+            <span class="text-mint-300 text-sm font-medium"> 最新一期 </span>
             <h3 class="text-2xl font-bold mt-2 line-clamp-2">
               {{ featuredEpisode.title }}
             </h3>

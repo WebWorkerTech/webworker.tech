@@ -48,7 +48,6 @@ export interface Category {
 export interface Testimonial {
   id: string
   name: string
-  // title: string
   avatar: string
   rating: number
   content: string
@@ -57,9 +56,10 @@ export interface Testimonial {
 
 export interface PodcastStats {
   totalEpisodes: number
-  totalHosts: number
-  monthlyListeners: number
-  averageRating: number
+  totalHosts: string
+  monthlyListeners: string
+  // 开播持续天数
+  duration: number
 }
 
 export interface AudioPlayerState {

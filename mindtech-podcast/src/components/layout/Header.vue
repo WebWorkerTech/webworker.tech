@@ -23,7 +23,7 @@
         </div>
 
         <div class="flex items-center gap-4">
-          <div class="relative hidden md:block">
+          <!-- <div class="relative hidden md:block">
             <input
               v-model="searchQuery"
               type="text"
@@ -34,14 +34,14 @@
             <Search
               class="absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400 w-4 h-4"
             />
-          </div>
+          </div> -->
 
-          <button
+          <!-- <button
             @click="toggleMobileSearch"
             class="md:hidden text-slate-800 hover:text-mint-400 transition-colors"
           >
             <Search class="w-5 h-5" />
-          </button>
+          </button> -->
 
           <button
             @click="toggleMobileMenu"
@@ -51,7 +51,8 @@
           </button>
 
           <a
-            href="/subscribe"
+            target="_blank"
+            href="https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35"
             class="hidden md:flex items-center gap-2 bg-mint-400 text-white px-4 py-2 rounded-full hover:bg-mint-500 transition-colors"
           >
             <Radio class="w-4 h-4" />
@@ -129,9 +130,9 @@ const showMobileMenu = ref(false)
 const navItems = [
   { label: '首页', href: '/' },
   { label: '全部播客', href: '/episodes' },
-  { label: '主题合集', href: '/categories' },
-  { label: '主播专栏', href: '/hosts' },
-  { label: '关于我们', href: '/about' },
+  // { label: '主题合集', href: '/categories' },
+  // { label: '主播专栏', href: '/hosts' },
+  // { label: '关于我们', href: '/about' },
 ]
 
 const toggleMobileSearch = () => {

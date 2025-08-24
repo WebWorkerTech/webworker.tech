@@ -8,10 +8,10 @@
           </div>
 
           <p class="text-slate-400 mb-6">
-            前端程序员闲聊的中文音频播客平台，围绕 web 开发相关话题展开讨论。
+            前端程序员闲聊的中文播客节目，也有视频版本了！
           </p>
 
-          <div class="flex gap-4">
+          <!-- <div class="flex gap-4">
             <a
               v-for="social in socialLinks"
               :key="social.name"
@@ -21,7 +21,7 @@
             >
               <component :is="social.icon" class="w-5 h-5" />
             </a>
-          </div>
+          </div> -->
         </div>
 
         <div>
@@ -58,11 +58,11 @@
           <ul class="space-y-3">
             <li class="flex items-start gap-3">
               <Mail class="text-mint-400 mt-1 w-4 h-4" />
-              <span class="text-slate-400">contact@webworker.example</span>
+              <span class="text-slate-400">xinbao#webworker.tech</span>
             </li>
             <li class="flex items-start gap-3">
               <MapPin class="text-mint-400 mt-1 w-4 h-4" />
-              <span class="text-slate-400">北京市海淀区中关村大街1号</span>
+              <span class="text-slate-400">北京/成都/武汉/南昌/海外</span>
             </li>
             <li class="flex items-start gap-3">
               <MessageCircle class="text-mint-400 mt-1 w-4 h-4" />
@@ -70,7 +70,7 @@
             </li>
           </ul>
 
-          <div class="mt-6">
+          <!-- <div class="mt-6">
             <h4 class="text-sm font-medium mb-3">订阅我们的邮件</h4>
             <form @submit.prevent="subscribeNewsletter" class="flex">
               <input
@@ -86,24 +86,22 @@
                 <Send class="w-4 h-4" />
               </button>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class="border-t border-slate-800 pt-8">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <p class="text-slate-500 text-sm mb-4 md:mb-0">
-            © 2025 Web Worker. 保留所有权利。
+            ©2021-2025 Web Worker. 保留所有权利。
           </p>
 
           <div class="flex gap-6">
             <a
-              v-for="legal in legalLinks"
-              :key="legal.label"
-              :href="legal.href"
+              href="https://beian.miit.gov.cn/"
               class="text-slate-500 hover:text-mint-400 text-sm transition-colors"
             >
-              {{ legal.label }}
+              京ICP备17060663号-3
             </a>
           </div>
         </div>
@@ -139,10 +137,10 @@ const socialLinks = [
 const quickLinks = [
   { label: '首页', href: '/' },
   { label: '全部播客', href: '/episodes' },
-  { label: '主题合集', href: '/categories' },
-  { label: '主播专栏', href: '/hosts' },
-  { label: '关于我们', href: '/about' },
-  { label: '联系我们', href: '/contact' },
+  // { label: '主题合集', href: '/categories' },
+  // { label: '主播专栏', href: '/hosts' },
+  // { label: '关于我们', href: '/about' },
+  // { label: '联系我们', href: '/contact' },
 ]
 
 const platforms = podcastInfo.platforms

@@ -1,7 +1,7 @@
 <template>
   <section class="mb-16">
     <div class="flex items-center justify-between mb-8">
-      <h2 class="text-2xl md:text-3xl font-bold">听众评价</h2>
+      <h2 class="text-2xl md:text-3xl font-bold">听友评价</h2>
       <div class="flex items-center gap-2">
         <button
           @click="previousTestimonial"
