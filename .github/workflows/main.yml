@@ -3,9 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - dev
-      - test-ci
-      - test-ci
+      - v2
 
 jobs:
   build:
@@ -18,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 22
-          cache: "pnpm"
+          cache: 'pnpm'
       - run: pnpm i
 
       - name: Build
@@ -31,4 +29,4 @@ jobs:
       #     publish_dir: blog/dist
 
       - name: 部署到 OSS
-        run: "npx @web.worker/s3-upload-folder --dist blog/dist --ak ${{secrets.AK}} --sk ${{secrets.SK}} --bucket ${{secrets.BUCKET}} --region ${{secrets.REGION}} --endpoint ${{secrets.ENDPOINT}} --prefix /"
+        run: 'npx @web.worker/s3-upload-folder --dist blog/dist --ak ${{secrets.AK}} --sk ${{secrets.SK}} --bucket ${{secrets.BUCKET}} --region ${{secrets.REGION}} --endpoint ${{secrets.ENDPOINT}} --prefix /'
