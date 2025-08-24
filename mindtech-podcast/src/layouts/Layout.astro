@@ -1,129 +1,159 @@
 ---
+import '../styles/global.css'
+
 export interface Props {
-	title: string;
-	description?: string;
-	image?: string;
+  title: string
+  description?: string
+  image?: string
 }
 
-const { title, description = "前端程序员闲聊的中文音频播客节目，围绕程序员领域聊资讯、聊职场、聊技术选型，只要是和 web 开发有关的都可以聊。", image = "/og-image.jpg" } = Astro.props;
+const {
+  title,
+  description = '前端程序员闲聊的中文音频播客节目，围绕程序员领域聊资讯、聊职场、聊技术选型，只要是和 web 开发有关的都可以聊。',
+  image = '/og-image.jpg',
+} = Astro.props
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN" class="scroll-smooth">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content={description} />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		
-		<!-- Open Graph -->
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content={description} />
-		<meta property="og:image" content={image} />
-		<meta property="og:type" content="website" />
-		
-		<!-- Twitter Card -->
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={image} />
-		
-		<!-- Preload fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-		
-		<title>{title}</title>
-	</head>
-	<body class="min-h-screen bg-cream-50 font-sans">
-		<div class="flex flex-col min-h-screen">
-			<slot />
-		</div>
-		
-		<!-- Background decoration -->
-		<div class="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
-			<div class="absolute -top-40 -right-32 w-96 h-96 bg-mint-100/30 rounded-full blur-3xl"></div>
-			<div class="absolute -bottom-40 -left-32 w-96 h-96 bg-cream-200/50 rounded-full blur-3xl"></div>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+
+    <!-- Preload fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen bg-cream-50 font-sans">
+    <div class="flex flex-col min-h-screen">
+      <slot />
+    </div>
+
+    <!-- Background decoration -->
+    <div class="fixed inset-0 -z-10 pointer-events-none overflow-hidden">
+      <div
+        class="absolute -top-40 -right-32 w-96 h-96 bg-mint-100/30 rounded-full blur-3xl"
+      >
+      </div>
+      <div
+        class="absolute -bottom-40 -left-32 w-96 h-96 bg-cream-200/50 rounded-full blur-3xl"
+      >
+      </div>
+    </div>
+  </body>
 </html>
 
 <style is:global>
-	html {
-		font-family: 'Inter', system-ui, sans-serif;
-	}
-	
-	body {
-		font-feature-settings: 'rlig' 1, 'calt' 1;
-	}
-	
-	/* Smooth scrolling */
-	html {
-		scroll-behavior: smooth;
-	}
-	
-	/* Custom scrollbar */
-	::-webkit-scrollbar {
-		width: 8px;
-	}
-	
-	::-webkit-scrollbar-track {
-		background: #f1f5f9;
-	}
-	
-	::-webkit-scrollbar-thumb {
-		background: #34cc85;
-		border-radius: 4px;
-	}
-	
-	::-webkit-scrollbar-thumb:hover {
-		background: #2bb77a;
-	}
-	
-	/* Focus styles */
-	*:focus-visible {
-		outline: 2px solid #34cc85;
-		outline-offset: 2px;
-	}
-	
-	/* Selection styles */
-	::selection {
-		background-color: #34cc85;
-		color: white;
-	}
-	
-	/* Loading animations */
-	@keyframes fadeIn {
-		from {
-			opacity: 0;
-			transform: translateY(20px);
-		}
-		to {
-			opacity: 1;
-			transform: translateY(0);
-		}
-	}
-	
-	.fade-in {
-		animation: fadeIn 0.6s ease-out;
-	}
-	
-	/* Gradient text animation */
-	@keyframes gradient {
-		0% {
-			background-position: 0% 50%;
-		}
-		50% {
-			background-position: 100% 50%;
-		}
-		100% {
-			background-position: 0% 50%;
-		}
-	}
-	
-	.gradient-animate {
-		background-size: 200% 200%;
-		animation: gradient 3s ease infinite;
-	}
+  html {
+    /* font-family: 'Inter', system-ui, sans-serif; */
+    font-family:
+      Quotes,
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      Oxygen,
+      Ubuntu,
+      Cantarell,
+      'Fira Sans',
+      'Droid Sans',
+      'Helvetica Neue',
+      sans-serif;
+  }
+
+  body {
+    font-feature-settings:
+      'rlig' 1,
+      'calt' 1;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #34cc85;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2bb77a;
+  }
+
+  /* Focus styles */
+  *:focus-visible {
+    outline: 2px solid #34cc85;
+    outline-offset: 2px;
+  }
+
+  /* Selection styles */
+  ::selection {
+    background-color: #34cc85;
+    color: white;
+  }
+
+  /* Loading animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  /* Gradient text animation */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-animate {
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+  }
 </style>

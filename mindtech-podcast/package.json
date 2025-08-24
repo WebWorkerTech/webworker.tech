@@ -3,7 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "node scripts/fetch-rss.js && astro dev",
+    "dev:fetch-rss": "node scripts/fetch-rss.js && astro dev",
+    "dev": "astro dev",
     "start": "node scripts/fetch-rss.js && astro dev",
     "build": "node scripts/fetch-rss.js && astro check && astro build",
     "preview": "astro preview",
@@ -12,8 +13,8 @@
     "fetch-rss": "node scripts/fetch-rss.js"
   },
   "dependencies": {
-    "@astrojs/tailwind": "^6.0.2",
     "@astrojs/vue": "^5.1.0",
+    "@tailwindcss/vite": "^4.1.12",
     "astro": "^5.13.3",
     "lucide-astro": "^0.541.0",
     "lucide-vue-next": "^0.541.0",
