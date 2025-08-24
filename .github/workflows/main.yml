@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - dev
+      - test-ci
+      - test-ci
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 10.6.0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - run: pnpm i
+
+      - name: Build
+        run: pnpm build
+
+      # - name: Deploy Github Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     publish_dir: blog/dist
+
+      - name: 部署到 OSS
+        run: "npx @web.worker/s3-upload-folder --dist blog/dist --ak ${{secrets.AK}} --sk ${{secrets.SK}} --bucket ${{secrets.BUCKET}} --region ${{secrets.REGION}} --endpoint ${{secrets.ENDPOINT}} --prefix /"
