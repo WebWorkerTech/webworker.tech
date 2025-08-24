@@ -5,18 +5,7 @@
     <div class="container mx-auto px-4">
       <div class="flex items-center justify-between h-16 md:h-20">
         <div class="flex items-center">
-          <a href="/" class="flex items-center gap-2">
-            <div
-              class="w-10 h-10 rounded-full bg-mint-400 flex items-center justify-center text-white font-bold text-lg"
-            >
-              WW
-            </div>
-            <span
-              class="text-xl font-bold bg-gradient-to-r from-mint-500 to-slate-800 bg-clip-text text-transparent"
-            >
-              Web Worker
-            </span>
-          </a>
+          <Logo />
 
           <nav class="hidden md:flex ml-10 space-x-8">
             <a
@@ -119,6 +108,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Search, Menu, Radio } from 'lucide-vue-next'
+import Logo from '@/components/common/Logo.vue'
 
 interface Props {
   currentPath?: string

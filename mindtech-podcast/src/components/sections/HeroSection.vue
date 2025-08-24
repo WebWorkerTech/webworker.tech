@@ -41,23 +41,21 @@
         </div>
 
         <div class="mt-8 flex items-center gap-4">
-          <div class="flex -space-x-2">
+          <div class="flex -space-x-4">
             <img
-              v-for="i in 3"
-              :key="i"
-              :src="`https://picsum.photos/100/100?random=${i + 1}`"
-              :alt="`听众头像${i}`"
+              v-for="(avatar, index) in recentSubscribers.slice(0, 6)"
+              :key="index"
+              :src="avatar"
+              :alt="`听众头像${index + 1}`"
               class="w-10 h-10 rounded-full border-2 border-cream-50"
             />
             <div
               class="w-10 h-10 rounded-full bg-cream-200 border-2 border-cream-50 flex items-center justify-center text-xs font-medium text-slate-600"
             >
-              +5k
+              +8k
             </div>
           </div>
-          <p class="text-sm text-slate-500">
-            每月有超过5,000位前端开发者收听我们的播客
-          </p>
+          <p class="text-sm text-slate-500">小宇宙平台有 8k+ 听友正在收听</p>
         </div>
       </div>
 
@@ -104,6 +102,7 @@
 <script setup lang="ts">
 import { Play, List } from 'lucide-vue-next'
 import type { PodcastEpisode } from '@/types/podcast'
+import { recentSubscribers } from '@/data/recentSubscribers.js'
 
 interface Props {
   featuredEpisode?: PodcastEpisode | null
