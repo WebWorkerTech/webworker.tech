@@ -11,10 +11,10 @@
           class="text-[clamp(2rem,5vw,3.5rem)] font-bold leading-tight text-balance mb-6"
         >
           <span
-            class="bg-gradient-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent"
+            class="bg-linear-to-r from-mint-400 to-slate-800 bg-clip-text text-transparent"
             >前端程序员</span
           >都爱听的<span
-            class="bg-gradient-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent"
+            class="bg-linear-to-r from-slate-800 to-mint-400 bg-clip-text text-transparent"
             >播客</span
           >
         </h1>
@@ -73,7 +73,7 @@
             class="w-full h-auto"
           />
           <div
-            class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"
+            class="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent"
           ></div>
           <div class="absolute bottom-0 left-0 p-6 text-white">
             <span class="text-mint-300 text-sm font-medium">

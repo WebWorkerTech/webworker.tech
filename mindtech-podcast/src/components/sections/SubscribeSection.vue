@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-16 bg-gradient-to-br from-mint-100 to-cream-200 rounded-3xl p-8 md:p-12 relative overflow-hidden">
+  <section class="mb-16 bg-linear-to-br from-mint-100 to-cream-200 rounded-3xl p-8 md:p-12 relative overflow-hidden">
     <div class="absolute -top-20 -right-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"></div>
     <div class="absolute -bottom-20 -left-20 w-64 h-64 bg-mint-400/10 rounded-full blur-3xl"></div>
 

@@ -14,7 +14,7 @@
         class="w-full h-48 object-cover"
       />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
+        class="absolute inset-0 bg-linear-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
       ></div>
       <div
         class="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity"

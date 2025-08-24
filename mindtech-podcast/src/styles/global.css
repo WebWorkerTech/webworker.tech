@@ -1,1 +1,85 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-cream-50: #fffdf6;
+  --color-cream-100: #f9f5e7;
+  --color-cream-200: #f5f0e1;
+  --color-cream-300: #efe6d3;
+  --color-cream-400: #e6d5b8;
+  --color-cream-500: #d9c19e;
+  --color-mint-50: #f0fff6;
+  --color-mint-100: #ccf5e7;
+  --color-mint-200: #99ebcf;
+  --color-mint-300: #66e1b7;
+  --color-mint-400: #34cc85;
+  --color-mint-500: #2aa269;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --font-family:
+    Quotes, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+/* @utilities { */
+@utilities .content-auto {
+  content-visibility: auto;
+}
+@utilities .text-balance {
+  text-wrap: balance;
+}
+@utilities .scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@utilities .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+@utilities .audio-wave {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+@utilities .audio-wave span {
+  width: 3px;
+  height: 100%;
+  background-color: #34cc85;
+  border-radius: 3px;
+  animation: wave 1s ease infinite;
+}
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.3);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+@utilities .audio-wave span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+@utilities .audio-wave span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+@utilities .audio-wave span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+@utilities .audio-wave span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+@utilities .audio-wave span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+@utilities .audio-wave span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+@utilities .audio-wave span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+@utilities .audio-wave span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+@utilities .audio-wave span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+/* } */
