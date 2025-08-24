@@ -29,4 +29,4 @@ jobs:
       #     publish_dir: blog/dist
 
       - name: 部署到 OSS
-        run: 'npx @web.worker/s3-upload-folder --dist blog/dist --ak ${{secrets.AK}} --sk ${{secrets.SK}} --bucket ${{secrets.BUCKET}} --region ${{secrets.REGION}} --endpoint ${{secrets.ENDPOINT}} --prefix /'
+        run: 'npx @web.worker/s3-upload-folder --dist dist --ak ${{secrets.AK}} --sk ${{secrets.SK}} --bucket ${{secrets.BUCKET}} --region ${{secrets.REGION}} --endpoint ${{secrets.ENDPOINT}} --prefix /'
