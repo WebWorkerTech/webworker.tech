@@ -62,7 +62,7 @@
       <div class="order-1 lg:order-2 relative">
         <div
           v-if="featuredEpisode"
-          class="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500"
+          class="relative rounded-2xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500 w-full h-80 md:h-96"
         >
           <img
             :src="
@@ -70,7 +70,7 @@
               'https://picsum.photos/800/600?random=5'
             "
             :alt="featuredEpisode.title"
-            class="w-full h-auto"
+            class="w-full h-full object-cover"
           />
           <div
             class="absolute inset-0 bg-linear-to-t from-slate-900/80 to-transparent"
