@@ -79,6 +79,9 @@ The Markdown body is rendered on episode detail pages.
 - Keep admin APIs under `/api/admin/*` protected by `getAdminFromContext`.
 - Keep Redis as a defensive/cache layer only. Markdown files remain the content
   source of truth.
+- Keep production Redis external. Local Compose may start Redis for development,
+  but production Compose must consume `REDIS_URL` from the private server
+  environment instead of creating a Redis service.
 - Public GET/HEAD pages should keep short cache headers and query stripping so
   random query parameters do not bypass caches.
 - Keep staging safe for search engines: `PUBLIC_ALLOW_INDEXING=false` until the

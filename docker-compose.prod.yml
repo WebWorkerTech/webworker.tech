@@ -1,20 +1,6 @@
 name: webworker-tech-new
 
 services:
-  redis:
-    image: ${REDIS_IMAGE:-redis:7.0.15}
-    restart: unless-stopped
-    command: ["sh", "-c", "redis-server --requirepass \"$$REDIS_PASSWORD\""]
-    environment:
-      REDIS_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD is required}
-    volumes:
-      - redis_data:/data
-    healthcheck:
-      test: ["CMD-SHELL", "REDISCLI_AUTH=\"$$REDIS_PASSWORD\" redis-cli ping"]
-      interval: 10s
-      timeout: 5s
-      retries: 12
-
   app:
     image: ${IMAGE_NAME:-webworker-tech:ssr-amd64}
     restart: unless-stopped
@@ -41,9 +27,3 @@ services:
       interval: 30s
       timeout: 5s
       retries: 5
-    depends_on:
-      redis:
-        condition: service_healthy
-
-volumes:
-  redis_data:

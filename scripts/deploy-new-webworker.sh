@@ -53,7 +53,7 @@ ssh "$REMOTE_HOST" "
 set -eu
 cd '$REMOTE_APP_DIR'
 docker load -i '$REMOTE_ROOT/$(basename "$TAR_PATH")'
-EPISODES_HOST_DIR='$REMOTE_CONTENT_DIR' IMAGE_NAME='$IMAGE_NAME' docker compose --env-file '$ENV_FILE' -f docker-compose.prod.yml up -d
+EPISODES_HOST_DIR='$REMOTE_CONTENT_DIR' IMAGE_NAME='$IMAGE_NAME' docker compose --env-file '$ENV_FILE' -f docker-compose.prod.yml up -d --remove-orphans
 for i in \$(seq 1 20); do
   if curl -fsS http://127.0.0.1:$REMOTE_HOST_PORT/api/health >/dev/null 2>&1; then
     exit 0

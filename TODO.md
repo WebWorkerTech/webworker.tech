@@ -39,7 +39,6 @@ pnpm audit --audit-level moderate
 docker compose config
 JWT_SECRET=dev-secret \
 ADMIN_PASSWORD=dev-password \
-REDIS_PASSWORD=dev-redis-password \
-REDIS_URL=redis://:dev-redis-password@redis:6379 \
+REDIS_URL=redis://:dev-redis-password@redis.example.internal:6379 \
 docker compose -f docker-compose.prod.yml config
 ```

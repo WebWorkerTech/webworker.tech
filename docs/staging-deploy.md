@@ -41,8 +41,7 @@ PUBLIC_ALLOW_INDEXING=false
 JWT_SECRET=<long-random-secret>
 ADMIN_USERNAME=admin
 ADMIN_PASSWORD=<strong-password>
-REDIS_PASSWORD=<strong-redis-password>
-REDIS_URL=redis://:<strong-redis-password>@redis:6379
+REDIS_URL=redis://:<strong-redis-password>@redis.example.internal:6379
 RSS_AUTO_SYNC=true
 RSS_AUTO_SYNC_INTERVAL_HOURS=24
 HOST_PORT=4322
@@ -52,6 +51,9 @@ IMAGE_NAME=webworker-tech:ssr-amd64
 
 Prefer `ADMIN_PASSWORD_SHA256` over `ADMIN_PASSWORD` when the runtime makes
 secret rotation manageable.
+
+Production Compose expects Redis to be an existing private service. It does not
+start its own Redis container.
 
 ## Deploy
 

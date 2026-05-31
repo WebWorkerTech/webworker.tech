@@ -104,12 +104,15 @@ Check the production-style Compose config with explicit placeholder values:
 ```bash
 JWT_SECRET=dev-secret \
 ADMIN_PASSWORD=dev-password \
-REDIS_PASSWORD=dev-redis-password \
-REDIS_URL=redis://:dev-redis-password@redis:6379 \
+REDIS_URL=redis://:dev-redis-password@redis.example.internal:6379 \
 docker compose -f docker-compose.prod.yml config
 ```
 
 In Docker, mount the episode directory to `/app/content/episodes`.
+
+Local Compose starts a Redis container for development. Production Compose does
+not create Redis; set `REDIS_URL` to an existing private Redis service in the
+server environment.
 
 ## Deployment
 
