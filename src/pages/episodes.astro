@@ -7,7 +7,7 @@ import EpisodeList from '@/components/sections/EpisodeList.vue'
 import { getPodcastData } from '@/utils/podcast'
 
 // Get all podcast data
-const podcastData = getPodcastData()
+const podcastData = await getPodcastData()
 const allEpisodes = podcastData.episodes
 
 // Get categories for filtering

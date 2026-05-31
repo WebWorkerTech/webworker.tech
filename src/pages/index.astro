@@ -3,7 +3,6 @@ import Layout from '@/layouts/Layout.astro'
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
 import HeroSection from '@/components/sections/HeroSection.vue'
-import CategoriesSection from '@/components/sections/CategoriesSection.vue'
 import EpisodesSection from '@/components/sections/EpisodesSection.vue'
 import HostsSection from '@/components/sections/HostsSection.vue'
 import SubscribeSection from '@/components/sections/SubscribeSection.vue'
@@ -15,8 +14,8 @@ import { mockHosts as hosts } from '@/data/hosts'
 import type { PodcastStats, Testimonial } from '@/types/podcast'
 
 // Get podcast data
-const podcastData = getPodcastData()
-const latestEpisodes = getLatestEpisodes(6)
+const podcastData = await getPodcastData()
+const latestEpisodes = await getLatestEpisodes(6)
 
 // Mock stats data
 const stats: PodcastStats = {
@@ -51,41 +50,6 @@ const testimonials: Testimonial[] = [
     rating: 5,
   },
 ]
-import type { Category } from '@/types/podcast'
-
-// Categories for the sections
-const categories: Category[] = [
-  { id: '1', name: '编程范式', icon: 'code', episodeCount: 12, color: 'mint' },
-  {
-    id: '2',
-    name: '开发者社区',
-    icon: 'users',
-    episodeCount: 8,
-    color: 'blue',
-  },
-  {
-    id: '3',
-    name: '产品思维',
-    icon: 'product',
-    episodeCount: 6,
-    color: 'purple',
-  },
-  { id: '4', name: '人工智能', icon: 'ai', episodeCount: 15, color: 'pink' },
-  {
-    id: '5',
-    name: '开源项目',
-    icon: 'open-source',
-    episodeCount: 10,
-    color: 'orange',
-  },
-  {
-    id: '6',
-    name: '技术管理',
-    icon: 'management',
-    episodeCount: 7,
-    color: 'teal',
-  },
-]
 ---
 
 <Layout title="Web Worker - 前端程序员都爱听的播客平台">
@@ -97,9 +61,6 @@ const categories: Category[] = [
 
     <!-- Container for main content -->
     <div class="container mx-auto px-4 py-8">
-      <!-- Categories Section -->
-      <!-- <CategoriesSection client:load categories={categories} /> -->
-
       <!-- Latest Episodes Section -->
       <EpisodesSection
         client:load

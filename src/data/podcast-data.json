@@ -10,6 +10,94 @@
   },
   "items": [
     {
+      "title": "No.86 前端倒计时：Web Worker 们的 Async Talk",
+      "pubDate": "Thu, 11 Dec 2025 23:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/693aea1d37f52a644e73c242?utm_source=rss",
+      "guid": "693aea1d37f52a644e73c242",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/Fm0hdquBYdtmDUVo9osNccIpw1Fj.png",
+      "description": "<h2>介绍<br>这期播客我们邀请到了 AsyncTalk 的播客主播 Annatar 进行了一次面对面的深度对话。从主播个人体感针对“AI对编程与前端行业的影响”展开讨论，分享了主播目前在使用AI编程工具（如GitHub Copilot、Claude Code等）。同时，也探讨了在AI时代，程序员应如何定位自己、如何与AI协作、以及未来前端岗位可能面临的变革与机遇。节目中还穿插了Annatar在北京的生活见闻、播客创作心得、代码审查文化等轻松话题。</h2><h2><br></h2><figure><img src=\"https://image.xyzcdn.net/Fsum7h05NZl9dRYze95x-yAyMWH8.jpg\"/></figure><h2>嘉宾介绍</h2><h2><a href=\"https://www.xiaoyuzhoufm.com/podcast/61684ce4d8fa23fb00fc4d3a\">AsyncTalk</a></h2><h2><br></h2><p>时间轴<br>00:45 &nbsp;Annatar 来北京啦</p><h2>02:17 &nbsp;对比北京与新加坡的城市体验：北京的“宏大”与新加坡的“精致”</h2><h2>03:44 &nbsp;聊到北京地坛的“地坛的海”</h2><h2>05:33 &nbsp;欧美 vs. 东亚城市的差异</h2><h2>06:45 &nbsp;Annatar分享在新加坡工作的体验</h2><h2>08:39 &nbsp;新加坡外卖不如北京方便</h2><h2>12:12 &nbsp;技术博主与“前端网红”：观点输出与行业责任</h2><h2>15:10 &nbsp;极端观点：是否应该兼容老旧Node版本</h2><h2>19:27 &nbsp;Annatar的个人成长：从激进到平和的职场心态转变</h2><h2>21:30 &nbsp;Code Review：善意反馈 vs. 公开批评</h2><h2>24:39 &nbsp;好代码：场景化、可读性、设计思想</h2><h2>28:18 &nbsp;AI 代码占有比例（前端80%+，后端60-70%）</h2><h2>35:21 &nbsp;展望未来：AI是否会取代初级程序员？</h2><h2>37:07 “纯前端岗位可能会消失”，前端工程师向“应用工程师”转型</h2><h2>47:49 &nbsp;类比工业革命：AI是否会带来新的就业机会？</h2><h2>49:04 &nbsp;AI是工具，不是替代品</h2><h2>52:13 &nbsp;公司规模与AI的关系：人数减少是否意味着失败？</h2><h2>56:06 &nbsp;AI在高考、数学竞赛中的表现，智力超越人类</h2><h2>01:02:16 &nbsp;AI是协作伙伴，不是威胁</h2>",
+      "content": "<h2>介绍<br>这期播客我们邀请到了 AsyncTalk 的播客主播 Annatar 进行了一次面对面的深度对话。从主播个人体感针对“AI对编程与前端行业的影响”展开讨论，分享了主播目前在使用AI编程工具（如GitHub Copilot、Claude Code等）。同时，也探讨了在AI时代，程序员应如何定位自己、如何与AI协作、以及未来前端岗位可能面临的变革与机遇。节目中还穿插了Annatar在北京的生活见闻、播客创作心得、代码审查文化等轻松话题。</h2><h2><br></h2><figure><img src=\"https://image.xyzcdn.net/Fsum7h05NZl9dRYze95x-yAyMWH8.jpg\"/></figure><h2>嘉宾介绍</h2><h2><a href=\"https://www.xiaoyuzhoufm.com/podcast/61684ce4d8fa23fb00fc4d3a\">AsyncTalk</a></h2><h2><br></h2><p>时间轴<br>00:45 &nbsp;Annatar 来北京啦</p><h2>02:17 &nbsp;对比北京与新加坡的城市体验：北京的“宏大”与新加坡的“精致”</h2><h2>03:44 &nbsp;聊到北京地坛的“地坛的海”</h2><h2>05:33 &nbsp;欧美 vs. 东亚城市的差异</h2><h2>06:45 &nbsp;Annatar分享在新加坡工作的体验</h2><h2>08:39 &nbsp;新加坡外卖不如北京方便</h2><h2>12:12 &nbsp;技术博主与“前端网红”：观点输出与行业责任</h2><h2>15:10 &nbsp;极端观点：是否应该兼容老旧Node版本</h2><h2>19:27 &nbsp;Annatar的个人成长：从激进到平和的职场心态转变</h2><h2>21:30 &nbsp;Code Review：善意反馈 vs. 公开批评</h2><h2>24:39 &nbsp;好代码：场景化、可读性、设计思想</h2><h2>28:18 &nbsp;AI 代码占有比例（前端80%+，后端60-70%）</h2><h2>35:21 &nbsp;展望未来：AI是否会取代初级程序员？</h2><h2>37:07 “纯前端岗位可能会消失”，前端工程师向“应用工程师”转型</h2><h2>47:49 &nbsp;类比工业革命：AI是否会带来新的就业机会？</h2><h2>49:04 &nbsp;AI是工具，不是替代品</h2><h2>52:13 &nbsp;公司规模与AI的关系：人数减少是否意味着失败？</h2><h2>56:06 &nbsp;AI在高考、数学竞赛中的表现，智力超越人类</h2><h2>01:02:16 &nbsp;AI是协作伙伴，不是威胁</h2>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/693aea1d37f52a644e73c242/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lq6TxiE9oFbTaFX4s-Io-ZLGOVFq.m4a",
+        "type": "audio/mp4",
+        "length": 63780104,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.85 程序员的头痛会：一次与医生的深度联调",
+      "pubDate": "Fri, 07 Nov 2025 01:18:04 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/690d3c0fd99642be96d4e0fc?utm_source=rss",
+      "guid": "690d3c0fd99642be96d4e0fc",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/Fm0hdquBYdtmDUVo9osNccIpw1Fj.png",
+      "description": "<h2>介绍</h2><p>这次播客有视频，B 站搜 Web Worker 播客能找到视频版，上传会慢一些。</p><p>终于终于终于来新节目了。这期节目我们邀请到了B站/抖音科普UP主「<a href=\"https://space.bilibili.com/480717977\">头痛君张医生</a>」，与我们一起，从技术和医学的双重角度探讨了「头痛」这一常见问题。</p><p>播客里讲解了头痛的生理机制（原发性 vs. 继发性）。张医生结合自身战胜颈腰痛的经历，说明了心理和认知对疼痛感知的巨大影响。无论你是否受头痛困扰，这期关于身体信号、大脑解读与自我管理的对话都能让我们与疼痛共处。</p><figure><img src=\"https://image.xyzcdn.net/FqV7L6hXedDabAK3rdab11obyMGs.jpg\"/></figure><h2>时间轴</h2><ul>  <li><strong>01:01</strong> &nbsp;神比喻：器质性头痛是“硬件烧了”，功能性头痛是“软件出了Bug”</li>  <li><strong>06:44</strong> 颠覆认知：慢性疼痛是大脑“学坏了”，并亲证“咖啡戒断”可实现“大脑重置”。</li>  <li><strong>21:35</strong> &nbsp;就医指南：什么时候该冲急诊保命，什么时候该挂专家号提升生活质量？</li>  <li><strong>27:56</strong> &nbsp;止痛药避坑指南：不同止痛药能不能混着吃？为什么EVE可能是个坑？</li>  <li><strong>35:36</strong> &nbsp;程序员保命小技巧：辛宝分享“多喝水”如何成为强迫自己休息的系统级命令。</li>  <li><strong>42:41</strong> &nbsp;Eva现场剖析：对声音敏感到手机音量开两格就头疼，在职场中如何自处？</li>  <li><strong>50:00</strong> &nbsp;魔幻现实疗法：用一面镜子“欺骗”大脑，就能缓解截肢后的“幻肢痛”。</li>  <li><strong>57:46</strong> &nbsp;前沿探讨：AI能取代医生做分诊吗？</li>  <li><strong>01:04:00</strong> &nbsp;终极解决方案：战胜慢性疼痛，你需要找到两位专家——一位是医生，另一位是你自己。</li></ul>",
+      "content": "<h2>介绍</h2><p>这次播客有视频，B 站搜 Web Worker 播客能找到视频版，上传会慢一些。</p><p>终于终于终于来新节目了。这期节目我们邀请到了B站/抖音科普UP主「<a href=\"https://space.bilibili.com/480717977\">头痛君张医生</a>」，与我们一起，从技术和医学的双重角度探讨了「头痛」这一常见问题。</p><p>播客里讲解了头痛的生理机制（原发性 vs. 继发性）。张医生结合自身战胜颈腰痛的经历，说明了心理和认知对疼痛感知的巨大影响。无论你是否受头痛困扰，这期关于身体信号、大脑解读与自我管理的对话都能让我们与疼痛共处。</p><figure><img src=\"https://image.xyzcdn.net/FqV7L6hXedDabAK3rdab11obyMGs.jpg\"/></figure><h2>时间轴</h2><ul>  <li><strong>01:01</strong> &nbsp;神比喻：器质性头痛是“硬件烧了”，功能性头痛是“软件出了Bug”</li>  <li><strong>06:44</strong> 颠覆认知：慢性疼痛是大脑“学坏了”，并亲证“咖啡戒断”可实现“大脑重置”。</li>  <li><strong>21:35</strong> &nbsp;就医指南：什么时候该冲急诊保命，什么时候该挂专家号提升生活质量？</li>  <li><strong>27:56</strong> &nbsp;止痛药避坑指南：不同止痛药能不能混着吃？为什么EVE可能是个坑？</li>  <li><strong>35:36</strong> &nbsp;程序员保命小技巧：辛宝分享“多喝水”如何成为强迫自己休息的系统级命令。</li>  <li><strong>42:41</strong> &nbsp;Eva现场剖析：对声音敏感到手机音量开两格就头疼，在职场中如何自处？</li>  <li><strong>50:00</strong> &nbsp;魔幻现实疗法：用一面镜子“欺骗”大脑，就能缓解截肢后的“幻肢痛”。</li>  <li><strong>57:46</strong> &nbsp;前沿探讨：AI能取代医生做分诊吗？</li>  <li><strong>01:04:00</strong> &nbsp;终极解决方案：战胜慢性疼痛，你需要找到两位专家——一位是医生，另一位是你自己。</li></ul>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/690d3c0fd99642be96d4e0fc/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/luh08ZzVik4S3fkD5f-m3Lrar940.m4a",
+        "type": "audio/mp4",
+        "length": 117094479,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.84 网缘相见欢，Web Worker 四周年",
+      "pubDate": "Thu, 25 Sep 2025 00:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68d417e4522b40626c1eeb0d?utm_source=rss",
+      "guid": "68d417e4522b40626c1eeb0d",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/Fm0hdquBYdtmDUVo9osNccIpw1Fj.png",
+      "description": "<h2>介绍</h2><p>谁能想到 Web Worker 播客做到第四年了，迈入了第五个年头。回顾这四年来，真是让我感慨不已，垂类技术播客很难坚持的，因为他受众少、商业变现难。</p><p>这一期是主题播客，在现场的有辛宝、小白菜、Smart、瑞丰、Eva。整体上聊了三部分：</p><ul>  <li>1. 各位主播最近工作、生活怎么样</li>  <li>2. 参与播客感受如何，有什么不一样的心情？</li>  <li>3. 各位对播客的未来如何展望，对未来的程序员职场和 AI 的演进感受如何</li></ul><h2>时间轴</h2><p>00:00 播客已经做了四周年了！我们的主播人很多</p><p>01:16 主播瑞丰最近工作、生活如何，已经时间自由了？</p><p>瑞丰写的年中总结《<a href=\"https://liruifengv.com/posts/2025-mid-year-summary/\">2025 年中总结，又一人生转折点，也是起点</a>》</p><p>11:50 Smart 的身份：自媒体知乎、学生党、高能量、工作研究可视化</p><p>19:30 人太懒散，不像进取该怎么办，Smart 给出了完美答案，做的事情不要做完了再后悔就可以</p><p>20:17 Eva 最近工作、生活如何，她也是不坐班、跨时区、参与 AI 活动、和 Figma 协作</p><p>35:20 小白菜的工作内容变化、和 AI 协作的感受，20 美元额度够用吗、</p><p>49:16 从百万 token 到 家庭用水、工业用水的区别</p><p>50:26 刘威、开翼、海老师时间关系来不了后续再约。</p><p>51:25 辛宝最近和 Smart 每周都见面搞点事情，其实在准备一本书。推荐给各位购买全景相机，带来完全不同的录像体验。最近和ai 协作，认为 subAgent、不同的 agent 分工协作是我希望的样子，这一点 Trae 做的不错，不会特别黑盒不可控。</p><p>54:51 对无编辑器的 AI Coding 的强烈感受来自硅星人活动上的 12 岁小学生的评论，10 后的代码新手也能在 AI 的帮助下写出作品来。我们 00 后、90 后、80 后等群体应该有哪些思考？</p><p>57:40 做播客四周年了，认识了各位，从网友变成了现实中的朋友，虽然见面很少，但是是网络上最熟悉的人。</p><p>58:22 小白菜做播客的感受，最早的谨慎严肃到后面是完全放松，在不同的地点上解锁录播客的体验，上海、杭州、无锡、常州、宁波等等</p><p>01:01:00 Smart 做播客感受如何，逐步填坑、ai 参与播客制作、做切片的烦恼做一个播客知识库</p><p>01:06:36 辛宝做播客担心消耗各位的精力，有些东西是不可逆的，一旦消耗了可能很难再提起兴趣，现在还挺好。做播客认识和帮助到了很多人</p><p>01:10:53 辛宝回顾了最早我们还在聊 Vite2 是个新东西，现在已经 Vite7 了，我们完整见证了前端的快速进步和衰落、见证了 CHATGPT 带来的 AI 的震撼</p><p>01:12:52 Eva 参与播客的感受，持续深入在技术领域、做一个有技术热情的人、做播客感受到纯粹的技术快乐、对播客的期待</p><p>01:19:52 做播客做成现在这个程度，辛宝的感受如何，从无心插柳到认识各位、表达自信、社交自信、金钱投入产出比低、松散的社团组织</p><p>01:25:09 如何认识 Web Worker 的价值，感情价值、陪伴价值。</p><p>01:27:33 辛宝在知乎上五年前问了一个问题 19-24 年前端会怎么发展？回顾起来让人唏嘘，我们能预见未来吗？</p><p>01:31:50 节目第三部分，各位对未来的展望。端侧 AI、和 AI 机器人一起上班、AI 个人电脑的变化、AI 提效的展望、前端还有工作吗、活人做播客。</p><p>01:43:55 五分钟、一小时、三个小时的播客应该什么样，看看罗永浩。Web Worker 的矩阵怎么样、播客切片</p><p>四年前，辛宝画的 Web Worker 宇宙。</p>",
+      "content": "<h2>介绍</h2><p>谁能想到 Web Worker 播客做到第四年了，迈入了第五个年头。回顾这四年来，真是让我感慨不已，垂类技术播客很难坚持的，因为他受众少、商业变现难。</p><p>这一期是主题播客，在现场的有辛宝、小白菜、Smart、瑞丰、Eva。整体上聊了三部分：</p><ul>  <li>1. 各位主播最近工作、生活怎么样</li>  <li>2. 参与播客感受如何，有什么不一样的心情？</li>  <li>3. 各位对播客的未来如何展望，对未来的程序员职场和 AI 的演进感受如何</li></ul><h2>时间轴</h2><p>00:00 播客已经做了四周年了！我们的主播人很多</p><p>01:16 主播瑞丰最近工作、生活如何，已经时间自由了？</p><p>瑞丰写的年中总结《<a href=\"https://liruifengv.com/posts/2025-mid-year-summary/\">2025 年中总结，又一人生转折点，也是起点</a>》</p><p>11:50 Smart 的身份：自媒体知乎、学生党、高能量、工作研究可视化</p><p>19:30 人太懒散，不像进取该怎么办，Smart 给出了完美答案，做的事情不要做完了再后悔就可以</p><p>20:17 Eva 最近工作、生活如何，她也是不坐班、跨时区、参与 AI 活动、和 Figma 协作</p><p>35:20 小白菜的工作内容变化、和 AI 协作的感受，20 美元额度够用吗、</p><p>49:16 从百万 token 到 家庭用水、工业用水的区别</p><p>50:26 刘威、开翼、海老师时间关系来不了后续再约。</p><p>51:25 辛宝最近和 Smart 每周都见面搞点事情，其实在准备一本书。推荐给各位购买全景相机，带来完全不同的录像体验。最近和ai 协作，认为 subAgent、不同的 agent 分工协作是我希望的样子，这一点 Trae 做的不错，不会特别黑盒不可控。</p><p>54:51 对无编辑器的 AI Coding 的强烈感受来自硅星人活动上的 12 岁小学生的评论，10 后的代码新手也能在 AI 的帮助下写出作品来。我们 00 后、90 后、80 后等群体应该有哪些思考？</p><p>57:40 做播客四周年了，认识了各位，从网友变成了现实中的朋友，虽然见面很少，但是是网络上最熟悉的人。</p><p>58:22 小白菜做播客的感受，最早的谨慎严肃到后面是完全放松，在不同的地点上解锁录播客的体验，上海、杭州、无锡、常州、宁波等等</p><p>01:01:00 Smart 做播客感受如何，逐步填坑、ai 参与播客制作、做切片的烦恼做一个播客知识库</p><p>01:06:36 辛宝做播客担心消耗各位的精力，有些东西是不可逆的，一旦消耗了可能很难再提起兴趣，现在还挺好。做播客认识和帮助到了很多人</p><p>01:10:53 辛宝回顾了最早我们还在聊 Vite2 是个新东西，现在已经 Vite7 了，我们完整见证了前端的快速进步和衰落、见证了 CHATGPT 带来的 AI 的震撼</p><p>01:12:52 Eva 参与播客的感受，持续深入在技术领域、做一个有技术热情的人、做播客感受到纯粹的技术快乐、对播客的期待</p><p>01:19:52 做播客做成现在这个程度，辛宝的感受如何，从无心插柳到认识各位、表达自信、社交自信、金钱投入产出比低、松散的社团组织</p><p>01:25:09 如何认识 Web Worker 的价值，感情价值、陪伴价值。</p><p>01:27:33 辛宝在知乎上五年前问了一个问题 19-24 年前端会怎么发展？回顾起来让人唏嘘，我们能预见未来吗？</p><p>01:31:50 节目第三部分，各位对未来的展望。端侧 AI、和 AI 机器人一起上班、AI 个人电脑的变化、AI 提效的展望、前端还有工作吗、活人做播客。</p><p>01:43:55 五分钟、一小时、三个小时的播客应该什么样，看看罗永浩。Web Worker 的矩阵怎么样、播客切片</p><p>四年前，辛宝画的 Web Worker 宇宙。</p>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/68d417e4522b40626c1eeb0d/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lpmEwSN_9R2qwKf0aye62CcRyko2.m4a",
+        "type": "audio/mp4",
+        "length": 103927567,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
+      "title": "No.83 “代码降权”时代，程序员会被AI取代吗？",
+      "pubDate": "Wed, 03 Sep 2025 23:00:00 GMT",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68b847885faf368659ddbf80?utm_source=rss",
+      "guid": "68b847885faf368659ddbf80",
+      "author": "",
+      "thumbnail": "https://image.xyzcdn.net/Fm0hdquBYdtmDUVo9osNccIpw1Fj.png",
+      "description": "<h2><strong>介绍</strong></h2><p>本期节目我们邀请到《Vibe 编程——探索 AI 时代编程新范式》的其中两位作者船长和文杰，一起聊聊AI时代新兴的编程方式——Vibe Coding（氛围编程）。节目中，嘉宾们分享了写书过程中的有哪些好玩有趣的经历，深入探讨了Vibe Coding如何改变传统的编程模式，让我们能够通过自然对话的方式就能完成从创意到落地的全过程。</p><p>在轻松对谈中，嘉宾们既分享了AI编程带来的效率提升，也坦诚讨论了当前存在的局限，强调了掌握方法论比单纯使用工具更重要。他们还贴心分享了实战中的实用技巧，并推荐了几款好用的AI编程工具。无论你是经验丰富的开发者，还是刚刚入门的新手，这期节目都能带给你不少启发和收获。</p><h2><strong>嘉宾</strong></h2><p>两位嘉宾同时也是 <a href=\"https://langshuo0.podcast.xyz/\">浪说播客</a> 的主播，欢迎大家收听友台节目！</p><figure><img src=\"https://image.xyzcdn.net/Fm4R9yu7HPDB_XI5nTnGOL_JHrOU.png\"/></figure><h2><strong>时间轴</strong></h2><p>02:23 接触大量Vibe Coding产品，想沉淀认知</p><p>03:23 程序员+普通人，实现\"代码降权\"</p><p>08:28 Vibe Coding是人与AI协作的范式变革</p><p>10:42 本质是自然语言转代码，不必纠结名词</p><p>15:36 认清AI能力的上限与下限</p><p>16:24 方法论比工具更重要</p><p>25:05 面向不同背景读者的写作挑战</p><p>32:48 写作中的术语或风格分歧</p><p>57:20 技术平权赋能普通人，增强专业者</p><p>01:01:40 AI依赖人的认知上限</p><p>01:05:05 强者愈强，弱者需补足基础</p><p>01:30:40 对Vibe Coding未来的预期</p><p>01:33:07 期待更多工具，尤其是Agent方向</p><p>01:36:57 对初入行程序员的建议</p><p>01:38:17 焦虑是常态，要尝试新事物</p><p>01:39:44 行业在收缩，但要试错、适应AI协作</p><p>01:43:07 总结：拥抱变化，不必守旧</p><h2><strong>联系我们</strong></h2><h2>希望大家在听友群和评论区多多和我们互动，这对我们来说十分重要。也可以加辛宝的微信 xinbao965，进听友群和我们互动沟通。</h2>",
+      "content": "<h2><strong>介绍</strong></h2><p>本期节目我们邀请到《Vibe 编程——探索 AI 时代编程新范式》的其中两位作者船长和文杰，一起聊聊AI时代新兴的编程方式——Vibe Coding（氛围编程）。节目中，嘉宾们分享了写书过程中的有哪些好玩有趣的经历，深入探讨了Vibe Coding如何改变传统的编程模式，让我们能够通过自然对话的方式就能完成从创意到落地的全过程。</p><p>在轻松对谈中，嘉宾们既分享了AI编程带来的效率提升，也坦诚讨论了当前存在的局限，强调了掌握方法论比单纯使用工具更重要。他们还贴心分享了实战中的实用技巧，并推荐了几款好用的AI编程工具。无论你是经验丰富的开发者，还是刚刚入门的新手，这期节目都能带给你不少启发和收获。</p><h2><strong>嘉宾</strong></h2><p>两位嘉宾同时也是 <a href=\"https://langshuo0.podcast.xyz/\">浪说播客</a> 的主播，欢迎大家收听友台节目！</p><figure><img src=\"https://image.xyzcdn.net/Fm4R9yu7HPDB_XI5nTnGOL_JHrOU.png\"/></figure><h2><strong>时间轴</strong></h2><p>02:23 接触大量Vibe Coding产品，想沉淀认知</p><p>03:23 程序员+普通人，实现\"代码降权\"</p><p>08:28 Vibe Coding是人与AI协作的范式变革</p><p>10:42 本质是自然语言转代码，不必纠结名词</p><p>15:36 认清AI能力的上限与下限</p><p>16:24 方法论比工具更重要</p><p>25:05 面向不同背景读者的写作挑战</p><p>32:48 写作中的术语或风格分歧</p><p>57:20 技术平权赋能普通人，增强专业者</p><p>01:01:40 AI依赖人的认知上限</p><p>01:05:05 强者愈强，弱者需补足基础</p><p>01:30:40 对Vibe Coding未来的预期</p><p>01:33:07 期待更多工具，尤其是Agent方向</p><p>01:36:57 对初入行程序员的建议</p><p>01:38:17 焦虑是常态，要尝试新事物</p><p>01:39:44 行业在收缩，但要试错、适应AI协作</p><p>01:43:07 总结：拥抱变化，不必守旧</p><h2><strong>联系我们</strong></h2><h2>希望大家在听友群和评论区多多和我们互动，这对我们来说十分重要。也可以加辛宝的微信 xinbao965，进听友群和我们互动沟通。</h2>",
+      "enclosure": {
+        "link": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/68b847885faf368659ddbf80/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lgYdPSrv6Bohf9WcxsAOTsINxMTZ.m4a",
+        "type": "audio/mp4",
+        "length": 200808527,
+        "duration": 0,
+        "image": "",
+        "rating": {
+          "scheme": "urn:itunes",
+          "value": "no"
+        }
+      },
+      "categories": []
+    },
+    {
       "title": "No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型",
       "pubDate": "Thu, 21 Aug 2025 23:00:00 GMT",
       "link": "https://www.xiaoyuzhoufm.com/episode/68a71a3a293471fed4ca4472?utm_source=rss",

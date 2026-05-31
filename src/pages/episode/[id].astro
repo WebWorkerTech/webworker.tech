@@ -7,23 +7,13 @@ import {
   ChevronLeft,
   Mic,
   Play,
-  Share,
-  Download,
   ExternalLink,
   Heart,
 } from 'lucide-astro'
 
-export async function getStaticPaths() {
-  const { getPodcastData } = await import('@/utils/podcast')
-  const podcastData = getPodcastData()
-
-  return podcastData.episodes.map((episode) => ({
-    params: { id: episode.id || episode.guid },
-    props: { episode },
-  }))
-}
-
-const { episode } = Astro.props
+const episode = Astro.params.id
+  ? await getEpisodeById(Astro.params.id)
+  : undefined
 
 if (!episode) {
   return Astro.redirect('/404')

@@ -19,27 +19,26 @@
     Quotes, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
-/* @utilities { */
-@utilities .content-auto {
+.content-auto {
   content-visibility: auto;
 }
-@utilities .text-balance {
+.text-balance {
   text-wrap: balance;
 }
-@utilities .scrollbar-hide {
+.scrollbar-hide {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-@utilities .scrollbar-hide::-webkit-scrollbar {
+.scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
-@utilities .audio-wave {
+.audio-wave {
   height: 40px;
   display: flex;
   align-items: center;
   gap: 3px;
 }
-@utilities .audio-wave span {
+.audio-wave span {
   width: 3px;
   height: 100%;
   background-color: #34cc85;
@@ -55,31 +54,30 @@
     transform: scaleY(1);
   }
 }
-@utilities .audio-wave span:nth-child(2) {
+.audio-wave span:nth-child(2) {
   animation-delay: 0.1s;
 }
-@utilities .audio-wave span:nth-child(3) {
+.audio-wave span:nth-child(3) {
   animation-delay: 0.2s;
 }
-@utilities .audio-wave span:nth-child(4) {
+.audio-wave span:nth-child(4) {
   animation-delay: 0.3s;
 }
-@utilities .audio-wave span:nth-child(5) {
+.audio-wave span:nth-child(5) {
   animation-delay: 0.4s;
 }
-@utilities .audio-wave span:nth-child(6) {
+.audio-wave span:nth-child(6) {
   animation-delay: 0.5s;
 }
-@utilities .audio-wave span:nth-child(7) {
+.audio-wave span:nth-child(7) {
   animation-delay: 0.6s;
 }
-@utilities .audio-wave span:nth-child(8) {
+.audio-wave span:nth-child(8) {
   animation-delay: 0.7s;
 }
-@utilities .audio-wave span:nth-child(9) {
+.audio-wave span:nth-child(9) {
   animation-delay: 0.8s;
 }
-@utilities .audio-wave span:nth-child(10) {
+.audio-wave span:nth-child(10) {
   animation-delay: 0.9s;
 }
-/* } */

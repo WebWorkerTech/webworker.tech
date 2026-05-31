@@ -1,0 +1,40 @@
+services:
+  redis:
+    image: ${REDIS_IMAGE:-redis:7.0.15}
+    command: ["redis-server", "--requirepass", "local_password"]
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "local_password", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  app:
+    build:
+      context: .
+    environment:
+      RSS_URL: ${RSS_URL:-https://feed.xyzfm.space/rv449dl9kqka}
+      EPISODES_DIR: /app/content/episodes
+      REDIS_URL: ${REDIS_URL:-redis://:local_password@redis:6379}
+      PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://new.webworker.tech}
+      PUBLIC_ALLOW_INDEXING: ${PUBLIC_ALLOW_INDEXING:-false}
+      JWT_SECRET: ${JWT_SECRET:-change-me-to-a-long-random-secret}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-change-me}
+      RSS_AUTO_SYNC: ${RSS_AUTO_SYNC:-false}
+      RSS_AUTO_SYNC_INTERVAL_HOURS: ${RSS_AUTO_SYNC_INTERVAL_HOURS:-24}
+      HOST: 0.0.0.0
+      PORT: 4321
+    ports:
+      - "${HOST_PORT:-4322}:4321"
+    volumes:
+      - ./content/episodes:/app/content/episodes
+    depends_on:
+      redis:
+        condition: service_healthy
+
+volumes:
+  redis_data:

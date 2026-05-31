@@ -12,6 +12,8 @@ const {
   description = '前端程序员闲聊的中文播客节目',
   image = '/logo500.webp',
 } = Astro.props
+
+const allowIndexing = import.meta.env.PUBLIC_ALLOW_INDEXING === 'true'
 ---
 
 <!doctype html>
@@ -19,6 +21,11 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    {
+      !allowIndexing && (
+        <meta name="robots" content="noindex,nofollow,noarchive" />
+      )
+    }
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/webp" href="/logo500.webp" />
     <meta name="generator" content={Astro.generator} />

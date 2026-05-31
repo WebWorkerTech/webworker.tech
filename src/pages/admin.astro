@@ -1,0 +1,224 @@
+---
+import Layout from '@/layouts/Layout.astro'
+---
+
+<Layout title="Admin - Web Worker">
+  <main class="min-h-screen bg-cream-50 px-4 py-10">
+    <section class="mx-auto max-w-5xl">
+      <div class="mb-8">
+        <a href="/" class="text-sm text-mint-500 hover:text-mint-600">
+          返回首页
+        </a>
+        <h1 class="mt-3 text-3xl font-bold text-slate-900">播客后台</h1>
+      </div>
+
+      <div id="loginPanel" class="max-w-sm rounded-lg bg-white p-6 shadow">
+        <h2 class="mb-4 text-xl font-bold">登录</h2>
+        <label class="mb-3 block">
+          <span class="mb-1 block text-sm text-slate-600">用户名</span>
+          <input
+            id="username"
+            class="w-full rounded-md border border-cream-200 px-3 py-2"
+            value="admin"
+          />
+        </label>
+        <label class="mb-4 block">
+          <span class="mb-1 block text-sm text-slate-600">密码</span>
+          <input
+            id="password"
+            type="password"
+            class="w-full rounded-md border border-cream-200 px-3 py-2"
+          />
+        </label>
+        <button
+          id="loginButton"
+          class="rounded-md bg-mint-400 px-4 py-2 font-medium text-white hover:bg-mint-500"
+        >
+          登录
+        </button>
+        <p id="loginMessage" class="mt-3 text-sm text-red-500"></p>
+      </div>
+
+      <div id="adminPanel" class="hidden">
+        <div class="mb-6 flex flex-wrap items-center gap-3">
+          <button
+            id="refreshButton"
+            class="rounded-md bg-mint-400 px-4 py-2 font-medium text-white hover:bg-mint-500"
+          >
+            刷新 RSS
+          </button>
+          <button
+            id="importAllButton"
+            class="rounded-md border border-cream-300 bg-white px-4 py-2 font-medium text-slate-700 hover:border-mint-400"
+          >
+            同步全部新增
+          </button>
+          <button
+            id="logoutButton"
+            class="rounded-md px-4 py-2 text-slate-500 hover:text-slate-800"
+          >
+            退出
+          </button>
+          <span id="statusText" class="text-sm text-slate-500"></span>
+        </div>
+
+        <div class="overflow-hidden rounded-lg bg-white shadow">
+          <table class="w-full table-fixed text-left">
+            <thead class="bg-cream-100 text-sm text-slate-600">
+              <tr>
+                <th class="w-24 px-4 py-3">状态</th>
+                <th class="px-4 py-3">标题</th>
+                <th class="w-40 px-4 py-3">发布时间</th>
+                <th class="w-28 px-4 py-3">操作</th>
+              </tr>
+            </thead>
+            <tbody id="rssRows" class="divide-y divide-cream-100"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script is:inline>
+  // @ts-nocheck
+  const loginPanel = document.querySelector('#loginPanel')
+  const adminPanel = document.querySelector('#adminPanel')
+  const loginButton = document.querySelector('#loginButton')
+  const logoutButton = document.querySelector('#logoutButton')
+  const refreshButton = document.querySelector('#refreshButton')
+  const importAllButton = document.querySelector('#importAllButton')
+  const loginMessage = document.querySelector('#loginMessage')
+  const statusText = document.querySelector('#statusText')
+  const rssRows = document.querySelector('#rssRows')
+  const username = document.querySelector('#username')
+  const password = document.querySelector('#password')
+
+  const state = {
+    episodes: [],
+  }
+
+  function setStatus(message) {
+    statusText.textContent = message
+  }
+
+  async function api(path, options = {}) {
+    const response = await fetch(path, {
+      ...options,
+      headers: {
+        'Content-Type': 'application/json',
+        ...(options.headers || {}),
+      },
+    })
+    const data = await response.json().catch(() => ({}))
+    if (!response.ok) {
+      throw new Error(data.error || '请求失败')
+    }
+    return data
+  }
+
+  function showAdmin() {
+    loginPanel.classList.add('hidden')
+    adminPanel.classList.remove('hidden')
+  }
+
+  function showLogin() {
+    adminPanel.classList.add('hidden')
+    loginPanel.classList.remove('hidden')
+  }
+
+  function renderRows() {
+    rssRows.innerHTML = state.episodes
+      .map((episode) => {
+        const safeTitle = escapeHtml(episode.title)
+        const safeLink = escapeHtml(episode.link || '')
+        const safeGuid = escapeHtml(episode.guid || '')
+        const status = episode.exists ? '已有' : '新增'
+        const date = episode.pubDate
+          ? new Date(episode.pubDate).toLocaleDateString('zh-CN')
+          : ''
+        const action = episode.exists
+          ? '<span class="text-sm text-slate-400">无需操作</span>'
+          : `<button data-guid="${safeGuid}" class="import-one rounded bg-mint-100 px-3 py-1 text-sm text-mint-700 hover:bg-mint-200">导入</button>`
+        return `<tr>
+          <td class="px-4 py-3 text-sm ${episode.exists ? 'text-slate-400' : 'text-mint-600'}">${status}</td>
+          <td class="px-4 py-3">
+            <div class="truncate font-medium text-slate-800" title="${safeTitle}">${safeTitle}</div>
+            <a class="text-xs text-slate-400 hover:text-mint-500" href="${safeLink}" target="_blank">小宇宙</a>
+          </td>
+          <td class="px-4 py-3 text-sm text-slate-500">${date}</td>
+          <td class="px-4 py-3">${action}</td>
+        </tr>`
+      })
+      .join('')
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;')
+  }
+
+  async function refreshRss() {
+    setStatus('正在刷新 RSS...')
+    const data = await api('/api/admin/rss/preview')
+    state.episodes = data.episodes
+    renderRows()
+    const count = state.episodes.filter((episode) => !episode.exists).length
+    setStatus(`发现 ${count} 个新增节目`)
+  }
+
+  loginButton.addEventListener('click', async () => {
+    loginMessage.textContent = ''
+    try {
+      await api('/api/admin/auth/login', {
+        method: 'POST',
+        body: JSON.stringify({
+          username: username.value,
+          password: password.value,
+        }),
+      })
+      showAdmin()
+      await refreshRss()
+    } catch (error) {
+      loginMessage.textContent = error.message
+    }
+  })
+
+  logoutButton.addEventListener('click', async () => {
+    await api('/api/admin/auth/logout', { method: 'POST' })
+    showLogin()
+  })
+
+  refreshButton.addEventListener('click', refreshRss)
+
+  importAllButton.addEventListener('click', async () => {
+    setStatus('正在同步新增节目...')
+    await api('/api/admin/rss/import', {
+      method: 'POST',
+      body: JSON.stringify({ importAll: true }),
+    })
+    await refreshRss()
+  })
+
+  rssRows.addEventListener('click', async (event) => {
+    const button = event.target.closest('.import-one')
+    if (!button) return
+    setStatus('正在导入节目...')
+    await api('/api/admin/rss/import', {
+      method: 'POST',
+      body: JSON.stringify({ guid: button.dataset.guid }),
+    })
+    await refreshRss()
+  })
+
+  api('/api/admin/me')
+    .then(async () => {
+      showAdmin()
+      await refreshRss()
+    })
+    .catch(showLogin)
+</script>

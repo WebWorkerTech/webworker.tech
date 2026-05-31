@@ -1,3 +1,13 @@
-onlyBuiltDependencies:
-  - esbuild
-  - sharp
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+  sharp: true
+overrides:
+  ajv: 8.20.0
+  fast-uri: 3.1.2
+  mdast-util-to-hast: 13.2.1
+  picomatch@<2.3.2: 2.3.2
+  picomatch@>=4.0.0 <4.0.4: 4.0.4
+  postcss: 8.5.15
+  rollup: 4.60.4
+  yaml: 2.9.0

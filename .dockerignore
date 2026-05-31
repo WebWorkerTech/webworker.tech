@@ -1,0 +1,10 @@
+.astro
+.git
+.env
+.env.*
+!.env.example
+.DS_Store
+dist
+node_modules
+npm-debug.log
+pnpm-debug.log

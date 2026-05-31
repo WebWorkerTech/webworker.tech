@@ -1,0 +1,49 @@
+name: webworker-tech-new
+
+services:
+  redis:
+    image: ${REDIS_IMAGE:-redis:7.0.15}
+    restart: unless-stopped
+    command: ["sh", "-c", "redis-server --requirepass \"$$REDIS_PASSWORD\""]
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?REDIS_PASSWORD is required}
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "REDISCLI_AUTH=\"$$REDIS_PASSWORD\" redis-cli ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  app:
+    image: ${IMAGE_NAME:-webworker-tech:ssr-amd64}
+    restart: unless-stopped
+    environment:
+      RSS_URL: ${RSS_URL:-https://feed.xyzfm.space/rv449dl9kqka}
+      EPISODES_DIR: /app/content/episodes
+      REDIS_URL: ${REDIS_URL:?REDIS_URL is required}
+      PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://new.webworker.tech}
+      PUBLIC_ALLOW_INDEXING: ${PUBLIC_ALLOW_INDEXING:-false}
+      JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
+      ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
+      ADMIN_PASSWORD_SHA256: ${ADMIN_PASSWORD_SHA256:-}
+      RSS_AUTO_SYNC: ${RSS_AUTO_SYNC:-true}
+      RSS_AUTO_SYNC_INTERVAL_HOURS: ${RSS_AUTO_SYNC_INTERVAL_HOURS:-24}
+      HOST: 0.0.0.0
+      PORT: 4321
+    ports:
+      - "${HOST_PORT:-4322}:4321"
+    volumes:
+      - ${EPISODES_HOST_DIR:-./content/episodes}:/app/content/episodes
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4321/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+    depends_on:
+      redis:
+        condition: service_healthy
+
+volumes:
+  redis_data:
