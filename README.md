@@ -1,11 +1,29 @@
-# Web Worker Podcast
+# Web Worker Podcast Website
 
-Astro SSR version of the Web Worker podcast website.
+This is the public source repository for the Web Worker podcast website.
 
-The site renders from local Markdown files in `content/episodes`, so the
-deployed container does not need an external database. The admin page can fetch
-the upstream RSS feed, compare items by title, and import new episodes as
-Markdown.
+The site is an Astro SSR application that renders podcast episodes from local
+Markdown files. It includes a small admin workflow for syncing an upstream RSS
+feed into those Markdown files. No external database is required for podcast
+content.
+
+## Public Repository Notice
+
+This repository is public. Do not commit secrets, server IPs, private SSH host
+aliases, API keys, 1Panel tokens, certificate files, or production `.env` files.
+
+Use `.env.example` as a template and keep real environment files outside git.
+Private deployment details should live in the server environment, 1Panel, or a
+private operations note.
+
+## Stack
+
+- Astro SSR with the Node adapter
+- Vue components for interactive UI
+- Tailwind CSS
+- Markdown files in `content/episodes` as the content source of truth
+- Optional Redis for rate limiting and short JSON caches
+- Docker Compose for production-style deployment
 
 ## Local Development
 
@@ -14,68 +32,133 @@ pnpm install
 pnpm run dev
 ```
 
-Build and run the SSR server:
+Build and run the SSR server locally:
 
 ```bash
 pnpm run build
 HOST=127.0.0.1 PORT=4322 pnpm run start:ssr
 ```
 
-Admin defaults for local development:
-
-- URL: `/admin`
-- Username: `admin`
-- Password: `change-me`
+The admin page is available at `/admin`. Local credentials come from
+environment variables; `.env.example` contains development placeholders only.
 
 ## Content
 
-Episodes live in `content/episodes/*.md`. To regenerate the initial Markdown
-files from the legacy JSON snapshot:
+Episodes live in:
+
+```text
+content/episodes/*.md
+```
+
+To regenerate Markdown files from the legacy JSON snapshot:
 
 ```bash
 pnpm run import:episodes
 ```
 
-Preview or import new remote RSS items into Markdown:
+To preview or import missing RSS episodes:
 
 ```bash
 pnpm run fetch-rss -- --preview
 pnpm run fetch-rss
 ```
 
+The RSS diff is intentionally simple: local and remote episodes are compared by
+normalized title.
+
+## Environment
+
+Important runtime variables:
+
+- `RSS_URL`: upstream podcast RSS feed.
+- `EPISODES_DIR`: Markdown episode directory.
+- `PUBLIC_SITE_URL`: canonical public site URL.
+- `PUBLIC_ALLOW_INDEXING`: set to `false` for staging or test domains.
+- `JWT_SECRET`: secret used for admin session tokens.
+- `ADMIN_USERNAME`: admin login username.
+- `ADMIN_PASSWORD` or `ADMIN_PASSWORD_SHA256`: admin login password source.
+- `REDIS_URL`: optional Redis URL for shared rate-limit counters and short
+  caches.
+- `RSS_AUTO_SYNC`: enables periodic RSS import in the Node process.
+- `RSS_AUTO_SYNC_INTERVAL_HOURS`: interval for automatic RSS sync.
+
+For public deployments, prefer `ADMIN_PASSWORD_SHA256` over storing a plaintext
+admin password when your runtime makes rotation manageable.
+
+## Docker
+
+Check the local Compose config:
+
+```bash
+docker compose config
+```
+
+Run the app and Redis locally:
+
+```bash
+docker compose up --build
+```
+
+Check the production-style Compose config with explicit placeholder values:
+
+```bash
+JWT_SECRET=dev-secret \
+ADMIN_PASSWORD=dev-password \
+REDIS_PASSWORD=dev-redis-password \
+REDIS_URL=redis://:dev-redis-password@redis:6379 \
+docker compose -f docker-compose.prod.yml config
+```
+
 In Docker, mount the episode directory to `/app/content/episodes`.
 
-Redis is optional. It is used only for rate limiting and short JSON caches; the
-Markdown files remain the source of truth. Local Docker starts Redis
-automatically. Production Compose also starts an internal Redis service; set
-`REDIS_PASSWORD` and `REDIS_URL=redis://:<password>@redis:6379` in the server
-environment file.
+## Deployment
 
-## Staging Deployment
+The deployment helper is intentionally parameterized. Pass your own SSH host,
+remote paths, and public URL through environment variables:
 
-Use `new.webworker.tech` as the staging domain. Keep indexing disabled:
+```bash
+REMOTE_HOST=<ssh-host> \
+REMOTE_ROOT=/srv/webworker-tech \
+REMOTE_APP_DIR=/srv/webworker-tech/app \
+REMOTE_CONTENT_DIR=/srv/webworker-tech/content/episodes \
+ENV_FILE=/srv/webworker-tech/.env.production \
+PUBLIC_URL=https://staging.example.com/ \
+sh scripts/deploy-new-webworker.sh
+```
+
+The script builds a `linux/amd64` Docker image, copies the image and Compose
+file to the remote host, syncs Markdown episode files, starts Compose, and
+verifies `/api/health`.
+
+Keep test domains out of search engines with:
 
 ```bash
 PUBLIC_ALLOW_INDEXING=false
 ```
 
-Production-style Compose config:
+## Security
+
+Implemented defensive controls include:
+
+- admin routes protected by session auth
+- Origin checks for write endpoints
+- rate limiting for public pages, admin login, and RSS admin APIs
+- Markdown HTML sanitization before rendering
+- short public cache headers for public GET/HEAD pages
+- query-string stripping on public pages to reduce cache bypass noise
+- optional Redis-backed shared rate-limit counters
+- `robots.txt` and `X-Robots-Tag` noindex controls for staging
+
+For heavy abuse or distributed traffic, put the app behind a CDN/WAF or a
+reverse proxy with request limits. Redis is not a full-page cache in this app;
+it is used for shared counters and short data caches.
+
+## Verification
+
+Useful checks before pushing or deploying:
 
 ```bash
-docker compose -f docker-compose.prod.yml config
+pnpm run build
+pnpm audit --audit-level moderate
+docker compose config
 ```
-
-Deploy helper for the Aliyun host:
-
-```bash
-sh scripts/deploy-new-webworker.sh
-```
-
-The deploy script builds a linux/amd64 Docker image, uploads it to `ssh aliyun`,
-syncs `content/episodes`, starts Compose, and verifies the remote health
-endpoint on port `4322`. After DNS and HTTPS are ready, pass
-`PUBLIC_URL=https://new.webworker.tech/` to verify the public URL as well.
-
-Use the local 1Panel API skill for website, reverse proxy, DNS verification, and
-HTTPS work. Do not hand-edit OpenResty config unless the 1Panel API is
-unavailable and the fallback is explicitly accepted.

@@ -6,7 +6,7 @@ workflow for syncing the upstream podcast RSS feed into those Markdown files.
 
 ## Project Overview
 
-- Framework: Astro 5 with `@astrojs/node` in standalone SSR mode.
+- Framework: Astro with `@astrojs/node` in standalone SSR mode.
 - UI: Vue 3 components hydrated where interaction is needed.
 - Styling: Tailwind CSS 4 via Vite plugin.
 - Data source: Markdown files in `content/episodes`.
@@ -42,8 +42,7 @@ Use `.env.example` as the starting point.
   locally and `/app/content/episodes` in Docker.
 - `REDIS_URL`: optional Redis URL for rate limiting and short JSON caches. When
   unset, the app falls back to process-local memory.
-- `PUBLIC_SITE_URL`: canonical site URL, currently intended to be
-  `https://new.webworker.tech` for staging.
+- `PUBLIC_SITE_URL`: canonical site URL for the current deployment.
 - `PUBLIC_ALLOW_INDEXING`: keep `false` on staging. This makes `robots.txt`
   disallow all crawling and adds `noindex,nofollow,noarchive`.
 - `JWT_SECRET`, `ADMIN_USERNAME`, `ADMIN_PASSWORD` or
@@ -93,16 +92,15 @@ The Markdown body is rendered on episode detail pages.
 server and mounts the Markdown directory:
 
 ```bash
-EPISODES_HOST_DIR=/opt/webworker-tech-new/content/episodes
+EPISODES_HOST_DIR=/srv/webworker-tech/content/episodes
 HOST_PORT=4322
 ```
 
 `scripts/deploy-new-webworker.sh` builds a linux/amd64 image tarball, copies it
-to `ssh aliyun`, syncs current Markdown files, starts Compose, and verifies the
-remote health endpoint. Use it for the `new.webworker.tech` staging site only;
-do not switch the main domain without explicit approval.
+to `REMOTE_HOST`, syncs current Markdown files, starts Compose, and verifies the
+remote health endpoint. Keep real SSH aliases, server IPs, hosting-panel URLs,
+API keys, and production environment files outside this public repository.
 
-Use the official 1Panel skill at `/Users/otto/.agents/skills/1panel-skills` for
-website, reverse proxy, DNS verification, and HTTPS operations. Do not hand-edit
-OpenResty config unless the 1Panel API is unavailable and that fallback is
-explicitly accepted.
+Do not switch the main domain without explicit approval. Use private
+infrastructure tooling for website, reverse proxy, DNS verification, and HTTPS
+operations.

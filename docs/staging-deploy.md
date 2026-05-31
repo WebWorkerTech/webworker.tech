@@ -1,9 +1,15 @@
 # Staging Deploy Checklist
 
-Target staging domain: `new.webworker.tech`.
+This repository is public. Keep real server IPs, SSH aliases, API keys, 1Panel
+tokens, and production environment files outside git.
 
-Keep this domain blocked from crawlers until the main-domain cutover is
-approved:
+Use the placeholders below as a template for a private operations note or a
+server-side `.env.production` file.
+
+## Staging Rules
+
+Keep non-production domains blocked from crawlers until the primary-domain
+cutover is approved:
 
 ```bash
 PUBLIC_ALLOW_INDEXING=false
@@ -11,25 +17,26 @@ PUBLIC_ALLOW_INDEXING=false
 
 ## Server Layout
 
-Recommended paths on `ssh aliyun`:
+Example remote layout:
 
 ```text
-/opt/webworker-tech-new/
+/srv/webworker-tech/
   .env.production
   app/docker-compose.prod.yml
   content/episodes/*.md
 ```
 
 The Docker container reads Markdown from `/app/content/episodes`, mounted from
-`/opt/webworker-tech-new/content/episodes`.
+the host content directory.
 
 ## Environment File
 
-Create `/opt/webworker-tech-new/.env.production`:
+Create a private server-side environment file, for example
+`/srv/webworker-tech/.env.production`:
 
 ```bash
-RSS_URL=https://feed.xyzfm.space/rv449dl9kqka
-PUBLIC_SITE_URL=https://new.webworker.tech
+RSS_URL=https://example.com/feed.xml
+PUBLIC_SITE_URL=https://staging.example.com
 PUBLIC_ALLOW_INDEXING=false
 JWT_SECRET=<long-random-secret>
 ADMIN_USERNAME=admin
@@ -39,16 +46,24 @@ REDIS_URL=redis://:<strong-redis-password>@redis:6379
 RSS_AUTO_SYNC=true
 RSS_AUTO_SYNC_INTERVAL_HOURS=24
 HOST_PORT=4322
-EPISODES_HOST_DIR=/opt/webworker-tech-new/content/episodes
+EPISODES_HOST_DIR=/srv/webworker-tech/content/episodes
 IMAGE_NAME=webworker-tech:ssr-amd64
 ```
 
-Prefer `ADMIN_PASSWORD_SHA256` over `ADMIN_PASSWORD` after the first manual
-verification if the server process manager makes secret rotation easy.
+Prefer `ADMIN_PASSWORD_SHA256` over `ADMIN_PASSWORD` when the runtime makes
+secret rotation manageable.
 
 ## Deploy
 
+Pass private deployment details through environment variables:
+
 ```bash
+REMOTE_HOST=<ssh-host> \
+REMOTE_ROOT=/srv/webworker-tech \
+REMOTE_APP_DIR=/srv/webworker-tech/app \
+REMOTE_CONTENT_DIR=/srv/webworker-tech/content/episodes \
+ENV_FILE=/srv/webworker-tech/.env.production \
+PUBLIC_URL=https://staging.example.com/ \
 sh scripts/deploy-new-webworker.sh
 ```
 
@@ -56,68 +71,45 @@ The script:
 
 1. Builds the Astro SSR app.
 2. Builds a `linux/amd64` Docker image.
-3. Copies the image tarball and production compose file to `ssh aliyun`.
+3. Copies the image tarball and production Compose file to the remote host.
 4. Syncs local `content/episodes` to the server content directory.
 5. Starts Compose and checks `/api/health`.
-6. Verifies the remote health endpoint on port `4322`.
 
-Use the local 1Panel API skill for the staging website and reverse proxy:
+## Reverse Proxy And HTTPS
 
-```bash
-export ONEPANEL_BASE_URL='https://<1panel-host>:<port>'
-export ONEPANEL_API_KEY='<api-key-from-1panel-settings>'
-node /Users/otto/.agents/skills/1panel-skills/dist/scripts/cli.js \
-  run websites searchWebsites \
-  --input-json '{"page":1,"pageSize":20,"name":"new.webworker.tech","orderBy":"created_at","order":"descending"}'
-```
+Use your private infrastructure tooling or hosting panel to create a reverse
+proxy from the public site domain to the app port. Keep API credentials and
+panel URLs outside this repository.
 
-Relevant skill endpoints:
-
-- `POST /websites/search`: find the staging website record.
-- `POST /websites`: create the staging website if it does not exist.
-- `POST /websites/proxies/update`: create or update reverse proxy to
-  `http://127.0.0.1:4322`.
-- `POST /websites/nginx/update`: update full Nginx config only when the proxy
-  endpoint cannot express the needed headers.
-- `POST /websites/ssl` and `POST /websites/:id/https`: issue and attach HTTPS
-  after DNS is live.
-
-Do not hand-edit OpenResty config unless the 1Panel API is unavailable and the
-fallback is explicitly accepted.
-
-The public URL check is optional because DNS and HTTPS may not be ready during
-the first staging deploy:
-
-```bash
-PUBLIC_URL=https://new.webworker.tech/ sh scripts/deploy-new-webworker.sh
-```
+Do not hand-edit reverse-proxy config unless your normal management interface is
+unavailable and the fallback is intentionally accepted.
 
 ## Verification
 
-Before any primary-domain cutover:
+On the server:
 
 ```bash
 curl -fsS http://127.0.0.1:4322/api/health
-curl -fsS -H 'Host: new.webworker.tech' http://127.0.0.1/robots.txt
-curl -fsS -H 'Host: new.webworker.tech' http://127.0.0.1/api/health
+curl -fsS -H 'Host: staging.example.com' http://127.0.0.1/robots.txt
+curl -fsS -H 'Host: staging.example.com' http://127.0.0.1/api/health
 ```
 
-Before DNS is live, verify from your local machine by forcing the host mapping:
+From a local machine before DNS is live, use a private operations note for the
+actual IP address:
 
 ```bash
-curl --resolve new.webworker.tech:80:182.92.243.114 \
-  http://new.webworker.tech/api/health
-curl --resolve new.webworker.tech:80:182.92.243.114 \
-  http://new.webworker.tech/robots.txt
+curl --resolve staging.example.com:80:<server-ip> \
+  http://staging.example.com/api/health
+curl --resolve staging.example.com:80:<server-ip> \
+  http://staging.example.com/robots.txt
 ```
 
-After the DNS A record points to `182.92.243.114`, issue an HTTPS certificate
-for `new.webworker.tech` in 1Panel/OpenResty and then verify:
+After DNS and HTTPS are ready:
 
 ```bash
-curl -fsS https://new.webworker.tech/api/health
-curl -fsS https://new.webworker.tech/robots.txt
-curl -fsS -I https://new.webworker.tech/admin
+curl -fsS https://staging.example.com/api/health
+curl -fsS https://staging.example.com/robots.txt
+curl -fsS -I https://staging.example.com/admin
 ```
 
 Expected staging `robots.txt`:
