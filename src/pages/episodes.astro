@@ -22,7 +22,10 @@ const categories = [
 ]
 ---
 
-<Layout title="全部播客 - MindTech">
+<Layout
+  title="全部播客 - Web Worker"
+  description={`收听 Web Worker 播客全部 ${allEpisodes.length} 期节目，按标题搜索前端技术、工程实践和开发者社区相关内容。`}
+>
   <Header client:load />
 
   <main class="container mx-auto px-4 py-8 md:py-12 pb-24 md:pb-0">

@@ -12,7 +12,7 @@ function escapeXml(value: string) {
 
 export const GET: APIRoute = async ({ site }) => {
   const origin =
-    site?.toString().replace(/\/$/, '') || 'https://new.webworker.tech'
+    site?.toString().replace(/\/$/, '') || 'https://webworker.tech'
   const episodes = await getAllEpisodes()
   const urls = [
     { loc: '/', lastmod: new Date().toISOString() },

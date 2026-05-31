@@ -3,6 +3,7 @@ import Layout from '@/layouts/Layout.astro'
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
 import { getEpisodeById } from '@/utils/podcast'
+import { stripHtml } from '@/server/markdown'
 import {
   ChevronLeft,
   Mic,
@@ -18,9 +19,18 @@ const episode = Astro.params.id
 if (!episode) {
   return Astro.redirect('/404')
 }
+
+const episodeDescription =
+  stripHtml(episode.description || episode.showNotes || '').slice(0, 160) ||
+  'Web Worker 播客单集'
 ---
 
-<Layout title={episode.title}>
+<Layout
+  title={`${episode.title} - Web Worker`}
+  description={episodeDescription}
+  image={episode.imageUrl}
+  type="article"
+>
   <Header client:load />
 
   <main class="container mx-auto px-4 py-8 pb-24">

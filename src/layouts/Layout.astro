@@ -5,15 +5,25 @@ export interface Props {
   title: string
   description?: string
   image?: string
+  type?: 'website' | 'article'
 }
 
 const {
   title,
   description = '前端程序员闲聊的中文播客节目',
   image = '/logo500.webp',
+  type = 'website',
 } = Astro.props
 
-const allowIndexing = import.meta.env.PUBLIC_ALLOW_INDEXING === 'true'
+const allowIndexing = process.env.PUBLIC_ALLOW_INDEXING === 'true'
+const siteOrigin = (
+  Astro.site?.toString() ||
+  import.meta.env.PUBLIC_SITE_URL ||
+  'https://webworker.tech'
+).replace(/\/$/, '')
+const canonicalUrl = new URL(Astro.url.pathname, siteOrigin).toString()
+const imageUrl = new URL(image, siteOrigin).toString()
+const rssUrl = process.env.RSS_URL || 'https://feed.xyzfm.space/rv449dl9kqka'
 ---
 
 <!doctype html>
@@ -28,26 +38,30 @@ const allowIndexing = import.meta.env.PUBLIC_ALLOW_INDEXING === 'true'
     }
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/webp" href="/logo500.webp" />
+    <link rel="canonical" href={canonicalUrl} />
     <meta name="generator" content={Astro.generator} />
 
     <link
-      href="https://www.xiaoyuzhoufm.com/podcast/613753ef23c82a9a1ccfdf35"
+      href={rssUrl}
       rel="alternate"
-      title="Web Worker 播客 小宇宙"
+      title="Web Worker 播客 RSS"
       type="application/rss+xml"
     />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:type" content="website" />
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="Web Worker" />
+    <meta property="og:locale" content="zh_CN" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={image} />
+    <meta name="twitter:image" content={imageUrl} />
 
     <title>{title}</title>
   </head>

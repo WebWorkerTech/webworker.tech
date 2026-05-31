@@ -22,8 +22,8 @@ services:
       RSS_URL: ${RSS_URL:-https://feed.xyzfm.space/rv449dl9kqka}
       EPISODES_DIR: /app/content/episodes
       REDIS_URL: ${REDIS_URL:?REDIS_URL is required}
-      PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://staging.example.com}
-      PUBLIC_ALLOW_INDEXING: ${PUBLIC_ALLOW_INDEXING:-false}
+      PUBLIC_SITE_URL: ${PUBLIC_SITE_URL:-https://webworker.tech}
+      PUBLIC_ALLOW_INDEXING: ${PUBLIC_ALLOW_INDEXING:-true}
       JWT_SECRET: ${JWT_SECRET:?JWT_SECRET is required}
       ADMIN_USERNAME: ${ADMIN_USERNAME:-admin}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
