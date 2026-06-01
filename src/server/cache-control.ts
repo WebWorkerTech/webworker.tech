@@ -1,4 +1,5 @@
 import type { APIContext } from 'astro'
+import { getEnv } from './env'
 
 export function isPublicPage(context: APIContext) {
   if (context.request.method !== 'GET' && context.request.method !== 'HEAD') {
@@ -24,5 +25,16 @@ export function cleanUrlRedirect(context: APIContext) {
   if (!url.search) return null
 
   url.search = ''
+  const site = getEnv('PUBLIC_SITE_URL')
+  if (site) {
+    try {
+      const origin = new URL(site)
+      url.protocol = origin.protocol
+      url.host = origin.host
+    } catch {
+      // Keep the request URL when PUBLIC_SITE_URL is not a valid URL.
+    }
+  }
+
   return Response.redirect(url, 301)
 }
