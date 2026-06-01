@@ -22,6 +22,29 @@ export function configuredSiteOrigin() {
   }
 }
 
+export function canonicalHostRedirect(context: APIContext) {
+  if (context.request.method !== 'GET' && context.request.method !== 'HEAD') {
+    return null
+  }
+
+  const configuredOrigin = configuredSiteOrigin()
+  if (!configuredOrigin) return null
+
+  const targetOrigin = new URL(configuredOrigin)
+  const headers = context.request.headers
+  const incomingHost =
+    headers.get('x-forwarded-host')?.split(',')[0]?.trim() ||
+    headers.get('host')?.split(',')[0]?.trim() ||
+    new URL(context.request.url).host
+
+  if (incomingHost !== `www.${targetOrigin.host}`) return null
+
+  const url = new URL(context.request.url)
+  url.protocol = targetOrigin.protocol
+  url.host = targetOrigin.host
+  return Response.redirect(url, 301)
+}
+
 export function isTrustedWriteOrigin(context: APIContext) {
   const headers = context.request.headers
   const origin = headers.get('origin')

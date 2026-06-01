@@ -5,11 +5,14 @@ import {
   publicPageCacheControl,
 } from '@/server/cache-control'
 import { enforceRateLimit } from '@/server/rate-limit'
-import { applySecurityHeaders } from '@/server/security'
+import { applySecurityHeaders, canonicalHostRedirect } from '@/server/security'
 import { startRssScheduler } from '@/server/scheduler'
 
 export const onRequest = defineMiddleware(async (context, next) => {
   startRssScheduler()
+
+  const canonicalRedirect = canonicalHostRedirect(context)
+  if (canonicalRedirect) return canonicalRedirect
 
   const redirect = cleanUrlRedirect(context)
   if (redirect) return redirect
