@@ -22,8 +22,16 @@ services:
       - "${HOST_PORT:-4322}:4321"
     volumes:
       - ${EPISODES_HOST_DIR:-./content/episodes}:/app/content/episodes
+    networks:
+      - default
+      - shared-redis
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4321/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 30s
       timeout: 5s
       retries: 5
+
+networks:
+  shared-redis:
+    external: true
+    name: ${REDIS_DOCKER_NETWORK:-1panel-network}
