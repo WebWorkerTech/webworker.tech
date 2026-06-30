@@ -17,6 +17,17 @@ Import missing RSS items as Markdown:
 pnpm run fetch-rss
 ```
 
+Download audio enclosure files from the RSS feed:
+
+```bash
+pnpm run download:audio
+pnpm run download:audio -- --dry-run
+pnpm run download:audio -- --notes-only
+```
+
+Audio files and same-name Markdown show notes are written to
+`downloads/podcast-audio` by default.
+
 The diff is title-based, matching the admin workflow. If a local Markdown file
 has the same normalized title as the remote RSS item, it is considered already
 synced.

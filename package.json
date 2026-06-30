@@ -13,6 +13,7 @@
     "format": "prettier --write .",
     "fetch-rss": "node scripts/fetch-rss.js",
     "sync:rss": "node scripts/fetch-rss.js",
+    "download:audio": "node scripts/download-rss-audio.mjs",
     "import:episodes": "node scripts/import-podcast-json.mjs",
     "docker:config": "docker compose config",
     "deploy:test": "sh scripts/deploy-new-webworker.sh"
