@@ -1,0 +1,110 @@
+{
+  "task_id": "683e43c6-b2e1-4750-8253-c520509d0ee3",
+  "source": "batch",
+  "title": "No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟",
+  "audio_file": "2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.m4a",
+  "show_notes_file": "2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.md",
+  "asr_file": "2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/64400c169361a4e7c3fc9ab7/media.xyzcdn.net/ltFFBgL7Ke7mCuOciUiaKue_bhYp.m4a",
+    "audio_filename": "2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "辛宝Otto",
+        "开翼",
+        "Qwerty",
+        "Learner",
+        "Qwerty Learner",
+        "Otto",
+        "js",
+        "coding",
+        "opening",
+        "TailwindCSS",
+        "useContext",
+        "jotai",
+        "前端主播",
+        "新一期播客",
+        "他做的网站产品",
+        "久没有合体一起录播客"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 4114.947,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 478,
+    "words_count": 18561,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_0",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 117,
+    "audio_event_classes": {
+      "Music": 44,
+      "Silence": 72,
+      "Cough": 1
+    },
+    "billing": {
+      "amount": 0.7245,
+      "balance": 14.6914,
+      "billable_minutes": 69,
+      "detail": {
+        "base_amount": 0.69,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.23,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.115,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.035,
+        "total": 0.7245
+      },
+      "mode": "standard"
+    }
+  }
+}

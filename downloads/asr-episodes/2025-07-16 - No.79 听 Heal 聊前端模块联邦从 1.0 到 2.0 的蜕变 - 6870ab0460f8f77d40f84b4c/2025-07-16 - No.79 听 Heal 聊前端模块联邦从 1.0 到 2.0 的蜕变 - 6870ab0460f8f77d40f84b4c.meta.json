@@ -1,0 +1,106 @@
+{
+  "task_id": "d16502e1-77b0-4e6c-a9a5-c666bf9e8d13",
+  "source": "batch",
+  "title": "No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变",
+  "audio_file": "2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.m4a",
+  "show_notes_file": "2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.md",
+  "asr_file": "2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6870ab0460f8f77d40f84b4c/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/llQwRoUk2Mtgw1sG6okB3AYd9pZo.m4a",
+    "audio_filename": "2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Heal",
+        "Web Infra",
+        "Webpack",
+        "Garfish",
+        "SSR",
+        "Module Federati...",
+        "本期播客",
+        "还准备了相关开源项目",
+        "了字节跳动Web",
+        "微前端方案Garfish如何各司其职又相互",
+        "聊前端模块联邦从",
+        "1.0",
+        "2.0",
+        "的蜕变"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3765.779,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 306,
+    "words_count": 17317,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 48,
+    "audio_event_classes": {
+      "Music": 29,
+      "Silence": 19
+    },
+    "billing": {
+      "amount": 0.6615,
+      "balance": 14.6914,
+      "billable_minutes": 63,
+      "detail": {
+        "base_amount": 0.63,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.21,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.105,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.945,
+        "total": 0.6615
+      },
+      "mode": "standard"
+    }
+  }
+}

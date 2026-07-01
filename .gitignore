@@ -5,6 +5,11 @@
 **/node_modules/
 **/.astro/
 dist/
-downloads/
+downloads/*
+!downloads/asr-episodes/
+downloads/asr-episodes/**
+!downloads/asr-episodes/**/
+!downloads/asr-episodes/**/*.md
+!downloads/asr-episodes/**/*.json
 
 .pnpm-store

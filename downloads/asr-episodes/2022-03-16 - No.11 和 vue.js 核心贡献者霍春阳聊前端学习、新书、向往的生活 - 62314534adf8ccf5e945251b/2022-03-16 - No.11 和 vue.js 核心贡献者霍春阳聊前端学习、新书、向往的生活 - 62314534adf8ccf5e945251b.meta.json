@@ -1,0 +1,111 @@
+{
+  "task_id": "508eb375-3280-4773-aa10-b2fd3058e6e5",
+  "source": "batch",
+  "title": "No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活",
+  "audio_file": "2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.m4a",
+  "show_notes_file": "2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.md",
+  "asr_file": "2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/62314534adf8ccf5e945251b/media.xyzcdn.net/lsjpaNxkjg5V-zTPN0fNjgxP_7mY.m4a",
+    "audio_filename": "2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Otto",
+        "霍春阳",
+        "HcySunYang",
+        "知乎",
+        "推特",
+        "友情出镜春阳的猫猫 艾里",
+        "vue.js",
+        "vuejs",
+        "vue3",
+        "前端主播",
+        "到了重磅嘉宾",
+        "的核心成员",
+        "程序员闲聊的音频播客",
+        "霍春阳HcySunYang",
+        "会在本期评论区找四个顺眼的评论每人送一本书",
+        "牛逼"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 2862.876,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 295,
+    "words_count": 12371,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_0"
+    ],
+    "audio_events_count": 83,
+    "audio_event_classes": {
+      "Music": 60,
+      "Silence": 15,
+      "Cough": 7,
+      "Laughter": 1
+    },
+    "billing": {
+      "amount": 0.504,
+      "balance": 14.6914,
+      "billable_minutes": 48,
+      "detail": {
+        "base_amount": 0.48,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.16,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.08,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.72,
+        "total": 0.504
+      },
+      "mode": "standard"
+    }
+  }
+}

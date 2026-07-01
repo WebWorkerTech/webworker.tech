@@ -1,0 +1,110 @@
+{
+  "task_id": "0966fcd5-5a70-4c9b-83f3-7674a48c157e",
+  "source": "batch",
+  "title": "No.83 “代码降权”时代，程序员会被AI取代吗？",
+  "audio_file": "2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.m4a",
+  "show_notes_file": "2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.md",
+  "asr_file": "2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/68b847885faf368659ddbf80/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lgYdPSrv6Bohf9WcxsAOTsINxMTZ.m4a",
+    "audio_filename": "2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Vibe",
+        "Vi...",
+        "的其中两位作者",
+        "方法论比单纯使用工具",
+        "编程工具",
+        "两位嘉宾",
+        "浪说播客",
+        "船长和文杰",
+        "们分享了写书过程中的有哪些好玩有趣的经历",
+        "们既分享了AI编程带来的效率提升",
+        "收获",
+        "两位嘉宾同时也是",
+        "代码降权",
+        "时代"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.83 “代码降权”时代，程序员会被AI取代吗？》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6241.543,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 536,
+    "words_count": 22791,
+    "speakers_count": 4,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_3"
+    ],
+    "audio_events_count": 195,
+    "audio_event_classes": {
+      "Music": 16,
+      "Silence": 176,
+      "Laughter": 1,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 1.1025,
+      "balance": 14.6914,
+      "billable_minutes": 105,
+      "detail": {
+        "base_amount": 1.05,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.35,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.175,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.575,
+        "total": 1.1025
+      },
+      "mode": "standard"
+    }
+  }
+}

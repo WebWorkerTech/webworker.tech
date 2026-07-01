@@ -1,0 +1,109 @@
+{
+  "task_id": "0bdf417f-9d89-4c15-9c71-7cf797a7f5c3",
+  "source": "batch",
+  "title": "No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0",
+  "audio_file": "2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.m4a",
+  "show_notes_file": "2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.md",
+  "asr_file": "2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6a298b753eedf1f4b268a909/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/ljYaoDFvymKfF1a0y2KeFFDFbXun.m4a",
+    "audio_filename": "2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Void Zero",
+        "Rolldown1.0",
+        "Rollup",
+        "Rust",
+        "Rolldown",
+        "bundler",
+        "JavaScript/TypeScript",
+        "esbuild",
+        "full-bundle mode",
+        "飞聊聊下一代打包引擎",
+        "本期播客",
+        "作为嘉宾",
+        "编写的高性能打包工具",
+        "替代原有构建引擎",
+        "的底层构建引擎",
+        "Void"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 4626.963,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 335,
+    "words_count": 20603,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 78,
+    "audio_event_classes": {
+      "Music": 43,
+      "Silence": 32,
+      "Cough": 3
+    },
+    "billing": {
+      "amount": 0.819,
+      "balance": 14.6914,
+      "billable_minutes": 78,
+      "detail": {
+        "base_amount": 0.78,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.26,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.13,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.17,
+        "total": 0.819
+      },
+      "mode": "standard"
+    }
+  }
+}

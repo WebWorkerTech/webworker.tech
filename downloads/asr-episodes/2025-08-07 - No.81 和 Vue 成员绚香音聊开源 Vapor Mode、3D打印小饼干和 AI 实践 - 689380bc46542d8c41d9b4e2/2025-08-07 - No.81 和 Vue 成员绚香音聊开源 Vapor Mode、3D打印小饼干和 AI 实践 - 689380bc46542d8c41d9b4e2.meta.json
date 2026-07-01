@@ -1,0 +1,111 @@
+{
+  "task_id": "e25b029d-7ca1-4875-a6a3-9659a9b93da7",
+  "source": "batch",
+  "title": "No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践",
+  "audio_file": "2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.m4a",
+  "show_notes_file": "2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.md",
+  "asr_file": "2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/689380bc46542d8c41d9b4e2/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lotZRbmTiUCd32PzXOCakUaoMjpK.m4a",
+    "audio_filename": "2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Vapor Mode",
+        "VueConf",
+        "OikawaRizumu",
+        "Github",
+        "Vue3.6",
+        "Johnson",
+        "Doctor Wu",
+        "Shenzhen",
+        "新一期播客",
+        "的核心成员",
+        "绚香音聊开源",
+        "绚香音加入闲聊",
+        "互动",
+        "Doctor",
+        "成员绚香音聊开源",
+        "Vapor"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 5400.925,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 754,
+    "words_count": 23744,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 136,
+    "audio_event_classes": {
+      "Silence": 126,
+      "Laughter": 2,
+      "Cough": 5,
+      "Music": 3
+    },
+    "billing": {
+      "amount": 0.9555,
+      "balance": 14.6914,
+      "billable_minutes": 91,
+      "detail": {
+        "base_amount": 0.91,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.3033,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1517,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.365,
+        "total": 0.9555
+      },
+      "mode": "standard"
+    }
+  }
+}

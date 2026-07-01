@@ -1,0 +1,7305 @@
+{
+  "audio_duration": 179.968,
+  "audio_events": [
+    {
+      "class": "Music",
+      "confidence": 0.9782,
+      "end": 0.96,
+      "start": 0
+    },
+    {
+      "class": "Music",
+      "confidence": 0.9951,
+      "end": 1.92,
+      "start": 0.96
+    },
+    {
+      "class": "Music",
+      "confidence": 0.8678,
+      "end": 2.88,
+      "start": 1.92
+    },
+    {
+      "class": "Music",
+      "confidence": 0.4503,
+      "end": 3.84,
+      "start": 2.88
+    },
+    {
+      "class": "Music",
+      "confidence": 0.637,
+      "end": 4.8,
+      "start": 3.84
+    },
+    {
+      "class": "Music",
+      "confidence": 0.5187,
+      "end": 7.68,
+      "start": 6.72
+    },
+    {
+      "class": "Music",
+      "confidence": 0.3792,
+      "end": 11.52,
+      "start": 10.56
+    },
+    {
+      "class": "Music",
+      "confidence": 0.8305,
+      "end": 16.32,
+      "start": 15.36
+    },
+    {
+      "class": "Music",
+      "confidence": 0.5319,
+      "end": 80.64,
+      "start": 79.68
+    },
+    {
+      "class": "Music",
+      "confidence": 0.4298,
+      "end": 86.4,
+      "start": 85.44
+    },
+    {
+      "class": "Music",
+      "confidence": 0.3015,
+      "end": 90.24,
+      "start": 89.28
+    },
+    {
+      "class": "Music",
+      "confidence": 0.4335,
+      "end": 121.92,
+      "start": 120.96
+    },
+    {
+      "class": "Music",
+      "confidence": 0.3391,
+      "end": 127.68,
+      "start": 126.72
+    },
+    {
+      "class": "Music",
+      "confidence": 0.6369,
+      "end": 128.64,
+      "start": 127.68
+    },
+    {
+      "class": "Music",
+      "confidence": 0.4774,
+      "end": 158.4,
+      "start": 157.44
+    }
+  ],
+  "audio_md5": "a2a4a60c664c0fe63e63741b756652f3",
+  "billing": {
+    "amount": 0.0315,
+    "balance": 14.6914,
+    "billable_minutes": 3,
+    "detail": {
+      "base_amount": 0.03,
+      "base_price_per_hour": 0.6,
+      "batch_discount": 0.7,
+      "diarize_amount": 0.01,
+      "diarize_price_per_hour": 0.2,
+      "events_amount": 0.005,
+      "events_price_per_hour": 0.1,
+      "mode": "standard",
+      "subtotal": 0.045,
+      "total": 0.0315
+    },
+    "mode": "standard"
+  },
+  "language": "zh",
+  "language_probability": 1,
+  "num_speakers": 2,
+  "segments": [
+    {
+      "end": 2.72,
+      "id": 0,
+      "speaker": "SPEAKER_0",
+      "start": 0.16,
+      "text": "欢迎回来。",
+      "words": [
+        {
+          "end": 0.16,
+          "probability": 1,
+          "start": 0.16,
+          "word": "欢"
+        },
+        {
+          "end": 0.32,
+          "probability": 1,
+          "start": 0.16,
+          "word": "迎"
+        },
+        {
+          "end": 0.32,
+          "probability": 1,
+          "start": 0.32,
+          "word": "回"
+        },
+        {
+          "end": 2.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 2.64,
+          "word": "来。"
+        }
+      ]
+    },
+    {
+      "end": 7.84,
+      "id": 1,
+      "speaker": "SPEAKER_1",
+      "start": 4.72,
+      "text": "哎，你觉得刚才我们讲的这些部分，哪些部分东西比较重要？",
+      "words": [
+        {
+          "end": 4.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 4.72,
+          "word": "哎，"
+        },
+        {
+          "end": 4.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 4.8,
+          "word": "你"
+        },
+        {
+          "end": 5.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.12,
+          "word": "觉"
+        },
+        {
+          "end": 5.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.28,
+          "word": "得"
+        },
+        {
+          "end": 5.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.44,
+          "word": "刚"
+        },
+        {
+          "end": 5.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.52,
+          "word": "才"
+        },
+        {
+          "end": 5.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.68,
+          "word": "我"
+        },
+        {
+          "end": 5.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.76,
+          "word": "们"
+        },
+        {
+          "end": 6.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 5.92,
+          "word": "讲"
+        },
+        {
+          "end": 6.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.08,
+          "word": "的"
+        },
+        {
+          "end": 6.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.16,
+          "word": "这"
+        },
+        {
+          "end": 6.32,
+          "probability": 1,
+          "start": 6.32,
+          "word": "些"
+        },
+        {
+          "end": 6.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.32,
+          "word": "部"
+        },
+        {
+          "end": 6.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.48,
+          "word": "分，"
+        },
+        {
+          "end": 6.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.72,
+          "word": "哪"
+        },
+        {
+          "end": 6.88,
+          "probability": 1,
+          "start": 6.88,
+          "word": "些"
+        },
+        {
+          "end": 7.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 6.96,
+          "word": "部"
+        },
+        {
+          "end": 7.12,
+          "probability": 1,
+          "start": 7.12,
+          "word": "分"
+        },
+        {
+          "end": 7.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.2,
+          "word": "东"
+        },
+        {
+          "end": 7.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.28,
+          "word": "西"
+        },
+        {
+          "end": 7.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.44,
+          "word": "比"
+        },
+        {
+          "end": 7.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.52,
+          "word": "较"
+        },
+        {
+          "end": 7.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.68,
+          "word": "重"
+        },
+        {
+          "end": 7.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.76,
+          "word": "要？"
+        }
+      ]
+    },
+    {
+      "end": 9.04,
+      "id": 2,
+      "speaker": "SPEAKER_1",
+      "start": 7.92,
+      "text": "或者哪些东西比较有趣？",
+      "words": [
+        {
+          "end": 8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 7.92,
+          "word": "或"
+        },
+        {
+          "end": 8.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8,
+          "word": "者"
+        },
+        {
+          "end": 8.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.08,
+          "word": "哪"
+        },
+        {
+          "end": 8.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.16,
+          "word": "些"
+        },
+        {
+          "end": 8.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.24,
+          "word": "东"
+        },
+        {
+          "end": 8.4,
+          "probability": 1,
+          "start": 8.4,
+          "word": "西"
+        },
+        {
+          "end": 8.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.48,
+          "word": "比"
+        },
+        {
+          "end": 8.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.56,
+          "word": "较"
+        },
+        {
+          "end": 8.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.64,
+          "word": "有"
+        },
+        {
+          "end": 9.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 8.8,
+          "word": "趣？"
+        }
+      ]
+    },
+    {
+      "end": 14.88,
+      "id": 3,
+      "speaker": "SPEAKER_1",
+      "start": 9.36,
+      "text": "做它作为呃听众是适合去听，然后我可以放在片头去做介绍。",
+      "words": [
+        {
+          "end": 9.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 9.36,
+          "word": "做"
+        },
+        {
+          "end": 9.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 9.6,
+          "word": "它"
+        },
+        {
+          "end": 10.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 9.92,
+          "word": "作"
+        },
+        {
+          "end": 10.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 10.08,
+          "word": "为"
+        },
+        {
+          "end": 11.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 10.88,
+          "word": "呃"
+        },
+        {
+          "end": 11.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 11.44,
+          "word": "听"
+        },
+        {
+          "end": 11.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 11.6,
+          "word": "众"
+        },
+        {
+          "end": 11.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 11.76,
+          "word": "是"
+        },
+        {
+          "end": 12.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 11.92,
+          "word": "适"
+        },
+        {
+          "end": 12.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 12.16,
+          "word": "合"
+        },
+        {
+          "end": 12.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 12.32,
+          "word": "去"
+        },
+        {
+          "end": 12.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 12.48,
+          "word": "听，"
+        },
+        {
+          "end": 13.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 12.96,
+          "word": "然"
+        },
+        {
+          "end": 13.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.12,
+          "word": "后"
+        },
+        {
+          "end": 13.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.2,
+          "word": "我"
+        },
+        {
+          "end": 13.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.36,
+          "word": "可"
+        },
+        {
+          "end": 13.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.44,
+          "word": "以"
+        },
+        {
+          "end": 13.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.52,
+          "word": "放"
+        },
+        {
+          "end": 13.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.68,
+          "word": "在"
+        },
+        {
+          "end": 13.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 13.76,
+          "word": "片"
+        },
+        {
+          "end": 14.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14,
+          "word": "头"
+        },
+        {
+          "end": 14.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14.16,
+          "word": "去"
+        },
+        {
+          "end": 14.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14.48,
+          "word": "做"
+        },
+        {
+          "end": 14.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14.64,
+          "word": "介"
+        },
+        {
+          "end": 14.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14.8,
+          "word": "绍。"
+        }
+      ]
+    },
+    {
+      "end": 40.16,
+      "id": 4,
+      "speaker": "SPEAKER_0",
+      "start": 14.88,
+      "text": "你这期节目的，OK，哦，我认为抛开我们闲聊是更多这种就是我们感受上的我们一些闲聊，然后在最核心的知识部分我们去聊了大模型是什么，A I 是什么，然后从它的到开始到 cold 到未来的这过程中，抛开它最表面的一些东西，它核心发生了什么样的范式转变，让一代超过另一代。",
+      "words": [
+        {
+          "end": 15.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 14.88,
+          "word": "你"
+        },
+        {
+          "end": 15.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 15.04,
+          "word": "这"
+        },
+        {
+          "end": 15.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 15.12,
+          "word": "期"
+        },
+        {
+          "end": 15.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 15.28,
+          "word": "节"
+        },
+        {
+          "end": 15.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 15.44,
+          "word": "目"
+        },
+        {
+          "end": 15.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 15.6,
+          "word": "的，"
+        },
+        {
+          "end": 16.96,
+          "probability": 1,
+          "start": 16.96,
+          "word": "OK，"
+        },
+        {
+          "end": 17.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 16.96,
+          "word": "哦，"
+        },
+        {
+          "end": 17.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 17.68,
+          "word": "我"
+        },
+        {
+          "end": 18.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 17.84,
+          "word": "认"
+        },
+        {
+          "end": 18.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 18.08,
+          "word": "为"
+        },
+        {
+          "end": 18.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 18.32,
+          "word": "抛"
+        },
+        {
+          "end": 18.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 18.56,
+          "word": "开"
+        },
+        {
+          "end": 18.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 18.72,
+          "word": "我"
+        },
+        {
+          "end": 19.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 18.8,
+          "word": "们"
+        },
+        {
+          "end": 19.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 19.12,
+          "word": "闲"
+        },
+        {
+          "end": 19.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 19.44,
+          "word": "聊"
+        },
+        {
+          "end": 19.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 19.6,
+          "word": "是"
+        },
+        {
+          "end": 20,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 19.76,
+          "word": "更"
+        },
+        {
+          "end": 20.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20,
+          "word": "多"
+        },
+        {
+          "end": 20.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.16,
+          "word": "这"
+        },
+        {
+          "end": 20.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.24,
+          "word": "种"
+        },
+        {
+          "end": 20.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.4,
+          "word": "就"
+        },
+        {
+          "end": 20.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.48,
+          "word": "是"
+        },
+        {
+          "end": 20.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.56,
+          "word": "我"
+        },
+        {
+          "end": 20.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.64,
+          "word": "们"
+        },
+        {
+          "end": 21.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 20.88,
+          "word": "感"
+        },
+        {
+          "end": 21.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.12,
+          "word": "受"
+        },
+        {
+          "end": 21.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.36,
+          "word": "上"
+        },
+        {
+          "end": 21.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.6,
+          "word": "的"
+        },
+        {
+          "end": 21.68,
+          "probability": 1,
+          "start": 21.68,
+          "word": "我"
+        },
+        {
+          "end": 21.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.68,
+          "word": "们"
+        },
+        {
+          "end": 21.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.76,
+          "word": "一"
+        },
+        {
+          "end": 22,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 21.84,
+          "word": "些"
+        },
+        {
+          "end": 22.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 22,
+          "word": "闲"
+        },
+        {
+          "end": 22.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 22.24,
+          "word": "聊，"
+        },
+        {
+          "end": 22.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 22.8,
+          "word": "然"
+        },
+        {
+          "end": 22.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 22.88,
+          "word": "后"
+        },
+        {
+          "end": 23.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 23.2,
+          "word": "在"
+        },
+        {
+          "end": 23.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 23.36,
+          "word": "最"
+        },
+        {
+          "end": 23.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 23.52,
+          "word": "核"
+        },
+        {
+          "end": 23.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 23.76,
+          "word": "心"
+        },
+        {
+          "end": 24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 23.92,
+          "word": "的"
+        },
+        {
+          "end": 24.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24,
+          "word": "知"
+        },
+        {
+          "end": 24.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24.16,
+          "word": "识"
+        },
+        {
+          "end": 24.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24.24,
+          "word": "部"
+        },
+        {
+          "end": 24.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24.4,
+          "word": "分"
+        },
+        {
+          "end": 24.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24.8,
+          "word": "我"
+        },
+        {
+          "end": 24.88,
+          "probability": 1,
+          "start": 24.88,
+          "word": "们"
+        },
+        {
+          "end": 25.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 24.88,
+          "word": "去"
+        },
+        {
+          "end": 25.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 25.04,
+          "word": "聊"
+        },
+        {
+          "end": 25.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 25.28,
+          "word": "了"
+        },
+        {
+          "end": 26.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26,
+          "word": "大"
+        },
+        {
+          "end": 26.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26.16,
+          "word": "模"
+        },
+        {
+          "end": 26.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26.24,
+          "word": "型"
+        },
+        {
+          "end": 26.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26.48,
+          "word": "是"
+        },
+        {
+          "end": 26.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26.56,
+          "word": "什"
+        },
+        {
+          "end": 26.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 26.72,
+          "word": "么，"
+        },
+        {
+          "end": 27.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 27.04,
+          "word": "A"
+        },
+        {
+          "end": 27.44,
+          "probability": 1,
+          "start": 27.44,
+          "word": "I"
+        },
+        {
+          "end": 27.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 27.68,
+          "word": "是"
+        },
+        {
+          "end": 27.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 27.84,
+          "word": "什"
+        },
+        {
+          "end": 28.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 27.92,
+          "word": "么，"
+        },
+        {
+          "end": 28.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 28.4,
+          "word": "然"
+        },
+        {
+          "end": 28.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 28.56,
+          "word": "后"
+        },
+        {
+          "end": 29.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 29.12,
+          "word": "从"
+        },
+        {
+          "end": 29.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 29.28,
+          "word": "它"
+        },
+        {
+          "end": 29.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 29.44,
+          "word": "的"
+        },
+        {
+          "end": 29.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 29.76,
+          "word": "到"
+        },
+        {
+          "end": 30.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 29.92,
+          "word": "开"
+        },
+        {
+          "end": 30.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 30.16,
+          "word": "始"
+        },
+        {
+          "end": 30.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 30.48,
+          "word": "到"
+        },
+        {
+          "end": 31.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 31.04,
+          "word": "cold"
+        },
+        {
+          "end": 31.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 31.52,
+          "word": "到"
+        },
+        {
+          "end": 32.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 31.84,
+          "word": "未"
+        },
+        {
+          "end": 32.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.08,
+          "word": "来"
+        },
+        {
+          "end": 32.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.24,
+          "word": "的"
+        },
+        {
+          "end": 32.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.4,
+          "word": "这"
+        },
+        {
+          "end": 32.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.64,
+          "word": "过"
+        },
+        {
+          "end": 32.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.72,
+          "word": "程"
+        },
+        {
+          "end": 33.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 32.96,
+          "word": "中，"
+        },
+        {
+          "end": 33.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 33.44,
+          "word": "抛"
+        },
+        {
+          "end": 33.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 33.6,
+          "word": "开"
+        },
+        {
+          "end": 33.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 33.68,
+          "word": "它"
+        },
+        {
+          "end": 34.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 33.84,
+          "word": "最"
+        },
+        {
+          "end": 35.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 35.28,
+          "word": "表"
+        },
+        {
+          "end": 36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 35.52,
+          "word": "面"
+        },
+        {
+          "end": 36.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36,
+          "word": "的"
+        },
+        {
+          "end": 36.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.16,
+          "word": "一"
+        },
+        {
+          "end": 36.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.24,
+          "word": "些"
+        },
+        {
+          "end": 36.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.4,
+          "word": "东"
+        },
+        {
+          "end": 36.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.56,
+          "word": "西，"
+        },
+        {
+          "end": 36.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.72,
+          "word": "它"
+        },
+        {
+          "end": 37.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 36.88,
+          "word": "核"
+        },
+        {
+          "end": 37.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.12,
+          "word": "心"
+        },
+        {
+          "end": 37.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.28,
+          "word": "发"
+        },
+        {
+          "end": 37.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.44,
+          "word": "生"
+        },
+        {
+          "end": 37.6,
+          "probability": 1,
+          "start": 37.6,
+          "word": "了"
+        },
+        {
+          "end": 37.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.68,
+          "word": "什"
+        },
+        {
+          "end": 37.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.76,
+          "word": "么"
+        },
+        {
+          "end": 38,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 37.92,
+          "word": "样"
+        },
+        {
+          "end": 38.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38,
+          "word": "的"
+        },
+        {
+          "end": 38.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.08,
+          "word": "范"
+        },
+        {
+          "end": 38.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.24,
+          "word": "式"
+        },
+        {
+          "end": 38.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.32,
+          "word": "转"
+        },
+        {
+          "end": 38.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.56,
+          "word": "变，"
+        },
+        {
+          "end": 38.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.72,
+          "word": "让"
+        },
+        {
+          "end": 39.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 38.88,
+          "word": "一"
+        },
+        {
+          "end": 39.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 39.12,
+          "word": "代"
+        },
+        {
+          "end": 39.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 39.28,
+          "word": "超"
+        },
+        {
+          "end": 39.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 39.52,
+          "word": "过"
+        },
+        {
+          "end": 39.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 39.6,
+          "word": "另"
+        },
+        {
+          "end": 39.84,
+          "probability": 1,
+          "start": 39.84,
+          "word": "一"
+        },
+        {
+          "end": 40.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 39.84,
+          "word": "代。"
+        }
+      ]
+    },
+    {
+      "end": 48.4,
+      "id": 5,
+      "speaker": "SPEAKER_0",
+      "start": 40.56,
+      "text": "那我觉得这些知识，我们提到的这些包括我们怎么去做实践，这些东西是如何让你变成懂 A I 的一个人。",
+      "words": [
+        {
+          "end": 40.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 40.56,
+          "word": "那"
+        },
+        {
+          "end": 40.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 40.64,
+          "word": "我"
+        },
+        {
+          "end": 40.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 40.8,
+          "word": "觉"
+        },
+        {
+          "end": 40.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 40.88,
+          "word": "得"
+        },
+        {
+          "end": 41.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 40.96,
+          "word": "这"
+        },
+        {
+          "end": 41.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 41.12,
+          "word": "些"
+        },
+        {
+          "end": 41.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 41.36,
+          "word": "知"
+        },
+        {
+          "end": 41.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 41.52,
+          "word": "识，"
+        },
+        {
+          "end": 42.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.24,
+          "word": "我"
+        },
+        {
+          "end": 42.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.32,
+          "word": "们"
+        },
+        {
+          "end": 42.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.48,
+          "word": "提"
+        },
+        {
+          "end": 42.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.64,
+          "word": "到"
+        },
+        {
+          "end": 42.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.8,
+          "word": "的"
+        },
+        {
+          "end": 42.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.88,
+          "word": "这"
+        },
+        {
+          "end": 43.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 42.96,
+          "word": "些"
+        },
+        {
+          "end": 43.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 43.28,
+          "word": "包"
+        },
+        {
+          "end": 43.6,
+          "probability": 1,
+          "start": 43.6,
+          "word": "括"
+        },
+        {
+          "end": 43.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 43.6,
+          "word": "我"
+        },
+        {
+          "end": 43.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 43.76,
+          "word": "们"
+        },
+        {
+          "end": 44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 43.84,
+          "word": "怎"
+        },
+        {
+          "end": 44,
+          "probability": 1,
+          "start": 44,
+          "word": "么"
+        },
+        {
+          "end": 44.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44,
+          "word": "去"
+        },
+        {
+          "end": 44.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.16,
+          "word": "做"
+        },
+        {
+          "end": 44.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.24,
+          "word": "实"
+        },
+        {
+          "end": 44.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.48,
+          "word": "践，"
+        },
+        {
+          "end": 44.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.64,
+          "word": "这"
+        },
+        {
+          "end": 44.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.8,
+          "word": "些"
+        },
+        {
+          "end": 45.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 44.88,
+          "word": "东"
+        },
+        {
+          "end": 45.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 45.04,
+          "word": "西"
+        },
+        {
+          "end": 45.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 45.2,
+          "word": "是"
+        },
+        {
+          "end": 46.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 46.32,
+          "word": "如"
+        },
+        {
+          "end": 46.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 46.56,
+          "word": "何"
+        },
+        {
+          "end": 46.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 46.72,
+          "word": "让"
+        },
+        {
+          "end": 46.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 46.88,
+          "word": "你"
+        },
+        {
+          "end": 47.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 46.96,
+          "word": "变"
+        },
+        {
+          "end": 47.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 47.12,
+          "word": "成"
+        },
+        {
+          "end": 47.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 47.52,
+          "word": "懂"
+        },
+        {
+          "end": 47.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 47.76,
+          "word": "A"
+        },
+        {
+          "end": 48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 47.84,
+          "word": "I"
+        },
+        {
+          "end": 48.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48,
+          "word": "的"
+        },
+        {
+          "end": 48.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.08,
+          "word": "一"
+        },
+        {
+          "end": 48.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.16,
+          "word": "个"
+        },
+        {
+          "end": 48.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.24,
+          "word": "人。"
+        }
+      ]
+    },
+    {
+      "end": 64.8,
+      "id": 6,
+      "speaker": "SPEAKER_0",
+      "start": 48.72,
+      "text": "我觉得这些节目回答了一个点，就是我我朋友问我怎么样才能懂 A I，我觉得我们这些节目并不是给你一个完整到手把手的一个答案，我们是告诉你在这个过程中你要去学什么，你要去理解什么，然后我们把我们的理解分享给你，然后你逐渐变成一个懂 A I 的人。",
+      "words": [
+        {
+          "end": 48.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.72,
+          "word": "我"
+        },
+        {
+          "end": 48.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.8,
+          "word": "觉"
+        },
+        {
+          "end": 49.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 48.96,
+          "word": "得"
+        },
+        {
+          "end": 49.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.04,
+          "word": "这"
+        },
+        {
+          "end": 49.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.12,
+          "word": "些"
+        },
+        {
+          "end": 49.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.28,
+          "word": "节"
+        },
+        {
+          "end": 49.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.44,
+          "word": "目"
+        },
+        {
+          "end": 49.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.6,
+          "word": "回"
+        },
+        {
+          "end": 49.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.76,
+          "word": "答"
+        },
+        {
+          "end": 49.92,
+          "probability": 1,
+          "start": 49.92,
+          "word": "了"
+        },
+        {
+          "end": 50,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 49.92,
+          "word": "一"
+        },
+        {
+          "end": 50.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50,
+          "word": "个"
+        },
+        {
+          "end": 50.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.08,
+          "word": "点，"
+        },
+        {
+          "end": 50.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.24,
+          "word": "就"
+        },
+        {
+          "end": 50.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.32,
+          "word": "是"
+        },
+        {
+          "end": 50.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.4,
+          "word": "我"
+        },
+        {
+          "end": 50.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.72,
+          "word": "我"
+        },
+        {
+          "end": 51.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 50.88,
+          "word": "朋"
+        },
+        {
+          "end": 51.04,
+          "probability": 1,
+          "start": 51.04,
+          "word": "友"
+        },
+        {
+          "end": 51.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.04,
+          "word": "问"
+        },
+        {
+          "end": 51.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.28,
+          "word": "我"
+        },
+        {
+          "end": 51.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.44,
+          "word": "怎"
+        },
+        {
+          "end": 51.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.6,
+          "word": "么"
+        },
+        {
+          "end": 51.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.68,
+          "word": "样"
+        },
+        {
+          "end": 51.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.76,
+          "word": "才"
+        },
+        {
+          "end": 52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 51.84,
+          "word": "能"
+        },
+        {
+          "end": 52.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 52,
+          "word": "懂"
+        },
+        {
+          "end": 52.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 52.24,
+          "word": "A"
+        },
+        {
+          "end": 52.48,
+          "probability": 1,
+          "start": 52.48,
+          "word": "I，"
+        },
+        {
+          "end": 52.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 52.8,
+          "word": "我"
+        },
+        {
+          "end": 53.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 52.88,
+          "word": "觉"
+        },
+        {
+          "end": 53.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.04,
+          "word": "得"
+        },
+        {
+          "end": 53.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.44,
+          "word": "我"
+        },
+        {
+          "end": 53.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.52,
+          "word": "们"
+        },
+        {
+          "end": 53.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.6,
+          "word": "这"
+        },
+        {
+          "end": 53.76,
+          "probability": 1,
+          "start": 53.76,
+          "word": "些"
+        },
+        {
+          "end": 53.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.76,
+          "word": "节"
+        },
+        {
+          "end": 54,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 53.92,
+          "word": "目"
+        },
+        {
+          "end": 54.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54,
+          "word": "并"
+        },
+        {
+          "end": 54.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.16,
+          "word": "不"
+        },
+        {
+          "end": 54.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.24,
+          "word": "是"
+        },
+        {
+          "end": 54.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.32,
+          "word": "给"
+        },
+        {
+          "end": 54.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.4,
+          "word": "你"
+        },
+        {
+          "end": 54.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.56,
+          "word": "一"
+        },
+        {
+          "end": 54.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 54.64,
+          "word": "个"
+        },
+        {
+          "end": 55.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 55.12,
+          "word": "完"
+        },
+        {
+          "end": 55.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 55.28,
+          "word": "整"
+        },
+        {
+          "end": 55.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 55.44,
+          "word": "到"
+        },
+        {
+          "end": 56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 55.76,
+          "word": "手"
+        },
+        {
+          "end": 56.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56,
+          "word": "把"
+        },
+        {
+          "end": 56.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.08,
+          "word": "手"
+        },
+        {
+          "end": 56.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.32,
+          "word": "的"
+        },
+        {
+          "end": 56.4,
+          "probability": 1,
+          "start": 56.4,
+          "word": "一"
+        },
+        {
+          "end": 56.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.4,
+          "word": "个"
+        },
+        {
+          "end": 56.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.48,
+          "word": "答"
+        },
+        {
+          "end": 56.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.64,
+          "word": "案，"
+        },
+        {
+          "end": 56.8,
+          "probability": 1,
+          "start": 56.8,
+          "word": "我"
+        },
+        {
+          "end": 56.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.8,
+          "word": "们"
+        },
+        {
+          "end": 57.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 56.96,
+          "word": "是"
+        },
+        {
+          "end": 57.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.04,
+          "word": "告"
+        },
+        {
+          "end": 57.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.2,
+          "word": "诉"
+        },
+        {
+          "end": 57.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.36,
+          "word": "你"
+        },
+        {
+          "end": 57.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.52,
+          "word": "在"
+        },
+        {
+          "end": 57.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.68,
+          "word": "这"
+        },
+        {
+          "end": 57.84,
+          "probability": 1,
+          "start": 57.84,
+          "word": "个"
+        },
+        {
+          "end": 58,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 57.84,
+          "word": "过"
+        },
+        {
+          "end": 58.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58,
+          "word": "程"
+        },
+        {
+          "end": 58.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58.16,
+          "word": "中"
+        },
+        {
+          "end": 58.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58.4,
+          "word": "你"
+        },
+        {
+          "end": 58.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58.56,
+          "word": "要"
+        },
+        {
+          "end": 58.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58.72,
+          "word": "去"
+        },
+        {
+          "end": 59.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 58.8,
+          "word": "学"
+        },
+        {
+          "end": 59.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.12,
+          "word": "什"
+        },
+        {
+          "end": 59.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.2,
+          "word": "么，"
+        },
+        {
+          "end": 59.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.52,
+          "word": "你"
+        },
+        {
+          "end": 59.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.6,
+          "word": "要"
+        },
+        {
+          "end": 59.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.68,
+          "word": "去"
+        },
+        {
+          "end": 60.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 59.84,
+          "word": "理"
+        },
+        {
+          "end": 60.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 60.08,
+          "word": "解"
+        },
+        {
+          "end": 60.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 60.24,
+          "word": "什"
+        },
+        {
+          "end": 60.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 60.4,
+          "word": "么，"
+        },
+        {
+          "end": 61.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 60.88,
+          "word": "然"
+        },
+        {
+          "end": 61.04,
+          "probability": 1,
+          "start": 61.04,
+          "word": "后"
+        },
+        {
+          "end": 61.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.04,
+          "word": "我"
+        },
+        {
+          "end": 61.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.12,
+          "word": "们"
+        },
+        {
+          "end": 61.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.28,
+          "word": "把"
+        },
+        {
+          "end": 61.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.44,
+          "word": "我"
+        },
+        {
+          "end": 61.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.52,
+          "word": "们"
+        },
+        {
+          "end": 61.6,
+          "probability": 1,
+          "start": 61.6,
+          "word": "的"
+        },
+        {
+          "end": 61.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.6,
+          "word": "理"
+        },
+        {
+          "end": 61.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.76,
+          "word": "解"
+        },
+        {
+          "end": 62.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 61.92,
+          "word": "分"
+        },
+        {
+          "end": 62.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 62.08,
+          "word": "享"
+        },
+        {
+          "end": 62.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 62.24,
+          "word": "给"
+        },
+        {
+          "end": 62.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 62.4,
+          "word": "你，"
+        },
+        {
+          "end": 63.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 62.88,
+          "word": "然"
+        },
+        {
+          "end": 63.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.12,
+          "word": "后"
+        },
+        {
+          "end": 63.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.28,
+          "word": "你"
+        },
+        {
+          "end": 63.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.44,
+          "word": "逐"
+        },
+        {
+          "end": 63.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.6,
+          "word": "渐"
+        },
+        {
+          "end": 63.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.68,
+          "word": "变"
+        },
+        {
+          "end": 63.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.84,
+          "word": "成"
+        },
+        {
+          "end": 64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 63.92,
+          "word": "一"
+        },
+        {
+          "end": 64.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64,
+          "word": "个"
+        },
+        {
+          "end": 64.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64.08,
+          "word": "懂"
+        },
+        {
+          "end": 64.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64.32,
+          "word": "A"
+        },
+        {
+          "end": 64.56,
+          "probability": 1,
+          "start": 64.56,
+          "word": "I"
+        },
+        {
+          "end": 64.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64.56,
+          "word": "的"
+        },
+        {
+          "end": 64.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64.64,
+          "word": "人。"
+        }
+      ]
+    },
+    {
+      "end": 81.2,
+      "id": 7,
+      "speaker": "SPEAKER_0",
+      "start": 64.88,
+      "text": "我可以说就是我基本靠这个节目去分享的，我的所有的理解找到了拿到了很多很多 offer，所以我觉得如果你听完这些节目，然后你跟着我们的思路去做探索，我觉得是至少可以尝试去跟上下这一波 A I 的呃浪潮的。",
+      "words": [
+        {
+          "end": 64.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 64.88,
+          "word": "我"
+        },
+        {
+          "end": 65.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.04,
+          "word": "可"
+        },
+        {
+          "end": 65.12,
+          "probability": 1,
+          "start": 65.12,
+          "word": "以"
+        },
+        {
+          "end": 65.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.12,
+          "word": "说"
+        },
+        {
+          "end": 65.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.36,
+          "word": "就"
+        },
+        {
+          "end": 65.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.44,
+          "word": "是"
+        },
+        {
+          "end": 65.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.6,
+          "word": "我"
+        },
+        {
+          "end": 65.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.76,
+          "word": "基"
+        },
+        {
+          "end": 66.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 65.92,
+          "word": "本"
+        },
+        {
+          "end": 66.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 66.16,
+          "word": "靠"
+        },
+        {
+          "end": 66.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 66.72,
+          "word": "这"
+        },
+        {
+          "end": 66.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 66.88,
+          "word": "个"
+        },
+        {
+          "end": 67.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 66.96,
+          "word": "节"
+        },
+        {
+          "end": 67.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.12,
+          "word": "目"
+        },
+        {
+          "end": 67.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.28,
+          "word": "去"
+        },
+        {
+          "end": 67.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.44,
+          "word": "分"
+        },
+        {
+          "end": 67.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.68,
+          "word": "享"
+        },
+        {
+          "end": 67.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.84,
+          "word": "的，"
+        },
+        {
+          "end": 68.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 67.92,
+          "word": "我"
+        },
+        {
+          "end": 68.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 68.08,
+          "word": "的"
+        },
+        {
+          "end": 68.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 68.16,
+          "word": "所"
+        },
+        {
+          "end": 68.4,
+          "probability": 1,
+          "start": 68.4,
+          "word": "有"
+        },
+        {
+          "end": 68.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 68.4,
+          "word": "的"
+        },
+        {
+          "end": 68.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 68.48,
+          "word": "理"
+        },
+        {
+          "end": 69.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 68.72,
+          "word": "解"
+        },
+        {
+          "end": 69.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 69.2,
+          "word": "找"
+        },
+        {
+          "end": 69.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 69.44,
+          "word": "到"
+        },
+        {
+          "end": 69.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 69.6,
+          "word": "了"
+        },
+        {
+          "end": 69.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 69.76,
+          "word": "拿"
+        },
+        {
+          "end": 70,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 69.92,
+          "word": "到"
+        },
+        {
+          "end": 70.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70,
+          "word": "了"
+        },
+        {
+          "end": 70.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70.08,
+          "word": "很"
+        },
+        {
+          "end": 70.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70.32,
+          "word": "多"
+        },
+        {
+          "end": 70.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70.48,
+          "word": "很"
+        },
+        {
+          "end": 70.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70.56,
+          "word": "多"
+        },
+        {
+          "end": 70.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 70.8,
+          "word": "offer，"
+        },
+        {
+          "end": 71.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 71.44,
+          "word": "所"
+        },
+        {
+          "end": 71.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 71.52,
+          "word": "以"
+        },
+        {
+          "end": 71.76,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 71.6,
+          "word": "我"
+        },
+        {
+          "end": 72.08,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 71.92,
+          "word": "觉"
+        },
+        {
+          "end": 72.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 72.08,
+          "word": "得"
+        },
+        {
+          "end": 72.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 72.8,
+          "word": "如"
+        },
+        {
+          "end": 72.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 72.88,
+          "word": "果"
+        },
+        {
+          "end": 73.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 72.96,
+          "word": "你"
+        },
+        {
+          "end": 73.12,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.04,
+          "word": "听"
+        },
+        {
+          "end": 73.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.12,
+          "word": "完"
+        },
+        {
+          "end": 73.36,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.28,
+          "word": "这"
+        },
+        {
+          "end": 73.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.36,
+          "word": "些"
+        },
+        {
+          "end": 73.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.44,
+          "word": "节"
+        },
+        {
+          "end": 73.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 73.6,
+          "word": "目，"
+        },
+        {
+          "end": 74.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.16,
+          "word": "然"
+        },
+        {
+          "end": 74.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.24,
+          "word": "后"
+        },
+        {
+          "end": 74.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.32,
+          "word": "你"
+        },
+        {
+          "end": 74.64,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.4,
+          "word": "跟"
+        },
+        {
+          "end": 74.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.64,
+          "word": "着"
+        },
+        {
+          "end": 74.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.72,
+          "word": "我"
+        },
+        {
+          "end": 74.96,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.88,
+          "word": "们"
+        },
+        {
+          "end": 75.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 74.96,
+          "word": "的"
+        },
+        {
+          "end": 75.28,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 75.04,
+          "word": "思"
+        },
+        {
+          "end": 75.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 75.28,
+          "word": "路"
+        },
+        {
+          "end": 75.68,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 75.44,
+          "word": "去"
+        },
+        {
+          "end": 75.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 75.68,
+          "word": "做"
+        },
+        {
+          "end": 75.92,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 75.84,
+          "word": "探"
+        },
+        {
+          "end": 76.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76,
+          "word": "索，"
+        },
+        {
+          "end": 76.4,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.24,
+          "word": "我"
+        },
+        {
+          "end": 76.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.4,
+          "word": "觉"
+        },
+        {
+          "end": 76.56,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.48,
+          "word": "得"
+        },
+        {
+          "end": 76.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.56,
+          "word": "是"
+        },
+        {
+          "end": 76.88,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.72,
+          "word": "至"
+        },
+        {
+          "end": 77.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 76.88,
+          "word": "少"
+        },
+        {
+          "end": 77.52,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 77.28,
+          "word": "可"
+        },
+        {
+          "end": 77.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 77.52,
+          "word": "以"
+        },
+        {
+          "end": 77.84,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 77.6,
+          "word": "尝"
+        },
+        {
+          "end": 78,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 77.84,
+          "word": "试"
+        },
+        {
+          "end": 78.16,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 78,
+          "word": "去"
+        },
+        {
+          "end": 78.32,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 78.16,
+          "word": "跟"
+        },
+        {
+          "end": 78.48,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 78.32,
+          "word": "上"
+        },
+        {
+          "end": 78.72,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 78.48,
+          "word": "下"
+        },
+        {
+          "end": 79.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 78.88,
+          "word": "这"
+        },
+        {
+          "end": 79.04,
+          "probability": 1,
+          "start": 79.04,
+          "word": "一"
+        },
+        {
+          "end": 79.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 79.04,
+          "word": "波"
+        },
+        {
+          "end": 79.44,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 79.28,
+          "word": "A"
+        },
+        {
+          "end": 79.44,
+          "probability": 1,
+          "start": 79.44,
+          "word": "I"
+        },
+        {
+          "end": 79.6,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 79.52,
+          "word": "的"
+        },
+        {
+          "end": 80.24,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 80,
+          "word": "呃"
+        },
+        {
+          "end": 80.8,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 80.56,
+          "word": "浪"
+        },
+        {
+          "end": 81.04,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 80.8,
+          "word": "潮"
+        },
+        {
+          "end": 81.2,
+          "probability": 1,
+          "speaker": "SPEAKER_0",
+          "start": 81.04,
+          "word": "的。"
+        }
+      ]
+    },
+    {
+      "end": 101.2,
+      "id": 8,
+      "speaker": "SPEAKER_1",
+      "start": 82,
+      "text": "我觉得也这个从另一个角度我们也可以去看，呃听众可能分成对 A I 要狂热和对 A I 没有那么追星的人，那对 A I 要狂热的人可以把这期节目作为你二站在二零二二年初一月份年一月份的时候的一个最低要求，那我们聊的所有事情，你们应该可能玩过或者已经在感受了。",
+      "words": [
+        {
+          "end": 82.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82,
+          "word": "我"
+        },
+        {
+          "end": 82.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82.08,
+          "word": "觉"
+        },
+        {
+          "end": 82.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82.16,
+          "word": "得"
+        },
+        {
+          "end": 82.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82.48,
+          "word": "也"
+        },
+        {
+          "end": 82.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82.72,
+          "word": "这"
+        },
+        {
+          "end": 83.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 82.88,
+          "word": "个"
+        },
+        {
+          "end": 83.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.12,
+          "word": "从"
+        },
+        {
+          "end": 83.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.28,
+          "word": "另"
+        },
+        {
+          "end": 83.44,
+          "probability": 1,
+          "start": 83.44,
+          "word": "一"
+        },
+        {
+          "end": 83.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.44,
+          "word": "个"
+        },
+        {
+          "end": 83.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.52,
+          "word": "角"
+        },
+        {
+          "end": 83.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.6,
+          "word": "度"
+        },
+        {
+          "end": 83.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.76,
+          "word": "我"
+        },
+        {
+          "end": 83.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.84,
+          "word": "们"
+        },
+        {
+          "end": 84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 83.92,
+          "word": "也"
+        },
+        {
+          "end": 84.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84,
+          "word": "可"
+        },
+        {
+          "end": 84.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84.16,
+          "word": "以"
+        },
+        {
+          "end": 84.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84.24,
+          "word": "去"
+        },
+        {
+          "end": 84.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84.32,
+          "word": "看，"
+        },
+        {
+          "end": 84.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84.72,
+          "word": "呃"
+        },
+        {
+          "end": 85.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 84.88,
+          "word": "听"
+        },
+        {
+          "end": 85.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.04,
+          "word": "众"
+        },
+        {
+          "end": 85.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.2,
+          "word": "可"
+        },
+        {
+          "end": 85.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.36,
+          "word": "能"
+        },
+        {
+          "end": 85.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.52,
+          "word": "分"
+        },
+        {
+          "end": 85.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.6,
+          "word": "成"
+        },
+        {
+          "end": 86.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 85.84,
+          "word": "对"
+        },
+        {
+          "end": 86.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 86.08,
+          "word": "A"
+        },
+        {
+          "end": 86.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 86.16,
+          "word": "I"
+        },
+        {
+          "end": 86.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 86.56,
+          "word": "要"
+        },
+        {
+          "end": 86.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 86.64,
+          "word": "狂"
+        },
+        {
+          "end": 87.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 86.88,
+          "word": "热"
+        },
+        {
+          "end": 87.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 87.2,
+          "word": "和"
+        },
+        {
+          "end": 87.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 87.6,
+          "word": "对"
+        },
+        {
+          "end": 88.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 87.92,
+          "word": "A"
+        },
+        {
+          "end": 88.24,
+          "probability": 1,
+          "start": 88.24,
+          "word": "I"
+        },
+        {
+          "end": 88.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 88.48,
+          "word": "没"
+        },
+        {
+          "end": 88.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 88.72,
+          "word": "有"
+        },
+        {
+          "end": 88.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 88.8,
+          "word": "那"
+        },
+        {
+          "end": 89.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 88.96,
+          "word": "么"
+        },
+        {
+          "end": 89.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 89.04,
+          "word": "追"
+        },
+        {
+          "end": 89.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 89.2,
+          "word": "星"
+        },
+        {
+          "end": 89.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 89.36,
+          "word": "的"
+        },
+        {
+          "end": 89.52,
+          "probability": 1,
+          "start": 89.52,
+          "word": "人，"
+        },
+        {
+          "end": 90,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 89.92,
+          "word": "那"
+        },
+        {
+          "end": 90.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 90,
+          "word": "对"
+        },
+        {
+          "end": 90.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 90.32,
+          "word": "A"
+        },
+        {
+          "end": 90.64,
+          "probability": 1,
+          "start": 90.64,
+          "word": "I"
+        },
+        {
+          "end": 90.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 90.64,
+          "word": "要"
+        },
+        {
+          "end": 91.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 90.8,
+          "word": "狂"
+        },
+        {
+          "end": 91.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.04,
+          "word": "热"
+        },
+        {
+          "end": 91.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.12,
+          "word": "的"
+        },
+        {
+          "end": 91.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.28,
+          "word": "人"
+        },
+        {
+          "end": 91.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.36,
+          "word": "可"
+        },
+        {
+          "end": 91.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.52,
+          "word": "以"
+        },
+        {
+          "end": 91.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.68,
+          "word": "把"
+        },
+        {
+          "end": 91.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.84,
+          "word": "这"
+        },
+        {
+          "end": 92.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 91.92,
+          "word": "期"
+        },
+        {
+          "end": 92.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 92.08,
+          "word": "节"
+        },
+        {
+          "end": 92.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 92.16,
+          "word": "目"
+        },
+        {
+          "end": 92.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 92.32,
+          "word": "作"
+        },
+        {
+          "end": 92.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 92.48,
+          "word": "为"
+        },
+        {
+          "end": 92.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 92.64,
+          "word": "你"
+        },
+        {
+          "end": 93.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 93.2,
+          "word": "二"
+        },
+        {
+          "end": 93.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 93.52,
+          "word": "站"
+        },
+        {
+          "end": 93.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 93.68,
+          "word": "在"
+        },
+        {
+          "end": 93.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 93.76,
+          "word": "二"
+        },
+        {
+          "end": 94,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 93.92,
+          "word": "零"
+        },
+        {
+          "end": 94.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 94,
+          "word": "二"
+        },
+        {
+          "end": 94.24,
+          "probability": 1,
+          "start": 94.24,
+          "word": "二"
+        },
+        {
+          "end": 94.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 94.32,
+          "word": "年"
+        },
+        {
+          "end": 94.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 94.64,
+          "word": "初"
+        },
+        {
+          "end": 95.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 95.04,
+          "word": "一"
+        },
+        {
+          "end": 95.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 95.12,
+          "word": "月"
+        },
+        {
+          "end": 95.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 95.28,
+          "word": "份"
+        },
+        {
+          "end": 95.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 95.52,
+          "word": "年"
+        },
+        {
+          "end": 96,
+          "probability": 1,
+          "start": 96,
+          "word": "一"
+        },
+        {
+          "end": 96.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96,
+          "word": "月"
+        },
+        {
+          "end": 96.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.16,
+          "word": "份"
+        },
+        {
+          "end": 96.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.32,
+          "word": "的"
+        },
+        {
+          "end": 96.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.4,
+          "word": "时"
+        },
+        {
+          "end": 96.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.56,
+          "word": "候"
+        },
+        {
+          "end": 96.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.64,
+          "word": "的"
+        },
+        {
+          "end": 96.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.8,
+          "word": "一"
+        },
+        {
+          "end": 96.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.88,
+          "word": "个"
+        },
+        {
+          "end": 97.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 96.96,
+          "word": "最"
+        },
+        {
+          "end": 97.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 97.12,
+          "word": "低"
+        },
+        {
+          "end": 97.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 97.52,
+          "word": "要"
+        },
+        {
+          "end": 97.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 97.68,
+          "word": "求，"
+        },
+        {
+          "end": 98,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 97.92,
+          "word": "那"
+        },
+        {
+          "end": 98.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98,
+          "word": "我"
+        },
+        {
+          "end": 98.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.16,
+          "word": "们"
+        },
+        {
+          "end": 98.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.24,
+          "word": "聊"
+        },
+        {
+          "end": 98.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.4,
+          "word": "的"
+        },
+        {
+          "end": 98.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.48,
+          "word": "所"
+        },
+        {
+          "end": 98.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.64,
+          "word": "有"
+        },
+        {
+          "end": 98.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.72,
+          "word": "事"
+        },
+        {
+          "end": 98.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 98.8,
+          "word": "情，"
+        },
+        {
+          "end": 99.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.36,
+          "word": "你"
+        },
+        {
+          "end": 99.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.44,
+          "word": "们"
+        },
+        {
+          "end": 99.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.52,
+          "word": "应"
+        },
+        {
+          "end": 99.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.6,
+          "word": "该"
+        },
+        {
+          "end": 99.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.76,
+          "word": "可"
+        },
+        {
+          "end": 100,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 99.84,
+          "word": "能"
+        },
+        {
+          "end": 100.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100,
+          "word": "玩"
+        },
+        {
+          "end": 100.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.24,
+          "word": "过"
+        },
+        {
+          "end": 100.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.32,
+          "word": "或"
+        },
+        {
+          "end": 100.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.48,
+          "word": "者"
+        },
+        {
+          "end": 100.56,
+          "probability": 1,
+          "start": 100.56,
+          "word": "已"
+        },
+        {
+          "end": 100.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.56,
+          "word": "经"
+        },
+        {
+          "end": 100.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.64,
+          "word": "在"
+        },
+        {
+          "end": 100.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.8,
+          "word": "感"
+        },
+        {
+          "end": 101.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 100.96,
+          "word": "受"
+        },
+        {
+          "end": 101.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 101.12,
+          "word": "了。"
+        }
+      ]
+    },
+    {
+      "end": 110.24,
+      "id": 9,
+      "speaker": "SPEAKER_1",
+      "start": 101.2,
+      "text": "对，通过这期节目的来促使你去呃查漏补缺，对不了解部分做一个补齐，那我们也算是站在当下的一个最新或者一个最基础一个介绍。",
+      "words": [
+        {
+          "end": 101.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 101.2,
+          "word": "对，"
+        },
+        {
+          "end": 101.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 101.84,
+          "word": "通"
+        },
+        {
+          "end": 102.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 101.92,
+          "word": "过"
+        },
+        {
+          "end": 102.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.08,
+          "word": "这"
+        },
+        {
+          "end": 102.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.24,
+          "word": "期"
+        },
+        {
+          "end": 102.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.4,
+          "word": "节"
+        },
+        {
+          "end": 102.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.56,
+          "word": "目"
+        },
+        {
+          "end": 102.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.72,
+          "word": "的"
+        },
+        {
+          "end": 103.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 102.96,
+          "word": "来"
+        },
+        {
+          "end": 103.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 103.12,
+          "word": "促"
+        },
+        {
+          "end": 103.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 103.28,
+          "word": "使"
+        },
+        {
+          "end": 103.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 103.44,
+          "word": "你"
+        },
+        {
+          "end": 103.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 103.52,
+          "word": "去"
+        },
+        {
+          "end": 104.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.16,
+          "word": "呃"
+        },
+        {
+          "end": 104.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.24,
+          "word": "查"
+        },
+        {
+          "end": 104.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.4,
+          "word": "漏"
+        },
+        {
+          "end": 104.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.48,
+          "word": "补"
+        },
+        {
+          "end": 104.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.64,
+          "word": "缺，"
+        },
+        {
+          "end": 105.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 104.96,
+          "word": "对"
+        },
+        {
+          "end": 105.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.28,
+          "word": "不"
+        },
+        {
+          "end": 105.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.36,
+          "word": "了"
+        },
+        {
+          "end": 105.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.52,
+          "word": "解"
+        },
+        {
+          "end": 105.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.6,
+          "word": "部"
+        },
+        {
+          "end": 105.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.76,
+          "word": "分"
+        },
+        {
+          "end": 106.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 105.92,
+          "word": "做"
+        },
+        {
+          "end": 106.08,
+          "probability": 1,
+          "start": 106.08,
+          "word": "一"
+        },
+        {
+          "end": 106.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.08,
+          "word": "个"
+        },
+        {
+          "end": 106.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.24,
+          "word": "补"
+        },
+        {
+          "end": 106.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.4,
+          "word": "齐，"
+        },
+        {
+          "end": 106.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.72,
+          "word": "那"
+        },
+        {
+          "end": 106.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.88,
+          "word": "我"
+        },
+        {
+          "end": 107.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 106.96,
+          "word": "们"
+        },
+        {
+          "end": 107.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.2,
+          "word": "也"
+        },
+        {
+          "end": 107.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.28,
+          "word": "算"
+        },
+        {
+          "end": 107.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.44,
+          "word": "是"
+        },
+        {
+          "end": 107.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.6,
+          "word": "站"
+        },
+        {
+          "end": 107.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.76,
+          "word": "在"
+        },
+        {
+          "end": 108,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 107.84,
+          "word": "当"
+        },
+        {
+          "end": 108.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108,
+          "word": "下"
+        },
+        {
+          "end": 108.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.24,
+          "word": "的"
+        },
+        {
+          "end": 108.32,
+          "probability": 1,
+          "start": 108.32,
+          "word": "一"
+        },
+        {
+          "end": 108.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.32,
+          "word": "个"
+        },
+        {
+          "end": 108.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.48,
+          "word": "最"
+        },
+        {
+          "end": 108.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.64,
+          "word": "新"
+        },
+        {
+          "end": 108.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.8,
+          "word": "或"
+        },
+        {
+          "end": 109.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 108.96,
+          "word": "者"
+        },
+        {
+          "end": 109.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.04,
+          "word": "一"
+        },
+        {
+          "end": 109.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.12,
+          "word": "个"
+        },
+        {
+          "end": 109.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.2,
+          "word": "最"
+        },
+        {
+          "end": 109.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.44,
+          "word": "基"
+        },
+        {
+          "end": 109.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.52,
+          "word": "础"
+        },
+        {
+          "end": 109.76,
+          "probability": 1,
+          "start": 109.76,
+          "word": "一"
+        },
+        {
+          "end": 109.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.76,
+          "word": "个"
+        },
+        {
+          "end": 110,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 109.84,
+          "word": "介"
+        },
+        {
+          "end": 110.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 110,
+          "word": "绍。"
+        }
+      ]
+    },
+    {
+      "end": 116,
+      "id": 10,
+      "speaker": "SPEAKER_1",
+      "start": 110.64,
+      "text": "那对 A I 不不是很熟悉的朋友，那对就是一个可能就算这样的一个干货大礼包。",
+      "words": [
+        {
+          "end": 110.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 110.64,
+          "word": "那"
+        },
+        {
+          "end": 110.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 110.8,
+          "word": "对"
+        },
+        {
+          "end": 111.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 110.96,
+          "word": "A"
+        },
+        {
+          "end": 111.28,
+          "probability": 1,
+          "start": 111.28,
+          "word": "I"
+        },
+        {
+          "end": 111.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 111.28,
+          "word": "不"
+        },
+        {
+          "end": 111.84,
+          "probability": 1,
+          "start": 111.84,
+          "word": "不"
+        },
+        {
+          "end": 111.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 111.84,
+          "word": "是"
+        },
+        {
+          "end": 112.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 111.92,
+          "word": "很"
+        },
+        {
+          "end": 112.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.08,
+          "word": "熟"
+        },
+        {
+          "end": 112.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.16,
+          "word": "悉"
+        },
+        {
+          "end": 112.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.32,
+          "word": "的"
+        },
+        {
+          "end": 112.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.4,
+          "word": "朋"
+        },
+        {
+          "end": 112.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.56,
+          "word": "友，"
+        },
+        {
+          "end": 112.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 112.72,
+          "word": "那"
+        },
+        {
+          "end": 113.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 113.28,
+          "word": "对"
+        },
+        {
+          "end": 113.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 113.52,
+          "word": "就"
+        },
+        {
+          "end": 113.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 113.68,
+          "word": "是"
+        },
+        {
+          "end": 113.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 113.76,
+          "word": "一"
+        },
+        {
+          "end": 114.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 113.92,
+          "word": "个"
+        },
+        {
+          "end": 114.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.24,
+          "word": "可"
+        },
+        {
+          "end": 114.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.32,
+          "word": "能"
+        },
+        {
+          "end": 114.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.48,
+          "word": "就"
+        },
+        {
+          "end": 114.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.64,
+          "word": "算"
+        },
+        {
+          "end": 114.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.8,
+          "word": "这"
+        },
+        {
+          "end": 115.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 114.96,
+          "word": "样"
+        },
+        {
+          "end": 115.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.04,
+          "word": "的"
+        },
+        {
+          "end": 115.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.12,
+          "word": "一"
+        },
+        {
+          "end": 115.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.2,
+          "word": "个"
+        },
+        {
+          "end": 115.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.28,
+          "word": "干"
+        },
+        {
+          "end": 115.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.52,
+          "word": "货"
+        },
+        {
+          "end": 115.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.68,
+          "word": "大"
+        },
+        {
+          "end": 115.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.76,
+          "word": "礼"
+        },
+        {
+          "end": 116,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 115.84,
+          "word": "包。"
+        }
+      ]
+    },
+    {
+      "end": 124.48,
+      "id": 11,
+      "speaker": "SPEAKER_1",
+      "start": 116,
+      "text": "我们讲的很多东西是很多都很多话题是可以延伸的，也是可以对指明了比较清晰的路线去做，如何去做实践。",
+      "words": [
+        {
+          "end": 116.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116,
+          "word": "我"
+        },
+        {
+          "end": 116.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.4,
+          "word": "们"
+        },
+        {
+          "end": 116.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.48,
+          "word": "讲"
+        },
+        {
+          "end": 116.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.64,
+          "word": "的"
+        },
+        {
+          "end": 116.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.8,
+          "word": "很"
+        },
+        {
+          "end": 116.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.88,
+          "word": "多"
+        },
+        {
+          "end": 117.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 116.96,
+          "word": "东"
+        },
+        {
+          "end": 117.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 117.2,
+          "word": "西"
+        },
+        {
+          "end": 117.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 117.36,
+          "word": "是"
+        },
+        {
+          "end": 117.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 117.68,
+          "word": "很"
+        },
+        {
+          "end": 117.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 117.76,
+          "word": "多"
+        },
+        {
+          "end": 118.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 117.92,
+          "word": "都"
+        },
+        {
+          "end": 118.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 118.4,
+          "word": "很"
+        },
+        {
+          "end": 118.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 118.48,
+          "word": "多"
+        },
+        {
+          "end": 118.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 118.88,
+          "word": "话"
+        },
+        {
+          "end": 119.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 118.96,
+          "word": "题"
+        },
+        {
+          "end": 119.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.04,
+          "word": "是"
+        },
+        {
+          "end": 119.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.2,
+          "word": "可"
+        },
+        {
+          "end": 119.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.36,
+          "word": "以"
+        },
+        {
+          "end": 119.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.44,
+          "word": "延"
+        },
+        {
+          "end": 119.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.6,
+          "word": "伸"
+        },
+        {
+          "end": 119.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 119.76,
+          "word": "的，"
+        },
+        {
+          "end": 120.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 120.16,
+          "word": "也"
+        },
+        {
+          "end": 120.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 120.24,
+          "word": "是"
+        },
+        {
+          "end": 120.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 120.4,
+          "word": "可"
+        },
+        {
+          "end": 120.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 120.56,
+          "word": "以"
+        },
+        {
+          "end": 120.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 120.8,
+          "word": "对"
+        },
+        {
+          "end": 121.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 121.44,
+          "word": "指"
+        },
+        {
+          "end": 121.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 121.6,
+          "word": "明"
+        },
+        {
+          "end": 121.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 121.68,
+          "word": "了"
+        },
+        {
+          "end": 121.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 121.84,
+          "word": "比"
+        },
+        {
+          "end": 122.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 121.92,
+          "word": "较"
+        },
+        {
+          "end": 122.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.08,
+          "word": "清"
+        },
+        {
+          "end": 122.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.24,
+          "word": "晰"
+        },
+        {
+          "end": 122.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.4,
+          "word": "的"
+        },
+        {
+          "end": 122.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.48,
+          "word": "路"
+        },
+        {
+          "end": 122.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.64,
+          "word": "线"
+        },
+        {
+          "end": 123.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 122.88,
+          "word": "去"
+        },
+        {
+          "end": 123.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 123.04,
+          "word": "做，"
+        },
+        {
+          "end": 123.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 123.52,
+          "word": "如"
+        },
+        {
+          "end": 123.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 123.68,
+          "word": "何"
+        },
+        {
+          "end": 123.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 123.76,
+          "word": "去"
+        },
+        {
+          "end": 124.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 123.92,
+          "word": "做"
+        },
+        {
+          "end": 124.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 124.08,
+          "word": "实"
+        },
+        {
+          "end": 124.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 124.24,
+          "word": "践。"
+        }
+      ]
+    },
+    {
+      "end": 138.96,
+      "id": 12,
+      "speaker": "SPEAKER_1",
+      "start": 124.96,
+      "text": "那朋友们，呃前年呃呃开一些我们在我们节目里边讲的量产，如果那时候你对量产是有过实践和一些工程化的实践的话，那你是人挡杀，人佛挡杀。",
+      "words": [
+        {
+          "end": 125.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 124.96,
+          "word": "那"
+        },
+        {
+          "end": 125.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 125.12,
+          "word": "朋"
+        },
+        {
+          "end": 125.28,
+          "probability": 1,
+          "start": 125.28,
+          "word": "友"
+        },
+        {
+          "end": 126.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 126.08,
+          "word": "们，"
+        },
+        {
+          "end": 126.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 126.64,
+          "word": "呃"
+        },
+        {
+          "end": 127.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 127.04,
+          "word": "前"
+        },
+        {
+          "end": 127.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 127.36,
+          "word": "年"
+        },
+        {
+          "end": 128.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 127.68,
+          "word": "呃"
+        },
+        {
+          "end": 128.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 128.64,
+          "word": "呃"
+        },
+        {
+          "end": 129.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 128.96,
+          "word": "开"
+        },
+        {
+          "end": 129.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 129.12,
+          "word": "一"
+        },
+        {
+          "end": 129.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 129.2,
+          "word": "些"
+        },
+        {
+          "end": 129.6,
+          "probability": 1,
+          "start": 129.6,
+          "word": "我"
+        },
+        {
+          "end": 130,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 129.84,
+          "word": "们"
+        },
+        {
+          "end": 130.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130,
+          "word": "在"
+        },
+        {
+          "end": 130.16,
+          "probability": 1,
+          "start": 130.16,
+          "word": "我"
+        },
+        {
+          "end": 130.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.16,
+          "word": "们"
+        },
+        {
+          "end": 130.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.32,
+          "word": "节"
+        },
+        {
+          "end": 130.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.48,
+          "word": "目"
+        },
+        {
+          "end": 130.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.56,
+          "word": "里"
+        },
+        {
+          "end": 130.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.64,
+          "word": "边"
+        },
+        {
+          "end": 130.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.8,
+          "word": "讲"
+        },
+        {
+          "end": 131.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 130.96,
+          "word": "的"
+        },
+        {
+          "end": 131.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 131.04,
+          "word": "量"
+        },
+        {
+          "end": 131.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 131.2,
+          "word": "产，"
+        },
+        {
+          "end": 131.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 131.52,
+          "word": "如"
+        },
+        {
+          "end": 131.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 131.68,
+          "word": "果"
+        },
+        {
+          "end": 132,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 131.92,
+          "word": "那"
+        },
+        {
+          "end": 132.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.08,
+          "word": "时"
+        },
+        {
+          "end": 132.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.16,
+          "word": "候"
+        },
+        {
+          "end": 132.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.32,
+          "word": "你"
+        },
+        {
+          "end": 132.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.56,
+          "word": "对"
+        },
+        {
+          "end": 132.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.88,
+          "word": "量"
+        },
+        {
+          "end": 133.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 132.96,
+          "word": "产"
+        },
+        {
+          "end": 133.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 133.2,
+          "word": "是"
+        },
+        {
+          "end": 133.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 133.84,
+          "word": "有"
+        },
+        {
+          "end": 134.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 133.92,
+          "word": "过"
+        },
+        {
+          "end": 134.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 134.08,
+          "word": "实"
+        },
+        {
+          "end": 134.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 134.24,
+          "word": "践"
+        },
+        {
+          "end": 134.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 134.56,
+          "word": "和"
+        },
+        {
+          "end": 135.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 135.04,
+          "word": "一"
+        },
+        {
+          "end": 135.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 135.12,
+          "word": "些"
+        },
+        {
+          "end": 135.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 135.68,
+          "word": "工"
+        },
+        {
+          "end": 136,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 135.84,
+          "word": "程"
+        },
+        {
+          "end": 136.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136,
+          "word": "化"
+        },
+        {
+          "end": 136.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136.16,
+          "word": "的"
+        },
+        {
+          "end": 136.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136.24,
+          "word": "实"
+        },
+        {
+          "end": 136.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136.4,
+          "word": "践"
+        },
+        {
+          "end": 136.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136.56,
+          "word": "的"
+        },
+        {
+          "end": 136.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 136.64,
+          "word": "话，"
+        },
+        {
+          "end": 137.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 137.2,
+          "word": "那"
+        },
+        {
+          "end": 137.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 137.36,
+          "word": "你"
+        },
+        {
+          "end": 137.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 137.44,
+          "word": "是"
+        },
+        {
+          "end": 138.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 137.84,
+          "word": "人"
+        },
+        {
+          "end": 138.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.08,
+          "word": "挡"
+        },
+        {
+          "end": 138.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.16,
+          "word": "杀，"
+        },
+        {
+          "end": 138.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.4,
+          "word": "人"
+        },
+        {
+          "end": 138.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.56,
+          "word": "佛"
+        },
+        {
+          "end": 138.72,
+          "probability": 1,
+          "start": 138.72,
+          "word": "挡"
+        },
+        {
+          "end": 138.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.8,
+          "word": "杀。"
+        }
+      ]
+    },
+    {
+      "end": 140,
+      "id": 13,
+      "speaker": "SPEAKER_1",
+      "start": 138.96,
+      "text": "哈哈哈哈哈哈。",
+      "words": [
+        {
+          "end": 139.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 138.96,
+          "word": "哈"
+        },
+        {
+          "end": 139.84,
+          "probability": 1,
+          "start": 139.84,
+          "word": "哈"
+        },
+        {
+          "end": 139.84,
+          "probability": 1,
+          "start": 139.84,
+          "word": "哈"
+        },
+        {
+          "end": 139.84,
+          "probability": 1,
+          "start": 139.84,
+          "word": "哈"
+        },
+        {
+          "end": 140,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 139.84,
+          "word": "哈"
+        },
+        {
+          "end": 140,
+          "probability": 1,
+          "start": 140,
+          "word": "哈。"
+        }
+      ]
+    },
+    {
+      "end": 155.6,
+      "id": 14,
+      "speaker": "SPEAKER_1",
+      "start": 140,
+      "text": "那站在二零二二年初，如果你对 cold 对 A I 的这些这些基本基本能力和实践还有最佳实践还有自己的感触，有有自己的一套独特的理解和一些实践感受的话，在我们站在当下也是非常有竞争力的。",
+      "words": [
+        {
+          "end": 140,
+          "probability": 1,
+          "start": 140,
+          "word": "那"
+        },
+        {
+          "end": 140.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 140.4,
+          "word": "站"
+        },
+        {
+          "end": 140.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 140.56,
+          "word": "在"
+        },
+        {
+          "end": 140.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 140.72,
+          "word": "二"
+        },
+        {
+          "end": 140.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 140.88,
+          "word": "零"
+        },
+        {
+          "end": 140.96,
+          "probability": 1,
+          "start": 140.96,
+          "word": "二"
+        },
+        {
+          "end": 140.96,
+          "probability": 1,
+          "start": 140.96,
+          "word": "二"
+        },
+        {
+          "end": 141.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 140.96,
+          "word": "年"
+        },
+        {
+          "end": 141.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 141.36,
+          "word": "初，"
+        },
+        {
+          "end": 141.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 141.76,
+          "word": "如"
+        },
+        {
+          "end": 142,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 141.84,
+          "word": "果"
+        },
+        {
+          "end": 142.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 142,
+          "word": "你"
+        },
+        {
+          "end": 142.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 142.16,
+          "word": "对"
+        },
+        {
+          "end": 142.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 142.48,
+          "word": "cold"
+        },
+        {
+          "end": 142.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 142.72,
+          "word": "对"
+        },
+        {
+          "end": 143.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 142.8,
+          "word": "A"
+        },
+        {
+          "end": 143.12,
+          "probability": 1,
+          "start": 143.12,
+          "word": "I"
+        },
+        {
+          "end": 143.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 143.6,
+          "word": "的"
+        },
+        {
+          "end": 143.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 143.68,
+          "word": "这"
+        },
+        {
+          "end": 144.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 143.76,
+          "word": "些"
+        },
+        {
+          "end": 144.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 144.24,
+          "word": "这"
+        },
+        {
+          "end": 144.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 144.4,
+          "word": "些"
+        },
+        {
+          "end": 144.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 144.48,
+          "word": "基"
+        },
+        {
+          "end": 144.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 144.64,
+          "word": "本"
+        },
+        {
+          "end": 145.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 145.04,
+          "word": "基"
+        },
+        {
+          "end": 145.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 145.12,
+          "word": "本"
+        },
+        {
+          "end": 145.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 145.28,
+          "word": "能"
+        },
+        {
+          "end": 145.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 145.52,
+          "word": "力"
+        },
+        {
+          "end": 146.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 145.92,
+          "word": "和"
+        },
+        {
+          "end": 146.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 146.32,
+          "word": "实"
+        },
+        {
+          "end": 146.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 146.56,
+          "word": "践"
+        },
+        {
+          "end": 146.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 146.88,
+          "word": "还"
+        },
+        {
+          "end": 146.96,
+          "probability": 1,
+          "start": 146.96,
+          "word": "有"
+        },
+        {
+          "end": 147.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.04,
+          "word": "最"
+        },
+        {
+          "end": 147.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.12,
+          "word": "佳"
+        },
+        {
+          "end": 147.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.28,
+          "word": "实"
+        },
+        {
+          "end": 147.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.52,
+          "word": "践"
+        },
+        {
+          "end": 147.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.68,
+          "word": "还"
+        },
+        {
+          "end": 147.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.84,
+          "word": "有"
+        },
+        {
+          "end": 148,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 147.92,
+          "word": "自"
+        },
+        {
+          "end": 148.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 148,
+          "word": "己"
+        },
+        {
+          "end": 148.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 148.16,
+          "word": "的"
+        },
+        {
+          "end": 148.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 148.24,
+          "word": "感"
+        },
+        {
+          "end": 148.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 148.48,
+          "word": "触，"
+        },
+        {
+          "end": 148.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 148.8,
+          "word": "有"
+        },
+        {
+          "end": 149.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 149.36,
+          "word": "有"
+        },
+        {
+          "end": 149.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 149.44,
+          "word": "自"
+        },
+        {
+          "end": 149.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 149.6,
+          "word": "己"
+        },
+        {
+          "end": 149.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 149.68,
+          "word": "的"
+        },
+        {
+          "end": 149.84,
+          "probability": 1,
+          "start": 149.84,
+          "word": "一"
+        },
+        {
+          "end": 150.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 149.92,
+          "word": "套"
+        },
+        {
+          "end": 150.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.08,
+          "word": "独"
+        },
+        {
+          "end": 150.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.32,
+          "word": "特"
+        },
+        {
+          "end": 150.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.4,
+          "word": "的"
+        },
+        {
+          "end": 150.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.48,
+          "word": "理"
+        },
+        {
+          "end": 150.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.64,
+          "word": "解"
+        },
+        {
+          "end": 151.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 150.8,
+          "word": "和"
+        },
+        {
+          "end": 151.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.04,
+          "word": "一"
+        },
+        {
+          "end": 151.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.2,
+          "word": "些"
+        },
+        {
+          "end": 151.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.28,
+          "word": "实"
+        },
+        {
+          "end": 151.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.44,
+          "word": "践"
+        },
+        {
+          "end": 151.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.6,
+          "word": "感"
+        },
+        {
+          "end": 151.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.68,
+          "word": "受"
+        },
+        {
+          "end": 151.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.84,
+          "word": "的"
+        },
+        {
+          "end": 152.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 151.92,
+          "word": "话，"
+        },
+        {
+          "end": 152.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 152.4,
+          "word": "在"
+        },
+        {
+          "end": 153.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 153.2,
+          "word": "我"
+        },
+        {
+          "end": 153.36,
+          "probability": 1,
+          "start": 153.36,
+          "word": "们"
+        },
+        {
+          "end": 153.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 153.6,
+          "word": "站"
+        },
+        {
+          "end": 153.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 153.68,
+          "word": "在"
+        },
+        {
+          "end": 153.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 153.84,
+          "word": "当"
+        },
+        {
+          "end": 154.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154,
+          "word": "下"
+        },
+        {
+          "end": 154.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.16,
+          "word": "也"
+        },
+        {
+          "end": 154.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.24,
+          "word": "是"
+        },
+        {
+          "end": 154.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.56,
+          "word": "非"
+        },
+        {
+          "end": 154.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.64,
+          "word": "常"
+        },
+        {
+          "end": 154.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.8,
+          "word": "有"
+        },
+        {
+          "end": 155.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 154.88,
+          "word": "竞"
+        },
+        {
+          "end": 155.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 155.2,
+          "word": "争"
+        },
+        {
+          "end": 155.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 155.52,
+          "word": "力"
+        },
+        {
+          "end": 155.6,
+          "probability": 1,
+          "start": 155.6,
+          "word": "的。"
+        }
+      ]
+    },
+    {
+      "end": 166.72,
+      "id": 15,
+      "speaker": "SPEAKER_1",
+      "start": 156.08,
+      "text": "那如果我们半年后再听，一年后再听，可能很多东西就变成了一个八卦，或变成了一个预测来来回过，就少了很多当下现在立刻就听的一些有有价值点。",
+      "words": [
+        {
+          "end": 156.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.08,
+          "word": "那"
+        },
+        {
+          "end": 156.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.24,
+          "word": "如"
+        },
+        {
+          "end": 156.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.48,
+          "word": "果"
+        },
+        {
+          "end": 156.56,
+          "probability": 1,
+          "start": 156.56,
+          "word": "我"
+        },
+        {
+          "end": 156.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.56,
+          "word": "们"
+        },
+        {
+          "end": 156.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.72,
+          "word": "半"
+        },
+        {
+          "end": 156.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.88,
+          "word": "年"
+        },
+        {
+          "end": 157.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 156.96,
+          "word": "后"
+        },
+        {
+          "end": 157.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.12,
+          "word": "再"
+        },
+        {
+          "end": 157.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.28,
+          "word": "听，"
+        },
+        {
+          "end": 157.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.44,
+          "word": "一"
+        },
+        {
+          "end": 157.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.52,
+          "word": "年"
+        },
+        {
+          "end": 157.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.68,
+          "word": "后"
+        },
+        {
+          "end": 157.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.76,
+          "word": "再"
+        },
+        {
+          "end": 158.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 157.92,
+          "word": "听，"
+        },
+        {
+          "end": 158.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.4,
+          "word": "可"
+        },
+        {
+          "end": 158.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.56,
+          "word": "能"
+        },
+        {
+          "end": 158.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.64,
+          "word": "很"
+        },
+        {
+          "end": 158.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.72,
+          "word": "多"
+        },
+        {
+          "end": 158.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.88,
+          "word": "东"
+        },
+        {
+          "end": 159.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 158.96,
+          "word": "西"
+        },
+        {
+          "end": 159.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.04,
+          "word": "就"
+        },
+        {
+          "end": 159.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.28,
+          "word": "变"
+        },
+        {
+          "end": 159.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.44,
+          "word": "成"
+        },
+        {
+          "end": 159.6,
+          "probability": 1,
+          "start": 159.6,
+          "word": "了"
+        },
+        {
+          "end": 159.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.6,
+          "word": "一"
+        },
+        {
+          "end": 159.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.68,
+          "word": "个"
+        },
+        {
+          "end": 159.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.76,
+          "word": "八"
+        },
+        {
+          "end": 160.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 159.92,
+          "word": "卦，"
+        },
+        {
+          "end": 160.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.08,
+          "word": "或"
+        },
+        {
+          "end": 160.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.32,
+          "word": "变"
+        },
+        {
+          "end": 160.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.48,
+          "word": "成"
+        },
+        {
+          "end": 160.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.56,
+          "word": "了"
+        },
+        {
+          "end": 160.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.64,
+          "word": "一"
+        },
+        {
+          "end": 160.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 160.72,
+          "word": "个"
+        },
+        {
+          "end": 161.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 161.2,
+          "word": "预"
+        },
+        {
+          "end": 161.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 161.28,
+          "word": "测"
+        },
+        {
+          "end": 161.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 161.6,
+          "word": "来"
+        },
+        {
+          "end": 162,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 161.84,
+          "word": "来"
+        },
+        {
+          "end": 162.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162,
+          "word": "回"
+        },
+        {
+          "end": 162.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.16,
+          "word": "过，"
+        },
+        {
+          "end": 162.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.48,
+          "word": "就"
+        },
+        {
+          "end": 162.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.56,
+          "word": "少"
+        },
+        {
+          "end": 162.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.72,
+          "word": "了"
+        },
+        {
+          "end": 162.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.8,
+          "word": "很"
+        },
+        {
+          "end": 163.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 162.96,
+          "word": "多"
+        },
+        {
+          "end": 163.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 163.52,
+          "word": "当"
+        },
+        {
+          "end": 163.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 163.6,
+          "word": "下"
+        },
+        {
+          "end": 164,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 163.84,
+          "word": "现"
+        },
+        {
+          "end": 164.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164,
+          "word": "在"
+        },
+        {
+          "end": 164.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.32,
+          "word": "立"
+        },
+        {
+          "end": 164.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.4,
+          "word": "刻"
+        },
+        {
+          "end": 164.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.56,
+          "word": "就"
+        },
+        {
+          "end": 164.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.72,
+          "word": "听"
+        },
+        {
+          "end": 164.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.88,
+          "word": "的"
+        },
+        {
+          "end": 165.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 164.96,
+          "word": "一"
+        },
+        {
+          "end": 165.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 165.04,
+          "word": "些"
+        },
+        {
+          "end": 166.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 166,
+          "word": "有"
+        },
+        {
+          "end": 166.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 166.24,
+          "word": "有"
+        },
+        {
+          "end": 166.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 166.32,
+          "word": "价"
+        },
+        {
+          "end": 166.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 166.56,
+          "word": "值"
+        },
+        {
+          "end": 166.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 166.64,
+          "word": "点。"
+        }
+      ]
+    },
+    {
+      "end": 170.88,
+      "id": 16,
+      "speaker": "SPEAKER_1",
+      "start": 167.6,
+      "text": "啊，伙伴开始吧，嗨大家好，新一期的主播和播客又来了。",
+      "words": [
+        {
+          "end": 167.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 167.6,
+          "word": "啊，"
+        },
+        {
+          "end": 167.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 167.68,
+          "word": "伙"
+        },
+        {
+          "end": 167.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 167.84,
+          "word": "伴"
+        },
+        {
+          "end": 168.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 167.92,
+          "word": "开"
+        },
+        {
+          "end": 168.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.08,
+          "word": "始"
+        },
+        {
+          "end": 168.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.16,
+          "word": "吧，"
+        },
+        {
+          "end": 168.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.48,
+          "word": "嗨"
+        },
+        {
+          "end": 168.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.64,
+          "word": "大"
+        },
+        {
+          "end": 168.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.8,
+          "word": "家"
+        },
+        {
+          "end": 169.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 168.88,
+          "word": "好，"
+        },
+        {
+          "end": 169.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 169.28,
+          "word": "新"
+        },
+        {
+          "end": 169.52,
+          "probability": 1,
+          "start": 169.52,
+          "word": "一"
+        },
+        {
+          "end": 169.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 169.52,
+          "word": "期"
+        },
+        {
+          "end": 169.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 169.68,
+          "word": "的"
+        },
+        {
+          "end": 170,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 169.84,
+          "word": "主"
+        },
+        {
+          "end": 170,
+          "probability": 1,
+          "start": 170,
+          "word": "播"
+        },
+        {
+          "end": 170.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.16,
+          "word": "和"
+        },
+        {
+          "end": 170.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.32,
+          "word": "播"
+        },
+        {
+          "end": 170.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.48,
+          "word": "客"
+        },
+        {
+          "end": 170.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.56,
+          "word": "又"
+        },
+        {
+          "end": 170.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.64,
+          "word": "来"
+        },
+        {
+          "end": 170.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 170.72,
+          "word": "了。"
+        }
+      ]
+    },
+    {
+      "end": 179.6,
+      "id": 17,
+      "speaker": "SPEAKER_1",
+      "start": 171.2,
+      "text": "我这个播客是几个全南城一些现在的一篇播客节目，这次呢我们是在线下进行录制，我们这会儿在生态线下的录音间，呃。",
+      "words": [
+        {
+          "end": 171.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.2,
+          "word": "我"
+        },
+        {
+          "end": 171.36,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.28,
+          "word": "这"
+        },
+        {
+          "end": 171.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.36,
+          "word": "个"
+        },
+        {
+          "end": 171.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.52,
+          "word": "播"
+        },
+        {
+          "end": 171.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.68,
+          "word": "客"
+        },
+        {
+          "end": 172.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 171.92,
+          "word": "是"
+        },
+        {
+          "end": 172.32,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.16,
+          "word": "几"
+        },
+        {
+          "end": 172.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.32,
+          "word": "个"
+        },
+        {
+          "end": 172.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.4,
+          "word": "全"
+        },
+        {
+          "end": 172.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.56,
+          "word": "南"
+        },
+        {
+          "end": 172.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.64,
+          "word": "城"
+        },
+        {
+          "end": 172.88,
+          "probability": 1,
+          "start": 172.88,
+          "word": "一"
+        },
+        {
+          "end": 173.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 172.88,
+          "word": "些"
+        },
+        {
+          "end": 173.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.12,
+          "word": "现"
+        },
+        {
+          "end": 173.44,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.28,
+          "word": "在"
+        },
+        {
+          "end": 173.44,
+          "probability": 1,
+          "start": 173.44,
+          "word": "的"
+        },
+        {
+          "end": 173.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.44,
+          "word": "一"
+        },
+        {
+          "end": 173.68,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.6,
+          "word": "篇"
+        },
+        {
+          "end": 173.84,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.68,
+          "word": "播"
+        },
+        {
+          "end": 173.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.84,
+          "word": "客"
+        },
+        {
+          "end": 174,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 173.92,
+          "word": "节"
+        },
+        {
+          "end": 174.08,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 174,
+          "word": "目，"
+        },
+        {
+          "end": 174.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 174.56,
+          "word": "这"
+        },
+        {
+          "end": 174.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 174.72,
+          "word": "次"
+        },
+        {
+          "end": 174.96,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 174.88,
+          "word": "呢"
+        },
+        {
+          "end": 175.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 174.96,
+          "word": "我"
+        },
+        {
+          "end": 175.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 175.04,
+          "word": "们"
+        },
+        {
+          "end": 175.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 175.12,
+          "word": "是"
+        },
+        {
+          "end": 175.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 175.28,
+          "word": "在"
+        },
+        {
+          "end": 175.76,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 175.6,
+          "word": "线"
+        },
+        {
+          "end": 176,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 175.76,
+          "word": "下"
+        },
+        {
+          "end": 176.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176,
+          "word": "进"
+        },
+        {
+          "end": 176.24,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.16,
+          "word": "行"
+        },
+        {
+          "end": 176.4,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.24,
+          "word": "录"
+        },
+        {
+          "end": 176.56,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.4,
+          "word": "制，"
+        },
+        {
+          "end": 176.8,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.72,
+          "word": "我"
+        },
+        {
+          "end": 176.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.8,
+          "word": "们"
+        },
+        {
+          "end": 177.04,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 176.96,
+          "word": "这"
+        },
+        {
+          "end": 177.2,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 177.04,
+          "word": "会"
+        },
+        {
+          "end": 177.28,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 177.2,
+          "word": "儿"
+        },
+        {
+          "end": 177.52,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 177.28,
+          "word": "在"
+        },
+        {
+          "end": 177.92,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 177.76,
+          "word": "生"
+        },
+        {
+          "end": 178.16,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 177.92,
+          "word": "态"
+        },
+        {
+          "end": 178.48,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 178.32,
+          "word": "线"
+        },
+        {
+          "end": 178.64,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 178.48,
+          "word": "下"
+        },
+        {
+          "end": 178.72,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 178.64,
+          "word": "的"
+        },
+        {
+          "end": 178.88,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 178.72,
+          "word": "录"
+        },
+        {
+          "end": 178.96,
+          "probability": 1,
+          "start": 178.96,
+          "word": "音"
+        },
+        {
+          "end": 179.12,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 179.04,
+          "word": "间，"
+        },
+        {
+          "end": 179.6,
+          "probability": 1,
+          "speaker": "SPEAKER_1",
+          "start": 179.36,
+          "word": "呃。"
+        }
+      ]
+    }
+  ],
+  "speaker_embeddings": [
+    {
+      "embedding": [
+        12.045819282531738,
+        30.56230926513672,
+        5.75869083404541,
+        -26.499103546142578,
+        -3.6952366828918457,
+        1.6001918315887451,
+        -6.2391204833984375,
+        4.017049312591553,
+        -4.0877203941345215,
+        23.554885864257812,
+        15.145490646362305,
+        7.1262664794921875,
+        1.5404937267303467,
+        11.463602066040039,
+        -18.265535354614258,
+        -7.3625078201293945,
+        8.077089309692383,
+        14.224867820739746,
+        24.107717514038086,
+        4.804818630218506,
+        -9.528916358947754,
+        0.9857891201972961,
+        13.539122581481934,
+        -2.4166626930236816,
+        -16.35715675354004,
+        -5.5229949951171875,
+        -8.934714317321777,
+        8.59443187713623,
+        14.446566581726074,
+        -1.3852866888046265,
+        5.463224411010742,
+        -11.065627098083496,
+        -23.058738708496094,
+        5.200680255889893,
+        16.057235717773438,
+        9.844244956970215,
+        22.864046096801758,
+        -30.505634307861328,
+        -3.386402130126953,
+        -2.816124200820923,
+        -15.14113998413086,
+        2.5412001609802246,
+        0.960220217704773,
+        -5.649272918701172,
+        -12.094996452331543,
+        7.496258735656738,
+        -34.08742904663086,
+        9.913933753967285,
+        3.0428755283355713,
+        -3.324552059173584,
+        -14.92004680633545,
+        18.356637954711914,
+        -12.133668899536133,
+        6.486626625061035,
+        -1.6307220458984375,
+        22.737730026245117,
+        13.486433982849121,
+        -3.1330275535583496,
+        9.640311241149902,
+        -10.532418251037598,
+        -0.5852898359298706,
+        11.061735153198242,
+        21.74543571472168,
+        11.759744644165039,
+        -27.262277603149414,
+        -9.75296401977539,
+        -4.493953227996826,
+        1.0382097959518433,
+        -32.38056182861328,
+        -10.769783973693848,
+        -13.710920333862305,
+        1.5385712385177612,
+        22.09300994873047,
+        -8.425771713256836,
+        18.33033561706543,
+        -1.8717306852340698,
+        17.746585845947266,
+        -4.511996269226074,
+        0.4910504221916199,
+        -2.8063485622406006,
+        -5.626236915588379,
+        -12.164257049560547,
+        11.933634757995605,
+        1.0297081470489502,
+        15.236785888671875,
+        11.324604988098145,
+        -3.5806896686553955,
+        -5.972271919250488,
+        -18.793779373168945,
+        -1.3248282670974731,
+        -19.03806495666504,
+        -7.930552959442139,
+        5.408629417419434,
+        18.0817813873291,
+        6.557763576507568,
+        8.397035598754883,
+        2.295614242553711,
+        2.298616886138916,
+        -23.685081481933594,
+        9.459576606750488,
+        -8.514951705932617,
+        26.18116569519043,
+        1.6364939212799072,
+        -3.788541316986084,
+        -6.7859110832214355,
+        -0.7926867008209229,
+        -8.444029808044434,
+        -7.553234577178955,
+        -15.821028709411621,
+        38.77062225341797,
+        -11.532905578613281,
+        -7.492514133453369,
+        -9.161311149597168,
+        14.294041633605957,
+        3.6384284496307373,
+        2.974794626235962,
+        -24.965492248535156,
+        18.650131225585938,
+        15.707216262817383,
+        -0.9311198592185974,
+        -16.786869049072266,
+        -0.5867167115211487,
+        -9.269674301147461,
+        26.96571922302246,
+        -20.959028244018555,
+        -19.857810974121094,
+        -7.988236904144287,
+        -4.8136467933654785,
+        -7.856499195098877,
+        10.463737487792969,
+        -9.010337829589844,
+        -6.292985916137695,
+        4.614242076873779,
+        -6.511495113372803,
+        10.201845169067383,
+        0.6237955689430237,
+        3.8226664066314697,
+        -13.758129119873047,
+        0.46269840002059937,
+        -2.2923367023468018,
+        -12.702119827270508,
+        5.2493767738342285,
+        -10.026578903198242,
+        -35.4111328125,
+        19.674724578857422,
+        -0.375840961933136,
+        15.955728530883789,
+        -2.422917604446411,
+        -5.8409199714660645,
+        2.4510481357574463,
+        7.5401177406311035,
+        10.914361000061035,
+        -29.971635818481445,
+        24.110857009887695,
+        14.262125968933105,
+        1.8352478742599487,
+        4.762393474578857,
+        11.205084800720215,
+        4.621159553527832,
+        3.758833408355713,
+        29.386188507080078,
+        8.343284606933594,
+        -17.786903381347656,
+        2.8253190517425537,
+        -18.649267196655273,
+        12.197661399841309,
+        -18.66474723815918,
+        -6.903194904327393,
+        -6.168002605438232,
+        1.758100986480713,
+        1.0058932304382324,
+        -5.816165924072266,
+        -5.822850227355957,
+        -9.20955753326416,
+        -15.046637535095215,
+        -8.78002643585205,
+        14.70288372039795,
+        -22.882240295410156,
+        8.112833023071289,
+        -1.9158462285995483,
+        2.308889150619507,
+        -16.110637664794922,
+        3.1156158447265625,
+        21.574935913085938,
+        -6.94561767578125,
+        -11.000630378723145,
+        -2.384614944458008,
+        -6.322990417480469,
+        -4.983360767364502,
+        5.2830095291137695,
+        -14.997034072875977,
+        -15.576666831970215
+      ],
+      "segment_count": 77,
+      "speaker_id": "SPEAKER_0"
+    },
+    {
+      "embedding": [
+        6.243122577667236,
+        8.609881401062012,
+        -9.016745567321777,
+        -7.911831855773926,
+        6.4975104331970215,
+        19.653608322143555,
+        6.977578639984131,
+        -1.4323395490646362,
+        10.291601181030273,
+        15.54094123840332,
+        -4.3653483390808105,
+        -3.2310006618499756,
+        0.20319490134716034,
+        16.93305206298828,
+        -18.18963623046875,
+        8.595562934875488,
+        -5.8851823806762695,
+        11.138138771057129,
+        14.968849182128906,
+        -3.3707432746887207,
+        -13.952850341796875,
+        -12.840636253356934,
+        -10.782244682312012,
+        5.054223537445068,
+        -22.925342559814453,
+        -14.752394676208496,
+        10.809531211853027,
+        -3.9830374717712402,
+        -1.5490556955337524,
+        -29.0261287689209,
+        -0.02631242759525776,
+        2.028252363204956,
+        -6.8871684074401855,
+        6.076442241668701,
+        24.883684158325195,
+        4.336482524871826,
+        18.497934341430664,
+        -3.388873338699341,
+        7.4730682373046875,
+        4.6975555419921875,
+        -15.463467597961426,
+        1.2232756614685059,
+        -4.779675006866455,
+        5.250362396240234,
+        -12.225445747375488,
+        -4.2038092613220215,
+        -25.245885848999023,
+        1.2357919216156006,
+        -1.3515830039978027,
+        -10.007376670837402,
+        10.245559692382812,
+        -5.8870720863342285,
+        14.146711349487305,
+        10.170802116394043,
+        6.6113762855529785,
+        -0.35048940777778625,
+        -11.337294578552246,
+        -9.374388694763184,
+        2.4923295974731445,
+        -10.526908874511719,
+        19.0736083984375,
+        19.54547119140625,
+        18.502620697021484,
+        -12.048018455505371,
+        -29.153818130493164,
+        3.362767457962036,
+        13.761761665344238,
+        -8.063433647155762,
+        -16.44072151184082,
+        4.680007457733154,
+        -30.59928321838379,
+        -2.229151487350464,
+        42.3895149230957,
+        4.508820056915283,
+        7.7322492599487305,
+        -4.339266777038574,
+        19.1098575592041,
+        7.671875953674316,
+        2.2190206050872803,
+        -4.699717044830322,
+        -6.858666896820068,
+        16.116750717163086,
+        21.67389488220215,
+        -3.783337116241455,
+        14.185271263122559,
+        4.561746120452881,
+        -6.894645690917969,
+        1.0554245710372925,
+        -7.782652854919434,
+        3.432532548904419,
+        -34.29018020629883,
+        -0.9578762054443359,
+        -0.5148561000823975,
+        15.823519706726074,
+        8.274202346801758,
+        9.285983085632324,
+        -11.975980758666992,
+        -0.4700267016887665,
+        21.098079681396484,
+        7.685662746429443,
+        3.4366395473480225,
+        3.7043612003326416,
+        12.257562637329102,
+        2.341815948486328,
+        4.732786178588867,
+        -0.029410002753138542,
+        -12.027950286865234,
+        -14.715561866760254,
+        -16.710357666015625,
+        20.86534309387207,
+        1.2041865587234497,
+        -18.589252471923828,
+        -12.743760108947754,
+        10.917657852172852,
+        25.31963539123535,
+        14.222999572753906,
+        -4.676236629486084,
+        -10.672978401184082,
+        10.843328475952148,
+        -15.379179000854492,
+        -11.814714431762695,
+        -19.28873062133789,
+        4.002877712249756,
+        8.389042854309082,
+        -11.253654479980469,
+        -22.442644119262695,
+        -23.227378845214844,
+        -10.441987991333008,
+        -12.727239608764648,
+        1.389971137046814,
+        -2.4373586177825928,
+        -8.755510330200195,
+        13.156606674194336,
+        6.336538791656494,
+        -5.165284633636475,
+        -6.783518314361572,
+        19.434734344482422,
+        -2.903672695159912,
+        -9.970202445983887,
+        -29.648448944091797,
+        -20.950916290283203,
+        12.646148681640625,
+        5.941171169281006,
+        -25.169950485229492,
+        26.829076766967773,
+        6.786194801330566,
+        31.400842666625977,
+        4.623898506164551,
+        -11.400731086730957,
+        -3.6809887886047363,
+        0.9278652667999268,
+        16.768918991088867,
+        -6.459246635437012,
+        14.515830993652344,
+        -12.076802253723145,
+        -1.322230577468872,
+        4.29734468460083,
+        4.299557685852051,
+        -14.381211280822754,
+        4.686069011688232,
+        7.412611484527588,
+        14.94389533996582,
+        -6.578073501586914,
+        2.9760632514953613,
+        7.918610095977783,
+        -11.127345085144043,
+        -19.67190933227539,
+        5.577935218811035,
+        -0.6306753158569336,
+        14.025350570678711,
+        19.037405014038086,
+        2.4069931507110596,
+        -5.598214626312256,
+        -16.899477005004883,
+        -18.18381690979004,
+        -15.909687042236328,
+        0.6156126260757446,
+        -10.062772750854492,
+        30.95119285583496,
+        -11.122065544128418,
+        -3.4308862686157227,
+        -5.259713649749756,
+        18.917673110961914,
+        -8.075298309326172,
+        -3.4448986053466797,
+        -28.420578002929688,
+        13.345380783081055,
+        -6.159877300262451,
+        2.822577714920044,
+        9.885746955871582,
+        -13.69718074798584,
+        -20.4362850189209
+      ],
+      "segment_count": 138,
+      "speaker_id": "SPEAKER_1"
+    }
+  ],
+  "task_id": "8d5bfce2-89fd-4a20-a7f0-9921e4058c28",
+  "vad_segments": [
+    {
+      "end": 2.72,
+      "start": 0.16
+    },
+    {
+      "end": 7.84,
+      "start": 4.72
+    },
+    {
+      "end": 9.04,
+      "start": 7.92
+    },
+    {
+      "end": 14.88,
+      "start": 9.36
+    },
+    {
+      "end": 40.16,
+      "start": 14.88
+    },
+    {
+      "end": 48.4,
+      "start": 40.56
+    },
+    {
+      "end": 64.8,
+      "start": 48.72
+    },
+    {
+      "end": 81.2,
+      "start": 64.88
+    },
+    {
+      "end": 101.2,
+      "start": 82
+    },
+    {
+      "end": 110.24,
+      "start": 101.2
+    },
+    {
+      "end": 116,
+      "start": 110.64
+    },
+    {
+      "end": 124.48,
+      "start": 116
+    },
+    {
+      "end": 138.96,
+      "start": 124.96
+    },
+    {
+      "end": 140,
+      "start": 138.96
+    },
+    {
+      "end": 155.6,
+      "start": 140
+    },
+    {
+      "end": 166.72,
+      "start": 156.08
+    },
+    {
+      "end": 170.88,
+      "start": 167.6
+    },
+    {
+      "end": 179.6,
+      "start": 171.2
+    }
+  ]
+}

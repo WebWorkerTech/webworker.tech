@@ -1,0 +1,109 @@
+{
+  "task_id": "39f23145-7dac-48b0-a093-e0050d389766",
+  "source": "batch",
+  "title": "No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接",
+  "audio_file": "2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.m4a",
+  "show_notes_file": "2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.md",
+  "asr_file": "2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/65276716ba2ed85c6d152b66/media.xyzcdn.net/lh6aWp4FBtc7VneSHlwbUDXMXOmT.m4a",
+    "audio_filename": "2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Vue Composition API",
+        "VueUse",
+        "Vue TermUI",
+        "Nuxt",
+        "MacBook Pro",
+        "NuPhy Air75",
+        "Opening",
+        "Vue/VueUse",
+        "Webfansplz",
+        "sxzz",
+        "新一期播客",
+        "核心成员",
+        "贡献的项目",
+        "科比哥聊开源协作",
+        "科比哥和智子",
+        "科比哥"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3255.336,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 309,
+    "words_count": 14804,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_0",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 44,
+    "audio_event_classes": {
+      "Music": 35,
+      "Silence": 9
+    },
+    "billing": {
+      "amount": 0.5775,
+      "balance": 14.6914,
+      "billable_minutes": 55,
+      "detail": {
+        "base_amount": 0.55,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.1833,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.0917,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.825,
+        "total": 0.5775
+      },
+      "mode": "standard"
+    }
+  }
+}

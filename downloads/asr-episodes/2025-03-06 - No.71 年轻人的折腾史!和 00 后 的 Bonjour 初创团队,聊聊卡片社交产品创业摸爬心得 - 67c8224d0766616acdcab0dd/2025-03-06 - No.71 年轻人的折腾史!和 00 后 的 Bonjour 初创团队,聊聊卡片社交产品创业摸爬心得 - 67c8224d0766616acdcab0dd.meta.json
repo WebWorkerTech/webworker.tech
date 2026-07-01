@@ -1,0 +1,111 @@
+{
+  "task_id": "78103c75-0666-49ae-bc23-c65042ccd820",
+  "source": "batch",
+  "title": "No.71 年轻人的折腾史！和 00 后 的 Bonjour 初创团队，聊聊卡片社交产品创业摸爬心得",
+  "audio_file": "2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.m4a",
+  "show_notes_file": "2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.md",
+  "asr_file": "2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/67c8224d0766616acdcab0dd/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lo_3TxkKya1MGmvsNDbxjc5s54M7.m4a",
+    "audio_filename": "2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Bonjour",
+        "Vincent",
+        "NFC",
+        "get",
+        "LinkedIn",
+        "Windows",
+        "初创团队",
+        "聊聊卡片社交产品",
+        "春节吃胖三斤的主播",
+        "和超炸裂的新一期播客",
+        "期我们抓来了神秘团队",
+        "们带着迟到",
+        "超炸裂的新一期播客来咯",
+        "从修空调逆袭成码农的长野",
+        "年轻人的折腾史"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.71 年轻人的折腾史！和 00 后 的 Bonjour 初创团队，聊聊卡片社交产品创业摸爬心得》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3622.719,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 323,
+    "words_count": 15205,
+    "speakers_count": 6,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_2",
+      "SPEAKER_3",
+      "SPEAKER_4",
+      "SPEAKER_5",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 107,
+    "audio_event_classes": {
+      "Silence": 105,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 0.6405,
+      "balance": 14.6914,
+      "billable_minutes": 61,
+      "detail": {
+        "base_amount": 0.61,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.2033,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1017,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.915,
+        "total": 0.6405
+      },
+      "mode": "standard"
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "task_id": "08d85817-e820-4c0e-9c62-f40ff999c719",
+  "source": "batch",
+  "title": "No.85 程序员的头痛会：一次与医生的深度联调",
+  "audio_file": "2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.m4a",
+  "show_notes_file": "2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.md",
+  "asr_file": "2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/690d3c0fd99642be96d4e0fc/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/luh08ZzVik4S3fkD5f-m3Lrar940.m4a",
+    "audio_filename": "2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "UP",
+        "vs.",
+        "Bug",
+        "EVE",
+        "这次播客",
+        "了B站",
+        "医学的双重角度探讨了",
+        "认知对疼痛感知的巨大影响",
+        "程序员的头痛会"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.85 程序员的头痛会：一次与医生的深度联调》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 7240.277,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 868,
+    "words_count": 30619,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_0"
+    ],
+    "audio_events_count": 77,
+    "audio_event_classes": {
+      "Silence": 66,
+      "Music": 5,
+      "Cough": 4,
+      "Laughter": 1,
+      "Snicker": 1
+    },
+    "billing": {
+      "amount": 1.2705,
+      "balance": 14.6914,
+      "billable_minutes": 121,
+      "detail": {
+        "base_amount": 1.21,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.4033,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.2017,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.815,
+        "total": 1.2705
+      },
+      "mode": "standard"
+    }
+  }
+}

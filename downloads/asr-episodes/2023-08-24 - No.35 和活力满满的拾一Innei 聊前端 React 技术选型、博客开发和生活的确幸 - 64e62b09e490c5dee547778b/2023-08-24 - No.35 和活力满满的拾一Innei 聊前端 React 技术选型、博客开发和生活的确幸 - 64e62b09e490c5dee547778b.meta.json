@@ -1,0 +1,112 @@
+{
+  "task_id": "a50f241b-4cac-4337-a58d-cdae98743874",
+  "source": "batch",
+  "title": "No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸",
+  "audio_file": "2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.m4a",
+  "show_notes_file": "2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.md",
+  "asr_file": "2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/64e62b09e490c5dee547778b/media.xyzcdn.net/lh5iEOG-yBGP_fR_LHcUbaSodle5.m4a",
+    "audio_filename": "2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Otto",
+        "开翼",
+        "拾一",
+        "Innei",
+        "Innei Twitter twitter.com",
+        "Github github.com Blog",
+        "react18/vue/neovim/next13/nestjs/grahql/",
+        "serverComponent",
+        "opening",
+        "这一期播客",
+        "经历了前端基建平台",
+        "活力满满的拾一Innei",
+        "生活的确幸",
+        "了非常年轻的大佬",
+        "一些技术思考",
+        "聊前端"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 4545.113,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 544,
+    "words_count": 19076,
+    "speakers_count": 5,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_3",
+      "SPEAKER_0",
+      "SPEAKER_4"
+    ],
+    "audio_events_count": 111,
+    "audio_event_classes": {
+      "Music": 66,
+      "Silence": 40,
+      "Cough": 5
+    },
+    "billing": {
+      "amount": 0.798,
+      "balance": 14.6914,
+      "billable_minutes": 76,
+      "detail": {
+        "base_amount": 0.76,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.2533,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1267,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.14,
+        "total": 0.798
+      },
+      "mode": "standard"
+    }
+  }
+}

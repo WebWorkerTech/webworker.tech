@@ -1,0 +1,111 @@
+{
+  "task_id": "f05cb50f-0bda-4841-b02c-674c014209e5",
+  "source": "batch",
+  "title": "No.86 前端倒计时：Web Worker 们的 Async Talk",
+  "audio_file": "2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.m4a",
+  "show_notes_file": "2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.md",
+  "asr_file": "2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/693aea1d37f52a644e73c242/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lq6TxiE9oFbTaFX4s-Io-ZLGOVFq.m4a",
+    "audio_filename": "2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Async Talk",
+        "AsyncTalk",
+        "Annatar",
+        "GitHub Copilot",
+        "Claude Code",
+        "vs.",
+        "这期播客",
+        "的播客主播",
+        "分享了主播",
+        "编程工具",
+        "个人体感针对",
+        "目前在使用AI编程工具",
+        "前端倒计时",
+        "Web",
+        "Worker",
+        "们的"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.86 前端倒计时：Web Worker 们的 Async Talk》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3943.648,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 769,
+    "words_count": 18134,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_2",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 21,
+    "audio_event_classes": {
+      "Silence": 18,
+      "Music": 1,
+      "Laughter": 1,
+      "Cough": 1
+    },
+    "billing": {
+      "amount": 0.693,
+      "balance": 14.6914,
+      "billable_minutes": 66,
+      "detail": {
+        "base_amount": 0.66,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.22,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.11,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.99,
+        "total": 0.693
+      },
+      "mode": "standard"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "task_id": "577a4f5d-c9fc-4273-9f92-e2ea169b86f1",
+  "source": "batch",
+  "title": "No.5 和自由职业的山月聊学前端、生活、个人成长",
+  "audio_file": "2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.m4a",
+  "show_notes_file": "2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.md",
+  "asr_file": "2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/61b944821773c5744af3f109/media.xyzcdn.net/lpy5tTBPRzSXa38wcEY7cZgMDpm2.m4a",
+    "audio_filename": "2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Otto",
+        "山月",
+        "Show Notes No.5",
+        "todo",
+        "wx",
+        "xinbao965",
+        "前端主播",
+        "程序员闲聊的音频播客",
+        "因为两个主播",
+        "自由职业的山月聊学前端",
+        "自由职业的山月聊学习",
+        "是前端程序员目前会以前端为视角切入",
+        "产出",
+        "生活",
+        "个人成长"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.5 和自由职业的山月聊学前端、生活、个人成长》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 2283.514,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 319,
+    "words_count": 8974,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 98,
+    "audio_event_classes": {
+      "Music": 42,
+      "Silence": 54,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 0.4095,
+      "balance": 14.6914,
+      "billable_minutes": 39,
+      "detail": {
+        "base_amount": 0.39,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.13,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.065,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.585,
+        "total": 0.4095
+      },
+      "mode": "standard"
+    }
+  }
+}

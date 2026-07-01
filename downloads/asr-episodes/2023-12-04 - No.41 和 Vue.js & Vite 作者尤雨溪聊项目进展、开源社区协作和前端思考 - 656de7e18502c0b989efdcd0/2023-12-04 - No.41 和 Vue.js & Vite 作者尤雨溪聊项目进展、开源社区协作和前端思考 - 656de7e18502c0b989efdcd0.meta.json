@@ -1,0 +1,110 @@
+{
+  "task_id": "4d3800fd-3f3d-48f0-95ac-519575bb95c5",
+  "source": "batch",
+  "title": "No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考",
+  "audio_file": "2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.m4a",
+  "show_notes_file": "2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.md",
+  "asr_file": "2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/656de7e18502c0b989efdcd0/media.xyzcdn.net/lumZOyPT-tjHi0W7h_MhcmN2-P5b.m4a",
+    "audio_filename": "2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Vue.js",
+        "podfest.tech",
+        "Evan You",
+        "Vue/Vite",
+        "github",
+        "yyx990803",
+        "Vue4",
+        "Copilot",
+        "Evan...",
+        "作者尤雨溪聊项目",
+        "开源社区",
+        "本期播客",
+        "技术播客",
+        "新一期播客",
+        "核心团队的成员",
+        "尤雨溪聊项目进展"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6783.772,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 578,
+    "words_count": 29370,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 153,
+    "audio_event_classes": {
+      "Music": 63,
+      "Silence": 88,
+      "Cough": 1,
+      "Laughter": 1
+    },
+    "billing": {
+      "amount": 1.197,
+      "balance": 14.6914,
+      "billable_minutes": 114,
+      "detail": {
+        "base_amount": 1.14,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.38,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.19,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.71,
+        "total": 1.197
+      },
+      "mode": "standard"
+    }
+  }
+}

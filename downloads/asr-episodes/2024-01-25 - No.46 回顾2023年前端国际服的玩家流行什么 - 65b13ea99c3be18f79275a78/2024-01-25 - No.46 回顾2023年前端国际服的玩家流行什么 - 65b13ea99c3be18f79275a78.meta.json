@@ -1,0 +1,112 @@
+{
+  "task_id": "c9d0e355-cebc-4a74-a454-1bb17523703f",
+  "source": "batch",
+  "title": "No.46 回顾2023年前端国际服的玩家流行什么？",
+  "audio_file": "2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.m4a",
+  "show_notes_file": "2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.md",
+  "asr_file": "2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/65b13ea99c3be18f79275a78/media.xyzcdn.net/lvLZgSn6k5AuvZsLgnQto2z4Zox5.m4a",
+    "audio_filename": "2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "JavaScript Rising Stars",
+        "GitHub",
+        "Star",
+        "JS",
+        "UI",
+        "调查项目",
+        "开源项目",
+        "有些项目",
+        "这一次我们和海老师",
+        "看看都有哪些项目",
+        "级最快的前端开源项目",
+        "域的趋势和新技术产品",
+        "前端有关的",
+        "海老师",
+        "增长情况",
+        "新技术产品的出现"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.46 回顾2023年前端国际服的玩家流行什么？》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6291.695,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 674,
+    "words_count": 27285,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_0"
+    ],
+    "audio_events_count": 79,
+    "audio_event_classes": {
+      "Music": 34,
+      "Silence": 39,
+      "Cough": 2,
+      "Laughter": 3,
+      "Snicker": 1
+    },
+    "billing": {
+      "amount": 1.1025,
+      "balance": 14.6914,
+      "billable_minutes": 105,
+      "detail": {
+        "base_amount": 1.05,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.35,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.175,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.575,
+        "total": 1.1025
+      },
+      "mode": "standard"
+    }
+  }
+}

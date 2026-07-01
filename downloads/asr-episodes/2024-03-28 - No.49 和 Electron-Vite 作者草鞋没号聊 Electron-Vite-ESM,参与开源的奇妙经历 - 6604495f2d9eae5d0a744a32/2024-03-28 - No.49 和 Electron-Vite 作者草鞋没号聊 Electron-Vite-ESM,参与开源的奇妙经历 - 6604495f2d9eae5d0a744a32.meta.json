@@ -1,0 +1,110 @@
+{
+  "task_id": "7a1482ae-26b6-4d0e-9c6c-06f50d3d293d",
+  "source": "batch",
+  "title": "No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM，参与开源的奇妙经历",
+  "audio_file": "2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.m4a",
+  "show_notes_file": "2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.md",
+  "asr_file": "2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6604495f2d9eae5d0a744a32/media.xyzcdn.net/limnnYmWAU85iBBKLr75uQ0XxcHF.m4a",
+    "audio_filename": "2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Electron-Vite",
+        "showNotes",
+        "WebWorker",
+        "Electron",
+        "cao",
+        "xie",
+        "ESM",
+        "tauri",
+        "el...",
+        "我们几个主播",
+        "希望通过播客",
+        "新一期播客",
+        "草鞋没号聊",
+        "打算在",
+        "人之间的链接",
+        "认识"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM，参与开源的奇妙经历》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 4803.62,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 553,
+    "words_count": 24872,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_0"
+    ],
+    "audio_events_count": 78,
+    "audio_event_classes": {
+      "Silence": 6,
+      "Music": 71,
+      "Cough": 1
+    },
+    "billing": {
+      "amount": 0.8505,
+      "balance": 14.6914,
+      "billable_minutes": 81,
+      "detail": {
+        "base_amount": 0.81,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.27,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.135,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.215,
+        "total": 0.8505
+      },
+      "mode": "standard"
+    }
+  }
+}

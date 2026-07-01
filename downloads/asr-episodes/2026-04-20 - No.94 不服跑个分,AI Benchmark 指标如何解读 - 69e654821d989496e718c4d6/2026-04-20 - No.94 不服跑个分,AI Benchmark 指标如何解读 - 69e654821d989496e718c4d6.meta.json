@@ -1,0 +1,111 @@
+{
+  "task_id": "6df30476-afc0-47be-aeb6-741e5c21a926",
+  "source": "batch",
+  "title": "No.94 不服跑个分，AI Benchmark 指标如何解读？",
+  "audio_file": "2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.m4a",
+  "show_notes_file": "2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.md",
+  "asr_file": "2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/69e654821d989496e718c4d6/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lvmkR-H-aYt4dQyxm90e0s1ZE7MC.m4a",
+    "audio_filename": "2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "AI Benchmark",
+        "Claude Opus",
+        "SWE-bench",
+        "Verified",
+        "Pro",
+        "Terminal-Bench",
+        "Humanity",
+        "s Last Exam",
+        "GPQA",
+        "MMLU",
+        "OSWorld",
+        "ARC-AGI",
+        "GPT-5.4",
+        "Gemini",
+        "GLM-5.1",
+        "MiniMax-2.7"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.94 不服跑个分，AI Benchmark 指标如何解读？》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3878.815,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 383,
+    "words_count": 17497,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 45,
+    "audio_event_classes": {
+      "Music": 32,
+      "Silence": 10,
+      "Laughter": 2,
+      "Cough": 1
+    },
+    "billing": {
+      "amount": 0.6825,
+      "balance": 14.6914,
+      "billable_minutes": 65,
+      "detail": {
+        "base_amount": 0.65,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.2167,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1083,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.975,
+        "total": 0.6825
+      },
+      "mode": "standard"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "task_id": "11fd4d8b-3364-46be-a42c-dd7947823a36",
+  "source": "batch",
+  "title": "No.51 价值 1000r 的校招咨询：Kaiyi 带你勇闯校招",
+  "audio_file": "2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.m4a",
+  "show_notes_file": "2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.md",
+  "asr_file": "2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6626864fc3e09d8f37c3bde3/media.xyzcdn.net/llJIzcKmABBDMZjqOvhPhLp0nQSW.m4a",
+    "audio_filename": "2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "kaiyi.cool",
+        "qwerty learner github.com",
+        "offer",
+        "打算明天发一期新播客",
+        "讨论",
+        "准备方法",
+        "准备策略",
+        "关键点",
+        "策略",
+        "实习",
+        "春招的区别以及应对方法",
+        "价值",
+        "1000r",
+        "的校招咨询",
+        "带你勇闯校招"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.51 价值 1000r 的校招咨询：Kaiyi 带你勇闯校招》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 5014.987,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 530,
+    "words_count": 25504,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 51,
+    "audio_event_classes": {
+      "Silence": 49,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 0.882,
+      "balance": 14.6914,
+      "billable_minutes": 84,
+      "detail": {
+        "base_amount": 0.84,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.28,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.14,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.26,
+        "total": 0.882
+      },
+      "mode": "standard"
+    }
+  }
+}

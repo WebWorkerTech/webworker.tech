@@ -1,0 +1,109 @@
+{
+  "task_id": "705567ba-7d33-4a74-a02e-2d460c2f14c8",
+  "source": "batch",
+  "title": "No.63 德福的逆行人生：不会送外卖的保险代理人不是一个好前端",
+  "audio_file": "2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.m4a",
+  "show_notes_file": "2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.md",
+  "asr_file": "2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/66d8795aee04007d882e3605/media.xyzcdn.net/lsBrZKP1camkJW9t2x_0NQaGwStp.m4a",
+    "audio_filename": "2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "xinbao965",
+        "FYI",
+        "Hz",
+        "CTX studio",
+        "仅代表录节目时主播",
+        "与现在主播",
+        "播客主播",
+        "大家闲聊",
+        "了斜杠中年",
+        "的观点",
+        "无关",
+        "我们实时互动",
+        "信息",
+        "德福的逆行人生"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.63 德福的逆行人生：不会送外卖的保险代理人不是一个好前端》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6875.256,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 877,
+    "words_count": 32083,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 139,
+    "audio_event_classes": {
+      "Cough": 15,
+      "Silence": 62,
+      "Laughter": 4,
+      "Music": 58
+    },
+    "billing": {
+      "amount": 1.2075,
+      "balance": 14.6914,
+      "billable_minutes": 115,
+      "detail": {
+        "base_amount": 1.15,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.3833,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1917,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.725,
+        "total": 1.2075
+      },
+      "mode": "standard"
+    }
+  }
+}

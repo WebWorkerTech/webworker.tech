@@ -1,0 +1,112 @@
+{
+  "task_id": "6884d0a3-c22f-46da-b084-efe3dfe23e77",
+  "source": "batch",
+  "title": "No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长",
+  "audio_file": "2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.m4a",
+  "show_notes_file": "2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.md",
+  "asr_file": "2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/67489d8c0ed328720a0ed3ca/media.xyzcdn.net/lmKpup68Rz0FeeeQSk0dgKzKdJvI.m4a",
+    "audio_filename": "2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "DIYgod",
+        "Innei",
+        "白水",
+        "Stephen",
+        "Follow",
+        "Show Notes Hi",
+        "Follow App",
+        "Hybon",
+        "们邀请到了重量级嘉宾",
+        "团队成员",
+        "和大家了聊一聊产品",
+        "信息大爆炸的时代产品",
+        "整体氛围产品",
+        "们继续营业",
+        "辛宝和小白菜都是忠实用户",
+        "了重量级嘉宾"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6046.169,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 539,
+    "words_count": 22399,
+    "speakers_count": 5,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_3",
+      "SPEAKER_4"
+    ],
+    "audio_events_count": 108,
+    "audio_event_classes": {
+      "Silence": 106,
+      "Cough": 1,
+      "Music": 1
+    },
+    "billing": {
+      "amount": 1.0605,
+      "balance": 14.6914,
+      "billable_minutes": 101,
+      "detail": {
+        "base_amount": 1.01,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.3367,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1683,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.515,
+        "total": 1.0605
+      },
+      "mode": "standard"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "task_id": "b1e19231-a9e4-414a-95d5-a6541212ceb4",
+  "source": "batch",
+  "title": "No.45 回到一年前， 我们回顾了 2022 年录过的播客",
+  "audio_file": "2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.m4a",
+  "show_notes_file": "2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.md",
+  "asr_file": "2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/65a559c51519ccb1031a4e08/media.xyzcdn.net/lpbXtX0RuGj-D71uqV0nG5kSu29y.m4a",
+    "audio_filename": "2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "年录过的播客",
+        "年年初录制的播客",
+        "年录制播客",
+        "上一期",
+        "回到一年前",
+        "我们回顾了"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.45 回到一年前， 我们回顾了 2022 年录过的播客》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 1107.31,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 130,
+    "words_count": 4068,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 84,
+    "audio_event_classes": {
+      "Silence": 31,
+      "Cough": 1,
+      "Music": 52
+    },
+    "billing": {
+      "amount": 0.1995,
+      "balance": 14.6914,
+      "billable_minutes": 19,
+      "detail": {
+        "base_amount": 0.19,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.0633,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.0317,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.285,
+        "total": 0.1995
+      },
+      "mode": "standard"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "task_id": "c55b88a1-bb35-4587-b375-a871a7797f71",
+  "source": "batch",
+  "title": "No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱！",
+  "audio_file": "2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.m4a",
+  "show_notes_file": "2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.md",
+  "asr_file": "2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6543d1a62e4c3cf8653bcbfa/media.xyzcdn.net/lvNCabM5RD-C9Jb3yMHZyVuzi0vG.m4a",
+    "audio_filename": "2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Svelte",
+        "Li Hau",
+        "新一期播客",
+        "事还邀请到了飞行嘉宾",
+        "组件库作者",
+        "以及主播",
+        "是他首次参与中文播客",
+        "开源项目",
+        "话中提到了在开源项目",
+        "参与开源社区",
+        "对于大项目",
+        "对技术的热爱",
+        "了来自马来西亚的",
+        "了飞行嘉宾",
+        "白雾三语",
+        "小白菜一起加入了讨论"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱！》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 6192.291,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 443,
+    "words_count": 25935,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 98,
+    "audio_event_classes": {
+      "Music": 60,
+      "Silence": 36,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 1.092,
+      "balance": 14.6914,
+      "billable_minutes": 104,
+      "detail": {
+        "base_amount": 1.04,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.3467,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1733,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.56,
+        "total": 1.092
+      },
+      "mode": "standard"
+    }
+  }
+}

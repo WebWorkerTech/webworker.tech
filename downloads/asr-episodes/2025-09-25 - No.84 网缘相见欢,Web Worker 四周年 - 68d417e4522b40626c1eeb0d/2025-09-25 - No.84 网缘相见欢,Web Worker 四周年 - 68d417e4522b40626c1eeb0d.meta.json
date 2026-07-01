@@ -1,0 +1,111 @@
+{
+  "task_id": "52199cd3-51ab-4250-8167-3e143bc532a7",
+  "source": "batch",
+  "title": "No.84 网缘相见欢，Web Worker 四周年",
+  "audio_file": "2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.m4a",
+  "show_notes_file": "2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.md",
+  "asr_file": "2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/68d417e4522b40626c1eeb0d/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lpmEwSN_9R2qwKf0aye62CcRyko2.m4a",
+    "audio_filename": "2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Eva",
+        "垂类技术播客",
+        "这一期是主题播客",
+        "各位主播",
+        "参与播客",
+        "各位对播客",
+        "我们的主播",
+        "最近工作",
+        "人很多",
+        "瑞丰最近工作",
+        "网缘相见欢",
+        "Web",
+        "Worker",
+        "四周年"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.84 网缘相见欢，Web Worker 四周年》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 7940.984,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 938,
+    "words_count": 32475,
+    "speakers_count": 4,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2",
+      "SPEAKER_3"
+    ],
+    "audio_events_count": 272,
+    "audio_event_classes": {
+      "Silence": 260,
+      "Laughter": 5,
+      "Cough": 4,
+      "Snicker": 1,
+      "Music": 2
+    },
+    "billing": {
+      "amount": 1.3965,
+      "balance": 14.6914,
+      "billable_minutes": 133,
+      "detail": {
+        "base_amount": 1.33,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.4433,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.2217,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.995,
+        "total": 1.3965
+      },
+      "mode": "standard"
+    }
+  }
+}

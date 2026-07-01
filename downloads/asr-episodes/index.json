@@ -1,0 +1,3035 @@
+{
+  "generated_at": "2026-07-01T02:32:36.864Z",
+  "count": 101,
+  "items": [
+    {
+      "index": 1,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598/2021-09-22 - No.0 Web Worker 有名字了! - 61497661e2eddc76ba3b0598.meta.json",
+      "duration_sec": 1299.61,
+      "segments_count": 211,
+      "speakers_count": 2,
+      "audio_events_count": 73,
+      "billing": {
+        "amount": 0.231,
+        "balance": 14.6914,
+        "billable_minutes": 22,
+        "detail": {
+          "base_amount": 0.22,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0733,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0367,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.33,
+          "total": 0.231
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 2,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273/2021-09-29 - No.1 webpack 的挑战者们 - 6152b7fd0b69f7e22aa75273.meta.json",
+      "duration_sec": 1692.057,
+      "segments_count": 184,
+      "speakers_count": 2,
+      "audio_events_count": 34,
+      "billing": {
+        "amount": 0.3045,
+        "balance": 14.6914,
+        "billable_minutes": 29,
+        "detail": {
+          "base_amount": 0.29,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0967,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0483,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.435,
+          "total": 0.3045
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 3,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9/2021-10-08 - No.2 Programer's Knowledge DB(上) - 615efff95a518e53b8804ae9.meta.json",
+      "duration_sec": 1808.18,
+      "segments_count": 169,
+      "speakers_count": 2,
+      "audio_events_count": 51,
+      "billing": {
+        "amount": 0.3255,
+        "balance": 14.6914,
+        "billable_minutes": 31,
+        "detail": {
+          "base_amount": 0.31,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0517,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.465,
+          "total": 0.3255
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 4,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b/2021-10-08 - No.2 Programer's Knowledge DB(下) - 615f003884910d43c3087a5b.meta.json",
+      "duration_sec": 1375.751,
+      "segments_count": 153,
+      "speakers_count": 2,
+      "audio_events_count": 38,
+      "billing": {
+        "amount": 0.2415,
+        "balance": 14.6914,
+        "billable_minutes": 23,
+        "detail": {
+          "base_amount": 0.23,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0767,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0383,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.345,
+          "total": 0.2415
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 5,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d/2021-10-29 - No.3 我们想挖新坑 评测网页 - 617b8b45c890259cb983e27d.meta.json",
+      "duration_sec": 1728.116,
+      "segments_count": 185,
+      "speakers_count": 3,
+      "audio_events_count": 48,
+      "billing": {
+        "amount": 0.3045,
+        "balance": 14.6914,
+        "billable_minutes": 29,
+        "detail": {
+          "base_amount": 0.29,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0967,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0483,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.435,
+          "total": 0.3045
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 6,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a/2021-11-17 - No.4 邀请到了HR做嘉宾!我要求面试涨薪 - 6190c0ba03abe84b7f8b8f7a.meta.json",
+      "duration_sec": 3649.469,
+      "segments_count": 427,
+      "speakers_count": 2,
+      "audio_events_count": 66,
+      "billing": {
+        "amount": 0.6405,
+        "balance": 14.6914,
+        "billable_minutes": 61,
+        "detail": {
+          "base_amount": 0.61,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1017,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.915,
+          "total": 0.6405
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 7,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109/2021-12-15 - No.5 和自由职业的山月聊学前端、生活、个人成长 - 61b944821773c5744af3f109.meta.json",
+      "duration_sec": 2283.514,
+      "segments_count": 319,
+      "speakers_count": 3,
+      "audio_events_count": 98,
+      "billing": {
+        "amount": 0.4095,
+        "balance": 14.6914,
+        "billable_minutes": 39,
+        "detail": {
+          "base_amount": 0.39,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.13,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.065,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.585,
+          "total": 0.4095
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 8,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd/2022-01-05 - No.6 前端主播也来跨年吹牛、画饼 - 61d4eb73cb0f5d7d1b7cccbd.meta.json",
+      "duration_sec": 3808.51,
+      "segments_count": 516,
+      "speakers_count": 2,
+      "audio_events_count": 94,
+      "billing": {
+        "amount": 0.672,
+        "balance": 14.6914,
+        "billable_minutes": 64,
+        "detail": {
+          "base_amount": 0.64,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2133,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1067,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.96,
+          "total": 0.672
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 9,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd/2022-02-09 - No.7 和大圣老师聊学前端、做课、自由职业 - 62031b974675a08411f51cfd.meta.json",
+      "duration_sec": 2959.357,
+      "segments_count": 314,
+      "speakers_count": 3,
+      "audio_events_count": 64,
+      "billing": {
+        "amount": 0.525,
+        "balance": 14.6914,
+        "billable_minutes": 50,
+        "detail": {
+          "base_amount": 0.5,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1667,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0833,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.75,
+          "total": 0.525
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 10,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8/2022-02-18 - No.8 两位前端主播想要做一个官网(上) - 620e870bc3d3246fb26ee5d8.meta.json",
+      "duration_sec": 2215.52,
+      "segments_count": 253,
+      "speakers_count": 2,
+      "audio_events_count": 82,
+      "billing": {
+        "amount": 0.3885,
+        "balance": 14.6914,
+        "billable_minutes": 37,
+        "detail": {
+          "base_amount": 0.37,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1233,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0617,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.555,
+          "total": 0.3885
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 11,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.meta.json",
+      "duration_sec": 3797.215,
+      "segments_count": 377,
+      "speakers_count": 2,
+      "audio_events_count": 81,
+      "billing": {
+        "amount": 0.672,
+        "balance": 14.6914,
+        "billable_minutes": 64,
+        "detail": {
+          "base_amount": 0.64,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2133,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1067,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.96,
+          "total": 0.672
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 12,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296/2022-03-09 - No.10 专访面试主播刘威Franky,聊他的前端学习、个人经历 - 62280bb69eb22e46ffe6c296.meta.json",
+      "duration_sec": 3255.011,
+      "segments_count": 294,
+      "speakers_count": 3,
+      "audio_events_count": 56,
+      "billing": {
+        "amount": 0.5775,
+        "balance": 14.6914,
+        "billable_minutes": 55,
+        "detail": {
+          "base_amount": 0.55,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1833,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0917,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.825,
+          "total": 0.5775
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 13,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b/2022-03-16 - No.11 和 vue.js 核心贡献者霍春阳聊前端学习、新书、向往的生活 - 62314534adf8ccf5e945251b.meta.json",
+      "duration_sec": 2862.876,
+      "segments_count": 295,
+      "speakers_count": 3,
+      "audio_events_count": 83,
+      "billing": {
+        "amount": 0.504,
+        "balance": 14.6914,
+        "billable_minutes": 48,
+        "detail": {
+          "base_amount": 0.48,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.16,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.08,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.72,
+          "total": 0.504
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 14,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c/2022-04-08 - No.12 前端主播漫谈 Chrome v100 和那些年的浏览器 - 624f0028d01d114df44b163c.meta.json",
+      "duration_sec": 2635.804,
+      "segments_count": 330,
+      "speakers_count": 3,
+      "audio_events_count": 74,
+      "billing": {
+        "amount": 0.462,
+        "balance": 14.6914,
+        "billable_minutes": 44,
+        "detail": {
+          "base_amount": 0.44,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1467,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0733,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.66,
+          "total": 0.462
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 15,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0/2022-06-01 - No.13 和 iTab 作者 XD 聊产品研发、前端学习、经验收获 - 6295ffd383ddae2d9e72adc0.meta.json",
+      "duration_sec": 4231.218,
+      "segments_count": 608,
+      "speakers_count": 3,
+      "audio_events_count": 105,
+      "billing": {
+        "amount": 0.7455,
+        "balance": 14.6914,
+        "billable_minutes": 71,
+        "detail": {
+          "base_amount": 0.71,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2367,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1183,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.065,
+          "total": 0.7455
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 16,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7/2022-06-27 - No.14 主播白嫖前端规划思路、官网和技术播客月 - 62b87d9dc71db0c038b7afd7.meta.json",
+      "duration_sec": 1875.212,
+      "segments_count": 236,
+      "speakers_count": 4,
+      "audio_events_count": 120,
+      "billing": {
+        "amount": 0.336,
+        "balance": 14.6914,
+        "billable_minutes": 32,
+        "detail": {
+          "base_amount": 0.32,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1067,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0533,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.48,
+          "total": 0.336
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 17,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40/2022-07-20 - No.15 和《质量三人行》主播串台谈前端研发与测试如何手拉手做好朋友 - 62d76455fa15142e17251d40.meta.json",
+      "duration_sec": 5101.435,
+      "segments_count": 436,
+      "speakers_count": 5,
+      "audio_events_count": 115,
+      "billing": {
+        "amount": 0.903,
+        "balance": 14.6914,
+        "billable_minutes": 86,
+        "detail": {
+          "base_amount": 0.86,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2867,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1433,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.29,
+          "total": 0.903
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 18,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762/2022-08-24 - No.16 三位前端主播又来套技术方案了 & 播客1周年预热 - 6304fa4c3f74e21c5affb762.meta.json",
+      "duration_sec": 2393.312,
+      "segments_count": 334,
+      "speakers_count": 2,
+      "audio_events_count": 110,
+      "billing": {
+        "amount": 0.42,
+        "balance": 14.6914,
+        "billable_minutes": 40,
+        "detail": {
+          "base_amount": 0.4,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1333,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0667,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.6,
+          "total": 0.42
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 19,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709/2022-10-08 - No.17 和山鬼聊数媒、前端学习和自己的感悟 - 63401c4a2a992d56e91e5709.meta.json",
+      "duration_sec": 3061.286,
+      "segments_count": 278,
+      "speakers_count": 2,
+      "audio_events_count": 44,
+      "billing": {
+        "amount": 0.546,
+        "balance": 14.6914,
+        "billable_minutes": 52,
+        "detail": {
+          "base_amount": 0.52,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1733,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0867,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.78,
+          "total": 0.546
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 20,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc/2022-10-19 - No.18 和自由职业白宦成聊独立开发、前端学习、服务目标群体 - 634f61dc2a992d56e91e61dc.meta.json",
+      "duration_sec": 3676.707,
+      "segments_count": 342,
+      "speakers_count": 3,
+      "audio_events_count": 144,
+      "billing": {
+        "amount": 0.651,
+        "balance": 14.6914,
+        "billable_minutes": 62,
+        "detail": {
+          "base_amount": 0.62,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2067,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1033,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.93,
+          "total": 0.651
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 21,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d/2022-10-27 - No.19 和 AntV 渲染引擎开发者宇琪聊图形学、前端可视化和生活爱好 - 635932e3b6cf5da0d6e1c62d.meta.json",
+      "duration_sec": 3707.48,
+      "segments_count": 417,
+      "speakers_count": 3,
+      "audio_events_count": 71,
+      "billing": {
+        "amount": 0.651,
+        "balance": 14.6914,
+        "billable_minutes": 62,
+        "detail": {
+          "base_amount": 0.62,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2067,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1033,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.93,
+          "total": 0.651
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 22,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735/2022-11-25 - No.20 和 hel-micro 作者钟正楷聊模块联邦、前端学习和成长经验 - 63802cb9f6753f4e9d4d5735.meta.json",
+      "duration_sec": 3658.94,
+      "segments_count": 323,
+      "speakers_count": 3,
+      "audio_events_count": 88,
+      "billing": {
+        "amount": 0.6405,
+        "balance": 14.6914,
+        "billable_minutes": 61,
+        "detail": {
+          "base_amount": 0.61,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1017,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.915,
+          "total": 0.6405
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 23,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13/2022-12-09 - No.21 和技术文章高产输出的神光聊知识输出、前端学习和个人感悟 - 6391f0b7b2cc2ab478979d13.meta.json",
+      "duration_sec": 3136.477,
+      "segments_count": 322,
+      "speakers_count": 4,
+      "audio_events_count": 78,
+      "billing": {
+        "amount": 0.5565,
+        "balance": 14.6914,
+        "billable_minutes": 53,
+        "detail": {
+          "base_amount": 0.53,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1767,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0883,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.795,
+          "total": 0.5565
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 24,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44/2022-12-30 - No.22 和技术输出破圈的云游君聊前端学习、个人感悟和产品背后的故事 - 63adaed74ded9d81d0a11e44.meta.json",
+      "duration_sec": 3102.667,
+      "segments_count": 242,
+      "speakers_count": 3,
+      "audio_events_count": 71,
+      "billing": {
+        "amount": 0.546,
+        "balance": 14.6914,
+        "billable_minutes": 52,
+        "detail": {
+          "base_amount": 0.52,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1733,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0867,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.78,
+          "total": 0.546
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 25,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e/2023-02-17 - No.23 和 UniApp 背后的崔红保聊技术变迁、行业坚守和前端思考 - 63ee34240d7e8eaa72c87a6e.meta.json",
+      "duration_sec": 3966.263,
+      "segments_count": 319,
+      "speakers_count": 3,
+      "audio_events_count": 53,
+      "billing": {
+        "amount": 0.7035,
+        "balance": 14.6914,
+        "billable_minutes": 67,
+        "detail": {
+          "base_amount": 0.67,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2233,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1117,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.005,
+          "total": 0.7035
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 26,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0/2023-03-03 - No.24 从 ChatGPT 到前端程序员,主播们的闲聊思考 - 64018c44269dda892942aae0.meta.json",
+      "duration_sec": 2490.083,
+      "segments_count": 242,
+      "speakers_count": 3,
+      "audio_events_count": 88,
+      "billing": {
+        "amount": 0.441,
+        "balance": 14.6914,
+        "billable_minutes": 42,
+        "detail": {
+          "base_amount": 0.42,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.14,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.07,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.63,
+          "total": 0.441
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 27,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee/2023-03-30 - No.25 听辛宝聊前端音频播客的新想法 - 64245b07179eec5331ae15ee.meta.json",
+      "duration_sec": 1631.722,
+      "segments_count": 188,
+      "speakers_count": 2,
+      "audio_events_count": 61,
+      "billing": {
+        "amount": 0.294,
+        "balance": 14.6914,
+        "billable_minutes": 28,
+        "detail": {
+          "base_amount": 0.28,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0933,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0467,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.42,
+          "total": 0.294
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 28,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca/2023-04-13 - No.26 和 Electron 核心开发者黑洞聊技术开源、踩坑心得和前端感悟 - 6436bcf99361a4e7c35f23ca.meta.json",
+      "duration_sec": 3532.972,
+      "segments_count": 285,
+      "speakers_count": 2,
+      "audio_events_count": 68,
+      "billing": {
+        "amount": 0.6195,
+        "balance": 14.6914,
+        "billable_minutes": 59,
+        "detail": {
+          "base_amount": 0.59,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1967,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0983,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.885,
+          "total": 0.6195
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 29,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7/2023-04-20 - No.27 和 Qwerty Learner 的开翼聊技术优化、产品运营和前端感悟 - 64400c169361a4e7c3fc9ab7.meta.json",
+      "duration_sec": 4114.947,
+      "segments_count": 478,
+      "speakers_count": 3,
+      "audio_events_count": 117,
+      "billing": {
+        "amount": 0.7245,
+        "balance": 14.6914,
+        "billable_minutes": 69,
+        "detail": {
+          "base_amount": 0.69,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.23,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.115,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.035,
+          "total": 0.7245
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 30,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8/2023-05-10 - No.28 和xlog.app的作者DIYGOD聊区块链和博客平台、前端学习和生活感悟 - 645a76f67d934b85051081c8.meta.json",
+      "duration_sec": 4892.018,
+      "segments_count": 338,
+      "speakers_count": 3,
+      "audio_events_count": 115,
+      "billing": {
+        "amount": 0.861,
+        "balance": 14.6914,
+        "billable_minutes": 82,
+        "detail": {
+          "base_amount": 0.82,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2733,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1367,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.23,
+          "total": 0.861
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 31,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216/2023-05-18 - No.29 闲聊前端春晚 Vercel Ship 2023 都有哪些能力和新思考 - 6464ef7e6752b5f9de621216.meta.json",
+      "duration_sec": 3848.067,
+      "segments_count": 374,
+      "speakers_count": 2,
+      "audio_events_count": 112,
+      "billing": {
+        "amount": 0.6825,
+        "balance": 14.6914,
+        "billable_minutes": 65,
+        "detail": {
+          "base_amount": 0.65,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2167,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1083,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.975,
+          "total": 0.6825
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 32,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e/2023-05-24 - No.30 和 Vue 核心团队成员 sxzz 聊前端学习、参与开源和 Vue3.3 - 646cd4901672628240ddda8e.meta.json",
+      "duration_sec": 3941.674,
+      "segments_count": 389,
+      "speakers_count": 2,
+      "audio_events_count": 84,
+      "billing": {
+        "amount": 0.693,
+        "balance": 14.6914,
+        "billable_minutes": 66,
+        "detail": {
+          "base_amount": 0.66,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.22,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.11,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.99,
+          "total": 0.693
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 33,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3/2023-06-07 - No.31 试验新系列栏目!锐评01 Copilot Chat & Copilot Labs - 647f4c3b5ed4bd1a463abff3.meta.json",
+      "duration_sec": 1540.913,
+      "segments_count": 208,
+      "speakers_count": 3,
+      "audio_events_count": 66,
+      "billing": {
+        "amount": 0.273,
+        "balance": 14.6914,
+        "billable_minutes": 26,
+        "detail": {
+          "base_amount": 0.26,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0867,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0433,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.39,
+          "total": 0.273
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 34,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3/2023-07-26 - No.32 和 Vue Vine 作者沈青川聊技术文档翻译、前端开源作品和职场感悟 - 64bfea3fe8176c3ff8ac77c3.meta.json",
+      "duration_sec": 5870.699,
+      "segments_count": 448,
+      "speakers_count": 5,
+      "audio_events_count": 125,
+      "billing": {
+        "amount": 1.029,
+        "balance": 14.6914,
+        "billable_minutes": 98,
+        "detail": {
+          "base_amount": 0.98,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3267,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1633,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.47,
+          "total": 1.029
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 35,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c/2023-08-04 - No.33 久违前端闲聊、主播近况、复盘32期节目 - 64cc475080c9ec4c5f54269c.meta.json",
+      "duration_sec": 4843.602,
+      "segments_count": 457,
+      "speakers_count": 3,
+      "audio_events_count": 139,
+      "billing": {
+        "amount": 0.8505,
+        "balance": 14.6914,
+        "billable_minutes": 81,
+        "detail": {
+          "base_amount": 0.81,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.27,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.135,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.215,
+          "total": 0.8505
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 36,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf/2023-08-10 - No.34 和随易yicode.tech 聊独立开发、付费作品、前端开发踩坑经历 - 64d3c8cae490c5dee502dcaf.meta.json",
+      "duration_sec": 5740.221,
+      "segments_count": 394,
+      "speakers_count": 2,
+      "audio_events_count": 151,
+      "billing": {
+        "amount": 1.008,
+        "balance": 14.6914,
+        "billable_minutes": 96,
+        "detail": {
+          "base_amount": 0.96,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.32,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.16,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.44,
+          "total": 1.008
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 37,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b/2023-08-24 - No.35 和活力满满的拾一Innei 聊前端 React 技术选型、博客开发和生活的确幸 - 64e62b09e490c5dee547778b.meta.json",
+      "duration_sec": 4545.113,
+      "segments_count": 544,
+      "speakers_count": 5,
+      "audio_events_count": 111,
+      "billing": {
+        "amount": 0.798,
+        "balance": 14.6914,
+        "billable_minutes": 76,
+        "detail": {
+          "base_amount": 0.76,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2533,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1267,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.14,
+          "total": 0.798
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 38,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19/2023-09-08 - No.36 和 Vue 成员海老师聊前端、TS-Vue、编译、Ast-grep、Rust和参与开源的快乐 - 64f9f8a86884ccbb1952eb19.meta.json",
+      "duration_sec": 4817.202,
+      "segments_count": 405,
+      "speakers_count": 2,
+      "audio_events_count": 143,
+      "billing": {
+        "amount": 0.8505,
+        "balance": 14.6914,
+        "billable_minutes": 81,
+        "detail": {
+          "base_amount": 0.81,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.27,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.135,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.215,
+          "total": 0.8505
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 39,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66/2023-10-12 - No.37 和 Vue 成员科比哥聊开源协作、技术人的奇妙链接 - 65276716ba2ed85c6d152b66.meta.json",
+      "duration_sec": 3255.336,
+      "segments_count": 309,
+      "speakers_count": 3,
+      "audio_events_count": 44,
+      "billing": {
+        "amount": 0.5775,
+        "balance": 14.6914,
+        "billable_minutes": 55,
+        "detail": {
+          "base_amount": 0.55,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1833,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0917,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.825,
+          "total": 0.5775
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 40,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.meta.json",
+      "duration_sec": 5945.228,
+      "segments_count": 558,
+      "speakers_count": 2,
+      "audio_events_count": 75,
+      "billing": {
+        "amount": 1.05,
+        "balance": 14.6914,
+        "billable_minutes": 100,
+        "detail": {
+          "base_amount": 1,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3333,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1667,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.5,
+          "total": 1.05
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 41,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa/2023-11-03 - No.39 和 Svelte 核心贡献者立豪聊 Svelte、开源感受和对技术的热爱! - 6543d1a62e4c3cf8653bcbfa.meta.json",
+      "duration_sec": 6192.291,
+      "segments_count": 443,
+      "speakers_count": 2,
+      "audio_events_count": 98,
+      "billing": {
+        "amount": 1.092,
+        "balance": 14.6914,
+        "billable_minutes": 104,
+        "detail": {
+          "base_amount": 1.04,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3467,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1733,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.56,
+          "total": 1.092
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 42,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00/2023-11-30 - No.40 和硬地骇客主播归归聊技术产品、个人行业经历和商业思考 - 656760e036f7c4e74e070f00.meta.json",
+      "duration_sec": 6603.962,
+      "segments_count": 630,
+      "speakers_count": 2,
+      "audio_events_count": 45,
+      "billing": {
+        "amount": 1.1655,
+        "balance": 14.6914,
+        "billable_minutes": 111,
+        "detail": {
+          "base_amount": 1.11,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.37,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.185,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.665,
+          "total": 1.1655
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 43,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0/2023-12-04 - No.41 和 Vue.js & Vite 作者尤雨溪聊项目进展、开源社区协作和前端思考 - 656de7e18502c0b989efdcd0.meta.json",
+      "duration_sec": 6783.772,
+      "segments_count": 578,
+      "speakers_count": 2,
+      "audio_events_count": 153,
+      "billing": {
+        "amount": 1.197,
+        "balance": 14.6914,
+        "billable_minutes": 114,
+        "detail": {
+          "base_amount": 1.14,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.38,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.19,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.71,
+          "total": 1.197
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 44,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd/2023-12-13 - No.42 和 AsyncTalk 的 AnnatarHe 串台聊 AI Prompt、Copilot 和前端各种经历 - 6579d7d120d779b49d6a88dd.meta.json",
+      "duration_sec": 5330.694,
+      "segments_count": 568,
+      "speakers_count": 4,
+      "audio_events_count": 70,
+      "billing": {
+        "amount": 0.9345,
+        "balance": 14.6914,
+        "billable_minutes": 89,
+        "detail": {
+          "base_amount": 0.89,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2967,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1483,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.335,
+          "total": 0.9345
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 45,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674/2023-12-27 - No.43 和热爱编写 VSCode 插件的 SimonHe 聊参与开源、灵感迸发和前端学习之路 - 658c555a991e2ee6085ce674.meta.json",
+      "duration_sec": 4722.8,
+      "segments_count": 480,
+      "speakers_count": 6,
+      "audio_events_count": 151,
+      "billing": {
+        "amount": 0.8295,
+        "balance": 14.6914,
+        "billable_minutes": 79,
+        "detail": {
+          "base_amount": 0.79,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2633,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1317,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.185,
+          "total": 0.8295
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 46,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1/2024-01-03 - No.44 主播们闲聊 Web Worker 播客的 2023 和 2024 - 65958e7e926ad7aad074f8b1.meta.json",
+      "duration_sec": 6343.438,
+      "segments_count": 711,
+      "speakers_count": 2,
+      "audio_events_count": 111,
+      "billing": {
+        "amount": 1.113,
+        "balance": 14.6914,
+        "billable_minutes": 106,
+        "detail": {
+          "base_amount": 1.06,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3533,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1767,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.59,
+          "total": 1.113
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 47,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08/2024-01-15 - No.45 回到一年前, 我们回顾了 2022 年录过的播客 - 65a559c51519ccb1031a4e08.meta.json",
+      "duration_sec": 1107.31,
+      "segments_count": 130,
+      "speakers_count": 2,
+      "audio_events_count": 84,
+      "billing": {
+        "amount": 0.1995,
+        "balance": 14.6914,
+        "billable_minutes": 19,
+        "detail": {
+          "base_amount": 0.19,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0633,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0317,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.285,
+          "total": 0.1995
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 48,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78/2024-01-25 - No.46 回顾2023年前端国际服的玩家流行什么 - 65b13ea99c3be18f79275a78.meta.json",
+      "duration_sec": 6291.695,
+      "segments_count": 674,
+      "speakers_count": 3,
+      "audio_events_count": 79,
+      "billing": {
+        "amount": 1.1025,
+        "balance": 14.6914,
+        "billable_minutes": 105,
+        "detail": {
+          "base_amount": 1.05,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.35,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.175,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.575,
+          "total": 1.1025
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 49,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2/2024-02-01 - No.47 和 rrweb 作者 aryu 聊从开源到技术商业化、低代码和 AI、职场软技能 - 65bafe551ed6d5797f6c37c2.meta.json",
+      "duration_sec": 7583.322,
+      "segments_count": 803,
+      "speakers_count": 2,
+      "audio_events_count": 61,
+      "billing": {
+        "amount": 1.3335,
+        "balance": 14.6914,
+        "billable_minutes": 127,
+        "detail": {
+          "base_amount": 1.27,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.4233,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.2117,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.905,
+          "total": 1.3335
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 50,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116/2024-03-14 - No.48 和 Astro Maintainer 瑞丰科普 Astro 使用心得、参与开源和成长感悟 - 65f1c8586764957079283116.meta.json",
+      "duration_sec": 5436.296,
+      "segments_count": 469,
+      "speakers_count": 3,
+      "audio_events_count": 145,
+      "billing": {
+        "amount": 0.9555,
+        "balance": 14.6914,
+        "billable_minutes": 91,
+        "detail": {
+          "base_amount": 0.91,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1517,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.365,
+          "total": 0.9555
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 51,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32/2024-03-28 - No.49 和 Electron-Vite 作者草鞋没号聊 Electron-Vite-ESM,参与开源的奇妙经历 - 6604495f2d9eae5d0a744a32.meta.json",
+      "duration_sec": 4803.62,
+      "segments_count": 553,
+      "speakers_count": 3,
+      "audio_events_count": 78,
+      "billing": {
+        "amount": 0.8505,
+        "balance": 14.6914,
+        "billable_minutes": 81,
+        "detail": {
+          "base_amount": 0.81,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.27,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.135,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.215,
+          "total": 0.8505
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 52,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c/2024-04-11 - No.50 人海中各个都是孤岛,迈出这一步才能产生奇妙的链接 - 66172a9c48c40e2fb08a432c.meta.json",
+      "duration_sec": 5838.114,
+      "segments_count": 461,
+      "speakers_count": 5,
+      "audio_events_count": 92,
+      "billing": {
+        "amount": 1.029,
+        "balance": 14.6914,
+        "billable_minutes": 98,
+        "detail": {
+          "base_amount": 0.98,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3267,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1633,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.47,
+          "total": 1.029
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 53,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3/2024-04-23 - No.51 价值 1000r 的校招咨询 Kaiyi 带你勇闯校招 - 6626864fc3e09d8f37c3bde3.meta.json",
+      "duration_sec": 5014.987,
+      "segments_count": 530,
+      "speakers_count": 2,
+      "audio_events_count": 51,
+      "billing": {
+        "amount": 0.882,
+        "balance": 14.6914,
+        "billable_minutes": 84,
+        "detail": {
+          "base_amount": 0.84,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.28,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.14,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.26,
+          "total": 0.882
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 54,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177/2024-05-07 - No.52 从前端到 AI Kaiyi 带着他的 langchain.js 小册来啦 - 663a5a59dec649c5f5176177.meta.json",
+      "duration_sec": 5264.261,
+      "segments_count": 445,
+      "speakers_count": 2,
+      "audio_events_count": 55,
+      "billing": {
+        "amount": 0.924,
+        "balance": 14.6914,
+        "billable_minutes": 88,
+        "detail": {
+          "base_amount": 0.88,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2933,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1467,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.32,
+          "total": 0.924
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 55,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c/2024-05-22 - No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 664e0bfcc59d1e575701570c.meta.json",
+      "duration_sec": 423.82,
+      "segments_count": 59,
+      "speakers_count": 3,
+      "audio_events_count": 2,
+      "billing": {
+        "amount": 0.084,
+        "balance": 14.6914,
+        "billable_minutes": 8,
+        "detail": {
+          "base_amount": 0.08,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0267,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0133,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.12,
+          "total": 0.084
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 56,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4/2024-05-30 - No.54 和 ioredis 作者子骅聊 quill 富文本编辑器、开源商业和职场成长 - 665754f8ad5aa5d8c24b20d4.meta.json",
+      "duration_sec": 5774.817,
+      "segments_count": 471,
+      "speakers_count": 2,
+      "audio_events_count": 78,
+      "billing": {
+        "amount": 1.0185,
+        "balance": 14.6914,
+        "billable_minutes": 97,
+        "detail": {
+          "base_amount": 0.97,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3233,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1617,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.455,
+          "total": 1.0185
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 57,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.meta.json",
+      "duration_sec": 179.968,
+      "segments_count": 26,
+      "speakers_count": 2,
+      "audio_events_count": 2,
+      "billing": {
+        "amount": 0.0315,
+        "balance": 14.6914,
+        "billable_minutes": 3,
+        "detail": {
+          "base_amount": 0.03,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.01,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.005,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.045,
+          "total": 0.0315
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 58,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466/2024-06-21 - No.55 刘威限时返场,5 个人 8 个想法,一个没落实 - 6674525cc26e396a363c0466.meta.json",
+      "duration_sec": 4029.175,
+      "segments_count": 595,
+      "speakers_count": 4,
+      "audio_events_count": 185,
+      "billing": {
+        "amount": 0.714,
+        "balance": 14.6914,
+        "billable_minutes": 68,
+        "detail": {
+          "base_amount": 0.68,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2267,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1133,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.02,
+          "total": 0.714
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 59,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f/2024-06-28 - No.56 和拳头了解Rspack和基建开源的故事,祝大家成为更好的Web Worker - 667d7e4dc37399840c90e64f.meta.json",
+      "duration_sec": 5211.923,
+      "segments_count": 456,
+      "speakers_count": 3,
+      "audio_events_count": 147,
+      "billing": {
+        "amount": 0.9135,
+        "balance": 14.6914,
+        "billable_minutes": 87,
+        "detail": {
+          "base_amount": 0.87,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.29,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.145,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.305,
+          "total": 0.9135
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 60,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3/2024-07-04 - No.57 超 70% 字节开发者都在用 MarsCode - 66856268ada1e8e76feca8c3.meta.json",
+      "duration_sec": 3769.59,
+      "segments_count": 467,
+      "speakers_count": 2,
+      "audio_events_count": 64,
+      "billing": {
+        "amount": 0.6615,
+        "balance": 14.6914,
+        "billable_minutes": 63,
+        "detail": {
+          "base_amount": 0.63,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.21,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.105,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.945,
+          "total": 0.6615
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 61,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f/2024-07-12 - No.58 安妮 生活、工作都有周期,那什么样的生活是你想要的 - 66907ac737236c546e8a140f.meta.json",
+      "duration_sec": 6653.559,
+      "segments_count": 920,
+      "speakers_count": 2,
+      "audio_events_count": 14,
+      "billing": {
+        "amount": 1.1655,
+        "balance": 14.6914,
+        "billable_minutes": 111,
+        "detail": {
+          "base_amount": 1.11,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.37,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.185,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.665,
+          "total": 1.1655
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 62,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019/2024-07-18 - No.59 辛宝去 VueConf 当 speaker 了,Web Worker Conf 还远吗 - 6697e79a8fcadceb900df019.meta.json",
+      "duration_sec": 5544.659,
+      "segments_count": 551,
+      "speakers_count": 2,
+      "audio_events_count": 45,
+      "billing": {
+        "amount": 0.9765,
+        "balance": 14.6914,
+        "billable_minutes": 93,
+        "detail": {
+          "base_amount": 0.93,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.31,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.155,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.395,
+          "total": 0.9765
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 63,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063/2024-07-25 - No.60 和 Volar 核心贡献者 Ray 聊 LSP、前端开源和高二生活 - 66a1197533ddcbb53cd7a063.meta.json",
+      "duration_sec": 4422.981,
+      "segments_count": 467,
+      "speakers_count": 6,
+      "audio_events_count": 65,
+      "billing": {
+        "amount": 0.777,
+        "balance": 14.6914,
+        "billable_minutes": 74,
+        "detail": {
+          "base_amount": 0.74,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2467,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1233,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.11,
+          "total": 0.777
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 64,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802/2024-08-05 - No.61 在代码之外听 Web Worker 都有哪些感受 - 66b027237349f7a557be1802.meta.json",
+      "duration_sec": 3923.195,
+      "segments_count": 483,
+      "speakers_count": 6,
+      "audio_events_count": 71,
+      "billing": {
+        "amount": 0.693,
+        "balance": 14.6914,
+        "billable_minutes": 66,
+        "detail": {
+          "base_amount": 0.66,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.22,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.11,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.99,
+          "total": 0.693
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 65,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a/2024-08-15 - No.62 双人相声 OSAwards 2024 国际服前端哪些作品获奖了 - 66bcdc4f33591c27be231f7a.meta.json",
+      "duration_sec": 4967.247,
+      "segments_count": 656,
+      "speakers_count": 2,
+      "audio_events_count": 85,
+      "billing": {
+        "amount": 0.8715,
+        "balance": 14.6914,
+        "billable_minutes": 83,
+        "detail": {
+          "base_amount": 0.83,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2767,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1383,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.245,
+          "total": 0.8715
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 66,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605/2024-09-05 - No.63 德福的逆行人生 不会送外卖的保险代理人不是一个好前端 - 66d8795aee04007d882e3605.meta.json",
+      "duration_sec": 6875.256,
+      "segments_count": 877,
+      "speakers_count": 3,
+      "audio_events_count": 139,
+      "billing": {
+        "amount": 1.2075,
+        "balance": 14.6914,
+        "billable_minutes": 115,
+        "detail": {
+          "base_amount": 1.15,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3833,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1917,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.725,
+          "total": 1.2075
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 67,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa/2024-09-26 - No.64 Edison、远方 参与开源如何保持技术热情 - 66f433b469b6a485e8ec31fa.meta.json",
+      "duration_sec": 4462.213,
+      "segments_count": 457,
+      "speakers_count": 4,
+      "audio_events_count": 55,
+      "billing": {
+        "amount": 0.7875,
+        "balance": 14.6914,
+        "billable_minutes": 75,
+        "detail": {
+          "base_amount": 0.75,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.25,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.125,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.125,
+          "total": 0.7875
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 68,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567/2024-10-18 - No.65 [3周年联欢]辛宝 我想停更了 Smart 驳回,继续录 - 67113cf50d2f24f289eb0567.meta.json",
+      "duration_sec": 5375.324,
+      "segments_count": 661,
+      "speakers_count": 5,
+      "audio_events_count": 66,
+      "billing": {
+        "amount": 0.945,
+        "balance": 14.6914,
+        "billable_minutes": 90,
+        "detail": {
+          "base_amount": 0.9,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.15,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.35,
+          "total": 0.945
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 69,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca/2024-11-29 - No.66 和 Follow 团队聊 RSS 产品设计、技术选型、个人成长 - 67489d8c0ed328720a0ed3ca.meta.json",
+      "duration_sec": 6046.169,
+      "segments_count": 539,
+      "speakers_count": 5,
+      "audio_events_count": 108,
+      "billing": {
+        "amount": 1.0605,
+        "balance": 14.6914,
+        "billable_minutes": 101,
+        "detail": {
+          "base_amount": 1.01,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3367,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1683,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.515,
+          "total": 1.0605
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 70,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c/2024-12-13 - No.67 和Bug Duck 团队聊青少年前端开源启航 - 675afad884447b1bd06ca58c.meta.json",
+      "duration_sec": 5589.914,
+      "segments_count": 576,
+      "speakers_count": 6,
+      "audio_events_count": 5782,
+      "billing": {
+        "amount": 1.41,
+        "balance": 19.4304,
+        "billable_minutes": 94,
+        "detail": {
+          "base_amount": 0.94,
+          "base_price_per_hour": 0.6,
+          "diarize_amount": 0.3133,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1567,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.41,
+          "total": 1.41
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 71,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f/2024-12-19 - No.68 和26年程序老兵汪志成聊 Angular、AI、Rust 翻译 - 676443a515a5fd520e09b56f.meta.json",
+      "duration_sec": 5437.783,
+      "segments_count": 501,
+      "speakers_count": 2,
+      "audio_events_count": 157,
+      "billing": {
+        "amount": 0.9555,
+        "balance": 14.6914,
+        "billable_minutes": 91,
+        "detail": {
+          "base_amount": 0.91,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1517,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.365,
+          "total": 0.9555
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 72,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3/2025-01-05 - No.69 联欢 去年录了这些节目,有了一些成长 - 677aa52a15a5fd520e3b23c3.meta.json",
+      "duration_sec": 8224.456,
+      "segments_count": 911,
+      "speakers_count": 5,
+      "audio_events_count": 322,
+      "billing": {
+        "amount": 1.449,
+        "balance": 14.6914,
+        "billable_minutes": 138,
+        "detail": {
+          "base_amount": 1.38,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.46,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.23,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 2.07,
+          "total": 1.449
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 73,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e/2025-01-21 - No.70 你们都是技术网红!串台Devmore x 持续集成 - 678e5fb5c3617f02a4139b5e.meta.json",
+      "duration_sec": 3646.983,
+      "segments_count": 442,
+      "speakers_count": 2,
+      "audio_events_count": 17,
+      "billing": {
+        "amount": 0.6405,
+        "balance": 14.6914,
+        "billable_minutes": 61,
+        "detail": {
+          "base_amount": 0.61,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1017,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.915,
+          "total": 0.6405
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 74,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd/2025-03-06 - No.71 年轻人的折腾史!和 00 后 的 Bonjour 初创团队,聊聊卡片社交产品创业摸爬心得 - 67c8224d0766616acdcab0dd.meta.json",
+      "duration_sec": 3622.719,
+      "segments_count": 323,
+      "speakers_count": 6,
+      "audio_events_count": 107,
+      "billing": {
+        "amount": 0.6405,
+        "balance": 14.6914,
+        "billable_minutes": 61,
+        "detail": {
+          "base_amount": 0.61,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1017,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.915,
+          "total": 0.6405
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 75,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4/2025-03-13 - No.72 双面感受的加拿大生活 Kaiyi的海外经历、聊 Deepseek 带来的冲击感受 - 67d1aaffe924d4525a2ccff4.meta.json",
+      "duration_sec": 5759.812,
+      "segments_count": 623,
+      "speakers_count": 6,
+      "audio_events_count": 91,
+      "billing": {
+        "amount": 1.008,
+        "balance": 14.6914,
+        "billable_minutes": 96,
+        "detail": {
+          "base_amount": 0.96,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.32,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.16,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.44,
+          "total": 1.008
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 76,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac/2025-04-03 - No.73 Anthony Fu 开源甄选的“带货”哲学 Anthony Fu Fund与前端江湖 - 67ed46f0f9578163d6a247ac.meta.json",
+      "duration_sec": 5622.237,
+      "segments_count": 498,
+      "speakers_count": 2,
+      "audio_events_count": 183,
+      "billing": {
+        "amount": 0.987,
+        "balance": 14.6914,
+        "billable_minutes": 94,
+        "detail": {
+          "base_amount": 0.94,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3133,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1567,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.41,
+          "total": 0.987
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 77,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526/2025-04-18 - No.74 前端技术深探 Alien Signals 与Vue 3.6 的响应式系统演进 - 67ffc3a51f1db84a56b67526.meta.json",
+      "duration_sec": 5194.831,
+      "segments_count": 550,
+      "speakers_count": 4,
+      "audio_events_count": 289,
+      "billing": {
+        "amount": 0.9135,
+        "balance": 14.6914,
+        "billable_minutes": 87,
+        "detail": {
+          "base_amount": 0.87,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.29,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.145,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.305,
+          "total": 0.9135
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 78,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7/2025-05-08 - No.75 Kaiyi 前AI 时代、Vibe Coding和未来的AI - 681b743cdb57cd35f70bdbf7.meta.json",
+      "duration_sec": 4582.446,
+      "segments_count": 474,
+      "speakers_count": 2,
+      "audio_events_count": 18,
+      "billing": {
+        "amount": 0.8085,
+        "balance": 14.6914,
+        "billable_minutes": 77,
+        "detail": {
+          "base_amount": 0.77,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2567,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1283,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.155,
+          "total": 0.8085
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 79,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47/2025-05-16 - No.76 和播客新主播 Eva 聊她经历的前端变化、全栈进阶和对 AI 发展的思考 - 682690ca1ced30a23190ff47.meta.json",
+      "duration_sec": 5608.28,
+      "segments_count": 461,
+      "speakers_count": 2,
+      "audio_events_count": 102,
+      "billing": {
+        "amount": 0.987,
+        "balance": 14.6914,
+        "billable_minutes": 94,
+        "detail": {
+          "base_amount": 0.94,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3133,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1567,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.41,
+          "total": 0.987
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 80,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631/2025-06-12 - No.77 和晓宇聊她的打工人职场故事、结束内心挣扎的自我思考 - 684999da096eb0bc79536631.meta.json",
+      "duration_sec": 4468.023,
+      "segments_count": 642,
+      "speakers_count": 2,
+      "audio_events_count": 12,
+      "billing": {
+        "amount": 0.7875,
+        "balance": 14.6914,
+        "billable_minutes": 75,
+        "detail": {
+          "base_amount": 0.75,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.25,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.125,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.125,
+          "total": 0.7875
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 81,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43/2025-07-03 - No.78 AI 时代前端还有多少时间 一起看 OpenSource Award 榜单 - 6866a38d60f8f77d40b7cd43.meta.json",
+      "duration_sec": 5394.502,
+      "segments_count": 617,
+      "speakers_count": 2,
+      "audio_events_count": 127,
+      "billing": {
+        "amount": 0.945,
+        "balance": 14.6914,
+        "billable_minutes": 90,
+        "detail": {
+          "base_amount": 0.9,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.15,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.35,
+          "total": 0.945
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 82,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c/2025-07-16 - No.79 听 Heal 聊前端模块联邦从 1.0 到 2.0 的蜕变 - 6870ab0460f8f77d40f84b4c.meta.json",
+      "duration_sec": 3765.779,
+      "segments_count": 306,
+      "speakers_count": 2,
+      "audio_events_count": 48,
+      "billing": {
+        "amount": 0.6615,
+        "balance": 14.6914,
+        "billable_minutes": 63,
+        "detail": {
+          "base_amount": 0.63,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.21,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.105,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.945,
+          "total": 0.6615
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 83,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9/2025-07-23 - No.80 2025 年,鸿蒙开发可以搞了吗 - 6880d985a9dec92500cd6da9.meta.json",
+      "duration_sec": 5207.95,
+      "segments_count": 571,
+      "speakers_count": 2,
+      "audio_events_count": 2,
+      "billing": {
+        "amount": 0.9135,
+        "balance": 14.6914,
+        "billable_minutes": 87,
+        "detail": {
+          "base_amount": 0.87,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.29,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.145,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.305,
+          "total": 0.9135
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 84,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2/2025-08-07 - No.81 和 Vue 成员绚香音聊开源 Vapor Mode、3D打印小饼干和 AI 实践 - 689380bc46542d8c41d9b4e2.meta.json",
+      "duration_sec": 5400.925,
+      "segments_count": 754,
+      "speakers_count": 3,
+      "audio_events_count": 136,
+      "billing": {
+        "amount": 0.9555,
+        "balance": 14.6914,
+        "billable_minutes": 91,
+        "detail": {
+          "base_amount": 0.91,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1517,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.365,
+          "total": 0.9555
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 85,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472/2025-08-21 - No.82 和 OpenBuild Co-Founder 许银聊聊 Web3、智能合约与开发者转型 - 68a71a3a293471fed4ca4472.meta.json",
+      "duration_sec": 5038.189,
+      "segments_count": 695,
+      "speakers_count": 2,
+      "audio_events_count": 7,
+      "billing": {
+        "amount": 0.882,
+        "balance": 14.6914,
+        "billable_minutes": 84,
+        "detail": {
+          "base_amount": 0.84,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.28,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.14,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.26,
+          "total": 0.882
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 86,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80/2025-09-03 - No.83 “代码降权”时代,程序员会被AI取代吗 - 68b847885faf368659ddbf80.meta.json",
+      "duration_sec": 6241.543,
+      "segments_count": 536,
+      "speakers_count": 4,
+      "audio_events_count": 195,
+      "billing": {
+        "amount": 1.1025,
+        "balance": 14.6914,
+        "billable_minutes": 105,
+        "detail": {
+          "base_amount": 1.05,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.35,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.175,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.575,
+          "total": 1.1025
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 87,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d/2025-09-25 - No.84 网缘相见欢,Web Worker 四周年 - 68d417e4522b40626c1eeb0d.meta.json",
+      "duration_sec": 7940.984,
+      "segments_count": 938,
+      "speakers_count": 4,
+      "audio_events_count": 272,
+      "billing": {
+        "amount": 1.3965,
+        "balance": 14.6914,
+        "billable_minutes": 133,
+        "detail": {
+          "base_amount": 1.33,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.4433,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.2217,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.995,
+          "total": 1.3965
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 88,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc/2025-11-07 - No.85 程序员的头痛会 一次与医生的深度联调 - 690d3c0fd99642be96d4e0fc.meta.json",
+      "duration_sec": 7240.277,
+      "segments_count": 868,
+      "speakers_count": 3,
+      "audio_events_count": 77,
+      "billing": {
+        "amount": 1.2705,
+        "balance": 14.6914,
+        "billable_minutes": 121,
+        "detail": {
+          "base_amount": 1.21,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.4033,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.2017,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.815,
+          "total": 1.2705
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 89,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242/2025-12-11 - No.86 前端倒计时 Web Worker 们的 Async Talk - 693aea1d37f52a644e73c242.meta.json",
+      "duration_sec": 3943.648,
+      "segments_count": 769,
+      "speakers_count": 3,
+      "audio_events_count": 21,
+      "billing": {
+        "amount": 0.693,
+        "balance": 14.6914,
+        "billable_minutes": 66,
+        "detail": {
+          "base_amount": 0.66,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.22,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.11,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.99,
+          "total": 0.693
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 90,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33/2026-01-05 - No.87 花700块买水壶 200块租平板玩两周 最近主播们买了啥 - 695bc334092c0a5872007b33.meta.json",
+      "duration_sec": 5856.755,
+      "segments_count": 672,
+      "speakers_count": 3,
+      "audio_events_count": 145,
+      "billing": {
+        "amount": 1.029,
+        "balance": 14.6914,
+        "billable_minutes": 98,
+        "detail": {
+          "base_amount": 0.98,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.3267,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1633,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.47,
+          "total": 1.029
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 91,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8/2026-01-13 - No.88 新开播客《Web 爱听》 让英文Web播客说中文 - 6965ae2bd5c444ea0a16dbe8.meta.json",
+      "duration_sec": 1103.262,
+      "segments_count": 130,
+      "speakers_count": 2,
+      "audio_events_count": 27,
+      "billing": {
+        "amount": 0.1995,
+        "balance": 14.6914,
+        "billable_minutes": 19,
+        "detail": {
+          "base_amount": 0.19,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.0633,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0317,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.285,
+          "total": 0.1995
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 92,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51/2026-01-22 - No.89 RisingStars2025年度榜单 绕不开的前端AI - 6970e7dd109824f9e1ce8d51.meta.json",
+      "duration_sec": 5134.858,
+      "segments_count": 547,
+      "speakers_count": 2,
+      "audio_events_count": 22,
+      "billing": {
+        "amount": 0.903,
+        "balance": 14.6914,
+        "billable_minutes": 86,
+        "detail": {
+          "base_amount": 0.86,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2867,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1433,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.29,
+          "total": 0.903
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 93,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5/2026-03-10 - No.90 第一次聊 OpenClaw 龙虾 - 69afc5910533e951e45796c5.meta.json",
+      "duration_sec": 4141.733,
+      "segments_count": 411,
+      "speakers_count": 3,
+      "audio_events_count": 49,
+      "billing": {
+        "amount": 0.735,
+        "balance": 14.6914,
+        "billable_minutes": 70,
+        "detail": {
+          "base_amount": 0.7,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2333,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1167,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.05,
+          "total": 0.735
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 94,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db/2026-03-16 - No.91 Kaiyi几十场AI面试后的总结 怎么成为懂 AI 的人 - 69b77122caaea1fb3b7a83db.meta.json",
+      "duration_sec": 179.968,
+      "segments_count": 18,
+      "speakers_count": 2,
+      "audio_events_count": 15,
+      "billing": {
+        "amount": 0.0315,
+        "balance": 14.6914,
+        "billable_minutes": 3,
+        "detail": {
+          "base_amount": 0.03,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.01,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.005,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.045,
+          "total": 0.0315
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 95,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381/2026-04-01 - No.92 迟到的节目盘点 - 69cd16f0b977fb2c47da6381.meta.json",
+      "duration_sec": 2740.244,
+      "segments_count": 237,
+      "speakers_count": 2,
+      "audio_events_count": 52,
+      "billing": {
+        "amount": 0.483,
+        "balance": 14.6914,
+        "billable_minutes": 46,
+        "detail": {
+          "base_amount": 0.46,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1533,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0767,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.69,
+          "total": 0.483
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 96,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61/2026-04-10 - No.93 听完上期播客,辛宝跳槽去 AI Agent 创业公司了 - 69d7d7dee2c8be3155cf3d61.meta.json",
+      "duration_sec": 3985.142,
+      "segments_count": 390,
+      "speakers_count": 2,
+      "audio_events_count": 42,
+      "billing": {
+        "amount": 0.7035,
+        "balance": 14.6914,
+        "billable_minutes": 67,
+        "detail": {
+          "base_amount": 0.67,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2233,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1117,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.005,
+          "total": 0.7035
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 97,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6/2026-04-20 - No.94 不服跑个分,AI Benchmark 指标如何解读 - 69e654821d989496e718c4d6.meta.json",
+      "duration_sec": 3878.815,
+      "segments_count": 383,
+      "speakers_count": 3,
+      "audio_events_count": 45,
+      "billing": {
+        "amount": 0.6825,
+        "balance": 14.6914,
+        "billable_minutes": 65,
+        "detail": {
+          "base_amount": 0.65,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2167,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1083,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.975,
+          "total": 0.6825
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 98,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f/2026-05-11 - No.95 主播现场做 S&BTI测试、八卦小白菜的一次面经 - 6a014140e1eb34a939252b7f.meta.json",
+      "duration_sec": 3708.98,
+      "segments_count": 459,
+      "speakers_count": 5,
+      "audio_events_count": 79,
+      "billing": {
+        "amount": 0.651,
+        "balance": 14.6914,
+        "billable_minutes": 62,
+        "detail": {
+          "base_amount": 0.62,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.2067,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.1033,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.93,
+          "total": 0.651
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 99,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.meta.json",
+      "duration_sec": 3933.69,
+      "segments_count": 375,
+      "speakers_count": 3,
+      "audio_events_count": 79,
+      "billing": {
+        "amount": 0.693,
+        "balance": 14.6914,
+        "billable_minutes": 66,
+        "detail": {
+          "base_amount": 0.66,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.22,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.11,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.99,
+          "total": 0.693
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 100,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909/2026-06-11 - No.97 和Void Zero云飞聊聊下一代打包引擎Rolldown1.0 - 6a298b753eedf1f4b268a909.meta.json",
+      "duration_sec": 4626.963,
+      "segments_count": 335,
+      "speakers_count": 2,
+      "audio_events_count": 78,
+      "billing": {
+        "amount": 0.819,
+        "balance": 14.6914,
+        "billable_minutes": 78,
+        "detail": {
+          "base_amount": 0.78,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.26,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.13,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 1.17,
+          "total": 0.819
+        },
+        "mode": "standard"
+      }
+    },
+    {
+      "index": 101,
+      "folder": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9",
+      "audio": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9.m4a",
+      "show_notes": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9.md",
+      "asr_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9.asr.json",
+      "meta_json": "/Users/otto/mycode/self/webworker.tech/downloads/asr-episodes/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9/2026-06-17 - No.98 AI 时代,非程序员如何跨越技术鸿沟 晓宇的保姆级教学实录 - 6a32c7804233e62bc54b9ad9.meta.json",
+      "duration_sec": 3334.287,
+      "segments_count": 521,
+      "speakers_count": 2,
+      "audio_events_count": 51,
+      "billing": {
+        "amount": 0.588,
+        "balance": 14.6914,
+        "billable_minutes": 56,
+        "detail": {
+          "base_amount": 0.56,
+          "base_price_per_hour": 0.6,
+          "batch_discount": 0.7,
+          "diarize_amount": 0.1867,
+          "diarize_price_per_hour": 0.2,
+          "events_amount": 0.0933,
+          "events_price_per_hour": 0.1,
+          "mode": "standard",
+          "subtotal": 0.84,
+          "total": 0.588
+        },
+        "mode": "standard"
+      }
+    }
+  ]
+}

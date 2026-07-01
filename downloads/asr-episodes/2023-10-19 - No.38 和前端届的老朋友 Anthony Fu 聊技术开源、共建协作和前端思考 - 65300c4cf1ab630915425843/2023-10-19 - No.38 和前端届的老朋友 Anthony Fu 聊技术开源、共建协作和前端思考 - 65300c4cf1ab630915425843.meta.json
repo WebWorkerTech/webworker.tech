@@ -1,0 +1,109 @@
+{
+  "task_id": "c68d5f5b-c35a-4db4-b46b-fc1e1f8d766c",
+  "source": "batch",
+  "title": "No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考",
+  "audio_file": "2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.m4a",
+  "show_notes_file": "2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.md",
+  "asr_file": "2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/65300c4cf1ab630915425843/media.xyzcdn.net/lgFWhmlEbBkjKTbByFPgoR_JRepO.m4a",
+    "audio_filename": "2023-10-19 - No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考 - 65300c4cf1ab630915425843.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "小白菜@Cabbage00001",
+        "开翼@real_kai42",
+        "海老师@hd_nvim",
+        "沈青川@Shenqingchuan",
+        "科比哥@webfansplz",
+        "Anthony",
+        "Fu@antfu7",
+        "Anthony Fu",
+        "Antfu",
+        "hd",
+        "nvim",
+        "Shenqingchuan",
+        "webfansplz antfu",
+        "Otto",
+        "Cabbage00001",
+        "real"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.38 和前端届的老朋友 Anthony Fu 聊技术开源、共建协作和前端思考》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 5945.228,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 558,
+    "words_count": 26672,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 75,
+    "audio_event_classes": {
+      "Music": 40,
+      "Silence": 33,
+      "Cough": 2
+    },
+    "billing": {
+      "amount": 1.05,
+      "balance": 14.6914,
+      "billable_minutes": 100,
+      "detail": {
+        "base_amount": 1,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.3333,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1667,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 1.5,
+        "total": 1.05
+      },
+      "mode": "standard"
+    }
+  }
+}

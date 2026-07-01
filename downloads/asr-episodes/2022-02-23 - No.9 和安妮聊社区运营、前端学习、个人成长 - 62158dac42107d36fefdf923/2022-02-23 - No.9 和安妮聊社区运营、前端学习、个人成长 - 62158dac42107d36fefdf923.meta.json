@@ -1,0 +1,110 @@
+{
+  "task_id": "9f164e63-2658-4cf8-8144-cac5d5b42552",
+  "source": "batch",
+  "title": "No.9 和安妮聊社区运营、前端学习、个人成长",
+  "audio_file": "2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.m4a",
+  "show_notes_file": "2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.md",
+  "asr_file": "2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/62158dac42107d36fefdf923/media.xyzcdn.net/lunOilxvoDzlJ9wrrDWSDcJp3wIM.m4a",
+    "audio_filename": "2022-02-23 - No.9 和安妮聊社区运营、前端学习、个人成长 - 62158dac42107d36fefdf923.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "Otto",
+        "Annie",
+        "Annie Web Worker",
+        "wx",
+        "xinbao965",
+        "opening",
+        "vue beijing",
+        "和安妮聊社区",
+        "前端主播",
+        "和前端主播",
+        "来听她是怎么负责社区",
+        "程序员闲聊的音频播客",
+        "因为两个主播",
+        "安妮聊社区运营",
+        "了活力小太阳",
+        "前端主播们一起来听她是怎么负责社区运营"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.9 和安妮聊社区运营、前端学习、个人成长》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3797.215,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 377,
+    "words_count": 16800,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_1",
+      "SPEAKER_0"
+    ],
+    "audio_events_count": 81,
+    "audio_event_classes": {
+      "Music": 67,
+      "Silence": 11,
+      "Cough": 1,
+      "Laughter": 2
+    },
+    "billing": {
+      "amount": 0.672,
+      "balance": 14.6914,
+      "billable_minutes": 64,
+      "detail": {
+        "base_amount": 0.64,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.2133,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.1067,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.96,
+        "total": 0.672
+      },
+      "mode": "standard"
+    }
+  }
+}

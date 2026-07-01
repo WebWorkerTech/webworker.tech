@@ -1,0 +1,105 @@
+{
+  "task_id": "2a5388d8-a541-4c1c-ab9a-f2be076da3d8",
+  "source": "batch",
+  "title": "[付费补档]No.53 剑指校招，校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力",
+  "audio_file": "2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.m4a",
+  "show_notes_file": "2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.md",
+  "asr_file": "2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/665fcf6d63c334a2fb71050c/media.xyzcdn.net/FjWlvObKPw743loTc53S6VokxY_T.m4a",
+    "audio_filename": "2024-06-05 - [付费补档]No.53 剑指校招,校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力 - 665fcf6d63c334a2fb71050c.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "k star",
+        "offer",
+        "hulu",
+        "苹果播客",
+        "的开源项目",
+        "支持",
+        "外企都拿到了",
+        "落地",
+        "初入职场的贴心建议",
+        "困惑",
+        "剑指校招",
+        "校招大满贯",
+        "提升职场软实力"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《[付费补档]No.53 剑指校招，校招大满贯 Kaiyi 完整规划校招求职面试、提升职场软实力》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 179.968,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 26,
+    "words_count": 890,
+    "speakers_count": 2,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1"
+    ],
+    "audio_events_count": 2,
+    "audio_event_classes": {
+      "Cough": 1,
+      "Silence": 1
+    },
+    "billing": {
+      "amount": 0.0315,
+      "balance": 14.6914,
+      "billable_minutes": 3,
+      "detail": {
+        "base_amount": 0.03,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.01,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.005,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.045,
+        "total": 0.0315
+      },
+      "mode": "standard"
+    }
+  }
+}

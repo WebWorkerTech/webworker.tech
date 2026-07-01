@@ -1,0 +1,110 @@
+{
+  "task_id": "2f3ac9a2-f291-49be-96b5-02ba60790e56",
+  "source": "batch",
+  "title": "No.96 两个主播第一次写书：关于 TRAE、AI Agent 和出版",
+  "audio_file": "2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.m4a",
+  "show_notes_file": "2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.md",
+  "asr_file": "2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.asr.json",
+  "local_audio_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.m4a",
+  "local_show_notes_source": "/Users/otto/mycode/self/webworker.tech/downloads/podcast-audio/2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.md",
+  "request": {
+    "audio_url": "https://dts-api.xiaoyuzhoufm.com/track/613753ef23c82a9a1ccfdf35/6a186211ac7bdb080c325a69/media.xyzcdn.net/613753ef23c82a9a1ccfdf35/lvj57Erp8_mV1LZOQcZWkYa5yUT6.m4a",
+    "audio_filename": "2026-05-29 - No.96 两个主播第一次写书 关于 TRAE、AI Agent 和出版 - 6a186211ac7bdb080c325a69.m4a",
+    "batch_mode": true,
+    "options": {
+      "enable_asr": true,
+      "enable_diarize": true,
+      "enable_audio_events": true,
+      "optimize_zh": false,
+      "asr_language": "zh",
+      "audio_events_threshold": 0.3,
+      "audio_events_classes": [
+        "Laughter",
+        "Giggle",
+        "Chuckle, chortle",
+        "Snicker",
+        "Applause",
+        "Music",
+        "Cough",
+        "Silence"
+      ],
+      "hotwords": [
+        "Web Worker",
+        "AI",
+        "AIGC",
+        "Agent",
+        "Vibe Coding",
+        "API",
+        "前端",
+        "开源",
+        "JavaScript",
+        "TypeScript",
+        "Vue",
+        "React",
+        "Node.js",
+        "Vite",
+        "小白菜",
+        "Smart",
+        "辛宝",
+        "刘威",
+        "Franky",
+        "Kaiyi",
+        "TRAE",
+        "AI Agent",
+        "AI IDE",
+        "MCP",
+        "Skills",
+        "T...",
+        "两个主播",
+        "而是把工具",
+        "作模式和多个完整项目",
+        "当当等购书平台",
+        "第一次写书",
+        "出版",
+        "多个完整项目串在一起",
+        "节目相关",
+        "关于",
+        "和出版"
+      ],
+      "initial_prompt": "Web Worker播客中文技术访谈。标题《No.96 两个主播第一次写书：关于 TRAE、AI Agent 和出版》。参考show notes关键词：Web Worker、AI、AIGC、Agent、Vibe Coding、API、前端、开源、JavaScript、TypeScript、Vue、React、Node.js、Vite、小白菜、Smart、辛宝、刘威。请优先识别人名、项目名、英文技术词，保留英文原文。"
+    }
+  },
+  "fetched_at": "2026-07-01T02:32:36.864Z",
+  "summary": {
+    "audio_duration_sec": 3933.69,
+    "language": "zh",
+    "language_probability": 1,
+    "segments_count": 375,
+    "words_count": 17563,
+    "speakers_count": 3,
+    "speakers": [
+      "SPEAKER_0",
+      "SPEAKER_1",
+      "SPEAKER_2"
+    ],
+    "audio_events_count": 79,
+    "audio_event_classes": {
+      "Silence": 76,
+      "Cough": 2,
+      "Music": 1
+    },
+    "billing": {
+      "amount": 0.693,
+      "balance": 14.6914,
+      "billable_minutes": 66,
+      "detail": {
+        "base_amount": 0.66,
+        "base_price_per_hour": 0.6,
+        "batch_discount": 0.7,
+        "diarize_amount": 0.22,
+        "diarize_price_per_hour": 0.2,
+        "events_amount": 0.11,
+        "events_price_per_hour": 0.1,
+        "mode": "standard",
+        "subtotal": 0.99,
+        "total": 0.693
+      },
+      "mode": "standard"
+    }
+  }
+}
